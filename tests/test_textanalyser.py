@@ -1,9 +1,8 @@
 import unittest
-
 from stegano import textanalyser
 
 
-class MyTestCase(unittest.TestCase):
+class TestTextAnalyser(unittest.TestCase):
     def test_normalise_mock_frequencies(self):
         mock_set = set()
         mock_set.add(("string", 75))

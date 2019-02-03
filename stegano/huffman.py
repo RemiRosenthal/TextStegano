@@ -1,4 +1,6 @@
 import queue
+import sys
+from typing import Tuple, Set
 
 from bitstring import Bits
 
@@ -6,30 +8,112 @@ from stegano.textanalyser import DEFAULT_ANALYSIS_FILE
 from stegano.textanalyser import DEFAULT_SAMPLE_FILE
 from stegano.textanalyser import TextAnalyser
 
-from dahuffman import HuffmanCodec
+Frequency = int
+Symbol = Tuple[Frequency, str]
+StringDefinitions = Set[Symbol]
+
+zero_bit = Bits(bin="0")
+one_bit = Bits(bin="1")
 
 
 class HuffmanTree:
-    def __init__(self, left=None, right=None):
+    def __init__(self, left=None, right=None, value: Symbol = None, path_code: Bits = None):
         self.left = left
         self.right = right
+        self.value = value
+        self.path_code = path_code
+
+    def __lt__(self, other):
+        if self.value is None or other.value is None:
+            return False
+        if self.value[0] == self.value[0]:
+            return self.value[1] < other.value[1]
+        else:
+            return self.value[0] < other.value[0]
 
     def get_children(self):
         return self.left, self.right
 
 
-def create_tree(string_definitions):
+def create_tree(string_definitions: StringDefinitions) -> Tuple[int, HuffmanTree]:
+    """
+    Construct Huffman tree with all leaf nodes containing values according to their frequencies
+    :param string_definitions: the set of tuples of values and their frequencies
+    :return: the created tree
+    """
     pq = queue.PriorityQueue()
 
-    for string_def in string_definitions:
-        pq.put(string_def)
+    for symbol in string_definitions:
+        # Create 1-node trees from each symbol and add to queue with frequency as priority
+        new_node = HuffmanTree(value=symbol)
+        pq.put((symbol[0], new_node))
 
     while pq.qsize() > 1:
-        l, r = pq.get(), pq.get()
-        this_node = HuffmanTree(l, r)
-        pq.put((l[0] + r[0], this_node))
+        # Take out the two smallest trees and create a new tree with them as children
+        right, left = pq.get(), pq.get()
+        new_tree = HuffmanTree(left, right)
+        pq.put((left[0] + right[0], new_tree))
 
     return pq.get()
+
+
+def allocate_path_bits(huffman_tree: Tuple[int, HuffmanTree], prefix: Bits = None):
+    """
+    Walk the given HuffmanTree and allocate bits to every path.
+    Ignores any existing path codes in the given tree.
+    The path code value in every node will be an entire cumulative Bit value.
+    :param huffman_tree: the tuple containing Huffman (sub)tree and its cumulative priority
+    :param prefix: the cumulative bits for the path up until this node. Leave empty when calling on the whole tree.
+    """
+    tree = huffman_tree[1]
+    tree.path_code = prefix
+
+    if tree.left is not None:
+        if prefix is None:
+            left_code = zero_bit
+        else:
+            left_code = prefix.__add__(zero_bit)
+        allocate_path_bits(tree.left, left_code)
+
+    if tree.right is not None:
+        if prefix is None:
+            right_code = one_bit
+        else:
+            right_code = prefix.__add__(one_bit)
+        allocate_path_bits(tree.right, right_code)
+
+
+def print_tree(huffman_tree: Tuple[int, HuffmanTree], indent: str = "", last_node: bool = True):
+    sys.stdout.write(indent)
+    if last_node:
+        sys.stdout.write("└─")
+        indent += "  "
+    else:
+        sys.stdout.write("├─")
+        indent += "| "
+
+    this_value = huffman_tree[1].value
+    if this_value is not None:
+        print("{} [{}] ({})".format(this_value[1], this_value[0], huffman_tree[1].path_code))
+        # sys.stdout.write(this_value[1])
+        # sys.stdout.write("  ")
+        # sys.stdout.write(str(this_value[0]))
+    else:
+        sys.stdout.write("X ")
+        sys.stdout.write("\n")
+
+    left = huffman_tree[1].left
+    right = huffman_tree[1].right
+
+    print_last = False
+    if right is not None:
+        print_tree(right, indent, print_last)
+
+    print_last = True
+    if left is not None:
+        print_tree(left, indent, print_last)
+
+    sys.stdout.flush()
 
 
 def encode_bits_as_strings(self):
@@ -97,7 +181,7 @@ def create_from_sample(sample_filename=DEFAULT_SAMPLE_FILE, analysis_filename=DE
     return create_from_analysis(sample_filename, analysis_filename, string_length)
 
 
-huff = create_from_sample(string_length=1)
+# huff = create_from_sample(string_length=1)
 # huff = HuffmanTree.from_file()
 # huff.print_code_table()
 
