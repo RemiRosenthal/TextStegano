@@ -15,14 +15,14 @@ class TestHuffman(unittest.TestCase):
 
     def setUp(self):
         self.string_definitions = set()
-        self.string_definitions.add((10, "stega"))
-        self.string_definitions.add((7, "tegan"))
-        self.string_definitions.add((5, "egana"))
-        self.string_definitions.add((5, "ganal"))
-        self.string_definitions.add((5, "analy"))
-        self.string_definitions.add((3, "nalys"))
-        self.string_definitions.add((3, "alysi"))
-        self.string_definitions.add((1, "lysis"))
+        self.string_definitions.add(("stega", 10))
+        self.string_definitions.add(("tegan", 7))
+        self.string_definitions.add(("egana", 5))
+        self.string_definitions.add(("ganal", 5))
+        self.string_definitions.add(("analy", 5))
+        self.string_definitions.add(("nalys", 3))
+        self.string_definitions.add(("alysi", 3))
+        self.string_definitions.add(("lysis", 1))
 
     def test_tree_created(self):
         test_huffman = huffman.create_tree(self.string_definitions)
@@ -64,19 +64,24 @@ class TestHuffman(unittest.TestCase):
         huffman.allocate_path_bits(test_huffman)
         self.assertTrue(has_correct_bits(test_huffman, Bits()), "Huffman tree did not have correct bits for every node")
 
+    # def test_allocate_path_bits_it(self):
+    #     test_huffman = huffman.create_tree(self.string_definitions)
+    #     huffman.allocate_path_bits_it(test_huffman)
+    #     self.assertTrue(has_correct_bits(test_huffman, Bits()), "Huffman tree did not have correct bits for every node")
+
     def test_encode_bits_as_strings(self):
         test_huffman = huffman.create_tree(self.string_definitions)
         huffman.allocate_path_bits(test_huffman)
-        output = huffman.encode_bits_as_strings(test_huffman[1], Bits(bin="0100001"))
+        output = huffman.encode_bits_as_strings(test_huffman[1], Bits(bin="010011101"))
         self.assertIsNotNone(output)
-        self.assertEqual(output[1], "stegalysis")
+        self.assertEqual(output[1], "stegaganallysis")
 
     def test_encode_bits_as_strings_padded(self):
         test_huffman = huffman.create_tree(self.string_definitions)
         huffman.allocate_path_bits(test_huffman)
-        output = huffman.encode_bits_as_strings(test_huffman[1], Bits(bin="01011001110"))
+        output = huffman.encode_bits_as_strings(test_huffman[1], Bits(bin="011100011010110"))
         self.assertIsNotNone(output)
-        self.assertEqual(output[1], "stegastegaeganateganegana")
+        self.assertEqual(output[1], "steganalysstegaeganastegaanaly")
 
     def test_encode_bits_as_strings_nothing(self):
         test_huffman = huffman.create_tree(self.string_definitions)
@@ -91,14 +96,16 @@ class TestHuffman(unittest.TestCase):
         huffman.allocate_path_bits(test_huffman)
         bits = huffman.search_tree_for_symbol(test_huffman[1], "stega")
         self.assertEqual(bits, Bits(bin="01"))
+        bits = huffman.search_tree_for_symbol(test_huffman[1], "alysi")
+        self.assertEqual(bits, Bits(bin="111"))
         bits = huffman.search_tree_for_symbol(test_huffman[1], "lysis")
-        self.assertEqual(bits, Bits(bin="00001"))
+        self.assertEqual(bits, Bits(bin="1101"))
 
     def test_encode_string_as_bits(self):
         test_huffman = huffman.create_tree(self.string_definitions)
         huffman.allocate_path_bits(test_huffman)
-        bits = huffman.encode_string_as_bits(test_huffman[1], "stegalysis", 5)
-        self.assertEqual(bits, Bits(bin="0100001"))
+        bits = huffman.encode_string_as_bits(test_huffman[1], "stegaalysilysis", 5)
+        self.assertEqual(bits, Bits(bin="011111101"))
 
     def test_flatten_tree(self):
         test_huffman = huffman.create_tree(self.string_definitions)
@@ -107,13 +114,11 @@ class TestHuffman(unittest.TestCase):
         self.assertIsNotNone(flattened_tree)
 
         sorted_list = list(self.string_definitions)
-        sorted_list.sort(key=lambda x: x[1])
+        sorted_list.sort(key=lambda x: x[0])
         self.assertEqual(len(flattened_tree), len(sorted_list))
         for i in range(0, len(sorted_list)):
-            # The tuples in each list are in different format.
-            # We are only interested in the string and frequency, and they are in different order.
-            test_tuple = (sorted_list[i][1], sorted_list[i][0])
-            self.assertTupleEqual(flattened_tree[i][:2], test_tuple)
+            # We are only interested in the string and frequency from tree nodes.
+            self.assertTupleEqual(flattened_tree[i][:2], sorted_list[i])
 
     @unittest.skip
     def test_print_tree(self):

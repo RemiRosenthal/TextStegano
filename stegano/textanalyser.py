@@ -1,4 +1,5 @@
 import collections
+import os
 import re
 from functools import reduce
 
@@ -12,8 +13,10 @@ class TextAnalyser:
     # The length of that string can be specified, otherwise is 1 by default.
     @staticmethod
     def analyse_sample(sample_filename=DEFAULT_SAMPLE_FILE, string_length=1) -> collections.Counter:
+        """
+        Analyse the given sample text
+        """
         string_definitions = collections.Counter()
-
         try:
             with open(sample_filename, "r", encoding="utf-8") as handle:
                 text = handle.read()  # Read the entire file
@@ -31,9 +34,11 @@ class TextAnalyser:
 
         return string_definitions
 
-    # Print the strings to the given file
     @staticmethod
     def print_analysis(string_definitions: collections.Counter, analysis_filename=DEFAULT_ANALYSIS_FILE):
+        """
+        Print the string definitions in the analysis file defined by the given filename
+        """
         try:
             with open(analysis_filename, "w", encoding="utf-8") as handle:
                 for string_def in string_definitions.most_common():
@@ -44,9 +49,11 @@ class TextAnalyser:
         except IOError:
             print("Could not write analysis file " + analysis_filename)
 
-    # Attempt to read the analysis file and return a set of tuples representing the analysis
     @staticmethod
     def read_analysis(analysis_filename=DEFAULT_ANALYSIS_FILE) -> set:
+        """
+        Attempt to read the analysis file and return a set of tuples representing the analysis
+        """
         string_definitions = set()
         try:
             with open(analysis_filename, "r", encoding="utf-8") as file:
@@ -64,19 +71,36 @@ class TextAnalyser:
 
         return string_definitions
 
-    # Attempt to read the analysis file if one exists, otherwise generate a new analysis
     @staticmethod
     def get_analysis(sample_filename=DEFAULT_SAMPLE_FILE, analysis_filename=DEFAULT_ANALYSIS_FILE,
                      string_length=1) -> set:
+        """
+        Attempt to read the analysis file if one exists, otherwise generate a new analysis
+        """
         try:
             return TextAnalyser.read_analysis(analysis_filename)
         except IOError:
             TextAnalyser.print_analysis(TextAnalyser.analyse_sample(sample_filename, string_length))
             return TextAnalyser.read_analysis(analysis_filename)
 
-    # For a set of strings and their frequencies, normalise the frequencies such that they all add to 1
+    @staticmethod
+    def delete_analysis(analysis_filename=DEFAULT_ANALYSIS_FILE):
+        """
+        Delete the given analysis file if it exists
+        """
+        try:
+            if os.path.exists(analysis_filename):
+                os.remove(analysis_filename)
+            else:
+                print("The file does not exists")
+        except OSError:
+            print("Failed to delete the file")
+
     @staticmethod
     def normalise_frequencies(string_definitions: set) -> set:
+        """
+        For a set of strings and their frequencies, normalise the frequencies such that they all add to 1
+        """
         normalised = set()
         if string_definitions:
             total = reduce(lambda x, y: x + y, map(lambda x: int(x[1]), string_definitions))

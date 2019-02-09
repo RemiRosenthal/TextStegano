@@ -12,7 +12,7 @@ from stegano.textanalyser import DEFAULT_SAMPLE_FILE
 from stegano.textanalyser import TextAnalyser
 
 Frequency = int
-Symbol = Tuple[Frequency, str]
+Symbol = Tuple[str, Frequency]
 StringDefinitions = Set[Symbol]
 
 zero_bit = Bits(bin="0")
@@ -87,7 +87,7 @@ def create_tree(string_definitions: StringDefinitions) -> Tuple[int, HuffmanTree
     for symbol in sorted(string_definitions):
         # Create 1-node trees from each symbol and add to queue with frequency as priority
         new_node = HuffmanTree(value=symbol)
-        pq.put((symbol[0], new_node))
+        pq.put((symbol[1], new_node))
 
     while pq.qsize() > 1:
         # Take out the two smallest trees and create a new tree with them as children
@@ -122,6 +122,19 @@ def allocate_path_bits(huffman_tree: Tuple[int, HuffmanTree], prefix: Bits = Non
         else:
             right_code = prefix.__add__(one_bit)
         allocate_path_bits(tree.right, right_code)
+
+
+def allocate_path_bits_it(huffman_tree: Tuple[int, HuffmanTree]):
+    tree = huffman_tree[1]
+    stack = [(Bits(), tree)]
+
+    while stack:
+        bits, this_tree = stack.pop(0)
+        if this_tree.left is None and this_tree.right is None:
+            this_tree.path_code = bits
+        else:
+            stack.append((bits.__add__(zero_bit), tree.left[1]))
+            stack.append((bits.__add__(one_bit), tree.right[1]))
 
 
 def encode_bits_as_strings(tree: HuffmanTree, bits: Bits, string_prefix: str = "") -> \
@@ -170,7 +183,7 @@ def encode_bits_as_strings(tree: HuffmanTree, bits: Bits, string_prefix: str = "
             raise HuffmanError("When encoding bits as strings, a leaf node was missing a path code")
         else:
             if bits.startswith(tree.path_code):
-                accumulated_string = string_prefix + tree.value[1]
+                accumulated_string = string_prefix + tree.value[0]
                 if bits.__eq__(tree.path_code):
                     remaining_bits = None
                 else:
@@ -191,7 +204,7 @@ def search_tree_for_symbol(huffman_tree: HuffmanTree, symbol: str) -> Bits:
         right_result = search_tree_for_symbol(right_tree, symbol)
         return left_result or right_result
     else:
-        if huffman_tree.value[1].__eq__(symbol):
+        if huffman_tree.value[0].__eq__(symbol):
             return huffman_tree.path_code
 
 
@@ -238,10 +251,7 @@ def print_tree(huffman_tree: Tuple[int, HuffmanTree], indent: str = "", last_nod
 
     this_value = huffman_tree[1].value
     if this_value is not None:
-        print("{} [{}] ({})".format(this_value[1], this_value[0], huffman_tree[1].path_code))
-        # sys.stdout.write(this_value[1])
-        # sys.stdout.write("  ")
-        # sys.stdout.write(str(this_value[0]))
+        print("{} [{}] ({})".format(this_value[0], this_value[1], huffman_tree[1].path_code))
     else:
         sys.stdout.write("X ")
         sys.stdout.write("\n")
@@ -276,7 +286,7 @@ def flatten_tree(huffman_tree: Tuple[int, HuffmanTree]) -> list:
             bisect.insort_left(this_list, item)
     else:  # Leaf node
         this_list = list()
-        this_tuple = this_tree.value[1], this_tree.value[0], this_tree.path_code
+        this_tuple = this_tree.value[0], this_tree.value[1], this_tree.path_code
         this_list.append(this_tuple)
 
     return this_list
@@ -286,7 +296,7 @@ def _format_binary(node: Tuple[str, int, Optional[Bits]]):
     if node[2] is None:
         return node[0], node[1], "N/A"
     else:
-        return node[0], node[1], node[2]
+        return node[0], node[1], node[2].bin
 
 
 def print_table(huffman_tree: Tuple[int, HuffmanTree]):
@@ -294,8 +304,7 @@ def print_table(huffman_tree: Tuple[int, HuffmanTree]):
     print()
 
 
-def create_from_analysis(sample_filename=DEFAULT_SAMPLE_FILE, analysis_filename=DEFAULT_ANALYSIS_FILE,
-                         string_length=1):
+def create_from_analysis(analysis_filename=DEFAULT_ANALYSIS_FILE):
     """
     Read a frequency analysis file and construct a Huffman tree, without path bits.
     :param sample_filename: The relative location of the sample text file. Needed in case the analysis does not exist.
@@ -303,11 +312,10 @@ def create_from_analysis(sample_filename=DEFAULT_SAMPLE_FILE, analysis_filename=
     :param string_length: The length of every string in the frequency analysis
     :return: A Huffman tree without bits allocated to each node
     """
-    string_definitions = TextAnalyser.get_analysis(sample_filename, analysis_filename, string_length)
+    string_definitions = TextAnalyser.read_analysis(analysis_filename)
     if string_definitions:
         tree = create_tree(string_definitions)
         return tree
-
     else:
         raise IOError("Could not read or generate text analysis")
 
@@ -322,39 +330,11 @@ def create_from_sample(sample_filename=DEFAULT_SAMPLE_FILE, analysis_filename=DE
     :return: A Huffman tree without bits allocated to each node
     """
     TextAnalyser.print_analysis(TextAnalyser.analyse_sample(sample_filename, string_length), analysis_filename)
-    return create_from_analysis(sample_filename, analysis_filename, string_length)
+    return create_from_analysis(sample_filename)
 
 
-# huff = create_from_sample(string_length=1)
-# huff = HuffmanTree.from_file()
-# huff.print_code_table()
-
-
-"""
-original = "Okay, this is epic"
-print("Original = ", original)
-encoded = original.encode()
-encoded = encoded + (bytearray(1))
-print("Bytes = ", list(encoded))
-
-# sent = huff.decode_from_bitarray(encoded)
-# sent = huff.decode(encoded)
-# sent = ""
-sent = huff.decode(encoded)
-# Data gets transferred as last printed
-print("Encoded and transferred text = ", sent)
-
-decoded = ""
-# assert length is multiple of 3
-for x in range(0, len(sent)):
-    y = sent[x:x + 3]
-    decoded = decoded + huff.encode(y)
-    x += 3
-decoded = huff.encode(sent)
-# decoded = huff.encode_as_bitarray(sent)
-# decoded = ""
-print("Decoded bytes = ", list(decoded))
-decoded = decoded[:-1]
-
-print("Decoded text = ", decoded.decode())
-"""
+def tree_depth(huffman_tree: Tuple[int, HuffmanTree]) -> int:
+    """
+    Find the depth of the longest branch in the tree
+    """
+    pass
