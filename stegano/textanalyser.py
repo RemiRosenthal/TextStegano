@@ -52,6 +52,8 @@ class TextAnalyser:
             with open(analysis_filename, "r", encoding="utf-8") as file:
                 for line in file:
                     freq_tuple = line.rpartition(ANALYSIS_SEPARATOR)
+                    if not freq_tuple[0]:
+                        raise ValueError("A line in the analysis appeared to be malformed")
                     if int(freq_tuple[2]) > 0:  # Second part must be a natural integer
                         string_definitions.add((freq_tuple[0], int(freq_tuple[2])))
                     else:
@@ -83,7 +85,3 @@ class TextAnalyser:
                 normalised.add((string_def[0], int(string_def[1]) / total))
 
         return normalised
-
-
-#TextAnalyser.print_strings(TextAnalyser.analyse_sample(string_length=5))
-#TextAnalyser.normalise_frequencies(TextAnalyser.read_analysis())

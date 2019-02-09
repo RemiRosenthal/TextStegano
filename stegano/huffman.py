@@ -2,14 +2,14 @@ import bisect
 import queue
 import sys
 import warnings
-from typing import Tuple, Set
+from typing import Tuple, Set, Optional
 
 from bitstring import Bits
+from tabulate import tabulate
 
 from stegano.textanalyser import DEFAULT_ANALYSIS_FILE
 from stegano.textanalyser import DEFAULT_SAMPLE_FILE
 from stegano.textanalyser import TextAnalyser
-from tabulate import tabulate
 
 Frequency = int
 Symbol = Tuple[Frequency, str]
@@ -84,7 +84,7 @@ def create_tree(string_definitions: StringDefinitions) -> Tuple[int, HuffmanTree
     """
     pq = queue.PriorityQueue()
 
-    for symbol in string_definitions:
+    for symbol in sorted(string_definitions):
         # Create 1-node trees from each symbol and add to queue with frequency as priority
         new_node = HuffmanTree(value=symbol)
         pq.put((symbol[0], new_node))
@@ -124,7 +124,7 @@ def allocate_path_bits(huffman_tree: Tuple[int, HuffmanTree], prefix: Bits = Non
         allocate_path_bits(tree.right, right_code)
 
 
-def encode_bits_as_strings(huffman_tree: HuffmanTree, bits: Bits, string_prefix: str = "") -> \
+def encode_bits_as_strings(tree: HuffmanTree, bits: Bits, string_prefix: str = "") -> \
         Tuple[Bits, str]:
     """
     Given a bit stream and a Huffman tree, return the appropriate string of symbols.
@@ -135,12 +135,11 @@ def encode_bits_as_strings(huffman_tree: HuffmanTree, bits: Bits, string_prefix:
     If the Huffman tree does not have path bits to match the input exactly, it will append 0s until the function can
     complete.
 
-    :param huffman_tree: a Huffman tree with path bits allocated
+    :param tree: a Huffman tree with path bits allocated
     :param bits: the input bits
     :param string_prefix: the so-far accumulated string. Leave empty when calling manually
     :return: a Tuple of the remaining bits and the accumulated string made up of symbols in the Huffman tree
     """
-    tree = huffman_tree
     if bits is None or bits.__eq__(Bits()):
         return Bits(), string_prefix
 
@@ -163,7 +162,7 @@ def encode_bits_as_strings(huffman_tree: HuffmanTree, bits: Bits, string_prefix:
                 if bits is None:  # We are out of bits, so we can return the final string
                     return remaining_bits, accumulated_string
                 else:  # Continue recursively processing the remaining bits
-                    return encode_bits_as_strings(huffman_tree, remaining_bits, accumulated_string)
+                    return encode_bits_as_strings(tree, remaining_bits, accumulated_string)
             else:
                 return remaining_bits, accumulated_string
     elif tree.left is None and tree.right is None:  # This tree is a leaf node
@@ -184,14 +183,48 @@ def encode_bits_as_strings(huffman_tree: HuffmanTree, bits: Bits, string_prefix:
         raise HuffmanError("The given Huffman tree contained a node with exactly 1 child tree")
 
 
-def encode_string_as_bits(self):
+def search_tree_for_symbol(huffman_tree: HuffmanTree, symbol: str) -> Bits:
+    if huffman_tree.left is not None and huffman_tree.right is not None:
+        left_tree = huffman_tree.left[1]
+        right_tree = huffman_tree.right[1]
+        left_result = search_tree_for_symbol(left_tree, symbol)
+        right_result = search_tree_for_symbol(right_tree, symbol)
+        return left_result or right_result
+    else:
+        if huffman_tree.value[1].__eq__(symbol):
+            return huffman_tree.path_code
+
+
+def encode_string_as_bits(huffman_tree: HuffmanTree, input_string: str, symbol_length: int) -> Bits:
     """
     Given a string of characters, use the HuffmanTree to to encode it as a matching stream of bits.
 
     The given string must be valid with respect to the HuffmanTree (i.e. it should be a string as generated from
     encode_bits_as_strings).
     """
-    pass
+    if symbol_length < 1:
+        raise ValueError("An invalid symbol length was specified.")
+
+    cover_text_length = input_string.__len__()
+    if symbol_length > cover_text_length:
+        warnings.warn("Cover text is smaller than the given symbol length. Padding with spaces.")
+        padding = " " * (symbol_length - cover_text_length)
+        input_string = input_string.__add__(padding)
+        cover_text_length = input_string.__len__()
+    elif not cover_text_length % symbol_length == 0:
+        warnings.warn("Cover text is not a multiple of the given symbol length. Padding with spaces.")
+        padding = " " * (symbol_length - (cover_text_length % symbol_length))
+        input_string = input_string.__add__(padding)
+        cover_text_length = input_string.__len__()
+    reps = cover_text_length // symbol_length
+
+    bits = Bits()
+    for x in range(0, reps):
+        start_index = symbol_length * x
+        this_symbol = input_string[start_index:start_index + symbol_length]
+        bits = bits.__add__(search_tree_for_symbol(huffman_tree, this_symbol))
+
+    return bits
 
 
 def print_tree(huffman_tree: Tuple[int, HuffmanTree], indent: str = "", last_node: bool = True):
@@ -249,9 +282,16 @@ def flatten_tree(huffman_tree: Tuple[int, HuffmanTree]) -> list:
     return this_list
 
 
+def _format_binary(node: Tuple[str, int, Optional[Bits]]):
+    if node[2] is None:
+        return node[0], node[1], "N/A"
+    else:
+        return node[0], node[1], node[2]
+
+
 def print_table(huffman_tree: Tuple[int, HuffmanTree]):
-    expand_binary = lambda x: (x[0], x[1], x[2].bin)
-    print(tabulate(map(expand_binary, flatten_tree(huffman_tree)), headers=["Value", "Freq", "Bits"]))
+    print(tabulate(map(_format_binary, flatten_tree(huffman_tree)), headers=["Value", "Freq", "Bits"]))
+    print()
 
 
 def create_from_analysis(sample_filename=DEFAULT_SAMPLE_FILE, analysis_filename=DEFAULT_ANALYSIS_FILE,
