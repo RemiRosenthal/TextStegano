@@ -9,12 +9,11 @@ DEFAULT_ANALYSIS_FILE = "..\\analysis.txt"
 
 
 class TextAnalyser:
-    # Attempt to analyse a text sample for a statistical profile of string frequencies.
-    # The length of that string can be specified, otherwise is 1 by default.
     @staticmethod
-    def analyse_sample(sample_filename=DEFAULT_SAMPLE_FILE, string_length=1) -> collections.Counter:
+    def analyse_sample(sample_filename=DEFAULT_SAMPLE_FILE, string_length=1, threshold=0) -> collections.Counter:
         """
-        Analyse the given sample text
+        Analyse the given sample text for a statistical profile of string frequencies.
+        The length of that string can be specified, otherwise is 1 by default.
         """
         string_definitions = collections.Counter()
         try:
@@ -91,8 +90,6 @@ class TextAnalyser:
         try:
             if os.path.exists(analysis_filename):
                 os.remove(analysis_filename)
-            else:
-                print("The file does not exists")
         except OSError:
             print("Failed to delete the file")
 

@@ -12,7 +12,6 @@ HuffmanTreeWithFrequencies = Tuple[int, HuffmanTree]
 
 
 class TestHuffman(unittest.TestCase):
-
     def setUp(self):
         self.string_definitions = set()
         self.string_definitions.add(("stega", 10))
