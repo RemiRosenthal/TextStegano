@@ -2,7 +2,7 @@ import warnings
 from cmd import Cmd
 
 from bitstring import Bits
-from cryptography.fernet import Fernet
+from cryptography.fernet import InvalidToken
 
 from stegano import textanalyser, huffman
 from stegano.bitcoder import BitCoder
@@ -10,6 +10,7 @@ from stegano.encrypt import Encryptor
 from stegano.huffman import HuffmanTree
 
 UTF_ENCODING = "utf-16"
+DEFAULT_KEY = bytes(b'xqKRXGO5RO7JLxE_jAHmA9L_uolEOjDvcGYBo2AgapM=')
 
 
 class UserError(Exception):
@@ -21,7 +22,7 @@ class UserApi(Cmd):
     intro = "Type help or ? to list commands.\n"
     prompt = "(stegano)"
     tree = 0, huffman.HuffmanTree()
-    key = bytes(b'xqKRXGO5RO7JLxE_jAHmA9L_uolEOjDvcGYBo2AgapM=')
+    key = DEFAULT_KEY
     last_symbol_length = 0
 
     @staticmethod
@@ -45,10 +46,12 @@ class UserApi(Cmd):
             print("Please provide a valid string to encode.")
         else:
             if check_tree(UserApi.tree[1]):
+                print_with_heading(message, "Original")
                 encrypted = get_encryptor().encrypt_bytes(str.encode(message, UTF_ENCODING))
+                print_with_heading(str(encrypted), "Encrypted")
                 bits = Bits(bytes=encrypted)
                 output = (huffman.encode_bits_as_strings(UserApi.tree[1], bits))[1]
-                print(output)
+                print_with_heading(output, "Encoded")
 
     @staticmethod
     def do_huffman_decode_text(arg):
@@ -68,11 +71,16 @@ class UserApi(Cmd):
                 if check_tree(UserApi.tree[1]):
                     decoded = huffman.encode_string_as_bits(UserApi.tree[1], message, symbol_length)
                     trimmed_bits = BitCoder.trim_bits(decoded)
-                    decrypted = get_encryptor().decrypt(trimmed_bits.bytes)
-                    output = bytes.decode(decrypted, UTF_ENCODING)
-                    print(output)
+                    try:
+                        print_with_heading(message, "Encoded")
+                        decrypted = get_encryptor().decrypt(trimmed_bits.bytes)
+                        print_with_heading(str(decrypted), "Decrypted")
+                        output = bytes.decode(decrypted, UTF_ENCODING)
+                        print_with_heading(output, "Original")
+                    except InvalidToken:
+                        print("Failed to decrypt the given message. Were the correct text and symbol length provided?")
             else:
-                print("Please provide the length of each symbol in the message")
+                print("Please provide the length of each symbol in the message.")
 
     @staticmethod
     def do_print_tree(arg):
@@ -134,6 +142,14 @@ def check_tree(huffman_tree: HuffmanTree) -> bool:
 
 def get_encryptor():
     return Encryptor(UserApi.key)
+
+
+def print_with_heading(message: str, heading: str):
+    header_symbol = "---------------"
+    print(header_symbol)
+    print(heading)
+    print(header_symbol)
+    print(message)
 
 
 def parse_symbol_length(arg):
