@@ -9,7 +9,7 @@ from stegano.bitcoder import BitCoder
 from stegano.encrypt import Encryptor
 from stegano.huffman import HuffmanTree
 
-UTF_ENCODING = "utf-16"
+UTF_ENCODING = "utf-8"
 DEFAULT_KEY = bytes(b'xqKRXGO5RO7JLxE_jAHmA9L_uolEOjDvcGYBo2AgapM=')
 
 
@@ -35,21 +35,49 @@ class UserApi(Cmd):
         incomplete_tree = huffman.create_from_analysis()
         huffman.allocate_path_bits(incomplete_tree)
         UserApi.tree = incomplete_tree
+        print("Tree created.")
 
     @staticmethod
-    def do_huffman_encode_text(arg):
+    def do_string_to_bits(arg):
         """
-        Use a Huffman tree to encode some text in a cover text.
+        Convert a string of characters to its constituent bitstring.
         """
         message = parse_message(arg)
         if message is None:
             print("Please provide a valid string to encode.")
         else:
+            message_length = len(message)
+            print_with_heading(message, "Character Encoded ({} characters)".format(message_length))
+            encoded = str.encode(message, UTF_ENCODING)
+            print_with_heading(Bits(encoded).bin, "Bits ({} bits)".format(len(Bits(encoded).bin)))
+
+    @staticmethod
+    def do_encrypt_bits(arg):
+        """
+        Encrypt a bitstring. Must be whole bytes i.e., length of multiple 8.
+        """
+        message = parse_bits_arg(arg)
+        if message is None:
+            print("Please provide a valid bitstring to encrypt.")
+        else:
+            print_with_heading(str(message.bin), "Plaintext Bits")
+            encrypted = get_encryptor().encrypt_bytes(message.bytes)
+            bits = Bits(bytes=encrypted)
+            print_with_heading(str(bits.bytes), "Ciphertext Bytes")
+            print_with_heading(str(bits.bin), "Ciphertext Bits")
+
+    @staticmethod
+    def do_huffman_encode_bits(arg):
+        """
+        Use a Huffman tree to encode some bits into a cover text.
+        """
+        message = parse_bits_arg(arg)
+        if message is None:
+            print("Please provide a valid bitstring to encode.")
+        else:
             if check_tree(UserApi.tree[1]):
-                print_with_heading(message, "Original")
-                encrypted = get_encryptor().encrypt_bytes(str.encode(message, UTF_ENCODING))
-                print_with_heading(str(encrypted), "Encrypted")
-                bits = Bits(bytes=encrypted)
+                bits = Bits(message)
+                print_with_heading(bits.bin, "Plaintext Bits")
                 output = (huffman.encode_bits_as_strings(UserApi.tree[1], bits))[1]
                 print_with_heading(output, "Encoded")
 
@@ -193,7 +221,10 @@ def parse_integer_arg(arg):
 
 
 def parse_bits_arg(arg):
-    return Bits(bin=map(str, arg.split()))
+    try:
+        return Bits(bin=arg)
+    except ValueError:
+        return None
 
 
 if __name__ == '__main__':
