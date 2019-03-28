@@ -200,9 +200,14 @@ def search_tree_for_symbol(huffman_tree: HuffmanTree, symbol: str) -> Bits:
     if huffman_tree.left is not None and huffman_tree.right is not None:
         left_tree = huffman_tree.left[1]
         right_tree = huffman_tree.right[1]
+
         left_result = search_tree_for_symbol(left_tree, symbol)
+        if left_result is not None:
+            return left_result
+
         right_result = search_tree_for_symbol(right_tree, symbol)
-        return left_result or right_result
+        if right_result is not None:
+            return right_result
     else:
         if huffman_tree.value[0].__eq__(symbol):
             return huffman_tree.path_code
@@ -235,7 +240,8 @@ def encode_string_as_bits(huffman_tree: HuffmanTree, input_string: str, symbol_l
     for x in range(0, reps):
         start_index = symbol_length * x
         this_symbol = input_string[start_index:start_index + symbol_length]
-        bits = bits.__add__(search_tree_for_symbol(huffman_tree, this_symbol))
+        symbol_bits = search_tree_for_symbol(huffman_tree, this_symbol)
+        bits = bits.__add__(symbol_bits)
 
     return bits
 

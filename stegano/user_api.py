@@ -44,12 +44,25 @@ class UserApi(Cmd):
         """
         message = parse_message(arg)
         if message is None:
-            print("Please provide a valid string to encode.")
+            print("Please provide a valid string to convert.")
         else:
             message_length = len(message)
-            print_with_heading(message, "Character Encoded ({} characters)".format(message_length))
-            encoded = str.encode(message, UTF_ENCODING)
-            print_with_heading(Bits(encoded).bin, "Bits ({} bits)".format(len(Bits(encoded).bin)))
+            print_with_heading(message, "String ({} characters)".format(message_length))
+            bits = str.encode(message, UTF_ENCODING)
+            print_with_heading(Bits(bits).bin, "Bits ({} bits)".format(len(Bits(bits).bin)))
+
+    @staticmethod
+    def do_bits_to_string(arg):
+        message = parse_bits_arg(arg)
+        if message is None:
+            print("Please provide a valid bitstring to convert.")
+        else:
+            print_with_heading(message.bin, "Bits ({} bits)".format(len(message.bin)))
+            try:
+                plaintext = bytes.decode(message.bytes, UTF_ENCODING)
+            except UnicodeDecodeError:
+                print("Could not encode given bits as {} characters".format(UTF_ENCODING))
+            print_with_heading(plaintext, "String ({} characters)".format(len(plaintext)))
 
     @staticmethod
     def do_encrypt_bits(arg):
@@ -65,6 +78,23 @@ class UserApi(Cmd):
             bits = Bits(bytes=encrypted)
             print_with_heading(str(bits.bytes), "Ciphertext Bytes")
             print_with_heading(str(bits.bin), "Ciphertext Bits")
+
+    @staticmethod
+    def do_decrypt_bits(arg):
+        """
+        Decrypt a bitstring. Only works when the correct key has been set, and the given bitstring was encrypted with that key.
+        """
+        message = parse_bits_arg(arg)
+        if message is None:
+            print("Please provide a valid bitstring to decrypt.")
+        else:
+            try:
+                print_with_heading(str(message.bin), "Ciphertext Bits")
+                decrypted = get_encryptor().decrypt(message.bytes)
+                bits = Bits(bytes=decrypted)
+                print_with_heading(str(bits.bin), "Plaintext Bits")
+            except InvalidToken:
+                print("Failed to decrypt the given message.")
 
     @staticmethod
     def do_huffman_encode_bits(arg):
@@ -99,14 +129,8 @@ class UserApi(Cmd):
                 if check_tree(UserApi.tree[1]):
                     decoded = huffman.encode_string_as_bits(UserApi.tree[1], message, symbol_length)
                     trimmed_bits = BitCoder.trim_bits(decoded)
-                    try:
-                        print_with_heading(message, "Encoded")
-                        decrypted = get_encryptor().decrypt(trimmed_bits.bytes)
-                        print_with_heading(str(decrypted), "Decrypted")
-                        output = bytes.decode(decrypted, UTF_ENCODING)
-                        print_with_heading(output, "Original")
-                    except InvalidToken:
-                        print("Failed to decrypt the given message. Were the correct text and symbol length provided?")
+                    print_with_heading(message, "Encoded")
+                    print_with_heading(str(trimmed_bits.bin), "Decoded")
             else:
                 print("Please provide the length of each symbol in the message.")
 

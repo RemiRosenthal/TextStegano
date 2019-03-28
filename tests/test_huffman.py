@@ -22,6 +22,8 @@ class TestHuffman(unittest.TestCase):
         self.string_definitions.add(("nalys", 3))
         self.string_definitions.add(("alysi", 3))
         self.string_definitions.add(("lysis", 1))
+        self.string_definitions.add(("ysis ", 1))
+        self.string_definitions.add(("sis 0", 1))
 
     def test_tree_created(self):
         test_huffman = huffman.create_tree(self.string_definitions)
@@ -73,14 +75,14 @@ class TestHuffman(unittest.TestCase):
         huffman.allocate_path_bits(test_huffman)
         output = huffman.encode_bits_as_strings(test_huffman[1], Bits(bin="010011101"))
         self.assertIsNotNone(output)
-        self.assertEqual(output[1], "stegaganallysis")
+        self.assertEqual("steganalysegana", output[1])
 
     def test_encode_bits_as_strings_padded(self):
         test_huffman = huffman.create_tree(self.string_definitions)
         huffman.allocate_path_bits(test_huffman)
         output = huffman.encode_bits_as_strings(test_huffman[1], Bits(bin="011100011010110"))
         self.assertIsNotNone(output)
-        self.assertEqual(output[1], "steganalysstegaeganastegaanaly")
+        self.assertEqual("stegaanalynalysstegastegaganal", output[1])
 
     def test_encode_bits_as_strings_nothing(self):
         test_huffman = huffman.create_tree(self.string_definitions)
@@ -93,18 +95,18 @@ class TestHuffman(unittest.TestCase):
     def test_search_tree_for_symbol(self):
         test_huffman = huffman.create_tree(self.string_definitions)
         huffman.allocate_path_bits(test_huffman)
-        bits = huffman.search_tree_for_symbol(test_huffman[1], "stega")
-        self.assertEqual(bits, Bits(bin="01"))
         bits = huffman.search_tree_for_symbol(test_huffman[1], "alysi")
-        self.assertEqual(bits, Bits(bin="111"))
-        bits = huffman.search_tree_for_symbol(test_huffman[1], "lysis")
-        self.assertEqual(bits, Bits(bin="1101"))
+        self.assertEqual(bits, Bits(bin="0010"))
+        bits = huffman.search_tree_for_symbol(test_huffman[1], "ysis ")
+        self.assertEqual(bits, Bits(bin="1111"))
+        bits = huffman.search_tree_for_symbol(test_huffman[1], "sis 0")
+        self.assertEqual(bits, Bits(bin="11100"))
 
     def test_encode_string_as_bits(self):
         test_huffman = huffman.create_tree(self.string_definitions)
         huffman.allocate_path_bits(test_huffman)
-        bits = huffman.encode_string_as_bits(test_huffman[1], "stegaalysilysis", 5)
-        self.assertEqual(bits, Bits(bin="011111101"))
+        bits = huffman.encode_string_as_bits(test_huffman[1], "stegaalysilysissis 0tegan", 5)
+        self.assertEqual(bits, Bits(bin="0b0100101110111100000"))
 
     def test_flatten_tree(self):
         test_huffman = huffman.create_tree(self.string_definitions)
