@@ -65,10 +65,32 @@ class TestHuffman(unittest.TestCase):
         huffman.allocate_path_bits(test_huffman)
         self.assertTrue(has_correct_bits(test_huffman, Bits()), "Huffman tree did not have correct bits for every node")
 
-    # def test_allocate_path_bits_it(self):
-    #     test_huffman = huffman.create_tree(self.string_definitions)
-    #     huffman.allocate_path_bits_it(test_huffman)
-    #     self.assertTrue(has_correct_bits(test_huffman, Bits()), "Huffman tree did not have correct bits for every node")
+    def test_get_tree_leaf_codes(self):
+        test_huffman = huffman.create_tree(self.string_definitions)
+        huffman.allocate_path_bits(test_huffman)
+        path_codes = huffman.get_tree_leaf_codes(test_huffman)
+        self.assertNotEqual(set(), path_codes)
+        self.assertEqual(10, len(path_codes))
+
+    def test_get_set_average_length(self):
+        test_set = set()
+        test_set.add(Bits(bin="0"))
+        test_set.add(Bits(bin="1"))
+        test_set.add(Bits(bin="00"))
+        test_set.add(Bits(bin="01"))
+        test_set.add(Bits(bin="100"))
+        average_length = huffman.get_set_average_length(test_set)
+        self.assertEqual(9/5, average_length)
+
+    def test_get_set_expected_length(self):
+        test_set = set()
+        test_set.add(Bits(bin="0"))
+        test_set.add(Bits(bin="1"))
+        test_set.add(Bits(bin="00"))
+        test_set.add(Bits(bin="01"))
+        test_set.add(Bits(bin="100"))
+        average_length = huffman.get_set_expected_length(test_set)
+        self.assertEqual(2.375, average_length)
 
     def test_encode_bits_as_strings(self):
         test_huffman = huffman.create_tree(self.string_definitions)

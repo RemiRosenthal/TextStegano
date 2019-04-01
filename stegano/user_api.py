@@ -175,6 +175,16 @@ class UserApi(Cmd):
         except ValueError:
             warnings.warn("The provided key may not work -- it should be 32 url-safe base64-encoded bytes.")
 
+    @staticmethod
+    def do_analyse_tree(arg):
+        if check_tree(UserApi.tree[1]):
+            path_codes = huffman.get_tree_leaf_codes(UserApi.tree)
+            print_with_heading("{}".format(len(path_codes)), "Number of Symbols in Tree")
+            expected_length = huffman.get_set_expected_length(path_codes)
+            print_with_heading("{}".format(expected_length), "Expected Length of Path Codes in Tree")
+            average_length = huffman.get_set_average_length(path_codes)
+            print_with_heading("{}".format(average_length), "Average Length of Path Codes in Tree")
+
 
 def reset_tree():
     print("The Huffman tree appears to be malformed. Resetting it.")

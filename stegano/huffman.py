@@ -124,17 +124,45 @@ def allocate_path_bits(huffman_tree: Tuple[int, HuffmanTree], prefix: Bits = Non
         allocate_path_bits(tree.right, right_code)
 
 
-def allocate_path_bits_it(huffman_tree: Tuple[int, HuffmanTree]):
+def get_tree_leaf_codes(huffman_tree: Tuple[int, HuffmanTree]) -> set:
+    """
+    Walk the given HuffmanTree and collect the set of all path codes allocated to every leaf node.
+    :param huffman_tree: the tuple containing Huffman (sub)tree and its cumulative priority
+    :return: a set of path codes
+    """
+    path_codes = set()
     tree = huffman_tree[1]
-    stack = [(Bits(), tree)]
 
-    while stack:
-        bits, this_tree = stack.pop(0)
-        if this_tree.left is None and this_tree.right is None:
-            this_tree.path_code = bits
-        else:
-            stack.append((bits.__add__(zero_bit), tree.left[1]))
-            stack.append((bits.__add__(one_bit), tree.right[1]))
+    if tree.left is None and tree.right is None:
+        path_codes.add(tree.path_code)
+        return path_codes
+    else:
+        left_set = get_tree_leaf_codes(tree.left)
+        right_set = get_tree_leaf_codes(tree.right)
+        path_codes = left_set.union(right_set)
+        return path_codes
+
+
+def get_set_average_length(input_set: set):
+    """
+    A utility method which can be called on a set of path codes to calculate the average path code length.
+    :param input_set: A set of elements
+    :return: The mean length of all element
+    """
+    length_list = list(map(len, input_set))
+    no_of_items = len(length_list)
+    return sum(length_list)/no_of_items
+
+
+def get_set_expected_length(input_set: set):
+    """
+    A utility method which can be called on a set of path codes to calculate the expected path code length.
+    :param input_set: A set of elements
+    :return: The mean length of all element
+    """
+    get_prob = lambda a: len(a) / (2 ** len(a))
+    prob_list = list(map(get_prob, input_set))
+    return sum(prob_list)
 
 
 def encode_bits_as_strings(tree: HuffmanTree, bits: Bits, string_prefix: str = "") -> \
@@ -168,7 +196,7 @@ def encode_bits_as_strings(tree: HuffmanTree, bits: Bits, string_prefix: str = "
                 remaining_bits, accumulated_string = encode_bits_as_strings(right_tree, bits, string_prefix)
             else:
                 # Binary sequence does not match a leaf value. Must pad with 0s
-                padded_bits = bits.__add__(Bits(bin="0"))
+                padded_bits = bits.__add__(zero_bit)
                 return padded_bits, string_prefix
 
             if tree.path_code is None:  # This tree is a root node
