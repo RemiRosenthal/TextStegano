@@ -26,7 +26,9 @@ class TextAnalyser:
             pattern = re.compile("|".join(rep.keys()))
             text = pattern.sub(lambda m: rep[re.escape(m.group(0))], text)
 
-            for index in range(len(text) - string_length + 1):
+            symbol_count = len(text) - string_length + 1
+            print("Sample has {} symbols".format(symbol_count))
+            for index in range(symbol_count):
                 string_definitions.update({text[index:(index + string_length)]: 1})
         except IOError:
             print("Could not locate or read sample file " + sample_filename)

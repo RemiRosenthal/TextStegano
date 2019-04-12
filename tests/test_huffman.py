@@ -143,6 +143,20 @@ class TestHuffman(unittest.TestCase):
             # We are only interested in the string and frequency from tree nodes.
             self.assertTupleEqual(flattened_tree[i][:2], sorted_list[i])
 
+    def test_variable_length_tree(self):
+        self.string_definitions = set()
+        self.string_definitions.add(("a", 15))
+        self.string_definitions.add(("ba", 4))
+        self.string_definitions.add(("abc", 33))
+        self.string_definitions.add(("dcba", 17))
+        self.string_definitions.add(("abcde", 10))
+
+        test_huffman = huffman.create_tree(self.string_definitions)
+        test_passed = has_correct_leaves(test_huffman)
+        self.assertTrue(test_passed, "Huffman tree did not have values for all leaves")
+        huffman.allocate_path_bits(test_huffman)
+        self.assertTrue(has_correct_bits(test_huffman, Bits()), "Huffman tree did not have correct bits for every node")
+
     @unittest.skip
     def test_print_tree(self):
         test_huffman = huffman.create_tree(self.string_definitions)
