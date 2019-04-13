@@ -2,6 +2,7 @@ import unittest
 
 from bitstring import Bits
 
+from stegano import wtdict
 from stegano.wtdict import MappingDictionary, WordTypeDictionary
 
 
@@ -35,6 +36,11 @@ class TestMappingDictionary(unittest.TestCase):
         mapping_dict = MappingDictionary(self.mappings)
         self.assertEqual(3, len(mapping_dict.mappings))
 
+    def test_encode_spaces(self):
+        self.assertEqual(True, self.mapping_dict.encode_spaces)
+        self.mapping_dict = MappingDictionary(self.mappings, False)
+        self.assertEqual(False, self.mapping_dict.encode_spaces)
+
 
 class TestWordTypeDictionary(unittest.TestCase):
     def setUp(self):
@@ -49,7 +55,7 @@ class TestWordTypeDictionary(unittest.TestCase):
         self.mappings.add(("pen", Bits(bin="00")))
         self.mappings.add(("pencil", Bits(bin="01")))
         self.mappings.add(("paper", Bits(bin="11")))
-        self.mapping_dict = MappingDictionary(self.mappings)
+        self.mapping_dict = MappingDictionary(self.mappings, False)
         self.input_dict.update({"stationery": self.mapping_dict})
 
         self.wt_dict = WordTypeDictionary(self.input_dict)
@@ -57,6 +63,27 @@ class TestWordTypeDictionary(unittest.TestCase):
     def test_wt_dict(self):
         self.assertIsInstance(self.wt_dict, WordTypeDictionary)
         self.assertEqual(2, len(self.wt_dict.wt_dict))
+
+    def test_serialise_dict(self):
+        serial_dict = self.wt_dict.__dict__()
+        self.assertIsInstance(serial_dict, dict)
+        self.assertEqual(2, len(serial_dict))
+
+        mapping_dict = serial_dict.get("animals")
+        self.assertEqual(2, len(mapping_dict))
+        self.assertEqual(True, mapping_dict.get("encode_spaces"))
+        self.assertIsInstance(mapping_dict.get("mappings"), dict)
+        self.assertEqual(3, len(mapping_dict.get("mappings")))
+        self.assertEqual("00", mapping_dict.get("mappings").get("penguin"))
+        self.assertEqual(None, mapping_dict.get("mappings").get("pencil"))
+
+        mapping_dict = serial_dict.get("stationery")
+        self.assertEqual(2, len(mapping_dict))
+        self.assertEqual(False, mapping_dict.get("encode_spaces"))
+        self.assertIsInstance(mapping_dict.get("mappings"), dict)
+        self.assertEqual(3, len(mapping_dict.get("mappings")))
+        self.assertEqual("01", mapping_dict.get("mappings").get("pencil"))
+        self.assertEqual(None, mapping_dict.get("mappings").get("penguin"))
 
     def test_mapping_dicts(self):
         wt_dict = self.wt_dict.wt_dict
@@ -101,6 +128,15 @@ class TestWordTypeDictionary(unittest.TestCase):
         self.assertEqual(Bits(bin="00"), food_mappings.get("burger"))
         self.assertEqual(Bits(bin="01"), food_mappings.get("salad"))
 
+    def test_update_empty_wt(self):
+        new_mappings = set()
+        mapping_dict = MappingDictionary(new_mappings)
+        input_dict = {"empty": mapping_dict}
+
+        self.wt_dict.append_word_type(input_dict)
+
+        self.assertEqual(2, len(self.wt_dict.wt_dict))
+
     def test_duplicate_words(self):
         new_mappings = set()
         new_mappings.add(("giraffe", Bits(bin="1")))
@@ -124,6 +160,85 @@ class TestWordTypeDictionary(unittest.TestCase):
         self.assertEqual(1, len(misc_mappings))
         self.assertEqual(Bits(bin="11"), misc_mappings.get("grass"))
         self.assertEqual(None, misc_mappings.get("cube"))
+
+        misc_mappings = self.wt_dict.wt_dict.get("nothing")
+        self.assertIsNone(misc_mappings)
+
+    def test_remove_word(self):
+        remove_set = {"penguin"}
+        self.wt_dict.remove_word(remove_set)
+        self.assertEqual(2, len(self.wt_dict.wt_dict))
+
+        mappings = self.wt_dict.wt_dict.get("animals").mappings
+        self.assertEqual(2, len(mappings))
+        self.assertEqual(None, mappings.get("penguin"))
+        self.assertEqual(Bits(bin="01"), mappings.get("tiger"))
+
+    def test_remove_no_words(self):
+        remove_set = set()
+        self.wt_dict.remove_word(remove_set)
+        self.assertEqual(2, len(self.wt_dict.wt_dict))
+
+        mappings = self.wt_dict.wt_dict.get("animals").mappings
+        self.assertEqual(3, len(mappings))
+        self.assertEqual(Bits(bin="00"), mappings.get("penguin"))
+
+    def test_remove_multiple_words(self):
+        remove_set = {"penguin", "tiger", "pen"}
+        self.wt_dict.remove_word(remove_set)
+        self.assertEqual(2, len(self.wt_dict.wt_dict))
+
+        mappings = self.wt_dict.wt_dict.get("animals").mappings
+        self.assertEqual(1, len(mappings))
+        self.assertEqual(None, mappings.get("penguin"))
+        self.assertEqual(None, mappings.get("tiger"))
+        self.assertEqual(Bits(bin="11"), mappings.get("giraffe"))
+
+        mappings = self.wt_dict.wt_dict.get("stationery").mappings
+        self.assertEqual(2, len(mappings))
+        self.assertEqual(None, mappings.get("pen"))
+        self.assertEqual(Bits(bin="01"), mappings.get("pencil"))
+
+    def test_remove_all_words(self):
+        remove_set = {"penguin", "tiger", "giraffe", "pencil", "pen", "paper"}
+        self.wt_dict.remove_word(remove_set)
+        self.assertIsNone(self.wt_dict.wt_dict)
+
+    def test_remove_word_type(self):
+        remove_set = {"animals"}
+        self.wt_dict.remove_word_type(remove_set)
+        self.assertEqual(1, len(self.wt_dict.wt_dict))
+
+        mapping_dict = self.wt_dict.wt_dict.get("animals")
+        self.assertIsNone(mapping_dict)
+
+    def test_remove_all_word_types(self):
+        remove_set = {"animals", "stationery"}
+        self.wt_dict.remove_word_type(remove_set)
+        self.assertIsNone(self.wt_dict.wt_dict)
+
+
+class TestWTDict(unittest.TestCase):
+    def test_deserialise_dict(self):
+        serial_dict = {
+            "animals": {
+                "encode_spaces": True, "mappings": {
+                    "penguin": "00",
+                    "tiger": "01",
+                    "giraffe": "11"
+                }}
+        }
+        wt_dict = wtdict.deserialise_dict(serial_dict)
+
+        self.assertIsInstance(wt_dict, dict)
+        self.assertEqual(1, len(wt_dict))
+        mappings = wt_dict.get("animals").mappings
+        self.assertEqual(3, len(mappings))
+        self.assertEqual(Bits(bin="00"), mappings.get("penguin"))
+        self.assertEqual(None, mappings.get("lion"))
+
+    def test_load_dict(self):
+        wtdict.load_dict()
 
 
 if __name__ == '__main__':
