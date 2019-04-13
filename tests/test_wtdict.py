@@ -64,6 +64,14 @@ class TestWordTypeDictionary(unittest.TestCase):
         self.assertIsInstance(self.wt_dict, WordTypeDictionary)
         self.assertEqual(2, len(self.wt_dict.wt_dict))
 
+    def test_create_empty_dict(self):
+        self.mappings = set()
+        self.mapping_dict = MappingDictionary(self.mappings)
+        self.input_dict = {"empty": self.mapping_dict}
+        self.wt_dict = WordTypeDictionary(self.input_dict)
+
+        self.assertIsNone(self.wt_dict.wt_dict)
+
     def test_serialise_dict(self):
         serial_dict = self.wt_dict.__dict__()
         self.assertIsInstance(serial_dict, dict)
@@ -136,6 +144,7 @@ class TestWordTypeDictionary(unittest.TestCase):
         self.wt_dict.append_word_type(input_dict)
 
         self.assertEqual(2, len(self.wt_dict.wt_dict))
+        self.assertIsNone(self.wt_dict.wt_dict.get("empty"))
 
     def test_duplicate_words(self):
         new_mappings = set()
@@ -216,6 +225,11 @@ class TestWordTypeDictionary(unittest.TestCase):
         remove_set = {"animals", "stationery"}
         self.wt_dict.remove_word_type(remove_set)
         self.assertIsNone(self.wt_dict.wt_dict)
+
+    def test_generate_state_definitions(self):
+        state_definitions = self.wt_dict.generate_state_definitions()
+        self.assertIsInstance(state_definitions, list)
+        self.assertListEqual(["animals", "stationery"], state_definitions)
 
 
 class TestWTDict(unittest.TestCase):

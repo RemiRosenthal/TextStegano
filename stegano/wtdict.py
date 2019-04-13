@@ -38,7 +38,15 @@ WTDict = Dict[str, MappingDictionary]
 
 class WordTypeDictionary:
     def __init__(self, wt_dict: WTDict):
-        self.wt_dict = wt_dict
+        if wt_dict is None:
+            self.wt_dict = None
+        else:
+            self.wt_dict = wt_dict
+            remove_word_types = set()
+            for key, value in wt_dict.items():
+                if wt_dict.get(key).mappings.__eq__({}):
+                    remove_word_types.add(key)
+            self.remove_word_type(remove_word_types)
 
     def __dict__(self):
         serial_dict = {}
@@ -129,10 +137,7 @@ class WordTypeDictionary:
         :param states:
         :return:
         """
-        state_definitions = list()
-        for word_list in self.wt_dict:
-            state_definitions.append(word_list.word_type)
-        return state_definitions
+        return list(self.wt_dict.keys())
 
 
 def deserialise_dict(wt_dict: dict) -> WTDict:
