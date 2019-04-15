@@ -111,6 +111,10 @@ class TestMarkovChainTransitions(unittest.TestCase):
         self.transitions.add(("s3", "s1", 1))
         self.assertRaises(MarkovError, self.markov_chain.set_transitions, self.transitions)
 
+    def test_ignore_non_cycle(self):
+        self.transitions.add(("s1", "s2", 1))
+        self.markov_chain.set_transitions(self.transitions)
+
     @unittest.skip
     def test_save(self):
         self.markov_chain.set_transitions(self.transitions)

@@ -23,10 +23,9 @@ def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: 
     if bits is None or bits.__eq__(Bits()):
         raise ValueError("Bits cannot be None or empty.")
 
-    bit_index = 0
+    words = []
     prefix = bits
-    while bit_index < len(bits):
-        prefix = prefix[bit_index:]
+    while len(prefix) > 0:
         chain.transition()
         if chain.current_state.__eq__("s0"):
             chain.transition()
@@ -35,9 +34,11 @@ def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: 
         if mapping_dict is None:
             raise ValueError("Unable to find mapping dictionary for word-type {}".format(word_type))
 
-        retrieve_word_from_mappings(prefix, mapping_dict)
-        bit_index = len(bits)  # placeholder
-    return []
+        word = retrieve_word_from_mappings(prefix, mapping_dict)
+        words.append(word)
+        bit_length = len(mapping_dict.mappings.get(word))
+        prefix = prefix[bit_length:]
+    return words
 
 
 def retrieve_word_from_mappings(bits: Bits, mapping_dict: MappingDictionary) -> Mapping:

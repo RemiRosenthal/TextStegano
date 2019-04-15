@@ -79,3 +79,10 @@ class TestEncodeBits(unittest.TestCase):
         self.transitions.add(("colours", "s0", 1))
         self.markov_chain.set_transitions(self.transitions)
 
+    def test_encode_bits_as_string(self):
+        bits = Bits(bin="00101011100101010")
+        words = extended_coder.encode_bits_as_words(self.markov_chain, self.wt_dict, bits)
+        longest_bit_string = 3
+        shortest_bit_string = 2
+        self.assertTrue(len(words) >= -(-len(bits) // longest_bit_string))
+        self.assertTrue(len(words) <= -(-len(bits) // shortest_bit_string))

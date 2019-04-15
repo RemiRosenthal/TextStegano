@@ -124,19 +124,20 @@ class MarkovChain:
         if error_messages.__len__() > 0:
             raise MarkovError("The given transitions were invalid: \n{}".format(error_messages))
 
-    def find_cycles(self):
-        walk = ["s0"]
-        index = 0
+    def find_cycles(self, current_state="s0", visited=None, stack=None):
+        if stack is None:
+            stack = []
+        if visited is None:
+            visited = set()
 
-        while index < len(walk):
-            transitions = self.markov_chain.get(walk[index]).transitions
-            for outbound_state in transitions.keys():
+        transitions = self.markov_chain.get(current_state).transitions
+        visited.add(current_state)
+        for outbound_state in transitions.keys():
+            if outbound_state in stack:
                 if not outbound_state.__eq__("s0"):
-                    if outbound_state in walk[:index + 1]:
-                        raise MarkovError("Found a loop at transition {} to {}".format(walk[index], outbound_state))
-                    else:
-                        walk.append(outbound_state)
-            index += 1
+                    raise MarkovError("Found a loop at transition {} to {}".format(current_state, outbound_state))
+            if outbound_state not in visited:
+                self.find_cycles(outbound_state, visited, stack + [current_state])
 
     def get_outbound_transitions(self) -> (State, Probability):
         """
