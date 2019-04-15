@@ -231,6 +231,10 @@ class TestWordTypeDictionary(unittest.TestCase):
         self.assertIsInstance(state_definitions, list)
         self.assertListEqual(["animals", "stationery"], state_definitions)
 
+    @unittest.skip
+    def test_save_dict(self):
+        wtdict.save_dict(self.wt_dict)
+
 
 class TestWTDict(unittest.TestCase):
     def test_deserialise_dict(self):

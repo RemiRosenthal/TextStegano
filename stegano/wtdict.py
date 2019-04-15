@@ -179,6 +179,6 @@ def save_dict(dictionary: WordTypeDictionary, dict_filename=DEFAULT_DICT_FILE):
     """
     try:
         with open(dict_filename, "w", encoding="utf-8") as handle:
-            json.dump(dictionary, handle)
+            json.dump(dictionary, handle, default=lambda o: o.__dict__())
     except IOError:
         print("Could not write dictionary file " + dict_filename)

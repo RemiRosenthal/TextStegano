@@ -1,5 +1,6 @@
 import unittest
 
+from stegano import markov
 from stegano.markov import MarkovChain, MarkovError, StateTransitions
 
 
@@ -109,6 +110,43 @@ class TestMarkovChainTransitions(unittest.TestCase):
         self.transitions.add(("s4", "s3", 1))
         self.transitions.add(("s3", "s1", 1))
         self.assertRaises(MarkovError, self.markov_chain.set_transitions, self.transitions)
+
+    @unittest.skip
+    def test_save(self):
+        self.markov_chain.set_transitions(self.transitions)
+        markov.save_markov_chain(self.markov_chain)
+
+
+class TestMarkov(unittest.TestCase):
+    def test_deserialise_chain(self):
+        serial_chain = {
+            "s1": {
+                "s4": 0.5,
+                "s3": 0.5
+            },
+            "s0": {
+                "s1": 2,
+                "s2": 3
+            },
+            "s2": {
+                "s4": 1
+            },
+            "s4": {
+                "s0": 2
+            },
+            "s3": {
+                "s0": 1
+            }
+        }
+        markov_chain = markov.deserialise_markov_chain(serial_chain)
+
+        self.assertIsInstance(markov_chain, MarkovChain)
+        self.assertEqual(5, len(markov_chain.markov_chain.items()))
+        self.assertEqual(2, len(markov_chain.markov_chain.get("s1").transitions))
+        self.assertDictEqual({"s4": 0.5, "s3": 0.5}, markov_chain.markov_chain.get("s1").transitions)
+
+    def test_load_chain(self):
+        markov.load_markov_chain()
 
 
 if __name__ == '__main__':

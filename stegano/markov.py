@@ -1,10 +1,13 @@
+import json
 import random
 from itertools import accumulate
 from typing import Tuple, Set
 
+DEFAULT_MARKOV_FILE = "..\\markov_chain.json"
+
 State = str
 Probability = float
-Transition = Tuple[State, Probability]
+Transition = Tuple[State, State, Probability]
 Transitions = Set[Transition]
 
 START_STATE_LABEL = "s0"
@@ -21,12 +24,21 @@ class StateTransitions:
     label and non-zero probability.
     """
 
-    def __init__(self, transitions: Transitions):
+    def __init__(self, transitions: Set[Tuple[State, Probability]]):
+        """
+        :param transitions: A 2-tuple containing a target state and probability
+        """
         input_transitions = dict((label, prob) for label, prob in transitions)
         self.transitions = {}
         for key, value in input_transitions.items():
             if value > 0:
                 self.transitions[key] = value
+
+    def __dict__(self):
+        serial_dict = {}
+        for k, v in self.transitions.items():
+            serial_dict.update({k: v})
+        return serial_dict
 
 
 class MarkovChain:
@@ -53,6 +65,13 @@ class MarkovChain:
         for state in self.states:
             self.markov_chain.update({state: None})
 
+    def __dict__(self):
+        serial_dict = {}
+        for from_state in self.markov_chain.keys():
+            transitions = self.markov_chain.get(from_state)
+            serial_dict.update({from_state: transitions.__dict__()})
+        return serial_dict
+
     def set_transitions(self, transitions: Transitions):
         """
         Validate and set transitions for this Markov chain from the given set. Check for cycles in the chain.
@@ -63,6 +82,7 @@ class MarkovChain:
         for from_state, to_state, prob in transitions:
             outbound_transitions = self.markov_chain.get(from_state)
             if outbound_transitions is None:
+                # noinspection PyTypeChecker
                 self.markov_chain.update({from_state: StateTransitions({(to_state, prob)})})
             else:
                 self.markov_chain.get(from_state).transitions.update({to_state: prob})
@@ -110,8 +130,6 @@ class MarkovChain:
 
         while index < len(walk):
             transitions = self.markov_chain.get(walk[index]).transitions
-            # if transitions.get(walk[index]) is not None:
-            #     raise MarkovError("Found a loop at state {}".format(walk[index]))
             for outbound_state in transitions.keys():
                 if not outbound_state.__eq__("s0"):
                     if outbound_state in walk[:index + 1]:
@@ -142,3 +160,47 @@ class MarkovChain:
                 print("Transitioning to {}".format(state))
                 self.current_state = state
                 return
+
+
+def deserialise_markov_chain(markov_dict: dict) -> MarkovChain:
+    """
+    Convert a serialised dict (of strings) to a Markov chain object
+    :param markov_dict: serialised dict representing the Markov chain transitions
+    :return: a Markov chain
+    """
+    states = set(markov_dict.keys())
+    markov_chain = MarkovChain(states)
+    transitions = set()
+    for state in states:
+        transitions.update({(state, x, y) for x, y in markov_dict.get(state).items()})
+    # noinspection PyTypeChecker
+    markov_chain.set_transitions(transitions)
+
+    return markov_chain
+
+
+def load_markov_chain(chain_filename=DEFAULT_MARKOV_FILE) -> MarkovChain:
+    """
+    Attempt to load a JSON file as a Markov chain object
+    :param chain_filename: the path of the file
+    :return: the Markov chain object, as long as the file is valid
+    """
+    try:
+        with open(chain_filename, "r", encoding="utf-8") as handle:
+            data = json.load(handle)
+            return deserialise_markov_chain(data)
+    except IOError:
+        print("Could not read dictionary file " + chain_filename)
+
+
+def save_markov_chain(markov_chain: MarkovChain, chain_filename=DEFAULT_MARKOV_FILE):
+    """
+    Save a Markov chain object as a JSON file
+    :param markov_chain: a Markov Chain object
+    :param chain_filename: the desired path of the file
+    """
+    try:
+        with open(chain_filename, "w", encoding="utf-8") as handle:
+            json.dump(markov_chain, handle, default=lambda o: o.__dict__())
+    except IOError:
+        print("Could not write dictionary file " + chain_filename)
