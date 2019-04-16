@@ -19,13 +19,17 @@ class TestRetrieveWord(unittest.TestCase):
 
     def test_retrieve_word(self):
         bits = Bits(bin="00101011100101010")
-        word = extended_coder.retrieve_word_from_mappings(bits, self.mapping_dict)
+        word = extended_coder.retrieve_word_from_mappings(bits, self.mapping_dict, True)
         self.assertEqual("tiger", word)
 
     def test_retrieve_word_padded(self):
-        bits = Bits(bin="00")
-        word = extended_coder.retrieve_word_from_mappings(bits, self.mapping_dict)
-        self.assertEqual("penguin", word)
+        bits = Bits(bin="1")
+        word = extended_coder.retrieve_word_from_mappings(bits, self.mapping_dict, True)
+        self.assertEqual("dog", word)
+
+    def test_retrieve_word_no_padding(self):
+        bits = Bits(bin="1")
+        self.assertRaises(ValueError, extended_coder.retrieve_word_from_mappings, bits, self.mapping_dict, False)
 
     def test_retrieve_empty(self):
         bits = Bits()
@@ -86,3 +90,45 @@ class TestEncodeBits(unittest.TestCase):
         shortest_bit_string = 2
         self.assertTrue(len(words) >= -(-len(bits) // longest_bit_string))
         self.assertTrue(len(words) <= -(-len(bits) // shortest_bit_string))
+
+
+class TestCoverText(unittest.TestCase):
+    def setUp(self):
+        self.words = [
+            ("a", True),
+            ("Lion", True),
+            ("had", True),
+            ("come", True),
+            ("to", True),
+            ("the", True),
+            ("end", True),
+            ("of", True),
+            ("his", True),
+            ("days", True),
+            ("and", True),
+            ("lay", True),
+            ("sick", True),
+            ("unto", True),
+            ("death", True),
+            ("at", True),
+            ("the", True),
+            ("mouth", True),
+            ("of", True),
+            ("his", True),
+            ("cave", True),
+            (",", False),
+            ("gasping", True),
+            ("for", True),
+            ("breath", True),
+            (".", False)
+        ]
+
+    def test_words_to_cover_text(self):
+        cover_text = extended_coder.words_to_cover_text(self.words, True)
+        self.assertEqual("A Lion had come to the end of his days and lay sick unto death at the mouth of his cave, "
+                         "gasping for breath.", cover_text)
+
+    def test_words_to_cover_text_no_capitalise(self):
+        cover_text = extended_coder.words_to_cover_text(self.words, False)
+        self.assertEqual("a Lion had come to the end of his days and lay sick unto death at the mouth of his cave, "
+                         "gasping for breath.", cover_text)

@@ -1,9 +1,33 @@
 from functools import reduce
+from typing import List, Tuple
 
 from bitstring import Bits
 
 from stegano.markov import MarkovChain
-from stegano.wtdict import WordTypeDictionary, MappingDictionary, Mapping
+from stegano.wtdict import WordTypeDictionary, MappingDictionary
+
+
+def words_to_cover_text(words: List[Tuple[str, bool]], capitalise_start=True) -> str:
+    """
+    Given a list of words and their encode_spaces properties, form a cover text.
+    :param words: the list of tuples containing the words and their properties
+    :param capitalise_start: if true, capitalise the first letter of the cover text
+    :return: the cover text as a string
+    """
+    cover_text = ""
+    if words is None or words.__len__() == 0:
+        return cover_text
+
+    first_word = words[0][0]
+    if capitalise_start:
+        first_word = first_word[0].upper() + first_word[1:]
+
+    cover_text = cover_text + first_word
+    for word, encode_spaces in words[1:]:
+        if encode_spaces:
+            cover_text += " "
+        cover_text += word
+    return cover_text
 
 
 def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits) -> list:
@@ -34,20 +58,21 @@ def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: 
         if mapping_dict is None:
             raise ValueError("Unable to find mapping dictionary for word-type {}".format(word_type))
 
-        word = retrieve_word_from_mappings(prefix, mapping_dict)
-        words.append(word)
+        word = retrieve_word_from_mappings(prefix, mapping_dict, True)
+        words.append((word, mapping_dict.encode_spaces))
         bit_length = len(mapping_dict.mappings.get(word))
         prefix = prefix[bit_length:]
     return words
 
 
-def retrieve_word_from_mappings(bits: Bits, mapping_dict: MappingDictionary) -> Mapping:
+def retrieve_word_from_mappings(bits: Bits, mapping_dict: MappingDictionary, allow_padding=True) -> str:
     """
     Given a string of bits, attempt to find a word in the given mapping dictionary that corresponds to the first
     n bits.
     :param bits: the entire message that needs to be decoded
     :param mapping_dict: the dictionary of mappings
-    :return: a mapping containing the retrieved word and its bit string
+    :param allow_padding: if true, then 0s will be appended to bits if necessary to find a mapping
+    :return: the retrieved word
     """
     if mapping_dict is None:
         raise ValueError("Mapping dictionary cannot be None.")
@@ -65,10 +90,14 @@ def retrieve_word_from_mappings(bits: Bits, mapping_dict: MappingDictionary) -> 
         if value is not None:
             return value
         prefix = prefix[:len(prefix) - 1]
-    # No exact match has been found. Padding with 0s
-    while prefix.__len__() <= longest_bits:
-        prefix = prefix + "0"
-        value = reverse_dict.get(Bits(bin=prefix))
-        if value is not None:
-            return value
+
+    # No exact match has been found
+    if allow_padding:
+        prefix = bits.bin
+        while prefix.__len__() < longest_bits:
+            prefix = prefix + "0"
+            value = reverse_dict.get(Bits(bin=prefix))
+            if value is not None:
+                return value
+
     raise ValueError("Unable to find any matches or near-matches in the mapping dictionary using the given bits.")
