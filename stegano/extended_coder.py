@@ -1,3 +1,4 @@
+import random
 from functools import reduce
 from typing import List, Tuple
 
@@ -5,6 +6,64 @@ from bitstring import Bits
 
 from stegano.markov import MarkovChain
 from stegano.wtdict import WordTypeDictionary, MappingDictionary
+
+
+def encode_message(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits, header_length=20) -> str:
+    """
+    Given a header length, a secret message as bits, a Markov chain, and a word-type dictionary, encode a cover text
+    including a header which contains the length of the message.
+    The message may be no more than (2^header_length) bits long.
+    :param chain: a Markov chain with states
+    :param wt_dict: a corresponding dictionary of word-types
+    :param bits: the input bits
+    :param header_length: the pre-shared length, in bits, of the header
+    :return: the cover text as a string
+    """
+    if bits is None or bits.__eq__(Bits()):
+        raise ValueError("Bits cannot be None or empty.")
+    message_length = len(bits)
+    header = get_fixed_length_header(message_length, header_length)
+    full_message = header + bits
+    words = encode_bits_as_words(chain, wt_dict, full_message)
+    cover_text = words_to_cover_text(words, True)
+    return cover_text
+
+
+def get_fixed_length_header(message_length: int, header_length: int) -> Bits:
+    """
+    Encode an integer length as a binary header.
+    :param message_length: the integer to encode
+    :param header_length:
+    :return:
+    """
+    if message_length > pow(2, header_length) + 1:
+        raise ValueError("Message was too long for header_length to represent.")
+    if message_length == 0:
+        raise ValueError("Message cannot be of length 0.")
+
+    header = ("{0:0" + str(header_length) + "b}").format(message_length - 1)
+    header = _stream_randomiser(header)  # randomise structure of bits in header
+    return Bits(bin=header)
+
+
+def get_message_length_from_header(header: Bits) -> int:
+    header = _stream_randomiser(header.bin)
+    message_length = Bits(bin=header).uint + 1
+    return message_length
+
+
+def _stream_randomiser(bits: str) -> str:
+    """
+    Randomise the bits in a given string using a pseudo-random stream cipher.
+    This cipher may be different per system, but is repeatable on every run.
+    :param bits: the input bit string
+    :return: the altered bit string
+    """
+    r = random.Random()
+    r.seed("pseudorandom")
+    xor = lambda x: "1" if (int(x) != r.randint(0, 1)) else "0"
+    bits = list(map(xor, bits))
+    return "".join(bits)
 
 
 def words_to_cover_text(words: List[Tuple[str, bool]], capitalise_start=True) -> str:
@@ -32,7 +91,7 @@ def words_to_cover_text(words: List[Tuple[str, bool]], capitalise_start=True) ->
 
 def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits) -> list:
     """
-    Given a bit stream, a Markov chain, and a word-type dictionary, encode a cover text.
+    Given a bit stream, a Markov chain, and a word-type dictionary, retrieve a corresponding list of words.
     Every state in the Markov chain, except the start state s0, must have a corresponding word-type in the given
     dictionary with at least one word.
 
