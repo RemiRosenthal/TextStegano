@@ -1,7 +1,7 @@
 import json
 import random
 from itertools import accumulate
-from typing import Tuple, Set
+from typing import Tuple, Set, Optional, Union
 
 DEFAULT_MARKOV_FILE = "..\\markov_chain.json"
 
@@ -56,21 +56,65 @@ class MarkovChain:
     so not all states are guaranteed to be reachable from s0. Care should be taken when defining transitions.
     """
 
-    def __init__(self, states: set):
-        self.states = states
-        if not self.states.__contains__(START_STATE_LABEL):
-            self.states.add(START_STATE_LABEL)
-        self.current_state = START_STATE_LABEL
+    def __init__(self, states: Set[Union[State, Tuple[State, str]]]):
+        """
+        :param states: a set of elements, each of which are either a state name; or a state name paired with the name
+        of a word-type dictionary
+        """
+        self.states = {START_STATE_LABEL}
+        self.wt_refs = {}
+        for state in states:
+            if isinstance(state, tuple):
+                if state[0].__eq__(START_STATE_LABEL):
+                    continue
+                self.wt_refs.update({state[0]: state[1]})
+                self.states.add(state[0])
+            else:
+                self.states.add(state)
+                if not state.__eq__(START_STATE_LABEL):
+                    self.wt_refs.update({state: state})
+
         self.markov_chain = {}
         for state in self.states:
             self.markov_chain.update({state: None})
 
+        self.current_state = START_STATE_LABEL
+
     def __dict__(self):
         serial_dict = {}
+
+        serial_dict.update({"wt_refs": self.wt_refs})
+
+        chain = {}
         for from_state in self.markov_chain.keys():
             transitions = self.markov_chain.get(from_state)
-            serial_dict.update({from_state: transitions.__dict__()})
+            if transitions is not None:
+                chain.update({from_state: transitions.__dict__()})
+
+        serial_dict.update({"chain": chain})
         return serial_dict
+
+    def get_current_word_type(self) -> Optional[str]:
+        """
+        Retrieve the word-type referred to by the current state. Returns None if current state is s0.
+        :return: the word-type
+        """
+        if self.current_state.__eq__(START_STATE_LABEL):
+            return None
+        else:
+            return self.get_word_type_for_state(self.current_state)
+
+    def get_word_type_for_state(self, state_name: State) -> str:
+        """
+        Retrieve the word-type referred to by the state of the given name, if such a state exists.
+        This word-type is equal to the state name by default, unless otherwise specified.
+        :param state_name: the name of state to search for
+        :return: the corresponding word-type
+        """
+        word_type = self.wt_refs.get(state_name)
+        if word_type is None:
+            raise ValueError("No state of name {} exists in the Markov chain.".format(state_name))
+        return word_type
 
     def set_transitions(self, transitions: Transitions):
         """
@@ -169,11 +213,14 @@ def deserialise_markov_chain(markov_dict: dict) -> MarkovChain:
     :param markov_dict: serialised dict representing the Markov chain transitions
     :return: a Markov chain
     """
-    states = set(markov_dict.keys())
+    wt_refs = markov_dict.get("wt_refs")
+    chain = markov_dict.get("chain")
+    states = set(wt_refs.keys()).union({"s0"})
     markov_chain = MarkovChain(states)
+    markov_chain.wt_refs = wt_refs
     transitions = set()
     for state in states:
-        transitions.update({(state, x, y) for x, y in markov_dict.get(state).items()})
+        transitions.update({(state, x, y) for x, y in chain.get(state).items()})
     # noinspection PyTypeChecker
     markov_chain.set_transitions(transitions)
 

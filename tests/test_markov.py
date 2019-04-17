@@ -6,25 +6,61 @@ from stegano.markov import MarkovChain, MarkovError, StateTransitions
 
 class TestMarkovChain(unittest.TestCase):
     def setUp(self):
-        self.states = {"s1", "s2", "s3", "s4"}
-        self.test_states = self.states.union({"s0"})
-        self.markov_chain = MarkovChain(self.states)
+        self.states = {"s1", "s2", "s3", ("s4", "dict")}
+        self.test_states = {"s0", "s1", "s2", "s3", "s4"}
+        self.test_wt_refs = {"s1": "s1", "s2": "s2", "s3": "s3", "s4": "dict"}
 
     def test_init(self):
+        self.markov_chain = MarkovChain(self.states)
         self.assertSetEqual(self.test_states, self.markov_chain.states)
         self.assertEqual("s0", self.markov_chain.current_state)
         self.assertDictEqual({"s0": None, "s1": None, "s2": None, "s3": None, "s4": None},
                              self.markov_chain.markov_chain)
+        self.assertDictEqual(self.test_wt_refs, self.markov_chain.wt_refs)
 
     def test_init_s0(self):
         self.markov_chain = MarkovChain(self.states.union({"s0"}))
         self.assertSetEqual(self.test_states, self.markov_chain.states)
         self.assertEqual("s0", self.markov_chain.current_state)
+        self.assertDictEqual(self.test_wt_refs, self.markov_chain.wt_refs)
+
+    def test_init_s0_tuple(self):
+        self.markov_chain = MarkovChain(self.states.union({("s0", "any")}))
+        self.assertSetEqual(self.test_states, self.markov_chain.states)
+        self.assertEqual("s0", self.markov_chain.current_state)
+        self.assertDictEqual(self.test_wt_refs, self.markov_chain.wt_refs)
+
+    def test_dict(self):
+        self.markov_chain = MarkovChain(self.states)
+        serial_dict = self.markov_chain.__dict__()
+        self.assertIsInstance(serial_dict, dict)
+        self.assertEqual(2, len(serial_dict))
+
+        self.assertIsInstance(serial_dict.get("chain"), dict)
+        self.assertDictEqual({}, serial_dict.get("chain"))
+
+        self.assertIsInstance(serial_dict.get("wt_refs"), dict)
+        self.assertDictEqual(self.test_wt_refs, serial_dict.get("wt_refs"))
+
+    def test_get_word_type_for_state(self):
+        self.markov_chain = MarkovChain(self.states)
+        self.assertEqual("s1", self.markov_chain.get_word_type_for_state("s1"))
+        self.assertEqual("dict", self.markov_chain.get_word_type_for_state("s4"))
+        self.assertRaises(ValueError, self.markov_chain.get_word_type_for_state, "s0")
+
+    def test_get_current_word_type(self):
+        self.markov_chain = MarkovChain(self.states)
+        self.markov_chain.current_state = "s1"
+        self.assertEqual("s1", self.markov_chain.get_current_word_type())
+        self.markov_chain.current_state = "s4"
+        self.assertEqual("dict", self.markov_chain.get_current_word_type())
+        self.markov_chain.current_state = "s0"
+        self.assertIsNone(self.markov_chain.get_current_word_type())
 
 
 class TestMarkovChainTransitions(unittest.TestCase):
     def setUp(self):
-        self.states = {"s1", "s2", "s3", "s4"}
+        self.states = {"s1", "s2", "s3", ("s4", "dict")}
         self.markov_chain = MarkovChain(self.states)
 
         self.transitions = set()
@@ -65,6 +101,17 @@ class TestMarkovChainTransitions(unittest.TestCase):
     def test_set_transitions_s0_no_inbound(self):
         self.transitions = {x for x in self.transitions if not x[1].__eq__("s0")}
         self.assertRaises(MarkovError, self.markov_chain.set_transitions, self.transitions)
+
+    def test_dict(self):
+        self.markov_chain.set_transitions(self.transitions)
+        serial_dict = self.markov_chain.__dict__()
+        self.assertEqual(2, len(serial_dict))
+
+        chain_dict = serial_dict.get("chain")
+        self.assertIsInstance(chain_dict, dict)
+        self.assertEqual(5, len(chain_dict))
+        self.assertIsInstance(chain_dict.get("s0"), dict)
+        self.assertDictEqual({"s1": 2, "s2": 3}, chain_dict.get("s0"))
 
     def test_get_outbound_transitions(self):
         self.markov_chain.set_transitions(self.transitions)
@@ -122,8 +169,10 @@ class TestMarkovChainTransitions(unittest.TestCase):
 
 
 class TestMarkov(unittest.TestCase):
-    def test_deserialise_chain(self):
-        serial_chain = {
+    def setUp(self):
+        self.states = {"s0", "s1", "s2", "s3", "s4"}
+        self.wt_refs = {"s1": "s1", "s2": "s2", "s3": "s3", "s4": "dict"}
+        self.chain = {
             "s1": {
                 "s4": 0.5,
                 "s3": 0.5
@@ -142,12 +191,28 @@ class TestMarkov(unittest.TestCase):
                 "s0": 1
             }
         }
+
+    def test_deserialise_chain(self):
+        serial_chain = {
+            "wt_refs": self.wt_refs,
+            "chain": self.chain
+        }
         markov_chain = markov.deserialise_markov_chain(serial_chain)
 
         self.assertIsInstance(markov_chain, MarkovChain)
+
+        self.assertIsInstance(markov_chain.states, set)
+        self.assertEqual(5, len(markov_chain.states))
+        self.assertSetEqual(self.states, markov_chain.states)
+
+        self.assertIsInstance(markov_chain.markov_chain, dict)
         self.assertEqual(5, len(markov_chain.markov_chain.items()))
         self.assertEqual(2, len(markov_chain.markov_chain.get("s1").transitions))
         self.assertDictEqual({"s4": 0.5, "s3": 0.5}, markov_chain.markov_chain.get("s1").transitions)
+
+        self.assertIsInstance(markov_chain.wt_refs, dict)
+        self.assertEqual(4, len(markov_chain.wt_refs.items()))
+        self.assertDictEqual(self.wt_refs, markov_chain.wt_refs)
 
     def test_load_chain(self):
         markov.load_markov_chain()

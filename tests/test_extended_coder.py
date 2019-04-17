@@ -70,17 +70,17 @@ class TestEncodeBits(unittest.TestCase):
 
         self.wt_dict = WordTypeDictionary(self.input_dict)
 
-        self.states = {"animals", "stationery", "colours"}
+        self.states = {"animals", "stationery", ("x", "colours")}
         self.markov_chain = MarkovChain(self.states)
 
         self.transitions = set()
         self.transitions.add(("s0", "animals", 4))
         self.transitions.add(("s0", "stationery", 2))
-        self.transitions.add(("animals", "colours", 0.3))
+        self.transitions.add(("animals", "x", 0.3))
         self.transitions.add(("animals", "stationery", 0.7))
         self.transitions.add(("stationery", "s0", 0.5))
-        self.transitions.add(("stationery", "colours", 0.5))
-        self.transitions.add(("colours", "s0", 1))
+        self.transitions.add(("stationery", "x", 0.5))
+        self.transitions.add(("x", "s0", 1))
         self.markov_chain.set_transitions(self.transitions)
 
     def test_encode_bits_as_string(self):

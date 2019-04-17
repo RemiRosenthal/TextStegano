@@ -173,7 +173,7 @@ def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: 
         chain.transition()
         if chain.current_state.__eq__("s0"):
             chain.transition()
-        word_type = chain.current_state
+        word_type = chain.get_current_word_type()
         mapping_dict = wt_dict.wt_dict.get(word_type)
         if mapping_dict is None:
             raise ValueError("Unable to find mapping dictionary for word-type {}".format(word_type))
