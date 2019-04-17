@@ -4,7 +4,7 @@ from typing import List, Tuple
 
 from bitstring import Bits
 
-from stegano.markov import MarkovChain
+from stegano.markov import MarkovChain, START_STATE_LABEL
 from stegano.wtdict import WordTypeDictionary, MappingDictionary
 
 DEFAULT_HEADER_LENGTH = 20
@@ -216,22 +216,24 @@ def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: 
     prefix = bits
     while len(prefix) > 0:
         chain.transition()
-        if chain.current_state.__eq__("s0"):
+        if chain.current_state.__eq__(START_STATE_LABEL):
             chain.transition()
 
-        word, word_bits, mapping_dict = _encode_next_word(chain, wt_dict, prefix)
-        words.append((word, mapping_dict))
+        word, word_bits, encode_spaces = _encode_next_word(chain, wt_dict, prefix)
+        words.append((word, encode_spaces))
         bit_length = len(word_bits)
         prefix = prefix[bit_length:]
 
-    while not chain.current_state.__eq__("s0"):  # filler bits until s0 reached
-        chain.transition()
-        if chain.current_state.__eq__("s0"):
-            break
-        longest_word = get_longest_word_in_dictionary(wt_dict)
-        pseudo_random_bits = Bits(bin="".join(random.choice(["01"]) for _ in range(len(longest_word))))
-        word, word_bits, mapping_dict = _encode_next_word(chain, wt_dict, pseudo_random_bits)
-        words.append((word, mapping_dict))
+    if pad_text:
+        # add filler bits until s0 reached
+        while not chain.current_state.__eq__(START_STATE_LABEL):
+            chain.transition()
+            if chain.current_state.__eq__(START_STATE_LABEL):
+                break
+            longest_word = get_longest_word_in_dictionary(wt_dict)
+            pseudo_random_bits = Bits(bin="".join(random.choice(["0", "1"]) for _ in range(len(longest_word))))
+            word, word_bits, encode_spaces = _encode_next_word(chain, wt_dict, pseudo_random_bits)
+            words.append((word, encode_spaces))
 
     return words
 

@@ -78,7 +78,6 @@ class TestEncodeBits(unittest.TestCase):
         self.transitions.add(("s0", "stationery", 2))
         self.transitions.add(("animals", "x", 0.3))
         self.transitions.add(("animals", "stationery", 0.7))
-        self.transitions.add(("stationery", "s0", 0.5))
         self.transitions.add(("stationery", "x", 0.5))
         self.transitions.add(("x", "s0", 1))
         self.markov_chain.set_transitions(self.transitions)
@@ -94,9 +93,13 @@ class TestEncodeBits(unittest.TestCase):
     def test_encode_bits_as_string_padded(self):
         bits = Bits(bin="01")
         words = extended_coder.encode_bits_as_words(self.markov_chain, self.wt_dict, bits)
-        self.assertGreaterEqual(len(words), 1)  # s0 > stationery > s0
+        self.assertGreaterEqual(len(words), 2)  # s0 > stationery > x > s0
         self.assertLessEqual(len(words), 3)  # s0 > animals > stationery > x > s0
 
+    def test_encode_bits_as_string_no_pad(self):
+        bits = Bits(bin="01")
+        words = extended_coder.encode_bits_as_words(self.markov_chain, self.wt_dict, bits, False)
+        self.assertEqual(1, len(words))  # 1 word from stationery or animals
 
 
 class TestListToCoverText(unittest.TestCase):
