@@ -52,9 +52,36 @@ def decode_cover_text(wt_dict: WordTypeDictionary, cover_text: str, header_lengt
     if cover_text.__len__() == 0:
         return message
 
-    header = Bits()
-    while header.len < header_length:
-        pass
+    header_bits, trailing_bits, cover_text = fixed_size_decode(wt_dict, cover_text, header_length)
+    message_length = get_message_length_from_header(header_bits) - len(trailing_bits)
+    message = message.__add__(trailing_bits)
+
+    message = message.__add__(fixed_size_decode(wt_dict, cover_text, message_length)[0])
+
+    return message
+
+
+def fixed_size_decode(wt_dict: WordTypeDictionary, cover_text: str, data_length: int) -> \
+        Tuple[Bits, Bits, str]:
+    """
+    Given a valid cover text and word-type dictionary, retrieve the message of the desired length.
+    :param wt_dict: a dictionary of word-types
+    :param cover_text: a full or partial cover text containing the message
+    :param data_length: the exact number of bits that should be decoded from the cover text
+    :return: a tuple containing the retrieved message bits; trailing bits from the last word decoded (if any); and the
+    remaining cover text after decoding
+    """
+    message = Bits()
+    longest_word_length = len(get_longest_word_in_dictionary(wt_dict))
+    while message.len < data_length:
+        if cover_text.__len__() == 0:
+            raise ValueError("Cover text was too short for expected {} bits of data".format(data_length))
+        word, bits = get_word_from_cover_text(wt_dict, cover_text, longest_word_length)
+        message = message.__add__(bits)
+        cover_text = (cover_text[len(word):]).lstrip()
+    trailing_bits = message[data_length:]
+    message = message[:data_length]
+    return message, trailing_bits, cover_text
 
 
 def get_fixed_length_header(message_length: int, header_length: int) -> Bits:
@@ -94,7 +121,22 @@ def _stream_randomiser(bits: str) -> str:
     return "".join(bits)
 
 
-def get_word_from_cover_text(wt_dict: WordTypeDictionary, cover_text: str, word_length_bound: int) -> str:
+def get_longest_word_in_dictionary(wt_dict: WordTypeDictionary) -> str:
+    """
+    Find and return the longest word in the given dictionary, under any word-type. Makes no guarantees which of
+    several equally-longest words are returned.
+    :param wt_dict: the word-type dictionary
+    :return: the single longest word
+    """
+    longest = ""
+    longer = lambda x, y: x if len(x) > len(y) else y
+    for mapping in wt_dict.wt_dict.values():
+        wt_longest = reduce(longer, mapping.mappings)
+        longest = longer(wt_longest, longest)
+    return longest
+
+
+def get_word_from_cover_text(wt_dict: WordTypeDictionary, cover_text: str, word_length_bound: int) -> Tuple[str, Bits]:
     """
     Using a given word-type dictionary, retrieve and return the first word found in the cover text that exists in
     the dictionary. Assumes that the cover text has spaces between words, and all words not preceded by spaces (such as
@@ -102,7 +144,7 @@ def get_word_from_cover_text(wt_dict: WordTypeDictionary, cover_text: str, word_
     :param wt_dict: the dictionary of words
     :param cover_text: the cover text
     :param word_length_bound: the length of the longest word in the word-type dictionary, used to bound the search
-    :return: the first word found
+    :return: a tuple of the first word found and its bit string
     """
     if len(wt_dict.wt_dict.items()) == 0:
         raise ValueError("Given word-type dictionary was empty.")
@@ -113,16 +155,18 @@ def get_word_from_cover_text(wt_dict: WordTypeDictionary, cover_text: str, word_
     elif len(cover_text) < word_length_bound:
         word_length_bound = len(cover_text)
 
+    if cover_text[0].__eq__(" "):
+        cover_text = cover_text[1:]
     first_space_index = cover_text.find(" ", 1)
     if 0 < first_space_index < word_length_bound:
         word_length_bound = first_space_index
 
-    for word_length_bound in range(word_length_bound, 1, -1):
+    for word_length_bound in range(word_length_bound, 0, -1):
         word = cover_text[:word_length_bound]
         for mapping_dict in wt_dict.wt_dict.values():
             value = mapping_dict.mappings.get(word)
             if value is not None:
-                return word
+                return word, value
 
     raise ExtendedCoderError("Unable to find a word in the given cover text with the given parameters")
 
@@ -150,7 +194,7 @@ def words_to_cover_text(words: List[Tuple[str, bool]], capitalise_start=True) ->
     return cover_text
 
 
-def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits) -> list:
+def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits, pad_text=True) -> list:
     """
     Given a bit stream, a Markov chain, and a word-type dictionary, retrieve a corresponding list of words.
     Every state in the Markov chain, except the start state s0, must have a corresponding word-type in the given
@@ -162,6 +206,7 @@ def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: 
     :param chain: a Markov chain with states
     :param wt_dict: a corresponding dictionary of word-types
     :param bits: the input bits
+    :param pad_text: if true, generate cover text from random bits until the Markov chain reaches state s0
     :return: an ordered list of words encoded by the system
     """
     if bits is None or bits.__eq__(Bits()):
@@ -173,16 +218,32 @@ def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: 
         chain.transition()
         if chain.current_state.__eq__("s0"):
             chain.transition()
-        word_type = chain.get_current_word_type()
-        mapping_dict = wt_dict.wt_dict.get(word_type)
-        if mapping_dict is None:
-            raise ValueError("Unable to find mapping dictionary for word-type {}".format(word_type))
 
-        word = retrieve_word_from_mappings(prefix, mapping_dict, True)
-        words.append((word, mapping_dict.encode_spaces))
-        bit_length = len(mapping_dict.mappings.get(word))
+        word, word_bits, mapping_dict = _encode_next_word(chain, wt_dict, prefix)
+        words.append((word, mapping_dict))
+        bit_length = len(word_bits)
         prefix = prefix[bit_length:]
+
+    while not chain.current_state.__eq__("s0"):  # filler bits until s0 reached
+        chain.transition()
+        if chain.current_state.__eq__("s0"):
+            break
+        longest_word = get_longest_word_in_dictionary(wt_dict)
+        pseudo_random_bits = Bits(bin="".join(random.choice(["01"]) for _ in range(len(longest_word))))
+        word, word_bits, mapping_dict = _encode_next_word(chain, wt_dict, pseudo_random_bits)
+        words.append((word, mapping_dict))
+
     return words
+
+
+def _encode_next_word(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits) -> Tuple[str, Bits, bool]:
+    word_type = chain.get_current_word_type()
+    mapping_dict = wt_dict.wt_dict.get(word_type)
+    if mapping_dict is None:
+        raise ValueError("Unable to find mapping dictionary for word-type {}".format(word_type))
+
+    word = retrieve_word_from_mappings(bits, mapping_dict, True)
+    return word, mapping_dict.mappings.get(word), mapping_dict.encode_spaces
 
 
 def retrieve_word_from_mappings(bits: Bits, mapping_dict: MappingDictionary, allow_padding=True) -> str:

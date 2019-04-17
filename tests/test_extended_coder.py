@@ -89,7 +89,14 @@ class TestEncodeBits(unittest.TestCase):
         longest_bit_string = 3
         shortest_bit_string = 1
         self.assertGreaterEqual(len(words), -(-len(bits) // longest_bit_string))
-        self.assertLessEqual(len(words), -(-len(bits) // shortest_bit_string))
+        self.assertLessEqual(len(words), -(-len(bits) // shortest_bit_string) + 8)  # accounting for padding
+
+    def test_encode_bits_as_string_padded(self):
+        bits = Bits(bin="01")
+        words = extended_coder.encode_bits_as_words(self.markov_chain, self.wt_dict, bits)
+        self.assertGreaterEqual(len(words), 1)  # s0 > stationery > s0
+        self.assertLessEqual(len(words), 3)  # s0 > animals > stationery > x > s0
+
 
 
 class TestListToCoverText(unittest.TestCase):
@@ -273,7 +280,56 @@ class TestDecodeMessage(unittest.TestCase):
 
         self.wt_dict = WordTypeDictionary(self.input_dict)
 
+        self.longest_word = 9
+
     def test_get_word_from_cover_text(self):
         cover_text = "the scary dog. every funny telephone!"
-        word = extended_coder.get_word_from_cover_text(self.wt_dict, cover_text, 9)
-        self.assertEqual("the", word)
+        word = extended_coder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
+        self.assertTupleEqual(("the", Bits(bin="01")), word)
+
+    def test_get_word_from_cover_text_space(self):
+        cover_text = " the scary dog. every funny telephone!"
+        word = extended_coder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
+        self.assertEqual(("the", Bits(bin="01")), word)
+
+    def test_get_word_from_cover_text_punctuation(self):
+        cover_text = ". every funny telephone!"
+        word = extended_coder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
+        self.assertEqual((".", Bits(bin="1")), word)
+
+    def test_get_word_from_cover_text_final(self):
+        cover_text = "telephone"
+        word = extended_coder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
+        self.assertEqual(("telephone", Bits(bin="10")), word)
+
+    def test_get_longest_word_in_dictionary(self):
+        longest = extended_coder.get_longest_word_in_dictionary(self.wt_dict)
+        self.assertIn(longest, {"telephone", "beautiful"})
+
+    def test_fixed_size_decode(self):
+        cover_text = "the scary dog. every funny telephone!"
+        bits, trailing_bits, cover_text = extended_coder.fixed_size_decode(self.wt_dict, cover_text, 6)
+        self.assertEqual(Bits(bin="011011"), bits)
+        self.assertEqual(Bits(), trailing_bits)
+        self.assertEqual(". every funny telephone!", cover_text)
+
+    def test_fixed_size_decode_trailing(self):
+        cover_text = "the scary dog. every funny telephone!"
+        bits, trailing_bits, cover_text = extended_coder.fixed_size_decode(self.wt_dict, cover_text, 5)
+        self.assertEqual(Bits(bin="01101"), bits)
+        self.assertEqual(Bits(bin="1"), trailing_bits)
+        self.assertEqual(". every funny telephone!", cover_text)
+
+    def test_fixed_size_decode_short_message(self):
+        cover_text = "the scary dog"
+        self.assertRaises(ValueError, extended_coder.fixed_size_decode, self.wt_dict, cover_text, 7)
+
+    def test_decode_cover_text(self):
+        cover_text = "the scary funny roof."  # header = b011 = d6. total = b011011011
+        message = extended_coder.decode_cover_text(self.wt_dict, cover_text, 3)
+        self.assertEqual(Bits(bin="011011"), message)
+
+    def test_decode_cover_text_excess(self):
+        cover_text = "the scary funny roof."  # header = b01 = d3. total = b011011011
+        message = extended_coder.decode_cover_text(self.wt_dict, cover_text, 2)
+        self.assertEqual(Bits(bin="101"), message)
