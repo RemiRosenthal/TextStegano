@@ -7,8 +7,16 @@ from bitstring import Bits
 from stegano.markov import MarkovChain
 from stegano.wtdict import WordTypeDictionary, MappingDictionary
 
+DEFAULT_HEADER_LENGTH = 20
 
-def encode_message(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits, header_length=20) -> str:
+
+class ExtendedCoderError(Exception):
+    """Raised when something went logically wrong with a coding process."""
+    pass
+
+
+def encode_message(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits, header_length=DEFAULT_HEADER_LENGTH) -> \
+        str:
     """
     Given a header length, a secret message as bits, a Markov chain, and a word-type dictionary, encode a cover text
     including a header which contains the length of the message.
@@ -27,6 +35,26 @@ def encode_message(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits, 
     words = encode_bits_as_words(chain, wt_dict, full_message)
     cover_text = words_to_cover_text(words, True)
     return cover_text
+
+
+def decode_cover_text(wt_dict: WordTypeDictionary, cover_text: str, header_length=DEFAULT_HEADER_LENGTH) -> Bits:
+    """
+    Given a valid cover text containing a header, and the correct header length and word-type dictionary, retrieve the
+    secret message.
+    :param wt_dict: a dictionary of word-types
+    :param cover_text: the cover text consisting of a header and message
+    :param header_length: the pre-shared length, in bits, of the header
+    :return: the retrieved secret message as bits
+    """
+    if cover_text is None:
+        raise ValueError("Cover text cannot be None.")
+    message = Bits()
+    if cover_text.__len__() == 0:
+        return message
+
+    header = Bits()
+    while header.len < header_length:
+        pass
 
 
 def get_fixed_length_header(message_length: int, header_length: int) -> Bits:
@@ -64,6 +92,39 @@ def _stream_randomiser(bits: str) -> str:
     xor = lambda x: "1" if (int(x) != r.randint(0, 1)) else "0"
     bits = list(map(xor, bits))
     return "".join(bits)
+
+
+def get_word_from_cover_text(wt_dict: WordTypeDictionary, cover_text: str, word_length_bound: int) -> str:
+    """
+    Using a given word-type dictionary, retrieve and return the first word found in the cover text that exists in
+    the dictionary. Assumes that the cover text has spaces between words, and all words not preceded by spaces (such as
+    punctuation) are not a prefix or suffix of any other such word.
+    :param wt_dict: the dictionary of words
+    :param cover_text: the cover text
+    :param word_length_bound: the length of the longest word in the word-type dictionary, used to bound the search
+    :return: the first word found
+    """
+    if len(wt_dict.wt_dict.items()) == 0:
+        raise ValueError("Given word-type dictionary was empty.")
+    if word_length_bound == 0:
+        raise ValueError("Given word length upper bound cannot be 0.")
+    if len(cover_text) == 0:
+        raise ValueError("Given cover text was empty.")
+    elif len(cover_text) < word_length_bound:
+        word_length_bound = len(cover_text)
+
+    first_space_index = cover_text.find(" ", 1)
+    if 0 < first_space_index < word_length_bound:
+        word_length_bound = first_space_index
+
+    for word_length_bound in range(word_length_bound, 1, -1):
+        word = cover_text[:word_length_bound]
+        for mapping_dict in wt_dict.wt_dict.values():
+            value = mapping_dict.mappings.get(word)
+            if value is not None:
+                return word
+
+    raise ExtendedCoderError("Unable to find a word in the given cover text with the given parameters")
 
 
 def words_to_cover_text(words: List[Tuple[str, bool]], capitalise_start=True) -> str:

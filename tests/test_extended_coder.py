@@ -235,3 +235,45 @@ class TestEncodeMessage(unittest.TestCase):
         header_length = 6
         self.assertRaises(ValueError, extended_coder.encode_message, self.markov_chain, self.wt_dict, bits,
                           header_length)
+
+
+class TestDecodeMessage(unittest.TestCase):
+    def setUp(self):
+        self.mappings = set()
+        self.mappings.add(("a", Bits(bin="00")))
+        self.mappings.add(("the", Bits(bin="01")))
+        self.mappings.add(("this", Bits(bin="10")))
+        self.mappings.add(("every", Bits(bin="11")))
+        self.mapping_dict = MappingDictionary(self.mappings)
+        self.input_dict = {"determiners": self.mapping_dict}
+
+        self.mappings = set()
+        self.mappings.add(("scary", Bits(bin="10")))
+        self.mappings.add(("big", Bits(bin="01")))
+        self.mappings.add(("golden", Bits(bin="001")))
+        self.mappings.add(("beautiful", Bits(bin="0001")))
+        self.mappings.add(("funny", Bits(bin="11")))
+        self.mapping_dict = MappingDictionary(self.mappings)
+        self.input_dict.update({"adjectives": self.mapping_dict})
+
+        self.mappings = set()
+        self.mappings.add(("dog", Bits(bin="11")))
+        self.mappings.add(("telephone", Bits(bin="10")))
+        self.mappings.add(("roof", Bits(bin="01")))
+        self.mappings.add(("sky", Bits(bin="00")))
+        self.mapping_dict = MappingDictionary(self.mappings)
+        self.input_dict.update({"nouns": self.mapping_dict})
+
+        self.mappings = set()
+        self.mappings.add((".", Bits(bin="1")))
+        self.mappings.add(("!", Bits(bin="00")))
+        self.mappings.add(("?", Bits(bin="01")))
+        self.mapping_dict = MappingDictionary(self.mappings, False)
+        self.input_dict.update({"punctuation": self.mapping_dict})
+
+        self.wt_dict = WordTypeDictionary(self.input_dict)
+
+    def test_get_word_from_cover_text(self):
+        cover_text = "the scary dog. every funny telephone!"
+        word = extended_coder.get_word_from_cover_text(self.wt_dict, cover_text, 9)
+        self.assertEqual("the", word)
