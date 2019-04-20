@@ -1,0 +1,13274 @@
+ the,771
+the ,645
+ of ,505
+and ,400
+ and,387
+tion,293
+ing ,267
+ to ,239
+ cha,208
+ion ,194
+chan,191
+ in ,183
+ent ,182
+of t,181
+ment,179
+atio,173
+ tha,173
+n th,171
+f th,168
+hat ,163
+ is ,153
+that,147
+s th,134
+ pro,134
+s of,131
+anne,131
+hann,129
+nnel,129
+ for,124
+e of,123
+tern,113
+. Th,110
+ are,103
+e th,102
+atte,100
+ The,99
+tter,99
+ ind,96
+alle,95
+ted ,95
+in t,95
+ure ,94
+are ,93
+, 19,91
+, an,90
+lley,88
+nel ,88
+ be ,87
+ con,86
+d th,84
+ as ,82
+t of,82
+ com,82
+for ,81
+ive ,79
+form,78
+ther,78
+e in,78
+The ,77
+ pat,77
+s an,76
+ str,76
+tive,76
+patt,76
+on o,75
+ange,75
+iver,74
+ res,74
+stre,74
+ed t,74
+ions,73
+igur,73
+gure,73
+e re,73
+Figu,72
+t th,72
+trea,71
+ream,71
+ess ,71
+nd t,70
+ill ,69
+re 2,69
+e 2.,69
+ or ,69
+ can,68
+ wil,68
+will,68
+he s,68
+s in,68
+, th,68
+ers ,67
+care,67
+ting,66
+nce ,66
+ car,66
+aree,66
+reer,66
+can ,65
+hang,64
+he c,63
+n of,63
+ by ,63
+ng t,62
+ver ,61
+ley ,61
+ity ,61
+ern ,61
+es a,60
+grad,60
+es o,59
+s ca,59
+ound,59
+rive,58
+ated,58
+ence,58
+acti,57
+sion,57
+he r,56
+evel,56
+ on ,55
+his ,55
+vall,55
+here,55
+work,55
+ wit,54
+with,54
+r th,54
+ riv,53
+ val,53
+eam ,53
+t is,53
+rom ,53
+ctiv,52
+d to,52
+ rel,52
+of a,51
+from,51
+load,51
+mple,50
+ith ,50
+elat,50
+efor,49
+e pr,49
+ng a,49
+e ch,49
+ fro,49
+rela,49
+ial ,48
+emen,48
+he f,48
+. In,48
+ctio,48
+ thi,48
+less,48
+vide,48
+ dis,47
+ustr,47
+ture,47
+cont,47
+ed b,46
+thei,46
+heir,46
+eir ,46
+ons ,45
+nal ,45
+s ar,45
+g th,45
+ate ,45
+comp,45
+ring,45
+ wor,45
+ act,44
+ (Fi,44
+(Fig,44
+ient,44
+her ,44
+imen,44
+oad ,44
+ed a,44
+ndar,44
+boun,44
+unda,44
+orma,43
+radi,43
+ In ,43
+sed ,43
+he p,43
+e co,43
+nder,43
+ter ,43
+akes,42
+indu,42
+e an,42
+ple ,42
+ndus,42
+ def,41
+ gra,41
+on t,41
+ies ,41
+lear,41
+he l,41
+onal,41
+ thr,41
+s to,41
+dust,41
+mati,40
+ult ,40
+ bas,40
+s a ,40
+ lak,40
+lake,40
+ecti,40
+to t,40
+er, ,40
+es t,40
+dary,40
+n an,39
+ tec,39
+ake ,39
+ it ,39
+ may,39
+cal ,39
+ning,39
+er t,39
+d by,39
+port,39
+lope,39
+onic,38
+ents,38
+d in,38
+may ,38
+osit,38
+he e,38
+es, ,38
+ a s,38
+ whi,38
+indi,38
+lati,38
+ded ,38
+ bou,38
+aryl,38
+ryle,38
+yles,38
+ 2.1,37
+kes ,37
+ical,37
+ect ,37
+on. ,37
+this,37
+o th,37
+cess,37
+sing,37
+ slo,37
+eopl,37
+ople,37
+rmat,36
+on a,36
+ecto,36
+he d,36
+lace,36
+resu,36
+esul,36
+sult,36
+itio,36
+ich ,36
+ere ,36
+on, ,36
+of c,36
+prov,36
+ exa,35
+cton,35
+toni,35
+s, a,35
+e st,35
+ an ,35
+ce o,35
+or t,35
+ide ,35
+t in,35
+ inc,35
+whic,35
+hich,35
+dime,35
+y an,35
+one ,35
+ not,35
+nge ,35
+leve,35
+rovi,35
+ lea,35
+ss c,35
+n be,34
+al s,34
+nts ,34
+adie,34
+dien,34
+reas,34
+ (19,34
+er a,34
+erns,34
+iona,34
+ough,34
+tmen,34
+vel ,34
+ Val,34
+eers,34
+exam,33
+tect,33
+plac,33
+ault,33
+late,33
+crea,33
+). T,33
+to a,33
+long,33
+ion.,33
+nels,33
+inte,33
+base,33
+s fo,33
+ sin,33
+d ch,33
+e to,33
+slop,33
+ 199,33
+ovid,33
+Vall,33
+ sta,32
+cial,32
+in a,32
+ding,32
+edim,32
+est ,32
+r ex,32
+ at ,32
+at t,32
+ativ,32
+is a,32
+ally,32
+lect,32
+iden,32
+our ,32
+he i,32
+ fil,32
+vers,31
+rate,31
+nd a,31
+soci,31
+ocia,31
+is t,31
+h th,31
+ion,,31
+sedi,31
+le, ,31
+ges ,31
+ract,31
+inuo,31
+ mea,31
+ exp,31
+ende,31
+stry,31
+xamp,30
+ampl,30
+e wi,30
+ater,30
+defo,30
+ace ,30
+ hav,30
+have,30
+ave ,30
+epen,30
+nd s,30
+ces ,30
+ par,30
+ sed,30
+ous ,30
+ever,30
+ whe,30
+ per,30
+es. ,30
+ one,30
+nd c,30
+not ,30
+comm,30
+peop,30
+earn,30
+ all,29
+an b,29
+ typ,29
+age ,29
+he v,29
+e va,29
+ral ,29
+ a c,29
+s co,29
+part,29
+caus,29
+ause,29
+use ,29
+ance,29
+he a,29
+viou,29
+els ,29
+ely ,29
+rati,29
+mean,29
+stan,29
+ject,29
+olog,29
+denc,29
+ int,29
+nter,29
+ peo,29
+film,29
+ore ,28
+of s,28
+e fo,28
+ Fig,28
+ fau,28
+faul,28
+ltin,28
+ flo,28
+asin,28
+truc,28
+ruct,28
+but ,28
+nt o,28
+pend,28
+ mor,28
+he m,28
+ loa,28
+sinu,28
+ tra,28
+ugh ,28
+, in,28
+enac,28
+nact,28
+proj,28
+roje,28
+ojec,28
+type,27
+ve t,27
+e de,27
+hese,27
+ese ,27
+stru,27
+ but,27
+ong ,27
+t to,27
+or e,27
+een ,27
+proc,27
+ beh,27
+ande,27
+y of,27
+roug,27
+ope ,27
+hey ,27
+ mov,26
+stra,26
+ed i,26
+ sho,26
+ned ,26
+In t,26
+ dow,26
+down,26
+all ,26
+uctu,26
+ctur,26
+nt a,26
+ower,26
+arge,26
+n a ,26
+thro,26
+, wh,26
+its ,26
+ight,26
+ 198,26
+is c,26
+at a,26
+lly ,26
+eer ,26
+ emp,26
+s on,25
+e is,25
+tly ,25
+ inf,25
+re, ,25
+ics ,25
+hrou,25
+red ,25
+ dra,25
+try ,25
+ ena,25
+l be,24
+move,24
+ng o,24
+y be,24
+ffec,24
+fect,24
+d an,24
+nstr,24
+ties,24
+, bu,24
+ suc,24
+uch ,24
+r an,24
+t a ,24
+ple,,24
+ear ,24
+ver,,24
+beha,24
+ehav,24
+havi,24
+rns ,24
+eand,24
+ided,24
+ ter,24
+velo,24
+of b,24
+e te,24
+rain,24
+race,24
+ we ,24
+king,24
+tilt,23
+out ,23
+ased,23
+side,23
+itie,23
+y th,23
+e lo,23
+rada,23
+adat,23
+dati,23
+. Fi,23
+e, a,23
+e be,23
+e ma,23
+avio,23
+t be,23
+re a,23
+ed-l,23
+d-lo,23
+-loa,23
+sity,23
+he b,23
+ork ,23
+ontr,23
+nage,23
+over,23
+empl,23
+d co,23
+ soc,23
+actm,23
+ctme,23
+nd r,22
+spec,22
+les ,22
+luvi,22
+e di,22
+an a,22
+, as,22
+disp,22
+floo,22
+nt i,22
+ ste,22
+he t,22
+ rea,22
+t al,22
+hen ,22
+than,22
+nt t,22
+nd i,22
+icat,22
+e ar,22
+t an,22
+ bec,22
+as a,22
+more,22
+ed o,22
+der ,22
+al c,22
+char,22
+re t,22
+erin,22
+brai,22
+raid,22
+ dev,22
+e fi,22
+1996,22
+ reg,22
+l in,22
+ndiv,22
+divi,22
+ivid,22
+vidu,22
+idua,22
+dual,22
+rnin,22
+cts ,21
+ts o,21
+lluv,21
+ll b,21
+ed. ,21
+eral,21
+pe o,21
+rodu,21
+oduc,21
+ has,21
+has ,21
+enti,21
+han ,21
+each,21
+erat,21
+nd d,21
+n in,21
+terr,21
+nges,21
+or a,21
+roce,21
+s. T,21
+nt l,21
+el p,21
+l pa,21
+deve,21
+elop,21
+e pa,21
+ns o,21
+ries,21
+othe,21
+ey a,21
+erra,21
+rrac,21
+ you,21
+sele,21
+arni,21
+fore,20
+uvia,20
+ pre,20
+pres,20
+teri,20
+ispl,20
+spla,20
+ ass,20
+ til,20
+e la,20
+ eff,20
+effe,20
+prod,20
+thes,20
+e en,20
+ilit,20
+loca,20
+ low,20
+elev,20
+on i,20
+er i,20
+r in,20
+ a r,20
+e le,20
+nt, ,20
+e si,20
+ift ,20
+ual ,20
+ For,20
+For ,20
+oces,20
+t lo,20
+ng s,20
+aide,20
+ty o,20
+s be,20
+ad c,20
+nuos,20
+uosi,20
+to b,20
+ns, ,20
+unde,20
+ome ,20
+ribu,20
+ibut,20
+ary ,20
+s is,20
+they,20
+drai,20
+n Va,20
+mplo,20
+ploy,20
+iour,20
+icon,20
+ommu,20
+mmun,20
+muni,20
+vial,19
+ed, ,19
+ceme,19
+ulti,19
+ing,,19
+ng, ,19
+, or,19
+ent.,19
+nt. ,19
+ upl,19
+plif,19
+lift,19
+eepe,19
+e ca,19
+ease,19
+diti,19
+ures,19
+ain ,19
+bili,19
+lity,19
+s re,19
+ alo,19
+alon,19
+ occ,19
+occu,19
+ndic,19
+ Riv,19
+Rive,19
+ var,19
+ dep,19
+nly ,19
+. Fo,19
+any ,19
+time,19
+re o,19
+ng c,19
+s su,19
+f ch,19
+incr,19
+ncre,19
+rs a,19
+stem,19
+trib,19
+nics,19
+aina,19
+inag,19
+rs. ,19
+als ,19
+Lake,19
+ new,19
+orga,19
+rgan,19
+gani,19
+Sili,19
+ilic,19
+lico,19
+con ,19
+on V,19
+nic ,18
+n al,18
+, a ,18
+of r,18
+rese,18
+of d,18
+e su,18
+rent,18
+acem,18
+e se,18
+s wi,18
+upli,18
+ ups,18
+pstr,18
+stee,18
+teep,18
+d re,18
+as t,18
+ns a,18
+n to,18
+cros,18
+ agg,18
+aggr,18
+lowe,18
+ lar,18
+larg,18
+rge ,18
+ its,18
+ine ,18
+cati,18
+stab,18
+vari,18
+ects,18
+depe,18
+l ca,18
+a re,18
+se t,18
+ onl,18
+only,18
+wher,18
+ hig,18
+high,18
+o be,18
+cent,18
+at i,18
+Schu,18
+chum,18
+humm,18
+ve a,18
+nded,18
+ bed,18
+y in,18
+ pla,18
+ge o,18
+ly a,18
+an, ,18
+r pa,18
+Patt,18
+ des,18
+e ne,18
+ers.,18
+abou,18
+te t,18
+ng i,18
+ Lak,18
+pers,18
+nmen,18
+ Sil,18
+r re,17
+resp,17
+re s,17
+ific,17
+allu,17
+ts t,17
+an t,17
+ dif,17
+diff,17
+essi,17
+s ma,17
+ay b,17
+rtic,17
+tica,17
+upst,17
+m of,17
+e fa,17
+posi,17
+e mo,17
+duce,17
+s, t,17
+ross,17
+reat,17
+ loc,17
+l st,17
+duct,17
+ a d,17
+a la,17
+dica,17
+m th,17
+art ,17
+se o,17
+gest,17
+ cau,17
+ed c,17
+serv,17
+he S,17
+owev,17
+weve,17
+tant,17
+ant ,17
+conc,17
+n, 1,17
+ app,17
+ust ,17
+e ba,17
+ bra,17
+e al,17
+peri,17
+ 197,17
+thin,17
+re i,17
+, p.,17
+ p. ,17
+ey s,17
+is i,17
+what,17
+ evi,17
+evid,17
+t re,17
+regi,17
+egio,17
+gion,17
+des ,17
+nian,17
+he w,17
+orde,17
+firm,17
+ see,17
+ env,17
+envi,17
+nvir,17
+viro,17
+iron,17
+ronm,17
+onme,17
+al r,16
+ Thi,16
+This,16
+ssio,16
+ sur,16
+ffer,16
+loor,16
+tera,16
+d be,16
+he u,16
+th t,16
+he o,16
+ble ,16
+s ha,16
+basi,16
+y to,16
+er s,16
+rms ,16
+orm ,16
+e a ,16
+om t,16
+ sup,16
+ sim,16
+r to,16
+t ch,16
+siti,16
+show,16
+ tim,16
+res ,16
+land,16
+ als,16
+also,16
+lso ,16
+e ri,16
+l ch,16
+ntly,16
+rs t,16
+rang,16
+y sl,16
+dent,16
+es i,16
+it i,16
+ und,16
+o a ,16
+ sys,16
+syst,16
+yste,16
+ wha,16
+aces,16
+tic ,16
+ymen,16
+logi,16
+inde,16
+ster,16
+ria ,16
+ost ,16
+new ,16
+expl,16
+rder,16
+ders,16
+pect,16
+ man,16
+unit,16
+spon,15
+tivi,15
+ivit,15
+tage,15
+ tak,15
+take,15
+nt f,15
+ilti,15
+nd w,15
+g of,15
+nt s,15
+ rec,15
+). I,15
+e, t,15
+e gr,15
+oth ,15
+atur,15
+owns,15
+wnst,15
+n re,15
+ggra,15
+ ero,15
+niti,15
+ccur,15
+s. I,15
+ a l,15
+cate,15
+. Ho,15
+rt o,15
+ious,15
+) an,15
+ly s,15
+an e,15
+infl,15
+nflu,15
+flue,15
+luen,15
+ bee,15
+ rat,15
+by t,15
+ntra,15
+of e,15
+refo,15
+isti,15
+g a ,15
+deri,15
+ sha,15
+ent,,15
+nd b,15
+of p,15
+onst,15
+er p,15
+er. ,15
+escr,15
+scri,15
+ a m,15
+logy,15
+come,15
+ved ,15
+ingl,15
+n is,15
+ fir,15
+tati,15
+just,15
+ mar,15
+ides,15
+er o,15
+nden,15
+s pr,15
+know,15
+asel,15
+e wo,15
+ency,15
+anis,15
+Saxe,15
+axen,15
+xeni,15
+enia,15
+tech,15
+echn,15
+rker,15
+espo,14
+ a b,14
+t fo,14
+lust,14
+trat,14
+d as,14
+iate,14
+ed w,14
+d wi,14
+ress,14
+e or,14
+ype ,14
+ould,14
+y re,14
+t wi,14
+al t,14
+ bot,14
+ines,14
+eams,14
+t pr,14
+eros,14
+rosi,14
+osio,14
+wer ,14
+ce a,14
+lt o,14
+f a ,14
+ cou,14
+ght ,14
+ows ,14
+rect,14
+able,14
+ sug,14
+sugg,14
+ugge,14
+gges,14
+ed f,14
+ount,14
+d a ,14
+e on,14
+been,14
+stri,14
+ut t,14
+ates,14
+tes ,14
+al a,14
+own ,14
+ivel,14
+vely,14
+ile ,14
+ts a,14
+ How,14
+to d,14
+eref,14
+ore,,14
+hara,14
+arac,14
+acte,14
+cter,14
+nd p,14
+trai,14
+t ar,14
+tran,14
+rans,14
+ a t,14
+abil,14
+enta,14
+ntal,14
+ied ,14
+ensi,14
+ed l,14
+ bet,14
+). F,14
+aria,14
+tal ,14
+urin,14
+t co,14
+to m,14
+ompa,14
+ sub,14
+tain,14
+th o,14
+996),14
+at p,14
+ oth,14
+ who,14
+ was,14
+was ,14
+prof,14
+g in,14
+e so,14
+al p,14
+genc,14
+s no,14
+ia l,14
+ses ,14
+nd e,14
+ ove,14
+es f,14
+ly, ,14
+ptio,14
+ppor,14
+ship,14
+ss o,14
+maki,14
+akin,14
+e Si,14
+ilm ,14
+ian,,14
+ples,13
+l ri,13
+ypes,13
+pes ,13
+f te,13
+rs, ,13
+nd m,13
+d ma,13
+ovem,13
+veme,13
+iffe,13
+fere,13
+eren,13
+t ca,13
+g an,13
+ey f,13
+y fl,13
+ ver,13
+vert,13
+uld ,13
+e up,13
+ opp,13
+oppo,13
+l re,13
+rs o,13
+of f,13
+both,13
+ward,13
+ sid,13
+in r,13
+ucti,13
+ cro,13
+by a,13
+en t,13
+reac,13
+ur. ,13
+ eve,13
+ dir,13
+dire,13
+irec,13
+ne t,13
+ly b,13
+such,13
+tabl,13
+erve,13
+entl,13
+eris,13
+s ex,13
+atin,13
+ alt,13
+erna,13
+ars ,13
+s ch,13
+in c,13
+. It,13
+ It ,13
+expe,13
+erim,13
+g to,13
+bed ,13
+ined,13
+betw,13
+etwe,13
+twee,13
+ween,13
+s fr,13
+a co,13
+tudi,13
+n ch,13
+at c,13
+to s,13
+re r,13
+ct t,13
+like,13
+ogy ,13
+ng p,13
+et a,13
+y ar,13
+er c,13
+med ,13
+s de,13
+ adj,13
+rthe,13
+ce i,13
+ sel,13
+issi,13
+fter,13
+r co,13
+ col,13
+coll,13
+s, i,13
+cept,13
+he V,13
+e wh,13
+of i,13
+ ord,13
+ness,13
+nfor,13
+ompe,13
+cro-,13
+ ope,13
+arke,13
+t fi,13
+ (Sa,13
+(Sax,13
+orke,13
+ imp,12
+d, a,12
+mate,12
+ fol,12
+f de,12
+fici,12
+mic ,12
+sive,12
+at d,12
+t. T,12
+ite ,12
+he g,12
+e ef,12
+inal,12
+educ,12
+nt (,12
+line,12
+n ad,12
+ss t,12
+plai,12
+lain,12
+ams ,12
+n or,12
+on w,12
+ven ,12
+even,12
+of m,12
+d de,12
+ced ,12
+beca,12
+ecau,12
+ch a,12
+arti,12
+l pr,12
+ll c,12
+s, w,12
+tual,12
+e fr,12
+uenc,12
+l an,12
+esse,12
+n wh,12
+ cle,12
+clea,12
+ce, ,12
+y fo,12
+Howe,12
+7). ,12
+stic,12
+ls t,12
+d on,12
+raig,12
+aigh,12
+l wi,12
+d st,12
+d lo,12
+e tr,12
+el c,12
+th a,12
+cons,12
+onti,12
+ntin,12
+rn t,12
+ dur,12
+ge. ,12
+nd h,12
+olle,12
+ch t,12
+ ref,12
+desc,12
+el w,12
+t de,12
+ty. ,12
+aint,12
+ves ,12
+appe,12
+es c,12
+r a ,12
+ge i,12
+ly c,12
+he n,12
+ct o,12
+ et ,12
+ al.,12
+6). ,12
+(199,12
+st t,12
+r ca,12
+ net,12
+netw,12
+etwo,12
+twor,12
+ abo,12
+rs i,12
+ose ,12
+adju,12
+djus,12
+s wh,12
+al i,12
+area,12
+ogic,12
+s as,12
+ors ,12
+ Bas,12
+ ria,12
+h of,12
+e bo,12
+ kno,12
+oor ,12
+y is,12
+-lev,12
+, it,12
+f in,12
+nd o,12
+ncy ,12
+ org,12
+loym,12
+oyme,12
+onsh,12
+nshi,12
+mark,12
+e Va,12
+mpan,12
+pons,11
+disc,11
+f re,11
+ic a,11
+y, t,11
+sent,11
+stag,11
+llow,11
+ts i,11
+as i,11
+al f,11
+l di,11
+at w,11
+es (,11
+ add,11
+ fea,11
+be t,11
+acro,11
+ocal,11
+or c,11
+degr,11
+egra,11
+nt p,11
+er e,11
+ sma,11
+smal,11
+mall,11
+ a f,11
+of v,11
+ours,11
+nd l,11
+n on,11
+ arr,11
+rrow,11
+ach ,11
+Ther,11
+t, a,11
+ed s,11
+d se,11
+t su,11
+ce t,11
+self,11
+. A ,11
+ocat,11
+es w,11
+ng w,11
+ amo,11
+simp,11
+impl,11
+e ob,11
+ve b,11
+oint,11
+a st,11
+nds ,11
+sses,11
+ ext,11
+ 196,11
+n ca,11
+impo,11
+mpor,11
+r be,11
+once,11
+entr,11
+o de,11
+alte,11
+lter,11
+nate,11
+ bar,11
+nuou,11
+uous,11
+term,11
+al e,11
+city,11
+xper,11
+ (Sc,11
+(Sch,11
+ifie,11
+fied,11
+gh t,11
+er d,11
+, de,11
+orti,11
+n de,11
+m, 1,11
+h as,11
+thre,11
+ gen,11
+ve i,11
+3). ,11
+ng e,11
+volv,11
+olve,11
+4). ,11
+ Pat,11
+ns. ,11
+nces,11
+crib,11
+ribe,11
+or p,11
+ ide,11
+ As ,11
+to c,11
+at o,11
+is d,11
+y co,11
+n, a,11
+al.,,11
+l., ,11
+., 1,11
+s. A,11
+pose,11
+ lon,11
+ mod,11
+iati,11
+bout,11
+ age,11
+tanc,11
+or s,11
+ len,11
+leng,11
+engt,11
+ngth,11
+who ,11
+isio,11
+outh,11
+ista,11
+el i,11
+ aft,11
+afte,11
+econ,11
+urs ,11
+clus,11
+nati,11
+act ,11
+llec,11
+is o,11
+Basi,11
+sin ,11
+ rep,11
+mont,11
+ts. ,11
+ exc,11
+succ,11
+ucce,11
+cces,11
+ sen,11
+info,11
+e li,11
+nclu,11
+see ,11
+sist,11
+ job,11
+ We ,11
+sati,11
+hips,11
+ro-l,11
+o-le,11
+trie,11
+rket,11
+isin,11
+Weic,11
+eick,11
+oper,11
+pera,11
+ndep,11
+irms,11
+chno,11
+hnol,11
+nolo,11
+pany,11
+unio,11
+nion,11
+onse,10
+peci,10
+be d,10
+ rev,10
+ers,,10
+esen,10
+is b,10
+or d,10
+e as,10
+ lat,10
+al d,10
+ly r,10
+t ma,10
+is s,10
+case,10
+se, ,10
+ped ,10
+addi,10
+ddit,10
+ard ,10
+ossi,10
+ng f,10
+ deg,10
+t st,10
+ffic,10
+flow,10
+ches,10
+hes ,10
+e do,10
+n pr,10
+ll a,10
+he h,10
+lar ,10
+ompl,10
+to p,10
+er f,10
+f an,10
+ obs,10
+obse,10
+bser,10
+poin,10
+main,10
+y ch,10
+used,10
+e ex,10
+nd f,10
+owin,10
+wing,10
+er b,10
+It i,10
+a si,10
+le c,10
+f se,10
+rnat,10
+g ch,10
+e sh,10
+ pow,10
+powe,10
+ying,10
+m an,10
+d mo,10
+ving,10
+ mix,10
+e no,10
+el a,10
+umm,,10
+mm, ,10
+ree ,10
+ies.,10
+duri,10
+tend,10
+s, p,10
+how ,10
+efle,10
+flec,10
+el. ,10
+. As,10
+ity.,10
+ppea,10
+pear,10
+s. S,10
+beco,10
+ecom,10
+when,10
+ tri,10
+at s,10
+. An,10
+se a,10
+ache,10
+ geo,10
+orme,10
+n co,10
+geme,10
+e dr,10
+hose,10
+ling,10
+atic,10
+them,10
+metr,10
+n ex,10
+erge,10
+dist,10
+elle,10
+9). ,10
+uste,10
+inat,10
+ctor,10
+tors,10
+tand,10
+gate,10
+ncep,10
+stin,10
+ts, ,10
+aine,10
+e, i,10
+ fac,10
+of w,10
+e it,10
+ike ,10
+ise ,10
+rest,10
+most,10
+sens,10
+e’s ,10
+assu,10
+ssum,10
+uati,10
+athe,10
+ngin,10
+ies,,10
+onom,10
+ gui,10
+guid,10
+uide,10
+arch,10
+agen,10
+uals,10
+. We,10
+ sit,10
+ cre,10
+you ,10
+ do ,10
+ry. ,10
+mpet,10
+y’s ,10
+’ (S,10
+ilm-,10
+lm-m,10
+m-ma,10
+-mak,10
+er r,9
+nse ,9
+vity,9
+und ,9
+r de,9
+led ,9
+ns t,9
+foll,9
+ollo,9
+surf,9
+ms, ,9
+ciat,9
+or i,9
+be a,9
+e ti,9
+t di,9
+r of,9
+erti,9
+easi,9
+lock,9
+am o,9
+ed (,9
+ cas,9
+. Pa,9
+y pr,9
+ red,9
+redu,9
+t (F,9
+ins ,9
+s (F,9
+ural,9
+ ent,9
+ gre,9
+. Wh,9
+ Whe,9
+n wi,9
+of l,9
+vati,9
+icie,9
+cien,9
+e ag,9
+d it,9
+low ,9
+urfa,9
+rfac,9
+face,9
+d la,9
+n ri,9
+arro,9
+ase ,9
+d gr,9
+n up,9
+st, ,9
+am p,9
+. Re,9
+supp,9
+n, t,9
+e un,9
+re c,9
+ngle,9
+rall,9
+to r,9
+ime ,9
+rved,9
+ poi,9
+ mai,9
+f st,9
+on c,9
+an i,9
+ly o,9
+ly t,9
+rist,9
+st b,9
+ wid,9
+ings,9
+d tr,9
+al b,9
+ve s,9
+ty a,9
+ocit,9
+r, a,9
+le t,9
+rime,9
+rted,9
+2). ,9
+ acc,9
+rdin,9
+uspe,9
+spen,9
+bed-,9
+rtio,9
+t on,9
+o an,9
+n. A,9
+nt b,9
+el l,9
+d va,9
+gene,9
+ener,9
+nera,9
+sts ,9
+tinu,9
+ stu,9
+stud,9
+ wat,9
+wate,9
+l th,9
+ 2.4,9
+exte,9
+temp,9
+ how,9
+t pa,9
+ibed,9
+eate,9
+f ba,9
+ lik,9
+ns f,9
+buta,9
+utar,9
+y se,9
+utio,9
+hing,9
+osed,9
+y a ,9
+is p,9
+ clu,9
+f ac,9
+modi,9
+odif,9
+rmed,9
+arra,9
+rran,9
+ngem,9
+ips ,9
+ages,9
+nce,,9
+ tho,9
+thos,9
+t we,9
+were,9
+ell ,9
+ asy,9
+asym,9
+symm,9
+ymme,9
+mmet,9
+rofi,9
+ofil,9
+file,9
+inci,9
+ry i,9
+rea ,9
+elec,9
+nity,9
+ered,9
+5). ,9
+sign,9
+ch i,9
+esti,9
+epre,9
+ters,9
+is f,9
+fact,9
+call,9
+xpla,9
+ng b,9
+de t,9
+terp,9
+ muc,9
+much,9
+f co,9
+well,9
+gth ,9
+ mos,9
+le a,9
+o ma,9
+l le,9
+ if ,9
+ve c,9
+l co,9
+st i,9
+ch s,9
+ley,,9
+ey, ,9
+n, p,9
+d wh,9
+weak,9
+cono,9
+forc,9
+, pe,9
+life,9
+icro,9
+turn,9
+situ,9
+itua,9
+tuat,9
+labo,9
+nisi,9
+s. W,9
+ hos,9
+host,9
+try.,9
+alis,9
+ a ‘,9
+p. 2,9
+cifi,8
+iscu,8
+scus,8
+cuss,8
+view,8
+f ri,8
+ted.,8
+back,8
+roun,8
+l se,8
+ det,8
+orms,8
+be s,8
+asso,8
+ssoc,8
+ping,8
+ults,8
+lts ,8
+ off,8
+set ,8
+ blo,8
+bloc,8
+site,8
+ll r,8
+e sa,8
+ame ,8
+t as,8
+s or,8
+In a,8
+l of,8
+feat,8
+eatu,8
+y ma,8
+oss ,8
+ey t,8
+de o,8
+n (F,8
+ pos,8
+grea,8
+ond ,8
+When,8
+init,8
+), a,8
+to i,8
+ If ,8
+ms a,8
+ts c,8
+on b,8
+fold,8
+ge a,8
+ eac,8
+st a,8
+ two,8
+two ,8
+ mig,8
+h a ,8
+a lo,8
+nsta,8
+d fo,8
+amou,8
+e, s,8
+on (,8
+ilt ,8
+depo,8
+epos,8
+ shi,8
+shif,8
+hift,8
+eas ,8
+gle ,8
+el t,8
+l to,8
+e at,8
+as f,8
+s fa,8
+e ra,8
+ flu,8
+lt i,8
+r, t,8
+f al,8
+tics,8
+ bes,8
+best,8
+fica,8
+ic c,8
+bars,8
+ming,8
+ls, ,8
+r at,8
+ds t,8
+e me,8
+nsit,8
+tabi,8
+ nor,8
+shap,8
+o re,8
+oad,,8
+ad, ,8
+as b,8
+ansp,8
+nspo,8
+spor,8
+umm ,8
+ordi,8
+ sus,8
+ded-,8
+ixed,8
+ls (,8
+nsio,8
+fine,8
+l as,8
+ Cha,8
+ty i,8
+). A,8
+, wi,8
+ ran,8
+at r,8
+rn c,8
+s at,8
+ Sch,8
+ inv,8
+h in,8
+r. T,8
+tial,8
+ared,8
+y. T,8
+ (Pa,8
+ tru,8
+ giv,8
+give,8
+s it,8
+mpos,8
+re n,8
+titi,8
+morp,8
+orph,8
+ ano,8
+tary,8
+ntri,8
+ ana,8
+stom,8
+inin,8
+96).,8
+d of,8
+difi,8
+ast ,8
+riat,8
+ge p,8
+es d,8
+ dem,8
+illi,8
+ls a,8
+ ins,8
+an u,8
+re d,8
+t, t,8
+ som,8
+some,8
+ncis,8
+cisi,8
+ cap,8
+ly d,8
+conv,8
+onve,8
+ubsi,8
+bsid,8
+d so,8
+ sou,8
+n ma,8
+er (,8
+1979,8
+eolo,8
+gica,8
+ssip,8
+996,,8
+96, ,8
+6, p,8
+pora,8
+n. T,8
+tere,8
+to l,8
+an o,8
+ons.,8
+ian ,8
+nent,8
+is n,8
+hapt,8
+apte,8
+pter,8
+he M,8
+ Mar,8
+ack ,8
+ a p,8
+tems,8
+ems ,8
+reci,8
+r le,8
+ lev,8
+rise,8
+de a,8
+bute,8
+is e,8
+ules,8
+le o,8
+nge.,8
+ arg,8
+argu,8
+r. I,8
+r or,8
+to e,8
+d pr,8
+urth,8
+m in,8
+hare,8
+buil,8
+ker ,8
+ ret,8
+r en,8
+clud,8
+ised,8
+ fut,8
+futu,8
+utur,8
+adit,8
+loye,8
+evol,8
+isat,8
+micr,8
+our.,8
+tice,8
+ mak,8
+ Wei,8
+t pe,8
+ eng,8
+ecip,8
+, pr,8
+eak’,8
+ortu,8
+rtun,8
+tuni,8
+ adv,8
+peti,8
+etit,8
+eed ,8
+ nee,8
+need,8
+kers,8
+-bas,8
+d ri,7
+ spe,7
+ecif,7
+fic ,7
+rs c,7
+sed,,7
+revi,7
+grou,7
+ mat,7
+rial,7
+ set,7
+ed d,7
+y ca,7
+ ear,7
+be l,7
+l fa,7
+offs,7
+thou,7
+s st,7
+ened,7
+e op,7
+ase,,7
+hors,7
+r do,7
+pen ,7
+ sam,7
+same,7
+nes ,7
+or b,7
+se s,7
+tura,7
+ng m,7
+e ac,7
+r si,7
+lood,7
+enin,7
+eper,7
+be i,7
+itia,7
+ suf,7
+suff,7
+uffi,7
+f la,7
+. If,7
+r fo,7
+(196,7
+ll s,7
+ldin,7
+. La,7
+in e,7
+se i,7
+nd g,7
+e ho,7
+grat,7
+ply ,7
+n su,7
+onta,7
+e ty,7
+ les,7
+moun,7
+, st,7
+se c,7
+n. F,7
+ any,7
+cula,7
+us, ,7
+ out,7
+ends,7
+r is,7
+s cr,7
+e sl,7
+, co,7
+1980,7
+s ap,7
+ir c,7
+r ch,7
+be r,7
+wed ,7
+e ev,7
+y di,7
+ cla,7
+d pa,7
+ 2.2,7
+widt,7
+idth,7
+ ben,7
+hape,7
+ape ,7
+t si,7
+m po,7
+, se,7
+orte,7
+ccor,7
+cord,7
+susp,7
+mixe,7
+xed-,7
+ermi,7
+th, ,7
+f be,7
+efin,7
+rts ,7
+rn a,7
+ed v,7
+ort ,7
+ay, ,7
+ithi,7
+hin ,7
+hree,7
+e ge,7
+0). ,7
+re b,7
+d ba,7
+udie,7
+lds ,7
+itic,7
+en f,7
+t wa,7
+re f,7
+at h,7
+s (S,7
+Thes,7
+xten,7
+rns,,7
+pe, ,7
+ntro,7
+trol,7
+refl,7
+lows,7
+int ,7
+ecte,7
+cted,7
+ nar,7
+narr,7
+(Pat,7
+ fin,7
+to f,7
+e cr,7
+ute ,7
+is l,7
+st s,7
+holo,7
+noth,7
+r ma,7
+is m,7
+ry s,7
+ons,,7
+ng r,7
+t fr,7
+on s,7
+as m,7
+ge n,7
+orks,7
+ces.,7
+arie,7
+imat,7
+ns i,7
+demo,7
+emon,7
+mons,7
+rm o,7
+to o,7
+shor,7
+ iso,7
+stme,7
+of o,7
+s pe,7
+ wer,7
+g as,7
+al l,7
+as c,7
+tric,7
+r mo,7
+sout,7
+west,7
+le e,7
+tens,7
+orth,7
+ no ,7
+ger ,7
+near,7
+ New,7
+New ,7
+ Mis,7
+Miss,7
+me, ,7
+They,7
+g pr,7
+ fre,7
+uent,7
+ts s,7
+n Ba,7
+trac,7
+es s,7
+. Mo,7
+ cen,7
+supe,7
+uper,7
+he P,7
+ure,,7
+ke t,7
+e we,7
+Dumo,7
+umon,7
+subs,7
+y ba,7
+ont ,7
+nd G,7
+n fo,7
+ic s,7
+tori,7
+llin,7
+lish,7
+ee t,7
+f va,7
+udin,7
+ed r,7
+ge, ,7
+s, 1,7
+t se,7
+r pr,7
+ed p,7
+as w,7
+s we,7
+ wel,7
+s (1,7
+or l,7
+ense,7
+y, a,7
+dly ,7
+onte,7
+ging,7
+howe,7
+e, w,7
+shar,7
+vera,7
+uild,7
+on m,7
+f bo,7
+derl,7
+erly,7
+rath,7
+many,7
+e fu,7
+ eco,7
+nomi,7
+omic,7
+orce,7
+trad,7
+job ,7
+ lif,7
+road,7
+ir o,7
+ own,7
+m pr,7
+s – ,7
+ngly,7
+ eme,7
+emer,7
+merg,7
+rega,7
+ mic,7
+ rul,7
+rule,7
+erst,7
+rsta,7
+chap,7
+ pra,7
+prac,7
+ctic,7
+bour,7
+make,7
+ mac,7
+macr,7
+ key,7
+key ,7
+f en,7
+asis,7
+. Pe,7
+ Peo,7
+Peop,7
+mode,7
+odel,7
+ing’,7
+ng’ ,7
+your,7
+ak’ ,7
+ ‘we,7
+‘wea,7
+ethe,7
+we w,7
+lm i,7
+nowl,7
+owle,7
+wled,7
+ledg,7
+edge,7
+n fi,7
+in w,7
+ills,7
+ bri,6
+c ac,6
+ty, ,6
+se w,6
+ bac,6
+eria,6
+ge f,6
+ussi,6
+al m,6
+l mo,6
+ey c,6
+nt c,6
+th p,6
+prog,6
+rogr,6
+ssiv,6
+ffse,6
+fset,6
+el (,6
+t sh,6
+ld b,6
+be e,6
+ock ,6
+nt w,6
+ dec,6
+decr,6
+ecre,6
+semb,6
+embl,6
+ng (,6
+uce ,6
+s do,6
+sins,6
+ll o,6
+in (,6
+re g,6
+peni,6
+ing.,6
+ng. ,6
+nd C,6
+a ch,6
+per ,6
+ ori,6
+orig,6
+rigi,6
+igin,6
+gina,6
+ ini,6
+tiat,6
+is r,6
+ ele,6
+ll d,6
+o in,6
+ dam,6
+e (1,6
+1968,6
+968),6
+ss a,6
+am, ,6
+cour,6
+urse,6
+g, a,6
+on r,6
+n ea,6
+comb,6
+ombi,6
+mbin,6
+migr,6
+igra,6
+en, ,6
+lt (,6
+este,6
+imil,6
+mila,6
+ilar,6
+ar t,6
+riou,6
+ut c,6
+s ab,6
+l de,6
+end ,6
+nd u,6
+e am,6
+st c,6
+ey w,6
+reve,6
+erse,6
+t do,6
+y si,6
+s ac,6
+plic,6
+le f,6
+om p,6
+para,6
+ular,6
+me o,6
+d te,6
+el o,6
+year,6
+e, 1,6
+lowi,6
+d su,6
+ce b,6
+e by,6
+orta,6
+rtan,6
+ ban,6
+bank,6
+ank ,6
+erso,6
+rson,6
+ mus,6
+must,6
+e cl,6
+assi,6
+ad a,6
+sic ,6
+ht c,6
+rmin,6
+qual,6
+at b,6
+m. T,6
+ms o,6
+rmal,6
+mal ,6
+ow, ,6
+t ha,6
+se p,6
+y va,6
+r di,6
+isch,6
+harg,6
+en d,6
+defi,6
+erce,6
+e mi,6
+riab,6
+1). ,6
+and,,6
+nd, ,6
+el, ,6
+e br,6
+ands,6
+ fie,6
+dies,6
+cur ,6
+ke p,6
+riti,6
+oped,6
+ll t,6
+8). ,6
+re m,6
+s. F,6
+ att,6
+ow t,6
+ge w,6
+e. T,6
+ntia,6
+l. T,6
+a me,6
+nanc,6
+r se,6
+ly m,6
+ranc,6
+. Su,6
+rpho,6
+tely,6
+is, ,6
+coul,6
+ommo,6
+ nat,6
+natu,6
+e sy,6
+r ag,6
+tomo,6
+1993,6
+ards,6
+rds ,6
+al. ,6
+h pa,6
+nd S,6
+ears,6
+g re,6
+s mo,6
+rast,6
+rk i,6
+e, e,6
+ler ,6
+ps a,6
+mber,6
+ por,6
+inst,6
+ An ,6
+pe (,6
+then,6
+n en,6
+stat,6
+ustm,6
+hers,6
+rly ,6
+nver,6
+(197,6
+ use,6
+or m,6
+he C,6
+. So,6
+g st,6
+ndin,6
+n si,6
+lopm,6
+opme,6
+pmen,6
+979),6
+n ar,6
+a do,6
+1994,6
+ssis,6
+siss,6
+sipp,6
+ippi,6
+ices,6
+d af,6
+ry f,6
+geol,6
+ime,,6
+ur a,6
+ pri,6
+y or,6
+ue t,6
+es m,6
+cs i,6
+tine,6
+ferr,6
+erre,6
+rred,6
+d fa,6
+ed m,6
+tral,6
+ry c,6
+Mara,6
+arañ,6
+rañó,6
+añón,6
+ñón ,6
+s sh,6
+ lin,6
+t, 1,6
+rust,6
+. Si,6
+in o,6
+d ov,6
+in f,6
+reta,6
+ke K,6
+lls ,6
+nd n,6
+erpr,6
+rpre,6
+pret,6
+ Mor,6
+More,6
+re p,6
+old ,6
+blis,6
+ishe,6
+shed,6
+very,6
+e wa,6
+er l,6
+, su,6
+ces,,6
+ator,6
+t te,6
+alan,6
+unt ,6
+iven,6
+le s,6
+nes,,6
+orat,6
+e. I,6
+exce,6
+ince,6
+dina,6
+earl,6
+arly,6
+ne o,6
+sour,6
+uall,6
+l gr,6
+ersp,6
+rspe,6
+oncl,6
+ch o,6
+lly,,6
+ty f,6
+ wou,6
+uppo,6
+tent,6
+me t,6
+, ho,6
+te f,6
+e ad,6
+ bui,6
+ersi,6
+at l,6
+ fur,6
+furt,6
+coun,6
+er w,6
+rlyi,6
+lyin,6
+ rap,6
+rapi,6
+apid,6
+viti,6
+ng h,6
+sona,6
+to g,6
+ hie,6
+hier,6
+iera,6
+erar,6
+rarc,6
+rchy,6
+lves,6
+of ‘,6
+r ow,6
+ncer,6
+cert,6
+erta,6
+rtai,6
+gly ,6
+e em,6
+erac,6
+d em,6
+ tur,6
+urn ,6
+we s,6
+d fr,6
+open,6
+ lab,6
+ur e,6
+ir e,6
+nts.,6
+rce ,6
+ dyn,6
+dyna,6
+ynam,6
+nami,6
+amic,6
+cs o,6
+epti,6
+t la,6
+ evo,6
+ unf,6
+unfo,6
+is ‘,6
+elf-,6
+cing,6
+r pe,6
+. To,6
+Jone,6
+ones,6
+, we,6
+uali,6
+ley’,6
+ Hew,6
+Hewl,6
+ewle,6
+wlet,6
+lett,6
+adva,6
+dvan,6
+dge ,6
+ . .,6
+. . ,6
+embe,6
+As o,6
+ ski,6
+skil,6
+kill,6
+efer,6
+acit,6
+ited,6
+rces,6
+ect-,6
+ct-b,6
+t-ba,6
+orki,6
+rkin,6
+ our,6
+cipr,6
+ipro,6
+roci,6
+ic i,5
+acts,5
+a br,5
+ity,,5
+ente,5
+nted,5
+d di,5
+at f,5
+al v,5
+l va,5
+ ill,5
+illu,5
+llus,5
+it c,5
+ogre,5
+gres,5
+d wa,5
+warp,5
+or. ,5
+ Fau,5
+Faul,5
+or o,5
+hout,5
+s ty,5
+nt m,5
+y ha,5
+ppos,5
+esem,5
+ mon,5
+l ti,5
+). P,5
+orst,5
+) th,5
+th s,5
+ct a,5
+as d,5
+r ba,5
+ey m,5
+e po,5
+at, ,5
+real,5
+alit,5
+g or,5
+. St,5
+pond,5
+uces,5
+el s,5
+cur.,5
+ms. ,5
+If t,5
+ow a,5
+or f,5
+ntio,5
+t ev,5
+ few,5
+few ,5
+ vie,5
+on l,5
+n le,5
+rst ,5
+ hor,5
+n, w,5
+ch w,5
+uced,5
+en i,5
+(198,5
+us t,5
+ll p,5
+prob,5
+g wi,5
+ a v,5
+y wi,5
+rse ,5
+e, b,5
+t ex,5
+ases,5
+e, f,5
+icul,5
+lt d,5
+ obv,5
+obvi,5
+bvio,5
+ous,,5
+am c,5
+y st,5
+e Sa,5
+ic p,5
+igh ,5
+ssin,5
+hile,5
+ lan,5
+slow,5
+y on,5
+1987,5
+ern.,5
+rn. ,5
+asic,5
+ exi,5
+exis,5
+xist,5
+er m,5
+te b,5
+thal,5
+halw,5
+alwe,5
+lweg,5
+f me,5
+ a h,5
+ls i,5
+l ac,5
+pe a,5
+ible,5
+tall,5
+mm a,5
+nd K,5
+, al,5
+d ac,5
+ad m,5
+dete,5
+eter,5
+mine,5
+ve p,5
+prop,5
+ad (,5
+ot o,5
+el b,5
+ut w,5
+l ha,5
+as o,5
+t tr,5
+1977,5
+on p,5
+, ca,5
+e pl,5
+s. H,5
+ gro,5
+onsi,5
+f si,5
+n, i,5
+-bra,5
+e ve,5
+ests,5
+d fi,5
+fiel,5
+ield,5
+es h,5
+ 2.3,5
+ues ,5
+me s,5
+g ex,5
+. Se,5
+invo,5
+nvol,5
+ns (,5
+o pr,5
+w th,5
+ope,,5
+ maj,5
+majo,5
+ajor,5
+jor ,5
+iall,5
+nel.,5
+ut a,5
+ve m,5
+) ar,5
+ dee,5
+deep,5
+ighe,5
+perm,5
+nten,5
+rs s,5
+o fo,5
+s, r,5
+, re,5
+inta,5
+ntai,5
+ives,5
+te s,5
+ce. ,5
+y mo,5
+ikel,5
+kely,5
+). S,5
+ls. ,5
+ qua,5
+d, t,5
+). R,5
+g wh,5
+phol,5
+ is,,5
+m on,5
+mmon,5
+oved,5
+tem ,5
+r te,5
+ics.,5
+cs. ,5
+anas,5
+nast,5
+asto,5
+omos,5
+mosi,5
+osin,5
+iple,5
+e mu,5
+980),5
+ed g,5
+phic,5
+ic l,5
+ms t,5
+tras,5
+k is,5
+ps, ,5
+in b,5
+t, w,5
+gent,5
+ old,5
+dest,5
+s dr,5
+pe w,5
+y al,5
+r st,5
+hort,5
+o no,5
+hem ,5
+d he,5
+a ne,5
+y de,5
+t. F,5
+ice ,5
+etri,5
+as e,5
+ce f,5
+e Ch,5
+hatt,5
+atta,5
+rd m,5
+east,5
+st f,5
+-flo,5
+ tre,5
+tren,5
+nort,5
+n. S,5
+d ad,5
+se l,5
+berg,5
+rger,5
+f as,5
+etry,5
+ nea,5
+ctin,5
+ (Du,5
+a ma,5
+. Co,5
+994),5
+ppi ,5
+ (mo,5
+(mod,5
+79).,5
+empo,5
+orar,5
+rary,5
+be c,5
+r ev,5
+ar a,5
+requ,5
+ly i,5
+plan,5
+rgen,5
+ fav,5
+favo,5
+t ne,5
+eces,5
+ 195,5
+me a,5
+ axi,5
+axis,5
+xis ,5
+onga,5
+ngat,5
+o ac,5
+ve d,5
+ sig,5
+igni,5
+gnif,5
+nifi,5
+ican,5
+ yea,5
+arts,5
+e Ma,5
+ón B,5
+repr,5
+uth ,5
+s lo,5
+n fr,5
+fill,5
+gain,5
+le w,5
+al, ,5
+ct, ,5
+rece,5
+1966,5
+966),5
+appl,5
+re l,5
+ ten,5
+hed ,5
+stil,5
+visi,5
+ bel,5
+ ris,5
+d sh,5
+ws t,5
+96) ,5
+llen,5
+osse,5
+ve, ,5
+d ha,5
+e ha,5
+al g,5
+d pe,5
+tron,5
+. Ne,5
+itiv,5
+lead,5
+ead ,5
+l is,5
+’s (,5
+a ba,5
+o mo,5
+ove ,5
+ge t,5
+esta,5
+abli,5
+ fal,5
+fall,5
+sump,5
+umpt,5
+mpti,5
+l pe,5
+ve l,5
+text,5
+ext ,5
+thir,5
+hird,5
+pens,5
+woul,5
+or w,5
+l lo,5
+ve o,5
+y as,5
+angi,5
+. He,5
+m, a,5
+owed,5
+igh-,5
+ fan,5
+e Jo,5
+ot s,5
+ts b,5
+resi,5
+esis,5
+d or,5
+s en,5
+unte,5
+lude,5
+h su,5
+pid ,5
+gy a,5
+, ra,5
+ cir,5
+circ,5
+aniz,5
+rman,5
+y wo,5
+o gu,5
+f ca,5
+prev,5
+seem,5
+gue ,5
+ her,5
+emph,5
+mpha,5
+ ‘bo,5
+‘bou,5
+inty,5
+f wo,5
+plex,5
+exch,5
+xcha,5
+, te,5
+play,5
+emin,5
+tici,5
+icip,5
+cipa,5
+te i,5
+e pe,5
+he ‘,5
+usin,5
+sine,5
+to u,5
+o un,5
+eer.,5
+n la,5
+ur m,5
+eati,5
+y. I,5
+arn ,5
+oreo,5
+reov,5
+eove,5
+ coh,5
+cohe,5
+ohes,5
+hesi,5
+stit,5
+titu,5
+itut,5
+o ex,5
+theo,5
+heor,5
+gh w,5
+h wh,5
+o se,5
+nt r,5
+ick’,5
+ck’s,5
+k’s ,5
+ so ,5
+enga,5
+ngag,5
+gage,5
+nfol,5
+: ‘‘,5
+atel,5
+osti,5
+rein,5
+y. A,5
+acto,5
+o bo,5
+cit ,5
+, em,5
+oget,5
+geth,5
+ aut,5
+ttin,5
+brin,5
+ts f,5
+incl,5
+ntel,5
+oday,5
+mana,5
+ourc,5
+urce,5
+ne c,5
+ey’s,5
+lanc,5
+ co-,5
+co-o,5
+al n,5
+ tal,5
+k to,5
+t’s ,5
+k’ e,5
+’ en,5
+iali,5
+ful ,5
+rofe,5
+ofes,5
+fess,5
+ed: ,5
+d: ‘,5
+r fi,5
+dari,5
+avin,5
+ los,5
+nica,5
+or h,5
+r wo,5
+ommi,5
+bene,5
+enef,5
+nefi,5
+efit,5
+cy a,5
+e sp,4
+usse,4
+ssed,4
+iew ,4
+ew o,4
+be p,4
+d. T,4
+s ba,4
+ets ,4
+etai,4
+ow. ,4
+icia,4
+n ta,4
+ke d,4
+rms,,4
+in F,4
+d ab,4
+ abr,4
+abru,4
+brup,4
+rupt,4
+oor.,4
+r. F,4
+) wi,4
+itho,4
+f di,4
+e ea,4
+ eas,4
+d. F,4
+ts w,4
+t gr,4
+pene,4
+d (F,4
+2.1B,4
+mble,4
+f fa,4
+pped,4
+ocks,4
+cks ,4
+grab,4
+rabe,4
+aben,4
+l bo,4
+en a,4
+mes ,4
+anti,4
+ire ,4
+d up,4
+ acr,4
+owar,4
+e fl,4
+oodp,4
+odpl,4
+dpla,4
+poss,4
+ssib,4
+ibil,4
+liti,4
+ty t,4
+or r,4
+t or,4
+oss-,4
+ seg,4
+segm,4
+egme,4
+gmen,4
+am g,4
+m gr,4
+leva,4
+, ag,4
+. Ev,4
+en s,4
+a da,4
+m wi,4
+rm a,4
+m a ,4
+ke. ,4
+. Wa,4
+alla,4
+llac,4
+68) ,4
+ men,4
+ione,4
+f ve,4
+row ,4
+am s,4
+eam,,4
+ch c,4
+h ca,4
+n di,4
+se. ,4
+e. F,4
+by f,4
+, fo,4
+oldi,4
+ lef,4
+left,4
+righ,4
+ (fr,4
+(fro,4
+l ar,4
+f fl,4
+f mo,4
+s gr,4
+ly e,4
+y ex,4
+) co,4
+re w,4
+ Red,4
+pply,4
+ll e,4
+l en,4
+ier ,4
+ Alt,4
+t (1,4
+itte,4
+ aff,4
+simi,4
+ario,4
+f ti,4
+lest,4
+l sh,4
+hows,4
+ut e,4
+d ca,4
+ses,,4
+erea,4
+ctua,4
+aral,4
+llel,4
+lel ,4
+perp,4
+endi,4
+ow d,4
+be o,4
+ved.,4
+t by,4
+ San,4
+ult.,4
+lt. ,4
+et o,4
+el d,4
+ds o,4
+ses.,4
+son ,4
+, mo,4
+g ca,4
+e, c,4
+r, 1,4
+987),4
+87).,4
+ls w,4
+s mu,4
+c ch,4
+sand,4
+th m,4
+els,,4
+a hi,4
+us c,4
+equa,4
+al w,4
+dth ,4
+th (,4
+wide,4
+ider,4
+ngs ,4
+ansi,4
+norm,4
+wer,,4
+, ar,4
+sibl,4
+lop ,4
+y by,4
+ad t,4
+en c,4
+acco,4
+.2).,4
+scha,4
+dept,4
+epth,4
+s), ,4
+rave,4
+avel,4
+el h,4
+orts,4
+s le,4
+perc,4
+g mo,4
+d (S,4
+. Al,4
+Allu,4
+orie,4
+roup,4
+le r,4
+ry, ,4
+slan,4
+l wo,4
+ld s,4
+ght,,4
+ht, ,4
+y at,4
+t ri,4
+hres,4
+resh,4
+esho,4
+shol,4
+hold,4
+olds,4
+flum,4
+lume,4
+ume ,4
+th f,4
+se v,4
+om S,4
+ltho,4
+houg,4
+ fiv,4
+five,4
+of F,4
+f Fi,4
+lve ,4
+ic b,4
+d du,4
+p. 1,4
+empt,4
+o sh,4
+d ho,4
+ng v,4
+d, b,4
+rn 1,4
+th c,4
+, tr,4
+rs h,4
+e id,4
+ntif,4
+tifi,4
+e hi,4
+of n,4
+s (P,4
+d al,4
+ds, ,4
+ cut,4
+ains,4
+ a g,4
+senc,4
+ompo,4
+e na,4
+. Wi,4
+ Wit,4
+With,4
+ntit,4
+ll (,4
+. Ri,4
+sis ,4
+plet,4
+ly. ,4
+a su,4
+me b,4
+om o,4
+anot,4
+s, o,4
+ spa,4
+span,4
+ans ,4
+am t,4
+s di,4
+mult,4
+ltip,4
+tipl,4
+epar,4
+993),4
+s pa,4
+leys,4
+h an,4
+ory ,4
+irst,4
+t ge,4
+c la,4
+ued ,4
+d dr,4
+rks ,4
+into,4
+nto ,4
+l sl,4
+clim,4
+lima,4
+te, ,4
+. Lo,4
+n bo,4
+ials,4
+endr,4
+ndri,4
+drit,4
+ens ,4
+bers,4
+pe c,4
+anom,4
+noma,4
+omal,4
+ogra,4
+f po,4
+p in,4
+n op,4
+ork.,4
+rk. ,4
+t po,4
+1967,4
+note,4
+isos,4
+sost,4
+osta,4
+m to,4
+ fou,4
+foun,4
+ a n,4
+ge c,4
+rn, ,4
+n mo,4
+ic r,4
+s ev,4
+Chat,4
+ttah,4
+taho,4
+ahoo,4
+hooc,4
+ooch,4
+oche,4
+chee,4
+hee ,4
+ayme,4
+ce c,4
+whil,4
+rend,4
+hern,4
+o te,4
+n as,4
+rica,4
+, Ne,4
+ map,4
+y wa,4
+d me,4
+ndex,4
+dex ,4
+s wa,4
+. Ot,4
+ Oth,4
+Othe,4
+ller,4
+s us,4
+ulat,4
+er M,4
+ tem,4
+cond,4
+r as,4
+n oc,4
+curs,4
+me. ,4
+freq,4
+eque,4
+quen,4
+ic t,4
+ due,4
+due ,4
+vent,4
+h fo,4
+aleo,4
+eote,4
+otec,4
+s. L,4
+ccup,4
+ir f,4
+us e,4
+inen,4
+nste,4
+sten,4
+cs a,4
+ nec,4
+nece,4
+y su,4
+ea o,4
+a of,4
+as, ,4
+1955,4
+eals,4
+ elo,4
+elon,4
+st o,4
+s oc,4
+a th,4
+in i,4
+ Per,4
+Peru,4
+he U,4
+ Uca,4
+, fr,4
+Laur,4
+aure,4
+uren,4
+1985,4
+985),4
+rs b,4
+hind,4
+ck o,4
+ar p,4
+(Dum,4
+An e,4
+rimp,4
+s fi,4
+ m o,4
+. No,4
+ion),4
+ut r,4
+A co,4
+de b,4
+’s s,4
+antl,4
+e Ky,4
+ Kyo,4
+Kyog,4
+yoga,4
+oga ,4
+ot t,4
+m co,4
+anda,4
+it f,4
+ecen,4
+ms i,4
+ppli,4
+idin,4
+ke i,4
+anta,4
+d Ga,4
+rete,4
+s me,4
+. Bo,4
+so p,4
+o pa,4
+ss s,4
+. Ac,4
+ Acc,4
+Acco,4
+ny o,4
+sett,4
+ beg,4
+o su,4
+ vis,4
+ery ,4
+el r,4
+mini,4
+c in,4
+cann,4
+anno,4
+nnot,4
+. On,4
+omen,4
+o do,4
+l sy,4
+ num,4
+igat,4
+s by,4
+y la,4
+ed h,4
+en w,4
+le i,4
+isto,4
+onne,4
+et, ,4
+d ev,4
+es p,4
+xcel,4
+cell,4
+, Ca,4
+orni,4
+e, d,4
+ hyd,4
+hydr,4
+l, 1,4
+r lo,4
+ongi,4
+ngit,4
+gitu,4
+itud,4
+eft ,4
+of h,4
+ists,4
+stro,4
+cato,4
+espe,4
+ecia,4
+at n,4
+n va,4
+ley.,4
+ey. ,4
+y, o,4
+eing,4
+if t,4
+ot c,4
+in n,4
+he R,4
+ Can,4
+ghte,4
+ (We,4
+ams,,4
+ Lan,4
+Lane,4
+rgue,4
+weri,4
+ Ind,4
+ne’s,4
+rgum,4
+gume,4
+umen,4
+el f,4
+s se,4
+ads ,4
+d le,4
+’s a,4
+el g,4
+ Sin,4
+at m,4
+ile,,4
+ Jor,4
+ept ,4
+ 1.5,4
+one-,4
+ne-t,4
+e-th,4
+-thi,4
+ird ,4
+sume,4
+conf,4
+onfi,4
+y, i,4
+on e,4
+g is,4
+ce w,4
+ee a,4
+ereb,4
+reby,4
+eby ,4
+le p,4
+ley-,4
+ey-f,4
+y-fl,4
+ild ,4
+rsis,4
+orda,4
+erva,4
+irm ,4
+2.14,4
+mina,4
+ bey,4
+beyo,4
+eyon,4
+yond,4
+s fu,4
+g be,4
+eans,4
+d un,4
+o co,4
+ lim,4
+limi,4
+imit,4
+ asp,4
+aspe,4
+lay ,4
+bedr,4
+edro,4
+droc,4
+rock,4
+arde,4
+rded,4
+ enc,4
+enco,4
+ncou,4
+f it,4
+. Ye,4
+ lit,4
+rges,4
+t no,4
+y ra,4
+ior ,4
+s bo,4
+ his,4
+n. I,4
+ircu,4
+s un,4
+g fo,4
+Will,4
+llia,4
+liam,4
+‘org,4
+niza,4
+izat,4
+zati,4
+man’,4
+to w,4
+erma,4
+ut o,4
+path,4
+ ‘ro,4
+s hi,4
+y. W,4
+oyer,4
+s, e,4
+We a,4
+ths ,4
+nisa,4
+ – t,4
+ess’,4
+ss’ ,4
+ unc,4
+unce,4
+nty ,4
+ bro,4
+broa,4
+es n,4
+rm, ,4
+s’ (,4
+Arth,4
+rthu,4
+thur,4
+p. 6,4
+rien,4
+ienc,4
+amon,4
+mong,4
+ tea,4
+otic,4
+hink,4
+lici,4
+icit,4
+e ‘b,4
+ bus,4
+busi,4
+n tu,4
+ est,4
+en l,4
+thri,4
+hriv,4
+amin,4
+o le,4
+hat,,4
+t, i,4
+e. M,4
+nsti,4
+tuti,4
+xplo,4
+plor,4
+n un,4
+mics,4
+crip,4
+ript,4
+ipti,4
+in p,4
+vant,4
+ Kar,4
+Karl,4
+arl ,4
+rl W,4
+l We,4
+ent’,4
+ess.,4
+ss. ,4
+evio,4
+phas,4
+hasi,4
+sise,4
+ law,4
+ur, ,4
+o on,4
+ way,4
+eten,4
+del ,4
+at I,4
+t I ,4
+ick,,4
+ck, ,4
+s ‘s,4
+star,4
+tart,4
+e ta,4
+beli,4
+elie,4
+tile,4
+, yo,4
+einf,4
+ive,,4
+o we,4
+m fo,4
+e pu,4
+do n,4
+f pr,4
+uity,4
+iste,4
+ tog,4
+toge,4
+begi,4
+egin,4
+idea,4
+deas,4
+ rei,4
+auth,4
+utho,4
+thor,4
+ re-,4
+rve ,4
+redi,4
+g co,4
+etti,4
+nall,4
+egar,4
+gard,4
+ntre,4
+ inn,4
+inno,4
+nnov,4
+nova,4
+ovat,4
+ett ,4
+list,4
+o-op,4
+-ope,4
+capi,4
+apit,4
+pita,4
+ital,4
+on f,4
+utin,4
+msel,4
+gine,4
+inee,4
+neer,4
+ mem,4
+memb,4
+oyee,4
+s qu,4
+ qui,4
+rk f,4
+ne e,4
+avou,4
+vour,4
+omer,4
+chni,4
+hnic,4
+ket ,4
+r em,4
+gh-t,4
+h-te,4
+-tec,4
+ ser,4
+ mut,4
+mutu,4
+utua,4
+tell,4
+mmit,4
+itme,4
+anag,4
+ ‘‘‘,4
+fits,4
+’’’ ,4
+’’ (,4
+lise,4
+l ne,4
+ch p,4
+fina,4
+inan,4
+anci,4
+ncin,4
+reso,4
+esou,4
+allo,4
+’ st,4
+rned,4
+n ne,4
+ed e,4
+ Age,4
+Agen,4
+trus,4
+ rew,4
+rewa,4
+ewar,4
+ six,4
+six ,4
+ix m,4
+x mo,4
+onth,4
+nths,4
+ic e,3
+ syn,3
+impa,3
+mpac,3
+pact,3
+evie,3
+deta,3
+tail,3
+low.,3
+n Fi,3
+seis,3
+eism,3
+ismi,3
+smic,3
+c an,3
+th e,3
+eart,3
+arth,3
+t fa,3
+g, o,3
+r it,3
+h pr,3
+ war,3
+arpi,3
+rpin,3
+. Fa,3
+ts m,3
+et t,3
+shou,3
+houl,3
+reco,3
+ecog,3
+cogn,3
+ogni,3
+gniz,3
+nize,3
+ized,3
+ay h,3
+d bl,3
+lt w,3
+lt t,3
+at g,3
+te c,3
+2.1C,3
+.1C),3
+ct w,3
+le m,3
+clin,3
+ay p,3
+st) ,3
+) or,3
+ownd,3
+oppe,3
+ dom,3
+omes,3
+l fe,3
+res,,3
+ntir,3
+tire,3
+lted,3
+ed u,3
+m or,3
+ tow,3
+towa,3
+eali,3
+of g,3
+ Str,3
+B an,3
+) by,3
+), e,3
+evat,3
+or g,3
+r gr,3
+am (,3
+ Eve,3
+dam ,3
+am w,3
+e bl,3
+ocke,3
+cked,3
+ake.,3
+ Wal,3
+Wall,3
+oned,3
+at e,3
+a fe,3
+m si,3
+a fa,3
+an p,3
+am a,3
+a sm,3
+t it,3
+y fa,3
+sect,3
+ rig,3
+uchi,3
+1983,3
+983),3
+rows,3
+te d,3
+d. H,3
+bine,3
+e tw,3
+on u,3
+am f,3
+m fr,3
+ll m,3
+, on,3
+m pa,3
+st. ,3
+t. R,3
+uppl,3
+f ag,3
+am d,3
+m de,3
+n it,3
+ A r,3
+in s,3
+) su,3
+sted,3
+he B,3
+erro,3
+affe,3
+a ri,3
+ably,3
+bly ,3
+ upo,3
+upon,3
+pon ,3
+a va,3
+se d,3
+ws o,3
+lica,3
+ke a,3
+ny a,3
+erpe,3
+o ri,3
+m ch,3
+ls h,3
+an A,3
+ And,3
+ve r,3
+s cl,3
+y hi,3
+gh r,3
+h ra,3
+ear,,3
+ar, ,3
+ace,,3
+ize ,3
+ms c,3
+g al,3
+s, m,3
+so b,3
+vior,3
+ncen,3
+fers,3
+son,,3
+der,,3
+pare,3
+cs m,3
+ don,3
+by d,3
+clas,3
+lass,3
+ssif,3
+sifi,3
+ist ,3
+st (,3
+2.2),3
+) st,3
+ san,3
+h mi,3
+rs f,3
+ighl,3
+ghly,3
+hly ,3
+ equ,3
+rn 3,3
+n cr,3
+4) t,3
+5) a,3
+eam.,3
+am. ,3
+n te,3
+erms,3
+r no,3
+l er,3
+e, l,3
+, lo,3
+ vel,3
+eloc,3
+loci,3
+by v,3
+t, s,3
+d Ka,3
+1972,3
+972),3
+72).,3
+as s,3
+d, m,3
+mens,3
+, me,3
+ropo,3
+grav,3
+d cl,3
+clay,3
+l bu,3
+tio ,3
+ A s,3
+rcen,3
+977),3
+ lie,3
+lies,3
+es b,3
+2.2 ,3
+Chan,3
+n pa,3
+iabl,3
+bles,3
+ All,3
+t cl,3
+lay,,3
+lt, ,3
+aced,3
+ cat,3
+egor,3
+nsid,3
+dera,3
+ty (,3
+isla,3
+etat,3
+tate,3
+ls f,3
+m, b,3
+eld ,3
+n br,3
+ur r,3
+t cr,3
+ar r,3
+m Sc,3
+en r,3
+ns c,3
+2.4),3
+ns 1,3
+pts ,3
+ow s,3
+w si,3
+renc,3
+h ch,3
+l ty,3
+r ri,3
+roll,3
+lled,3
+ct i,3
+ows:,3
+ws: ,3
+ ess,3
+ssen,3
+g si,3
+a sl,3
+ sli,3
+slig,3
+ligh,3
+ghtl,3
+htly,3
+y me,3
+th l,3
+h la,3
+ chu,3
+chut,3
+hute,3
+utes,3
+l me,3
+rn 5,3
+ly n,3
+gher,3
+gree,3
+6), ,3
+a tr,3
+nel,,3
+gs, ,3
+o ch,3
+e cu,3
+rs g,3
+s gi,3
+it a,3
+aran,3
+e. P,3
+s li,3
+s, (,3
+an m,3
+h on,3
+el m,3
+l (P,3
+y un,3
+lete,3
+5), ,3
+), o,3
+eat ,3
+t mo,3
+f tr,3
+buti,3
+r up,3
+t sp,3
+g pa,3
+rn o,3
+chin,3
+mm e,3
+m et,3
+pan ,3
+r fr,3
+om b,3
+ mul,3
+a fl,3
+ 2.5,3
+. Kn,3
+nigh,3
+ton ,3
+nd N,3
+n (1,3
+d Ri,3
+hard,3
+rn i,3
+rtly,3
+ked ,3
+eys ,3
+Smit,3
+mith,3
+h, 1,3
+ft (,3
+ry a,3
+d Sc,3
+e im,3
+n Th,3
+geom,3
+omor,3
+hic ,3
+ong-,3
+inue,3
+nued,3
+tle ,3
+tari,3
+lops,3
+s, c,3
+ cli,3
+, ex,3
+opes,3
+ den,3
+dend,3
+c pa,3
+n ge,3
+tler,3
+r sl,3
+p of,3
+ls o,3
+) to,3
+). L,3
+l su,3
+ce s,3
+an c,3
+malo,3
+alou,3
+lous,3
+ top,3
+grap,3
+raph,3
+aphi,3
+gh c,3
+y ac,3
+a de,3
+defl,3
+e, o,3
+ft t,3
+ct p,3
+e (F,3
+way ,3
+y fr,3
+ne s,3
+de w,3
+k, a,3
+arli,3
+l (1,3
+ fla,3
+flat,3
+ he ,3
+rk p,3
+ift.,3
+ft. ,3
+nd v,3
+les,,3
+ Emb,3
+Emba,3
+mbay,3
+baym,3
+da. ,3
+ Sub,3
+uthw,3
+ms e,3
+it p,3
+rn s,3
+d ti,3
+lber,3
+oted,3
+ 2.7,3
+s, h,3
+itat,3
+onto,3
+ntou,3
+tour,3
+r on,3
+n (D,3
+, up,3
+x of,3
+r sh,3
+ft i,3
+Kell,3
+nd P,3
+27).,3
+ cal,3
+ar e,3
+y oc,3
+prim,3
+rima,3
+imar,3
+ry o,3
+sola,3
+olat,3
+ds. ,3
+s la,3
+olla,3
+ch m,3
+h ma,3
+o cl,3
+ pal,3
+pale,3
+ neo,3
+neot,3
+n, o,3
+bina,3
+ay o,3
+ tot,3
+tota,3
+otal,3
+lved,3
+e Bo,3
+ aro,3
+arou,3
+00 m,3
+0 m ,3
+d ar,3
+plat,3
+ften,3
+s ob,3
+ot n,3
+essa,3
+ssar,3
+sary,3
+e Re,3
+e Mi,3
+ne i,3
+ Ste,3
+erg,,3
+rg, ,3
+g, 1,3
+955),3
+r tr,3
+e ax,3
+es),,3
+canc,3
+s ag,3
+a La,3
+y, w,3
+o po,3
+1984,3
+Some,3
+ve f,3
+gh a,3
+ick ,3
+ 2.9,3
+sche,3
+e Pa,3
+ Pas,3
+Past,3
+asta,3
+staz,3
+taza,3
+aza ,3
+e Uc,3
+Ucam,3
+cama,3
+amar,3
+mara,3
+ara ,3
+ra D,3
+a De,3
+ Dep,3
+Depr,3
+ Sta,3
+A re,3
+in d,3
+asem,3
+seme,3
+85).,3
+eser,3
+behi,3
+ehin,3
+dams,3
+ng l,3
+ wes,3
+e ce,3
+i Ba,3
+in, ,3
+en e,3
+ Dum,3
+gin ,3
+1992,3
+n Ri,3
+ max,3
+imum,3
+mum ,3
+ndea,3
+ean ,3
+2.10,3
+orel,3
+elan,3
+te l,3
+ille,3
+eous,3
+ (La,3
+on),,3
+n), ,3
+ aga,3
+agai,3
+ A c,3
+s ti,3
+an s,3
+ify ,3
+e Vi,3
+ Vic,3
+Vict,3
+icto,3
+oria,3
+ Nil,3
+Nile,3
+to L,3
+o La,3
+nd L,3
+nia ,3
+ loo,3
+ art,3
+n fa,3
+act,,3
+ft a,3
+er h,3
+r ha,3
+aini,3
+ew c,3
+w co,3
+nt d,3
+p an,3
+nd T,3
+d Te,3
+erm ,3
+ Pun,3
+Pung,3
+unga,3
+nga ,3
+ Gar,3
+a, 1,3
+1991,3
+991),3
+eted,3
+Both,3
+ke o,3
+d bo,3
+bord,3
+tiva,3
+prec,3
+cise,3
+e. A,3
+ttle,3
+ pub,3
+publ,3
+ubli,3
+rnal,3
+est,,3
+a te,3
+, no,3
+now ,3
+ises,3
+s, s,3
+ 4 m,3
+4 m ,3
+ot b,3
+em. ,3
+. Te,3
+ Ter,3
+nume,3
+umer,3
+mero,3
+erou,3
+rous,3
+inve,3
+nves,3
+vest,3
+rs (,3
+s (M,3
+chie,3
+z, 1,3
+ng g,3
+ mou,3
+mout,3
+he W,3
+ Wai,3
+ Gor,3
+orge,3
+ew Z,3
+w Ze,3
+ Zea,3
+Zeal,3
+eala,3
+mari,3
+6) a,3
+hori,3
+vel.,3
+ Ple,3
+Plei,3
+leis,3
+eist,3
+stoc,3
+toce,3
+ocen,3
+cene,3
+ene ,3
+elin,3
+ritt,3
+tten,3
+ fee,3
+lent,3
+ Pac,3
+ Coa,3
+Coas,3
+oast,3
+80).,3
+w te,3
+ll, ,3
+dram,3
+rama,3
+amat,3
+ydro,3
+drol,3
+rolo,3
+in g,3
+1989,3
+ber ,3
+gram,3
+rge,,3
+nd. ,3
+ds f,3
+o to,3
+hown,3
+m is,3
+us r,3
+n tr,3
+uted,3
+ts h,3
+e kn,3
+rong,3
+ty c,3
+or, ,3
+rue ,3
+ic f,3
+iabi,3
+rs w,3
+ bei,3
+bein,3
+ll i,3
+) re,3
+repo,3
+epor,3
+nged,3
+ged ,3
+pwar,3
+r ne,3
+inni,3
+hten,3
+by i,3
+). O,3
+i Ri,3
+h ne,3
+y, 1,3
+de i,3
+ sea,3
+elf ,3
+(195,3
+l ad,3
+ane’,3
+stor,3
+l fo,3
+ cor,3
+ Ano,3
+Anot,3
+cy i,3
+lusi,3
+usio,3
+y le,3
+s al,3
+of 1,3
+by p,3
+y pa,3
+94).,3
+2.13,3
+.13 ,3
+h, a,3
+1.5 ,3
+umed,3
+mpen,3
+ensa,3
+nsat,3
+sate,3
+d oc,3
+r, b,3
+r wi,3
+l no,3
+y sh,3
+ exe,3
+r’s ,3
+s ef,3
+last,3
+d no,3
+, un,3
+y. F,3
+). H,3
+me w,3
+t. H,3
+r, h,3
+d ro,3
+ rou,3
+re’s,3
+’s e,3
+ch r,3
+h re,3
+ly p,3
+ abs,3
+h sh,3
+th b,3
+h bo,3
+ sev,3
+seve,3
+ay c,3
+y bu,3
+ld a,3
+sed.,3
+he J,3
+Jord,3
+rdan,3
+dan ,3
+ops ,3
+an (,3
+s im,3
+t li,3
+a pa,3
+ly w,3
+le. ,3
+g sl,3
+y do,3
+nk e,3
+k er,3
+.14),3
+14).,3
+ry v,3
+-ord,3
+r, i,3
+acce,3
+te e,3
+m re,3
+uviu,3
+vium,3
+ium ,3
+y pl,3
+s, g,3
+rs u,3
+ntac,3
+tact,3
+ct. ,3
+xpec,3
+tor ,3
+usua,3
+sual,3
+y, b,3
+id t,3
+f ev,3
+d do,3
+it m,3
+cult,3
+n ac,3
+r ac,3
+h ot,3
+gic ,3
+surv,3
+d ot,3
+s, n,3
+us l,3
+alie,3
+estr,3
+ Wil,3
+iam ,3
+ ‘or,3
+an’ ,3
+alk ,3
+ doo,3
+door,3
+, ma,3
+d. I,3
+ wak,3
+wake,3
+e, p,3
+g ho,3
+m’s ,3
+’s h,3
+ir s,3
+t em,3
+yers,3
+ers’,3
+rs’ ,3
+d li,3
+aths,3
+ jus,3
+er’ ,3
+ doe,3
+does,3
+oes ,3
+free,3
+oing,3
+ew e,3
+’ ca,3
+resc,3
+pati,3
+ day,3
+ pac,3
+pace,3
+orm,,3
+a li,3
+ifet,3
+feti,3
+etim,3
+lex ,3
+team,3
+h so,3
+pted,3
+ggre,3
+greg,3
+egat,3
+eemi,3
+om m,3
+m mi,3
+ Yet,3
+Yet,,3
+espi,3
+spit,3
+pite,3
+f pe,3
+ipat,3
+pate,3
+hole,3
+ole ,3
+ay. ,3
+s bu,3
+we c,3
+ruit,3
+olvi,3
+lvin,3
+xami,3
+evea,3
+veal,3
+e ab,3
+forg,3
+ew f,3
+ew s,3
+t ou,3
+e dy,3
+’s w,3
+s wo,3
+rk (,3
+k (1,3
+1995,3
+ ‘en,3
+‘ena,3
+y no,3
+ey b,3
+fram,3
+k on,3
+nsem,3
+sema,3
+emak,3
+t op,3
+andi,3
+ leg,3
+lega,3
+egal,3
+gal ,3
+laws,3
+ew l,3
+y, c,3
+ld t,3
+gh s,3
+ cyc,3
+cycl,3
+ycle,3
+cles,3
+ I s,3
+’’ ’,3
+’ ’ ,3
+ ’ (,3
+(Wei,3
+k, 1,3
+nowi,3
+’ th,3
+mmed,3
+liev,3
+ieve,3
+eve ,3
+ur b,3
+fear,3
+r, y,3
+ar s,3
+hip ,3
+cy. ,3
+stea,3
+tead,3
+e. H,3
+lien,3
+chy,,3
+hy, ,3
+ips,,3
+ticu,3
+ pur,3
+ch e,3
+xpli,3
+t. I,3
+vidi,3
+ amb,3
+ambi,3
+mbig,3
+bigu,3
+igui,3
+guit,3
+em (,3
+e jo,3
+ Ann,3
+ Jon,3
+cred,3
+edit,3
+o li,3
+h se,3
+e el,3
+ectr,3
+roni,3
+lenc,3
+ludi,3
+Sinc,3
+ket.,3
+et. ,3
+ Tod,3
+Toda,3
+g ad,3
+ntag,3
+ a k,3
+a ke,3
+ sol,3
+solv,3
+robl,3
+oble,3
+blem,3
+vanc,3
+ bal,3
+bala,3
+y wh,3
+le l,3
+o it,3
+t du,3
+ had,3
+had ,3
+d hi,3
+rout,3
+outi,3
+vice,3
+e yo,3
+talk,3
+ur c,3
+ fai,3
+fail,3
+’s p,3
+a ‘w,3
+flui,3
+luid,3
+rm f,3
+ lac,3
+lack,3
+k of,3
+ go ,3
+ps i,3
+yees,3
+ees ,3
+s te,3
+ple’,3
+le’s,3
+ loy,3
+loya,3
+oyal,3
+yalt,3
+alty,3
+k fo,3
+y vi,3
+engi,3
+s so,3
+eres,3
+g ac,3
+ Kno,3
+Know,3
+any,,3
+ny, ,3
+nows,3
+ cus,3
+cust,3
+usto,3
+tome,3
+mer ,3
+’s b,3
+rity,3
+e ga,3
+h co,3
+et s,3
+essf,3
+ssfu,3
+sful,3
+ntex,3
+ get,3
+le b,3
+e bu,3
+. Le,3
+ Lea,3
+ Com,3
+ompu,3
+mput,3
+ny w,3
+etin,3
+le g,3
+erio,3
+ectu,3
+ cur,3
+ew m,3
+ucts,3
+cts,,3
+Work,3
+mitm,3
+uite,3
+ager,3
+, to,3
+refe,3
+ tac,3
+taci,3
+it r,3
+o kn,3
+t jo,3
+sear,3
+earc,3
+You ,3
+ne w,3
+ mob,3
+mobi,3
+obil,3
+loss,3
+desi,3
+esig,3
+iffu,3
+ffus,3
+fuse,3
+nomy,3
+ly ‘,3
+, bo,3
+es e,3
+lm p,3
+ildi,3
+try’,3
+ry’s,3
+ (Jo,3
+(Jon,3
+r bo,3
+mite,3
+dura,3
+urat,3
+ltim,3
+tima,3
+ly f,3
+. At,3
+ At ,3
+r hi,3
+hall,3
+her.,3
+tinc,3
+inct,3
+a ca,3
+g’ s,3
+inds,3
+repu,3
+eput,3
+puta,3
+utat,3
+s go,3
+arne,3
+ry b,3
+esio,3
+ly l,3
+ hel,3
+help,3
+. Ag,3
+ic, ,3
+amen,3
+ty-b,3
+hur,,3
+ntem,3
+retu,3
+etur,3
+defe,3
+capa,3
+apac,3
+paci,3
+ Cze,3
+Czec,3
+zech,3
+ech ,3
+or M,3
+r Mc,3
+ McD,3
+McDo,3
+cDon,3
+Dona,3
+nald,3
+alds,3
+e Be,2
+ief ,2
+w of,2
+ackg,2
+ckgr,2
+kgro,2
+sets,2
+aile,2
+iled,2
+w. T,2
+. Ty,2
+ Typ,2
+Type,2
+s il,2
+rthq,2
+thqu,2
+hqua,2
+quak,2
+uake,2
+ ase,2
+asei,2
+l (F,2
+2.1A,2
+.1A),2
+1A) ,2
+ut v,2
+ily ,2
+ifte,2
+fted,2
+.1B),2
+B). ,2
+C). ,2
+ocli,2
+g (F,2
+irs ,2
+ce u,2
+wndr,2
+ndro,2
+drop,2
+ropp,2
+2.1D,2
+me e,2
+dome,2
+ntic,2
+d sy,2
+o al,2
+re v,2
+g ma,2
+ eit,2
+eith,2
+ithe,2
+2.1J,2
+sibi,2
+t, b,2
+ut i,2
+f gr,2
+r cr,2
+ss-v,2
+s-va,2
+-val,2
+ts (,2
+.1B ,2
+1B a,2
+d C),2
+y ag,2
+, er,2
+ach.,2
+ch. ,2
+m (F,2
+1C),,2
+C), ,2
+l oc,2
+Even,2
+nduc,2
+ge s,2
+ams.,2
+), t,2
+be b,2
+it w,2
+ll f,2
+w al,2
+e. W,2
+ce (,2
+w in,2
+ upt,2
+rse.,2
+2.1 ,2
+ Sur,2
+ce d,2
+n by,2
+g, f,2
+ Pla,2
+ss-s,2
+s-se,2
+-sec,2
+ht (,2
+3) s,2
+ws i,2
+ Lar,2
+Larg,2
+is g,2
+exag,2
+xagg,2
+agge,2
+gger,2
+gera,2
+ben ,2
+D an,2
+o di,2
+t ty,2
+rst,,2
+h wi,2
+Redu,2
+d ag,2
+elf.,2
+lf. ,2
+ble,,2
+rtie,2
+nd A,2
+d Al,2
+1982,2
+2) s,2
+oot ,2
+t Ri,2
+ntan,2
+na. ,2
+a. T,2
+g, b,2
+roba,2
+obab,2
+ft d,2
+be m,2
+, fa,2
+o pe,2
+w di,2
+by s,2
+trik,2
+rike,2
+s 1.,2
+San ,2
+n An,2
+Andr,2
+ndre,2
+drea,2
+t. W,2
+c pr,2
+easo,2
+ason,2
+ar i,2
+te o,2
+rown,2
+wn a,2
+nd W,2
+y sm,2
+l si,2
+ siz,2
+size,2
+d fl,2
+f er,2
+g on,2
+Jeff,2
+ 190,2
+ Nan,2
+Nans,2
+anso,2
+nson,2
+appa,2
+ppar,2
+aren,2
+ion;,2
+on; ,2
+iewe,2
+ewed,2
+ bef,2
+befo,2
+ir r,2
+ eva,2
+valu,2
+uate,2
+done,2
+ne b,2
+ns e,2
+ (1),2
+(1) ,2
+g sa,2
+ wav,2
+wave,2
+aves,2
+es; ,2
+or (,2
+weg;,2
+eg; ,2
+ (pa,2
+(pat,2
+bend,2
+ (4),2
+(4) ,2
+; an,2
+nd (,2
+a ty,2
+typi,2
+ypic,2
+pica,2
+l br,2
+, ve,2
+low,,2
+w, a,2
+It h,2
+n po,2
+op t,2
+p th,2
+d, s,2
+ Kah,2
+Kahn,2
+ahn,,2
+hn, ,2
+movi,2
+, mi,2
+). W,2
+ge d,2
+ dim,2
+dth,,2
+h, d,2
+pth,,2
+), b,2
+opor,2
+d (s,2
+ (si,2
+silt,2
+) de,2
+an 3,2
+a be,2
+rtin,2
+n 11,2
+ 11 ,2
+l li,2
+o (F,2
+n ba,2
+ad w,2
+1981,2
+981),2
+81).,2
+y, s,2
+ateg,2
+tego,2
+ing-,2
+-str,2
+oup ,2
+rabl,2
+5 to,2
+m ca,2
+gory,2
+bar-,2
+ar-b,2
+r-br,2
+ isl,2
+and-,2
+nd-b,2
+d-br,2
+ds a,2
+om s,2
+ht t,2
+o br,2
+um, ,2
+rk a,2
+k an,2
+f pa,2
+en b,2
+ded,,2
+y ab,2
+uptl,2
+ptly,2
+ds (,2
+2.3),2
+s ta,2
+ cri,2
+crit,2
+lues,2
+, gr,2
+2.3 ,2
+ Rel,2
+Rela,2
+d si,2
+ty d,2
+y du,2
+rge.,2
+e. S,2
+h fl,2
+s (f,2
+Alth,2
+r ty,2
+pes,,2
+c be,2
+zed ,2
+977,,2
+77, ,2
+7, p,2
+se f,2
+.4).,2
+, pa,2
+rns.,2
+2.4 ,2
+ttem,2
+mpts,2
+ds c,2
+th i,2
+g va,2
+ad f,2
+pe. ,2
+ee m,2
+wer.,2
+, es,2
+s. P,2
+ar c,2
+r al,2
+; Pa,2
+ty m,2
+p ch,2
+rn 4,2
+ng-t,2
+weg ,2
+t ba,2
+by c,2
+tes,,2
+s, b,2
+l ba,2
+l. A,2
+y na,2
+rowe,2
+nk s,2
+k st,2
+ee o,2
+y pe,2
+rmit,2
+mits,2
+tena,2
+enan,2
+f na,2
+row,,2
+w, d,2
+lize,2
+rn 8,2
+n 8 ,2
+nds,,2
+ngs,,2
+l, b,2
+a gr,2
+rt t,2
+d ap,2
+eara,2
+nce.,2
+5, a,2
+) be,2
+ Sus,2
+Susp,2
+w an,2
+els.,2
+eep ,2
+quan,2
+uant,2
+l ma,2
+ghes,2
+hest,2
+ 12 ,2
+nd 1,2
+rs m,2
+ met,2
+s du,2
+ely.,2
+ Tha,2
+That,2
+ 12),2
+n 5),2
+me m,2
+2), ,2
+, et,2
+y gr,2
+mon,,2
+em c,2
+or u,2
+bran,2
+anch,2
+nchi,2
+join,2
+t, m,2
+r br,2
+fer ,2
+f mu,2
+ sep,2
+sepa,2
+arat,2
+), w,2
+s br,2
+d Na,2
+93) ,2
+nd R,2
+icha,2
+s tr,2
+artl,2
+ Smi,2
+80) ,2
+0) a,2
+om w,2
+m wh,2
+teve,2
+e ap,2
+firs,2
+eomo,2
+rphi,2
+c cl,2
+om l,2
+ng-c,2
+g-co,2
+-con,2
+ks a,2
+us f,2
+subt,2
+ubtl,2
+btle,2
+s. D,2
+ Dra,2
+Drai,2
+sThe,2
+s af,2
+, cl,2
+ate,,2
+e er,2
+ial.,2
+ Loc,2
+Loca,2
+rn (,2
+re 1,2
+ 1.2,2
+l dr,2
+es g,2
+ut 2,2
+2.5 ,2
+hill,2
+ Map,2
+Map ,2
+ap o,2
+vens,2
+ Kin,2
+King,2
+s. N,2
+umbe,2
+te r,2
+m yo,2
+youn,2
+oung,2
+unge,2
+olde,2
+ldes,2
+us d,2
+ A t,2
+topo,2
+opog,2
+pogr,2
+ift,,2
+ft, ,2
+a di,2
+ay a,2
+ 2.6,2
+As t,2
+gthe,2
+d. C,2
+. Ch,2
+ork,,2
+rk, ,2
+967),2
+ Ohi,2
+Ohio,2
+hio ,2
+o ha,2
+f so,2
+ Inc,2
+ms p,2
+mitt,2
+tted,2
+em t,2
+o ca,2
+adin,2
+ Rus,2
+Russ,2
+lat ,2
+l la,2
+of L,2
+ Lou,2
+Loui,2
+ouis,2
+sian,2
+erte,2
+ern,,2
+rn m,2
+by u,2
+y up,2
+t. P,2
+. Pr,2
+ Pri,2
+ne (,2
+77) ,2
+) us,2
+ric ,2
+c ri,2
+y cr,2
+iles,2
+ee E,2
+e Em,2
+ Flo,2
+lori,2
+Subs,2
+ast–,2
+st–w,2
+t–we,2
+–wes,2
+t fl,2
+bit ,2
+ired,2
+nsiv,2
+h fe,2
+or n,2
+no t,2
+r so,2
+marg,2
+argi,2
+rgin,2
+in. ,2
+ft r,2
+ulte,2
+e Ri,2
+ver.,2
+ Lon,2
+a cr,2
+ey d,2
+ Mue,2
+Mueh,2
+uehl,2
+ehlb,2
+hlbe,2
+r (1,2
+ Tao,2
+Taos,2
+aos,,2
+os, ,2
+s, N,2
+ew M,2
+w Me,2
+ Mex,2
+Mexi,2
+exic,2
+xico,2
+ico ,2
+2.7),2
+.7).,2
+urve,2
+rvey,2
+vey ,2
+maps,2
+. By,2
+ By ,2
+ur o,2
+ wal,2
+meas,2
+easu,2
+asur,2
+suri,2
+own-,2
+wn-t,2
+n-ti,2
+-til,2
+ (Dd,2
+Du) ,2
+ex o,2
+ry w,2
+) (F,2
+ 30 ,2
+ns w,2
+94) ,2
+thwe,2
+hwes,2
+rn M,2
+ Kel,2
+d Pi,2
+ Pin,2
+Pint,2
+pp. ,2
+e vi,2
+meth,2
+od o,2
+r Mu,2
+y fe,2
+t va,2
+mary,2
+ sec,2
+seco,2
+onda,2
+ry p,2
+disa,2
+isap,2
+sapp,2
+s er,2
+h ti,2
+ime.,2
+isol,2
+ted,,2
+y cl,2
+ ali,2
+igne,2
+gned,2
+nds.,2
+. Is,2
+o lo,2
+l ev,2
+as l,2
+ch f,2
+dam,,2
+e du,2
+, ne,2
+ic d,2
+c de,2
+cupy,2
+upy ,2
+y ge,2
+ins,,2
+ Suc,2
+Such,2
+ch l,2
+vian,2
+o la,2
+d at,2
+n el,2
+f ar,2
+t. C,2
+ Con,2
+Cont,2
+avor,2
+kes.,2
+s. O,2
+ten ,2
+o fa,2
+ry t,2
+See ,2
+elfo,2
+foot,2
+t La,2
+pi v,2
+i va,2
+klan,2
+ 2.8,2
+nfer,2
+ zon,2
+zone,2
+he A,2
+e Am,2
+ Ama,2
+Amaz,2
+mazo,2
+azon,2
+on B,2
+nd M,2
+ Man,2
+er S,2
+r St,2
+Ster,2
+ernb,2
+rnbe,2
+nber,2
+ownw,2
+wnwa,2
+nwar,2
+on d,2
+n. M,2
+s id,2
+0 ye,2
+h is,2
+trun,2
+runk,2
+d ce,2
+usta,2
+acy ,2
+ Som,2
+rpos,2
+thic,2
+hick,2
+ck s,2
+ntar,2
+ cov,2
+cove,2
+ (St,2
+1950,2
+Stru,2
+heme,2
+eme ,2
+Star,2
+tars,2
+ur l,2
+r li,2
+ath ,2
+pre-,2
+c ba,2
+t, f,2
+1974,2
+974),2
+74).,2
+ Lau,2
+ Res,2
+ind ,2
+. Cl,2
+ Clu,2
+ge r,2
+Ucay,2
+caya,2
+ayal,2
+yali,2
+ali ,2
+li B,2
+sin,,2
+eru ,2
+ru (,2
+n et,2
+; Du,2
+ont,,2
+93).,2
+ pig,2
+pigg,2
+iggy,2
+hrus,2
+ Sim,2
+Simi,2
+rn p,2
+2.9),2
+.9).,2
+rd t,2
+f ma,2
+maxi,2
+axim,2
+ximu,2
+um s,2
+m su,2
+fron,2
+ront,2
+band,2
+dean,2
+t (S,2
+an f,2
+er D,2
+ 500,2
+500 ,2
+of C,2
+ Cen,2
+ozoi,2
+zoic,2
+oic ,2
+c se,2
+nts,,2
+nary,2
+(Lau,2
+). N,2
+.10),2
+y-ba,2
+ks i,2
+cant,2
+fy t,2
+, La,2
+ke V,2
+a is,2
+rth ,2
+ga (,2
+2.11,2
+ga a,2
+a an,2
+d La,2
+e Kw,2
+ Kwa,2
+Kwan,2
+wani,2
+ania,2
+look,2
+ook ,2
+k ar,2
+rtif,2
+are,,2
+ Uga,2
+Ugan,2
+gand,2
+nda.,2
+ow i,2
+rsed,2
+r dr,2
+g fr,2
+s ov,2
+rchi,2
+alls,2
+eran,2
+of u,2
+inui,2
+nuin,2
+Door,2
+oorn,2
+ornk,2
+rnka,2
+nkam,2
+kamp,2
+amp ,2
+mp a,2
+ Tem,2
+Temp,2
+66).,2
+s. B,2
+. Ba,2
+ck t,2
+ia (,2
+). E,2
+rm e,2
+plie,2
+lied,2
+d na,2
+res.,2
+g ba,2
+lose,2
+e Pu,2
+ km2,2
+km2),2
+m2) ,2
+crat,2
+aton,2
+ide.,2
+de. ,2
+ga L,2
+Garc,2
+arci,2
+rcia,2
+cia,,2
+ia, ,2
+alli,2
+surr,2
+urro,2
+rrou,2
+y Pa,2
+he N,2
+gati,2
+). B,2
+ Bot,2
+ bor,2
+nt e,2
+1988,2
+988),2
+As a,2
+ult,,2
+ce e,2
+tres,2
+eact,2
+ivat,2
+vate,2
+of A,2
+se m,2
+test,2
+nals,2
+ea w,2
+ores,2
+e 19,2
+3. T,2
+tree,2
+nks ,2
+ 2 m,2
+2 m ,2
+f wa,2
+ow w,2
+g fl,2
+a mi,2
+ored,2
+d. O,2
+moti,2
+otio,2
+ phe,2
+phen,2
+heno,2
+enom,2
+nome,2
+ks t,2
+tem.,2
+l wa,2
+n, h,2
+, ha,2
+by n,2
+us i,2
+stig,2
+tiga,2
+gato,2
+ (Ma,2
+(Mac,2
+Mach,2
+; Zu,2
+ Zuc,2
+Zuch,2
+hiew,2
+iewi,2
+ewic,2
+wicz,2
+icz,,2
+cz, ,2
+83).,2
+a cl,2
+lt m,2
+e Wa,2
+Waio,2
+aioh,2
+iohi,2
+ohin,2
+hine,2
+ne G,2
+e Go,2
+Gorg,2
+ epi,2
+epis,2
+piso,2
+isod,2
+2.12,2
+arin,2
+rine,2
+f is,2
+ty b,2
+oriz,2
+rizo,2
+izon,2
+zont,2
+a gi,2
+e La,2
+ke B,2
+ Bon,2
+Bonn,2
+nnev,2
+nevi,2
+evil,2
+vill,2
+lle ,2
+hore,2
+reli,2
+. Po,2
+ Por,2
+he L,2
+feet,2
+it d,2
+ km ,2
+ Cal,2
+Cali,2
+alif,2
+lifo,2
+ifor,2
+forn,2
+rnia,2
+ Not,2
+Not ,2
+med,,2
+is w,2
+gy o,2
+, ev,2
+sits,2
+ette,2
+984;,2
+84; ,2
+4; R,2
+; Ro,2
+ Roc,2
+Rock,2
+ockw,2
+ckwe,2
+kwel,2
+n gr,2
+Merr,2
+erri,2
+rrit,2
+itts,2
+tts ,2
+nd V,2
+nd H,2
+967;,2
+67; ,2
+ See,2
+ dia,2
+diag,2
+iagr,2
+agra,2
+ram ,2
+West,2
+m bo,2
+s cu,2
+cut ,2
+I = ,2
+en m,2
+ = a,2
+= am,2
+lt s,2
+ens,,2
+eare,2
+st e,2
+attr,2
+ttri,2
+o ot,2
+ogis,2
+gist,2
+role,2
+wn f,2
+or y,2
+man,,2
+ard,,2
+rd, ,2
+ Tec,2
+Tect,2
+rol ,2
+s es,2
+y tr,2
+true,2
+66) ,2
+ic m,2
+c mo,2
+knes,2
+istr,2
+en v,2
+rly,,2
+defy,2
+efy ,2
+nt g,2
+s si,2
+ll l,2
+n if,2
+6) r,2
+t bo,2
+arp ,2
+d, A,2
+rali,2
+Red ,2
+ed R,2
+ar W,2
+r Wi,2
+ Win,2
+Winn,2
+nnip,2
+nipe,2
+ipeg,2
+peg,,2
+eg, ,2
+g, C,2
+Cana,2
+anad,2
+nada,2
+ada ,2
+c re,2
+ch, ,2
+pi R,2
+t. L,2
+ro a,2
+r Mi,2
+ouri,2
+ (Ad,2
+(Ada,2
+Adam,2
+) as,2
+ Nor,2
+Nort,2
+gy, ,2
+ics,,2
+cs, ,2
+, if,2
+ she,2
+lf i,2
+55) ,2
+ugho,2
+ghou,2
+Inde,2
+t at,2
+ct b,2
+rade,2
+de, ,2
+am m,2
+r, s,2
+oads,2
+r af,2
+eads,2
+ err,2
+neou,2
+s ri,2
+t le,2
+r. S,2
+y (P,2
+ (P),2
+(P) ,2
+io b,2
+h (L,2
+ (L ,2
+ c) ,2
+c) a,2
+ey l,2
+so t,2
+e (S,2
+ (S ,2
+.0, ,2
+0, a,2
+r ar,2
+an r,2
+ad p,2
+t mu,2
+rn v,2
+, In,2
+e, r,2
+ Gal,2
+Gala,2
+alay,2
+ Eff,2
+Effe,2
+ tex,2
+13 i,2
+omet,2
+it s,2
+ne A,2
+e A–,2
+r. P,2
+ints,2
+d C ,2
+d po,2
+ G a,2
+rd l,2
+.5 t,2
+a ve,2
+to D,2
+d, c,2
+, ch,2
+nfin,2
+ (F–,2
+(F–D,2
+F–D),2
+to 2,2
+o 2.,2
+ 2.0,2
+to H,2
+ H. ,2
+om 1,2
+m 1.,2
+t ov,2
+ll w,2
+ropa,2
+opag,2
+paga,2
+agat,2
+nt A,2
+n am,2
+ld o,2
+r. H,2
+, be,2
+ll n,2
+ot r,2
+rt d,2
+doub,2
+bted,2
+tedl,2
+edly,2
+oor,,2
+exer,2
+xerc,2
+erci,2
+rcis,2
+er’s,2
+ Rou,2
+ (se,2
+ Blu,2
+Blum,2
+3 an,2
+astr,2
+ mad,2
+made,2
+ade ,2
+lowl,2
+owly,2
+wly ,2
+ot a,2
+t ab,2
+tly,,2
+ unl,2
+e, h,2
+o ad,2
+. Fu,2
+ Fur,2
+Furt,2
+ War,2
+Ware,2
+um o,2
+bled,2
+ughn,2
+ghne,2
+hnes,2
+ss i,2
+ge m,2
+). C,2
+anat,2
+ts e,2
+n (A,2
+ent-,2
+fan-,2
+an-l,2
+n-li,2
+-lik,2
+d. W,2
+. Tr,2
+an R,2
+appr,2
+fan ,2
+a mo,2
+n (S,2
+) ma,2
+olli,2
+, so,2
+me r,2
+rvat,2
+th d,2
+ Rea,2
+th u,2
+h up,2
+g. A,2
+gh p,2
+omin,2
+nse,,2
+t, u,2
+am b,2
+ft p,2
+lera,2
+oves,2
+2.15,2
+n me,2
+d ne,2
+ades,2
+s. R,2
+ arm,2
+armo,2
+etar,2
+tard,2
+ompr,2
+mpre,2
+act.,2
+A si,2
+t if,2
+ upw,2
+upwa,2
+ if,,2
+if, ,2
+t en,2
+rs r,2
+nd I,2
+an l,2
+n li,2
+uded,2
+st n,2
+1975,2
+975),2
+lora,2
+f wh,2
+r mu,2
+mply,2
+lone,2
+one.,2
+ne. ,2
+ usu,2
+to h,2
+o hi,2
+g ge,2
+t ra,2
+pone,2
+onen,2
+de e,2
+.def,2
+.cha,2
+r la,2
+, fl,2
+nge,,2
+ hum,2
+huma,2
+uman,2
+man ,2
+g bo,2
+g hi,2
+it o,2
+r su,2
+eas,,2
+rcum,2
+cums,2
+umst,2
+msta,2
+ess,,2
+ss, ,2
+s, l,2
+, li,2
+ay r,2
+ unt,2
+unti,2
+ntil,2
+til ,2
+en h,2
+ne a,2
+ys, ,2
+ mas,2
+rced,2
+am H,2
+’ to,2
+mane,2
+anen,2
+corp,2
+orpo,2
+rpor,2
+ind.,2
+f hi,2
+depa,2
+urvi,2
+rviv,2
+vive,2
+ve w,2
+ a j,2
+a jo,2
+ife,,2
+fe, ,2
+‘roa,2
+ir d,2
+chy ,2
+n so,2
+xter,2
+l gu,2
+inea,2
+ths,,2
+hs, ,2
+st w,2
+t wh,2
+eer’,2
+cy p,2
+ Is ,2
+eryo,2
+ryon,2
+yone,2
+ doi,2
+doin,2
+wn t,2
+ing?,2
+ng? ,2
+n em,2
+w en,2
+a sh,2
+ft f,2
+rpet,2
+petu,2
+etua,2
+hs a,2
+lt a,2
+ed’ ,2
+rs –,2
+ – p,2
+– pr,2
+by r,2
+cupa,2
+upat,2
+es –,2
+– to,2
+to ‘,2
+re u,2
+y – ,2
+pt o,2
+oadl,2
+adly,2
+ny s,2
+l em,2
+ (Ar,2
+(Art,2
+r & ,2
+Rous,2
+ouss,2
+ssea,2
+seau,2
+ myr,2
+myri,2
+yria,2
+riad,2
+iad ,2
+r ov,2
+erie,2
+erpl,2
+rpla,2
+ay s,2
+chao,2
+haot,2
+aoti,2
+ So ,2
+So m,2
+o mu,2
+ink ,2
+o ag,2
+rand,2
+ando,2
+ndom,2
+dom ,2
+t, d,2
+blic,2
+whol,2
+eall,2
+laye,2
+l ru,2
+’ is,2
+h we,2
+ – a,2
+– as,2
+e – ,2
+– th,2
+r. W,2
+be w,2
+l, i,2
+kets,2
+ived,2
+ Our,2
+Our ,2
+es r,2
+ rem,2
+abse,2
+bsen,2
+nise,2
+ke s,2
+g so,2
+terd,2
+erde,2
+rdep,2
+ce p,2
+w fo,2
+esiv,2
+vene,2
+enes,2
+s ne,2
+ gat,2
+gath,2
+word,2
+ord ,2
+r we,2
+lore,2
+perv,2
+rvas,2
+vasi,2
+asiv,2
+eore,2
+oret,2
+reti,2
+etic,2
+anal,2
+eory,2
+ Fir,2
+Firs,2
+rele,2
+of K,2
+f Ka,2
+979,,2
+79, ,2
+uss ,2
+ude ,2
+fini,2
+noti,2
+oura,2
+ fra,2
+rame,2
+ck (,2
+t wo,2
+k in,2
+, di,2
+995),2
+rk o,2
+n se,2
+g, e,2
+w em,2
+gs o,2
+s ou,2
+wn d,2
+ct l,2
+aws,,2
+ws, ,2
+em w,2
+g pe,2
+o en,2
+ on.,2
+nual,2
+larl,2
+ay t,2
+it t,2
+e cy,2
+oade,2
+ader,2
+. Fr,2
+ Fro,2
+From,2
+cipe,2
+pe f,2
+How ,2
+ I t,2
+I th,2
+I sa,2
+ say,2
+’ (W,2
+ ‘sa,2
+‘say,2
+sayi,2
+ayin,2
+g’ (,2
+ ‘se,2
+’ (p,2
+g’ t,2
+omeo,2
+meon,2
+eone,2
+t im,2
+ imm,2
+imme,2
+medi,2
+edia,2
+diat,2
+ hen,2
+henc,2
+f yo,2
+ou b,2
+ou i,2
+u in,2
+r fe,2
+mann,2
+nner,2
+ou h,2
+u ha,2
+t ho,2
+rcul,2
+orci,2
+rcin,2
+mbli,2
+blin,2
+ad o,2
+do w,2
+ers?,2
+rs? ,2
+om f,2
+nt’ ,2
+t’ i,2
+ sal,2
+sali,2
+t ru,2
+prol,2
+roli,2
+olif,2
+ifer,2
+fera,2
+, pl,2
+ans,,2
+s, d,2
+ed ‘,2
+l cu,2
+ cue,2
+cues,2
+ (Mi,2
+(Mis,2
+Misc,2
+chel,2
+hel,,2
+litt,2
+ittl,2
+r im,2
+impr,2
+mpro,2
+ovis,2
+visa,2
+eer,,2
+h ex,2
+ot e,2
+ Ins,2
+Inst,2
+. ‘W,2
+ ‘We,2
+k’ s,2
+’ si,2
+g su,2
+nsis,2
+ecta,2
+ctat,2
+In ‘,2
+n ‘w,2
+ret ,2
+et e,2
+d op,2
+n ev,2
+volu,2
+olut,2
+luti,2
+odes,2
+r fu,2
+es’ ,2
+ To ,2
+o il,2
+Anna,2
+nnaL,2
+naLe,2
+aLee,2
+Lee ,2
+ee S,2
+ Sax,2
+6) o,2
+) on,2
+Cand,2
+ndac,2
+dace,2
+ce J,2
+e au,2
+by e,2
+re-f,2
+ors,,2
+d id,2
+prin,2
+rinc,2
+ncip,2
+cipl,2
+lf-o,2
+f-or,2
+-org,2
+ibe ,2
+e. N,2
+l ci,2
+s ‘w,2
+. Af,2
+ Aft,2
+Afte,2
+l po,2
+o ea,2
+se r,2
+ngs.,2
+gs. ,2
+ hop,2
+cle ,2
+h it,2
+ey i,2
+rms.,2
+’ ha,2
+mous,2
+us w,2
+ctro,2
+as g,2
+o so,2
+worl,2
+orld,2
+l fi,2
+, He,2
+tt P,2
+t Pa,2
+Pack,2
+acka,2
+ckar,2
+kard,2
+l. S,2
+ey h,2
+s op,2
+day,,2
+eman,2
+om a,2
+essn,2
+ssne,2
+snes,2
+a dy,2
+ts p,2
+a sy,2
+ sym,2
+symb,2
+ Bou,2
+Boun,2
+prom,2
+ – r,2
+r, o,2
+, ot,2
+nota,2
+otab,2
+ss p,2
+, at,2
+heri,2
+age.,2
+st C,2
+t Co,2
+ast’,2
+st’ ,2
+n, b,2
+temm,2
+‘rou,2
+inel,2
+nely,2
+offe,2
+advi,2
+dvic,2
+ou w,2
+u wa,2
+ wan,2
+want,2
+do t,2
+ge j,2
+jobs,2
+ oft,2
+ofte,2
+ten,,2
+lk t,2
+to y,2
+o yo,2
+tito,2
+itor,2
+aili,2
+ilin,2
+. 23,2
+ 23),2
+23).,2
+as h,2
+ him,2
+hims,2
+imse,2
+nced,2
+Term,2
+ & P,2
+n’s ,2
+. De,2
+ Des,2
+Desp,2
+fier,2
+ierc,2
+ter-,2
+-fir,2
+mon ,2
+ion’,2
+ Sev,2
+Seve,2
+s, f,2
+uidi,2
+idit,2
+dity,2
+f fi,2
+urno,2
+rnov,2
+nove,2
+lisa,2
+rely,2
+ir b,2
+quic,2
+uick,2
+ickl,2
+ckly,2
+ms f,2
+m al,2
+as q,2
+surp,2
+urpr,2
+rpri,2
+pris,2
+risi,2
+tify,2
+ir p,2
+any.,2
+ny. ,2
+lty ,2
+ne l,2
+emic,2
+ted:,2
+Many,2
+ us ,2
+inki,2
+nkin,2
+ob t,2
+n hi,2
+ned:,2
+ere’,2
+ways,2
+ays ,2
+. 28,2
+ 28),2
+28).,2
+ emb,2
+mbed,2
+bedd,2
+nes’,2
+eavi,2
+ay w,2
+y we,2
+e: ‘,2
+llea,2
+leag,2
+eagu,2
+ague,2
+migh,2
+ tod,2
+toda,2
+day’,2
+ay’s,2
+ncy.,2
+ gai,2
+pete,2
+tenc,2
+l ex,2
+st r,2
+trep,2
+pren,2
+rene,2
+eneu,2
+neur,2
+eurs,2
+t, c,2
+seek,2
+eek ,2
+ood ,2
+he k,2
+e ke,2
+ul c,2
+Lear,2
+g ta,2
+s pl,2
+r cl,2
+lub.,2
+ub. ,2
+s ea,2
+y da,2
+o ta,2
+pute,2
+uter,2
+oups,2
+ups ,2
+ mee,2
+meet,2
+et f,2
+ lun,2
+lunc,2
+unch,2
+nch ,2
+h or,2
+e ol,2
+ fri,2
+frie,2
+iend,2
+, go,2
+ gos,2
+goss,2
+ ado,2
+adop,2
+dopt,2
+opte,2
+lopi,2
+opin,2
+ogie,2
+gies,2
+. Wo,2
+ Wor,2
+c co,2
+ld. ,2
+d. A,2
+quit,2
+. 27,2
+ 27),2
+clai,2
+laim,2
+aime,2
+imed,2
+ersa,2
+rsat,2
+you’,2
+ou’l,2
+u’ll,2
+’ll ,2
+ . I,2
+s yo,2
+ur n,2
+eeds,2
+ nex,2
+next,2
+t’’’,2
+ner,,2
+ew t,2
+nnin,2
+ey r,2
+lls,,2
+l so,2
+ho k,2
+effi,2
+rch ,2
+ch n,2
+recr,2
+ecru,2
+crui,2
+‘You,2
+t hi,2
+le y,2
+ou k,2
+u kn,2
+now,,2
+w, o,2
+ts r,2
+m, t,2
+ fos,2
+fost,2
+oste,2
+ ada,2
+adap,2
+dapt,2
+apta,2
+ptat,2
+purs,2
+niqu,2
+ique,2
+arit,2
+s ec,2
+pred,2
+y ‘c,2
+ led,2
+ro-e,2
+o-ec,2
+-eco,2
+c st,2
+ liv,2
+live,2
+bile,2
+ Lik,2
+Like,2
+ abi,2
+udio,2
+ in-,2
+in-h,2
+n-ho,2
+-hou,2
+hous,2
+ouse,2
+d. B,2
+rs p,2
+faci,2
+acil,2
+cili,2
+lita,2
+te p,2
+rts.,2
+esso,2
+ct d,2
+of q,2
+f qu,2
+ty l,2
+whet,2
+heth,2
+rt a,2
+ ult,2
+ilm.,2
+lm. ,2
+ect,,2
+ilm’,2
+lm’s,2
+’s r,2
+leas,2
+At t,2
+’s c,2
+dits,2
+s sy,2
+ho m,2
+h pe,2
+subc,2
+ubco,2
+bcon,2
+ws f,2
+lex,,2
+ex, ,2
+ uni,2
+ ‘pr,2
+‘pro,2
+ts’ ,2
+fit ,2
+id a,2
+d ef,2
+lloc,2
+s. E,2
+read,2
+eady,2
+ady ,2
+tale,2
+alen,2
+d wo,2
+’s t,2
+’s n,2
+ice.,2
+esea,2
+nct ,2
+ct s,2
+age,,2
+reel,2
+eela,2
+ly v,2
+ntry,2
+ctri,2
+. Yo,2
+ You,2
+find,2
+st j,2
+’ (J,2
+ Onc,2
+Once,2
+e ‘c,2
+ ‘cr,2
+raft,2
+day.,2
+ las,2
+, la,2
+pani,2
+anie,2
+nies,2
+ Hav,2
+Havi,2
+me i,2
+ cul,2
+ls e,2
+navi,2
+avig,2
+viga,2
+to n,2
+h ta,2
+d cu,2
+entu,2
+o fu,2
+ere,,2
+seni,2
+enio,2
+nior,2
+h wo,2
+ps t,2
+als.,2
+ neg,2
+negl,2
+egle,2
+glec,2
+rlie,2
+lier,2
+ Par,2
+ fam,2
+fami,2
+amil,2
+ur t,2
+r op,2
+. Sh,2
+d ex,2
+r un,2
+f ‘i,2
+idle,2
+mers,2
+o wo,2
+t he,2
+elp ,2
+r. O,2
+a pr,2
+g en,2
+ Wha,2
+What,2
+alth,2
+gh f,2
+sed’,2
+s mi,2
+apin,2
+y. R,2
+f ou,2
+mixt,2
+ixtu,2
+xtur,2
+Mars,2
+arsh,2
+rsha,2
+shal,2
+989),2
+89),,2
+9), ,2
+leme,2
+c, a,2
+ fun,2
+fund,2
+ndam,2
+dame,2
+Comm,2
+conn,2
+nnec,2
+nect,2
+ot d,2
+-ter,2
+ay n,2
+llab,2
+abor,2
+bora,2
+d en,2
+enth,2
+curr,2
+urre,2
+rren,2
+ity-,2
+y-bu,2
+-bui,2
+, ou,2
+ & A,2
+& Ar,2
+ Art,2
+1999,2
+999),2
+99).,2
+iews,2
+ews ,2
+o oc,2
+ – s,2
+gend,2
+ end,2
+Park,2
+femi,2
+ Rec,2
+Reci,2
+y. S,2
+ty r,2
+dels,2
+rn f,2
+y, d,2
+ir t,2
+r ti,2
+ds s,2
+ too,2
+too ,2
+trap,2
+rapp,2
+t sy,2
+us p,2
+w le,2
+g op,2
+y em,2
+ir l,2
+citi,2
+ipan,2
+pant,2
+ants,2
+orin,2
+es? ,2
+tal’,2
+ ‘in,2
+‘int,2
+hems,2
+emse,2
+selv,2
+elve,2
+orkf,2
+rkfo,2
+kfor,2
+ ack,2
+ackn,2
+ckno,2
+eply,2
+n wo,2
+d – ,2
+an h,2
+n he,2
+ke c,2
+Defo,1
+se B,1
+ Bef,1
+Befo,1
+c ex,1
+f sy,1
+synt,1
+ynte,1
+ntec,1
+c im,1
+brie,1
+rief,1
+ef r,1
+f ty,1
+, ty,1
+ionT,1
+onTh,1
+nThe,1
+urfi,1
+rfic,1
+2.1.,1
+.1. ,1
+1. T,1
+ sei,1
+h ea,1
+upt ,1
+pt f,1
+ic w,1
+c wi,1
+A) w,1
+t ve,1
+asil,1
+sily,1
+zed.,1
+th v,1
+h ve,1
+ck u,1
+k up,1
+1B).,1
+1C).,1
+mono,1
+onoc,1
+nocl,1
+lina,1
+2.1F,1
+.1F,,1
+1F, ,1
+F, G,1
+, G),1
+ G).,1
+G). ,1
+ Pai,1
+Pair,1
+airs,1
+d (h,1
+ (ho,1
+(hor,1
+rst),1
+t) o,1
+ks (,1
+s (g,1
+ (gr,1
+(gra,1
+ben),1
+en) ,1
+n) t,1
+h st,1
+ce g,1
+.1D,,1
+1D, ,1
+D, E,1
+, E),1
+ E).,1
+E). ,1
+is h,1
+ ant,1
+ticl,1
+icli,1
+sync,1
+yncl,1
+ncli,1
+2.1H,1
+.1H,,1
+1H, ,1
+H, I,1
+, I),1
+ I).,1
+I). ,1
+ilte,1
+rd e,1
+d ei,1
+.1J,,1
+1J, ,1
+J, K,1
+, K,,1
+ K, ,1
+K, L,1
+, L),1
+ L).,1
+L). ,1
+eat,,1
+y ti,1
+g. S,1
+Stre,1
+ms r,1
+to v,1
+o ve,1
+g fa,1
+ C) ,1
+C) b,1
+n. W,1
+1B),,1
+B), ,1
+h. W,1
+f lo,1
+r el,1
+r. E,1
+n sm,1
+ked,,1
+l fl,1
+8) m,1
+) me,1
+ew i,1
+inch,1
+nche,1
+al u,1
+l up,1
+upth,1
+pthr,1
+hrow,1
+lt c,1
+m ac,1
+m, w,1
+an d,1
+ div,1
+dive,1
+ert ,1
+rt i,1
+.1 S,1
+1 Su,1
+Surf,1
+g. P,1
+. Pl,1
+Plan,1
+lan ,1
+an v,1
+n vi,1
+w on,1
+eft;,1
+ft; ,1
+t; c,1
+; cr,1
+t (f,1
+om O,1
+m Ou,1
+ Ouc,1
+Ouch,1
+chi,,1
+hi, ,1
+i, 1,1
+83) ,1
+) sm,1
+w. L,1
+eatl,1
+atly,1
+ Hor,1
+Hors,1
+en (,1
+.1D ,1
+1D a,1
+nd E,1
+d E),1
+ E) ,1
+E) c,1
+wo d,1
+ C).,1
+l mi,1
+te u,1
+m, o,1
+rst.,1
+ enh,1
+enha,1
+nhan,1
+hanc,1
+n. U,1
+. Up,1
+ Ups,1
+Upst,1
+ben,,1
+itse,1
+tsel,1
+f. A,1
+A ri,1
+be u,1
+ uns,1
+unst,1
+as C,1
+s Ca,1
+ Car,1
+Cart,1
+tier,1
+Alt ,1
+982),1
+82) ,1
+e Bi,1
+ Bit,1
+Bitt,1
+rroo,1
+root,1
+ot R,1
+in M,1
+n Mo,1
+ Mon,1
+Mont,1
+tana,1
+ana.,1
+f fo,1
+2.1),1
+.1) ,1
+1) w,1
+l af,1
+babl,1
+upt.,1
+pt. ,1
+unt,,1
+2.1K,1
+.1K),1
+1K) ,1
+K) a,1
+2.1L,1
+.1L),1
+1L) ,1
+L) w,1
+n. L,1
+ Lat,1
+Late,1
+wndi,1
+ndip,1
+dip ,1
+ip (,1
+p (F,1
+.1J),1
+1J) ,1
+J) o,1
+r av,1
+ avu,1
+avul,1
+vuls,1
+ulsi,1
+lsio,1
+.1 s,1
+1 sh,1
+actu,1
+mpli,1
+ ang,1
+angl,1
+rpen,1
+dicu,1
+r fl,1
+, sm,1
+en o,1
+et b,1
+ike-,1
+ke-s,1
+e-sl,1
+-sli,1
+slip,1
+lip ,1
+ip m,1
+p mo,1
+es 1,1
+ 1.8,1
+1.8,,1
+.8, ,1
+8, 2,1
+, 2.,1
+A) o,1
+) of,1
+8) p,1
+) po,1
+d ou,1
+fluv,1
+ why,1
+why ,1
+hy c,1
+et c,1
+extr,1
+xtre,1
+trem,1
+reme,1
+emel,1
+mely,1
+ly h,1
+t (2,1
+ (20,1
+(20.,1
+20.3,1
+0.3 ,1
+.3 m,1
+3 mm,1
+ mm/,1
+mm/y,1
+m/ye,1
+/yea,1
+r, B,1
+, Br,1
+ Bro,1
+Brow,1
+d Wa,1
+8) a,1
+ze o,1
+ Whi,1
+Whil,1
+w. H,1
+n im,1
+ior.,1
+ne r,1
+nk c,1
+k ca,1
+t (J,1
+ (Je,1
+(Jef,1
+1907,1
+907;,1
+07; ,1
+7; N,1
+; Na,1
+980a,1
+80a;,1
+0a; ,1
+a; L,1
+; Le,1
+ Lee,1
+Leed,1
+eede,1
+eder,1
+ Ale,1
+Alex,1
+lexa,1
+exan,1
+xand,1
+ersI,1
+rsIt,1
+sIt ,1
+n; t,1
+; th,1
+eval,1
+alua,1
+luat,1
+n ty,1
+ Fiv,1
+Five,1
+.2):,1
+2): ,1
+): (,1
+: (1,1
+1) s,1
+h ei,1
+r mi,1
+ves;,1
+s; o,1
+; or,1
+r (2,1
+ (2),1
+(2) ,1
+2) w,1
+ormi,1
+g; (,1
+; (3,1
+ (3),1
+(3) ,1
+3) t,1
+) tw,1
+wo t,1
+o ty,1
+f eq,1
+h (p,1
+n 3a,1
+ 3a),1
+3a) ,1
+a) a,1
+gs (,1
+s (p,1
+n 3b,1
+ 3b),1
+3b);,1
+b); ,1
+); (,1
+; (4,1
+ing–,1
+ng–b,1
+g–br,1
+–bra,1
+n; a,1
+d (5,1
+ (5),1
+(5) ,1
+) a ,1
+ir n,1
+as r,1
+ize,,1
+ze, ,1
+d, v,1
+so i,1
+2.2.,1
+.2. ,1
+2. I,1
+en p,1
+vary,1
+aryi,1
+ryin,1
+l (S,1
+n cl,1
+ovin,1
+ Wat,1
+Wate,1
+l (w,1
+ (wi,1
+(wid,1
+h, m,1
+ons),1
+ns),,1
+ (sa,1
+(san,1
+vel),1
+el) ,1
+l) a,1
+(sil,1
+ilts,1
+lays,1
+ays),1
+ys) ,1
+s) d,1
+ne n,1
+dth–,1
+th–d,1
+h–de,1
+–dep,1
+pth ,1
+th r,1
+io a,1
+A su,1
+ts l,1
+n 3 ,1
+ 3 p,1
+3 pe,1
+an 1,1
+11 p,1
+1 pe,1
+77).,1
+wo (,1
+.2 C,1
+2 Ch,1
+l cl,1
+d ty,1
+rt c,1
+, si,1
+ sil,1
+ilt,,1
+, sa,1
+vel,,1
+l, c,1
+ee g,1
+gori,1
+r, w,1
+ng-s,1
+g-st,1
+up t,1
+erab,1
+y (1,1
+ (1.,1
+(1.2,1
+1.25,1
+.25 ,1
+25 t,1
+to 3,1
+o 3.,1
+ 3.0,1
+3.0),1
+.0).,1
+ed-s,1
+d-st,1
+ory,,1
+d is,1
+s (i,1
+ (is,1
+(isl,1
+ veg,1
+vege,1
+eget,1
+geta,1
+ars),1
+rs).,1
+s). ,1
+.2 s,1
+2 su,1
+m st,1
+inuu,1
+nuum,1
+uum,,1
+rn b,1
+t, o,1
+, oc,1
+ver-,1
+er-p,1
+r-pa,1
+-pat,1
+.3).,1
+alue,1
+r, g,1
+.3 R,1
+3 Re,1
+n fl,1
+ Sed,1
+Sedi,1
+r, v,1
+d Kh,1
+ Kha,1
+Khan,1
+han,,1
+.2 i,1
+2 in,1
+ee r,1
+2.4A,1
+.4A),1
+4A) ,1
+A) t,1
+. 15,1
+ 158,1
+158),1
+58).,1
+o mi,1
+ce 1,1
+e 13,1
+ 13 ,1
+13 r,1
+3 ri,1
+s 1–,1
+ 1–5,1
+1–5 ,1
+–5 a,1
+5 ar,1
+ns 6,1
+s 6–,1
+ 6–1,1
+6–10,1
+–10 ,1
+10 a,1
+0 ar,1
+s 11,1
+ 11–,1
+11–1,1
+1–13,1
+–13 ,1
+13 a,1
+3 ar,1
+.4 a,1
+4 at,1
+r ea,1
+ype.,1
+y ty,1
+h ty,1
+ype,,1
+ns r,1
+.4) ,1
+4) c,1
+) ca,1
+s: P,1
+: Pa,1
+n 1,,1
+ 1, ,1
+1, s,1
+t, e,1
+y eq,1
+ual-,1
+al-w,1
+l-wi,1
+-wid,1
+ves.,1
+rn 2,1
+n 2,,1
+ 2, ,1
+2, a,1
+ate-,1
+te-b,1
+e-ba,1
+-bar,1
+bar ,1
+g; P,1
+n 3,,1
+ 3, ,1
+3, l,1
+low-,1
+ow-s,1
+w-si,1
+-sin,1
+op c,1
+tes;,1
+s; P,1
+n 4,,1
+ 4, ,1
+4, t,1
+g-th,1
+-tha,1
+eg b,1
+g br,1
+r po,1
+diss,1
+isse,1
+ssec,1
+eg c,1
+ied.,1
+d. P,1
+n 5 ,1
+ 5 i,1
+5 is,1
+As c,1
+mpar,1
+2.4B,1
+.4B),1
+4B) ,1
+B) a,1
+per,,1
+egre,1
+ty p,1
+eep,,1
+ep, ,1
+p, s,1
+rn 6,1
+n 6),1
+ 6),,1
+iliz,1
+ze b,1
+iner,1
+ner ,1
+rm s,1
+m sl,1
+rn 7,1
+n 7),1
+ 7).,1
+ 8 i,1
+8 is,1
+trul,1
+ruly,1
+uly ,1
+l, w,1
+w at,1
+subj,1
+ubje,1
+bjec,1
+cuto,1
+utof,1
+toff,1
+ffs.,1
+fs. ,1
+rn 9,1
+n 9 ,1
+ 9 m,1
+9 ma,1
+ous-,1
+us-b,1
+s-br,1
+n 10,1
+ 10 ,1
+10 i,1
+0 is,1
+el 5,1
+l 5,,1
+ 5, ,1
+ded.,1
+.4 T,1
+4 Th,1
+ee c,1
+pes:,1
+es: ,1
+s: (,1
+: (A,1
+ (A),1
+(A) ,1
+A) b,1
+, (B,1
+ (B),1
+(B) ,1
+B) m,1
+) mi,1
+, (C,1
+ (C),1
+(C) ,1
+C) s,1
+2.4C,1
+.4C),1
+4C) ,1
+C) a,1
+n mi,1
+ad P,1
+d Pa,1
+11 i,1
+1 is,1
+t, n,1
+, na,1
+ep c,1
+l. W,1
+ll q,1
+l qu,1
+s 12,1
+12 a,1
+2 an,1
+d 13,1
+ 13),1
+13).,1
+ay u,1
+derg,1
+ergo,1
+rgo ,1
+go a,1
+meta,1
+etam,1
+tamo,1
+amor,1
+phos,1
+hosi,1
+osis,1
+gy c,1
+etel,1
+n 12,1
+12) ,1
+2) c,1
+d (P,1
+ 5),,1
+ 5) ,1
+5) c,1
+g (P,1
+ 8 o,1
+8 or,1
+or 1,1
+r 12,1
+12),,1
+ etc,1
+etc.,1
+tc.,,1
+c., ,1
+., w,1
+ly g,1
+pans,1
+m ty,1
+2.4.,1
+.4. ,1
+4. T,1
+f br,1
+ rej,1
+rejo,1
+ejoi,1
+oini,1
+y ap,1
+o sp,1
+pes.,1
+ Ana,1
+Anas,1
+anab,1
+nabr,1
+abra,1
+ls d,1
+m br,1
+ls b,1
+2.5),1
+.5),,1
+wegs,1
+egs ,1
+gs i,1
+l. K,1
+ Kni,1
+Knig,1
+ghto,1
+hton,1
+3) a,1
+ Ric,1
+Rich,1
+ds e,1
+s et,1
+l. (,1
+. (1,1
+g ri,1
+y bl,1
+ys (,1
+ (Sm,1
+(Smi,1
+d Sm,1
+ith,,1
+ic u,1
+c up,1
+t (G,1
+ (Gr,1
+(Gre,1
+Greg,1
+rego,1
+hate,1
+atev,1
+ant,,1
+y. E,1
+ Evi,1
+Evid,1
+on T,1
+st g,1
+clue,1
+andf,1
+ndfo,1
+dfor,1
+lt f,1
+m lo,1
+s fe,1
+. Dr,1
+rksT,1
+ksTh,1
+a dr,1
+rn d,1
+ops,,1
+erod,1
+rodi,1
+odib,1
+dibi,1
+ce m,1
+l. L,1
+h sl,1
+e 1.,1
+1.2),1
+n sl,1
+n ab,1
+t 2.,1
+.5 p,1
+5 pe,1
+on g,1
+ntle,1
+ (Ph,1
+(Phi,1
+Phil,1
+llip,1
+lips,1
+.5 M,1
+5 Ma,1
+of O,1
+f Ov,1
+ Ove,1
+Oven,1
+d Ki,1
+ng R,1
+g Ri,1
+. Nu,1
+ Num,1
+Numb,1
+om y,1
+1) t,1
+o ol,1
+t (4,1
+4) (,1
+) (f,1
+A to,1
+ic h,1
+c hi,1
+ve u,1
+upsl,1
+pslo,1
+pe s,1
+ope.,1
+op i,1
+k. A,1
+An u,1
+ft m,1
+so d,1
+2.6),1
+.6).,1
+d aw,1
+ awa,1
+away,1
+ay f,1
+hene,1
+e ot,1
+rten,1
+tene,1
+ned.,1
+by S,1
+y Sp,1
+ Spa,1
+Spar,1
+parl,1
+rlin,1
+g (1,1
+67) ,1
+7) w,1
+) wh,1
+ho n,1
+otes,1
+c ad,1
+in O,1
+n Ot,1
+ Ott,1
+Otta,1
+ttaw,1
+tawa,1
+awa ,1
+wa C,1
+a Co,1
+ Cou,1
+Coun,1
+unty,1
+nty,,1
+y, O,1
+, Oh,1
+io h,1
+f ot,1
+Inci,1
+capt,1
+aptu,1
+ptur,1
+. Ru,1
+ssel,1
+sell,1
+(193,1
+1939,1
+939),1
+39) ,1
+9) d,1
+f Lo,1
+uisi,1
+isia,1
+iana,1
+ana,,1
+na, ,1
+a, a,1
+k pa,1
+ poo,1
+poor,1
+oorl,1
+orly,1
+2.6 ,1
+.6 D,1
+6 Dr,1
+Pric,1
+rice,1
+d Wh,1
+Whet,1
+hets,1
+etst,1
+tsto,1
+ston,1
+tone,1
+7) u,1
+n Fl,1
+Flor,1
+orid,1
+rida,1
+ida.,1
+a. S,1
+thwa,1
+hwar,1
+d mi,1
+f ea,1
+ Sou,1
+Sout,1
+uth-,1
+th-f,1
+h-fl,1
+ exh,1
+exhi,1
+xhib,1
+hibi,1
+ibit,1
+ pai,1
+pair,1
+aire,1
+w or,1
+uthe,1
+gin.,1
+adja,1
+djac,1
+jace,1
+acen,1
+ee U,1
+e Up,1
+ Upl,1
+Upli,1
+ee R,1
+r. L,1
+Long,1
+k. M,1
+. Mu,1
+79) ,1
+9) n,1
+) no,1
+ea n,1
+ar T,1
+r Ta,1
+co (,1
+). U,1
+. Us,1
+ Usi,1
+Usin,1
+ng 7,1
+g 71,1
+ 71⁄,1
+71⁄m,1
+1⁄mi,1
+⁄min,1
+minu,1
+inut,1
+nute,1
+te U,1
+e U.,1
+ U.S,1
+U.S.,1
+.S. ,1
+S. G,1
+. Ge,1
+ Geo,1
+Geol,1
+al S,1
+l Su,1
+Surv,1
+hic2,1
+ic2 ,1
+c2 m,1
+2 ma,1
+aps,,1
+, he,1
+ry q,1
+y qu,1
+tita,1
+y. B,1
+By s,1
+wall,1
+ur i,1
+(Dd),1
+Dd) ,1
+d) a,1
+ite,,1
+e, u,1
+upti,1
+ptil,1
+(Du),1
+u) a,1
+d (D,1
+(Dd/,1
+Dd/D,1
+d/Du,1
+/Du),1
+u) (,1
+ex f,1
+x fo,1
+or 3,1
+r 30,1
+30 s,1
+0 sm,1
+ge b,1
+as 0,1
+s 0.,1
+ 0.6,1
+0.6 ,1
+.6 i,1
+6 in,1
+n. C,1
+ Cox,1
+Cox ,1
+ox (,1
+x (1,1
+4) u,1
+a so,1
+omew,1
+mewh,1
+ewha,1
+ex t,1
+x to,1
+n Mi,1
+pi E,1
+i Em,1
+t. O,1
+dice,1
+by K,1
+y Ke,1
+, pp,1
+ pp.,1
+. 12,1
+ 126,1
+126,,1
+26, ,1
+6, 1,1
+, 12,1
+ 127,1
+127),1
+2.7 ,1
+.7 M,1
+7 Ma,1
+am v,1
+m va,1
+ys i,1
+ vic,1
+vici,1
+icin,1
+cini,1
+of T,1
+f Ta,1
+co s,1
+howi,1
+g me,1
+etho,1
+thod,1
+hod ,1
+ng d,1
+g di,1
+es u,1
+calc,1
+alcu,1
+lcul,1
+ry (,1
+y (m,1
+ger,,1
+rnsL,1
+nsLa,1
+sLak,1
+f ge,1
+ey o,1
+at v,1
+us s,1
+s sc,1
+ sca,1
+scal,1
+cale,1
+ales,1
+y po,1
+d ge,1
+a sp,1
+c ar,1
+rea,,1
+ea, ,1
+a, o,1
+alig,1
+lign,1
+g sp,1
+c tr,1
+ Iso,1
+Isol,1
+ndsl,1
+dsli,1
+slid,1
+lide,1
+llap,1
+laps,1
+apse,1
+pses,1
+te (,1
+e (o,1
+ (or,1
+(or ,1
+leoc,1
+eocl,1
+ate),1
+te),,1
+e), ,1
+), n,1
+ge l,1
+py g,1
+py v,1
+s el,1
+ Bol,1
+Boli,1
+oliv,1
+livi,1
+ivia,1
+n Al,1
+Alti,1
+ipla,1
+lano,1
+ano ,1
+no l,1
+s (T,1
+ (Ti,1
+(Tit,1
+Titi,1
+icac,1
+caca,1
+aca,,1
+ca, ,1
+a, P,1
+, Po,1
+ Pop,1
+Popo,1
+opoo,1
+poo,,1
+oo, ,1
+o, U,1
+, Uy,1
+ Uyu,1
+Uyun,1
+yuni,1
+uni),1
+ni) ,1
+i) s,1
+nd 4,1
+d 40,1
+ 400,1
+4000,1
+000 ,1
+ m a,1
+h pl,1
+verg,1
+tret,1
+retc,1
+etch,1
+tchi,1
+anst,1
+l te,1
+vora,1
+orab,1
+. Of,1
+ Oft,1
+Ofte,1
+tudy,1
+udy ,1
+dy o,1
+s. (,1
+. (S,1
+ (Se,1
+(See,1
+ee C,1
+Chap,1
+er 5,1
+r 5 ,1
+ 5 w,1
+5 wh,1
+re R,1
+ Ree,1
+Reel,1
+eelf,1
+lfoo,1
+ot L,1
+ sun,1
+sunk,1
+unkl,1
+nkla,1
+bed;,1
+ed; ,1
+d; F,1
+; Fi,1
+es 5,1
+s 5.,1
+ 5.1,1
+5.1,,1
+.1, ,1
+1, 5,1
+, 5.,1
+ 5.2,1
+5.2),1
+2.8 ,1
+.8 I,1
+8 In,1
+ Inf,1
+Infe,1
+lt z,1
+t zo,1
+he T,1
+e Tu,1
+ Tup,1
+Tupi,1
+upin,1
+pina,1
+inam,1
+namb,1
+amba,1
+mbar,1
+bara,1
+rana,1
+nas,,1
+zon ,1
+en O,1
+n Ob,1
+ Obi,1
+Obid,1
+bido,1
+idos,1
+dos ,1
+os a,1
+d Ma,1
+Mana,1
+anau,1
+naus,1
+aus ,1
+us B,1
+s Br,1
+ Bra,1
+Braz,1
+razi,1
+azil,1
+zil ,1
+il (,1
+l (m,1
+55).,1
+infe,1
+ dea,1
+deal,1
+, (r,1
+ (ri,1
+(ria,1
+d el,1
+kes),1
+ Mos,1
+Most,1
+epts,1
+new.,1
+ew. ,1
+w. F,1
+n 30,1
+30 y,1
+ ago,1
+ago.,1
+go. ,1
+o. R,1
+ Ria,1
+Ria ,1
+ia L,1
+es D,1
+s De,1
+ Den,1
+Dend,1
+ary,,1
+s bl,1
+unk ,1
+nk r,1
+k ri,1
+r (H,1
+ (Ho,1
+(Hol,1
+Holz,1
+olz ,1
+lz e,1
+z et,1
+zoni,1
+onia,1
+an B,1
+post,1
+ost-,1
+st-g,1
+t-gl,1
+-gla,1
+glac,1
+laci,1
+acia,1
+l eu,1
+ eus,1
+eust,1
+stac,1
+tacy,1
+cy (,1
+y (I,1
+ (Ir,1
+(Iri,1
+Irio,1
+rion,1
+984),1
+84).,1
+ a “,1
+a “k,1
+ “kn,1
+“kne,1
+knee,1
+nee”,1
+ee” ,1
+e” p,1
+” pa,1
+erpo,1
+k se,1
+r (S,1
+(Ste,1
+950,,1
+50, ,1
+0, 1,1
+955,,1
+55, ,1
+5, F,1
+, Fi,1
+2.8),1
+.8).,1
+2.9 ,1
+.9 S,1
+9 St,1
+l sc,1
+ sch,1
+chem,1
+in P,1
+n Pe,1
+eru,,1
+ru, ,1
+u, c,1
+za B,1
+a Ba,1
+kes,,1
+ea A,1
+a A ,1
+ail.,1
+il. ,1
+isob,1
+soba,1
+obat,1
+bath,1
+re-J,1
+e-Ju,1
+-Jur,1
+Jura,1
+uras,1
+rass,1
+ssic,1
+m Sa,1
+Sanz,1
+anz ,1
+nz (,1
+z (1,1
+ Sec,1
+Sect,1
+ng X,1
+g X–,1
+ X–Y,1
+X–Y ,1
+–Y i,1
+Y in,1
+ fig,1
+figu,1
+e, m,1
+er L,1
+r La,1
+Rese,1
+ervo,1
+rvoi,1
+voir,1
+oirs,1
+d da,1
+s. C,1
+Clus,1
+g la,1
+n Ma,1
+al U,1
+l Uc,1
+n, P,1
+, Pe,1
+u (R,1
+ (Rä,1
+(Räs,1
+Räsä,1
+äsän,1
+säne,1
+änen,1
+nen ,1
+987;,1
+87; ,1
+7; D,1
+k si,1
+f pi,1
+ggy ,1
+gy b,1
+k or,1
+thru,1
+lts.,1
+ Ben,1
+Beni,1
+eni ,1
+ni B,1
+992;,1
+92; ,1
+2; D,1
+d Gu,1
+ Guy,1
+Guyo,1
+uyot,1
+yot,,1
+ot, ,1
+er P,1
+r Pa,1
+za R,1
+a Ri,1
+ón R,1
+l ax,1
+h tr,1
+s ax,1
+e Su,1
+Suba,1
+uban,1
+an T,1
+ Thr,1
+Thru,1
+nd F,1
+d Fa,1
+lt B,1
+t Be,1
+ Bel,1
+Belt,1
+elt ,1
+ (ST,1
+(STF,1
+STFB,1
+TFB),1
+FB).,1
+.10 ,1
+10 R,1
+0 Re,1
+e Pe,1
+eruv,1
+ruvi,1
+ins.,1
+f cl,1
+s (m,1
+r Du,1
+nt ,,1
+t , ,1
+ , 1,1
+za d,1
+depr,1
+by m,1
+an 4,1
+n 4 ,1
+ 4 5,1
+4 50,1
+f Cr,1
+ Cre,1
+Cret,1
+etac,1
+tace,1
+aceo,1
+ceou,1
+us a,1
+d Ce,1
+Ceno,1
+enoz,1
+nozo,1
+h ab,1
+ut 5,1
+t 50,1
+of Q,1
+f Qu,1
+ Qua,1
+Quat,1
+rnar,1
+t (L,1
+85) ,1
+5) (,1
+ No ,1
+No r,1
+n (U,1
+ (Uc,1
+(Uca,1
+f Ce,1
+Cent,1
+al P,1
+l Pe,1
+u (F,1
+10),,1
+0), ,1
+a pi,1
+ggy-,1
+gy-b,1
+-bac,1
+ck b,1
+k ba,1
+sin.,1
+ rif,1
+rift,1
+ft g,1
+rth’,1
+th’s,1
+h’s ,1
+dify,1
+e, L,1
+ia i,1
+ia N,1
+a Ni,1
+ws n,1
+h to,1
+a (F,1
+.11),1
+11).,1
+ok a,1
+ial,,1
+f da,1
+d ea,1
+astw,1
+stwa,1
+twar,1
+f we,1
+rn U,1
+n Ug,1
+a. F,1
+. Fl,1
+Flow,1
+he K,1
+e Ka,1
+ Kaf,1
+Kafu,1
+afu ,1
+fu R,1
+u Ri,1
+om L,1
+m La,1
+ia h,1
+a ha,1
+rth,,1
+h, w,1
+ Mur,1
+Murc,1
+urch,1
+chis,1
+hiso,1
+ison,1
+on F,1
+n Fa,1
+ Fal,1
+Fall,1
+ke A,1
+e Al,1
+ Alb,1
+Albe,1
+bert,1
+ert.,1
+rt. ,1
+ der,1
+f up,1
+uing,1
+g at,1
+t ti,1
+me (,1
+e (D,1
+ (Do,1
+(Doo,1
+.11 ,1
+11 L,1
+1 La,1
+ga r,1
+n, U,1
+, Ug,1
+a. A,1
+. Ar,1
+ Arr,1
+Arro,1
+ws s,1
+ow f,1
+w fl,1
+ Bac,1
+Back,1
+k ti,1
+f La,1
+a (m,1
+r Do,1
+ Doo,1
+. El,1
+ Elo,1
+Elon,1
+es T,1
+s Th,1
+m el,1
+row.,1
+In s,1
+sidi,1
+so c,1
+ clo,1
+clos,1
+osel,1
+sely,1
+ Pui,1
+Puin,1
+uina,1
+inah,1
+nahu,1
+ahua,1
+hua ,1
+ua (,1
+a (1,1
+ (13,1
+(132,1
+1324,1
+324 ,1
+24 k,1
+4 km,1
+2) a,1
+d Pu,1
+a (3,1
+ (34,1
+(341,1
+341 ,1
+41 k,1
+1 km,1
+2) l,1
+) la,1
+h lo,1
+10).,1
+ foo,1
+ooth,1
+othi,1
+thil,1
+ cra,1
+rato,1
+. Pu,1
+Sant,1
+nta ,1
+ta E,1
+a El,1
+ Ele,1
+Elen,1
+lena,1
+ena ,1
+na u,1
+a up,1
+t (D,1
+91),,1
+1), ,1
+ cry,1
+crys,1
+ryst,1
+ysta,1
+stal,1
+ne h,1
+by P,1
+ Pal,1
+Pale,1
+leoz,1
+eozo,1
+rata,1
+ata ,1
+ta (,1
+a (L,1
+e NE,1
+ NE ,1
+NE e,1
+E el,1
+by L,1
+y La,1
+f no,1
+ a N,1
+a NN,1
+ NNW,1
+NNW–,1
+NW–S,1
+W–SS,1
+–SSE,1
+SSE ,1
+SE e,1
+E ex,1
+upla,1
+r (D,1
+t et,1
+88).,1
+expr,1
+xpre,1
+ ons,1
+nset,1
+f An,1
+Ande,1
+cs (,1
+s (D,1
+91).,1
+). M,1
+ecis,1
+cs c,1
+ tes,1
+stim,1
+timo,1
+imon,1
+mony,1
+ony ,1
+f ol,1
+ettl,1
+lers,1
+d pu,1
+trav,1
+el j,1
+l jo,1
+ jou,1
+jour,1
+ourn,1
+urna,1
+(Sti,1
+Stig,1
+tigl,1
+igli,1
+glis,1
+ish,,1
+sh, ,1
+1904,1
+904),1
+04) ,1
+a wa,1
+vere,1
+ 192,1
+1923,1
+923.,1
+23. ,1
+Then,1
+bega,1
+egan,1
+gan ,1
+unks,1
+ks o,1
+ dro,1
+drow,1
+owne,1
+wned,1
+ sti,1
+till,1
+ll v,1
+l vi,1
+isib,1
+e, n,1
+ now,1
+ow b,1
+w be,1
+belo,1
+elow,1
+ow 2,1
+w 2 ,1
+r du,1
+g lo,1
+w wa,1
+ges.,1
+is v,1
+s ve,1
+ea t,1
+t 2 ,1
+ m d,1
+m du,1
+oods,1
+ods,,1
+ min,1
+inim,1
+nimu,1
+of 4,1
+f 4 ,1
+m ov,1
+r ab,1
+ut 7,1
+t 70,1
+ 70 ,1
+70 y,1
+ars.,1
+A te,1
+vore,1
+ Onl,1
+Only,1
+ mot,1
+a wh,1
+e ph,1
+meno,1
+enon,1
+non.,1
+Terr,1
+cesT,1
+esTh,1
+n st,1
+died,1
+y nu,1
+achi,1
+chid,1
+hida,1
+ida,,1
+da, ,1
+1960,1
+960;,1
+60; ,1
+0; Z,1
+980;,1
+80; ,1
+0; K,1
+; Ki,1
+d St,1
+Stei,1
+tein,1
+ein,,1
+by l,1
+g gi,1
+in N,1
+n Ne,1
+e ep,1
+sodi,1
+odic,1
+dic ,1
+ic n,1
+c na,1
+.12),1
+12).,1
+s (K,1
+ (Ke,1
+(Kel,1
+ter,,1
+proo,1
+roof,1
+oof ,1
+f of,1
+n wa,1
+e Pl,1
+ne L,1
+s, U,1
+, Ut,1
+ Uta,1
+Utah,1
+tah ,1
+ah (,1
+h (C,1
+ (Cr,1
+(Cri,1
+Crit,1
+den,,1
+1963,1
+963),1
+63).,1
+Port,1
+as 2,1
+s 21,1
+ 210,1
+210 ,1
+10 f,1
+0 fe,1
+eet,,1
+t dr,1
+evap,1
+vapo,1
+apor,1
+rm G,1
+m Gr,1
+ Gre,1
+Grea,1
+at S,1
+t Sa,1
+ Sal,1
+Salt,1
+alt ,1
+lt L,1
+n, d,1
+ng 4,1
+g 44,1
+ 440,1
+440 ,1
+40 k,1
+0 km,1
+km o,1
+Paci,1
+acif,1
+ic C,1
+c Co,1
+of B,1
+f Ba,1
+ Baj,1
+Baja,1
+aja,,1
+ja, ,1
+a, C,1
+a (O,1
+ (Or,1
+(Orm,1
+Orme,1
+rme,,1
+ace.,1
+ill,,1
+l, o,1
+, of,1
+rse,,1
+, dr,1
+e hy,1
+ydra,1
+drau,1
+raul,1
+auli,1
+ulic,1
+lics,1
+d hy,1
+h. I,1
+abov,1
+bove,1
+ove,,1
+leos,1
+eoso,1
+osoi,1
+soil,1
+oils,1
+ils ,1
+chet,1
+hett,1
+tte,,1
+1978,1
+978;,1
+78; ,1
+8; K,1
+; Ke,1
+r et,1
+982;,1
+82; ,1
+2; B,1
+; Bu,1
+ Bul,1
+Bull,1
+ull,,1
+l et,1
+ell,,1
+88) ,1
+8) b,1
+ (Me,1
+(Mer,1
+d Vi,1
+ Vin,1
+Vinc,1
+989;,1
+89; ,1
+9; M,1
+; Me,1
+ Mer,1
+d He,1
+ Hes,1
+Hest,1
+terb,1
+erbe,1
+rber,1
+4) a,1
+s (V,1
+ (Vo,1
+(Vol,1
+Volk,1
+olko,1
+lkov,1
+kov ,1
+ov e,1
+v et,1
+7; S,1
+; Se,1
+Seeb,1
+eebe,1
+eber,1
+d Go,1
+Gorn,1
+rnit,1
+nitz,1
+itz,,1
+tz, ,1
+.12 ,1
+12 B,1
+2 Bl,1
+ Blo,1
+Bloc,1
+ck d,1
+k di,1
+e, N,1
+and.,1
+e We,1
+ Wes,1
+st W,1
+t Wa,1
+Wair,1
+aira,1
+irar,1
+rara,1
+arap,1
+rapa,1
+apa ,1
+pa F,1
+a Fa,1
+lt e,1
+bott,1
+otto,1
+ttom,1
+tom ,1
+m le,1
+t (s,1
+ (so,1
+(sou,1
+est),1
+t) t,1
+top ,1
+op r,1
+p ri,1
+t (n,1
+ (no,1
+(nor,1
+thea,1
+heas,1
+ast),1
+t) a,1
+s (I,1
+ (I ,1
+(I =,1
+ = o,1
+= ol,1
+ace;,1
+ce; ,1
+e; V,1
+; VI,1
+ VI ,1
+VI =,1
+ = y,1
+= yo,1
+ace),1
+ce).,1
+e). ,1
+t (i,1
+ (in,1
+(in ,1
+n fe,1
+eet),1
+et) ,1
+t) e,1
+) ea,1
+h te,1
+ce h,1
+d (H,1
+ (H ,1
+(H =,1
+H = ,1
+f ho,1
+ent;,1
+nt; ,1
+t; V,1
+; V ,1
+ V =,1
+V = ,1
+ent),1
+nt).,1
+t). ,1
+wn o,1
+am i,1
+ut 0,1
+t 0.,1
+ 0.8,1
+0.8 ,1
+.8 k,1
+8 km,1
+km (,1
+m (1,1
+ (1/,1
+(1/2,1
+1/2 ,1
+/2 m,1
+2 mi,1
+ mil,1
+mile,1
+ile),1
+le) ,1
+e) (,1
+) (m,1
+Stev,1
+se T,1
+e Th,1
+ares,1
+c ef,1
+w dr,1
+uses,1
+l ge,1
+ pet,1
+petr,1
+etro,1
+oleu,1
+leum,1
+eum ,1
+um g,1
+m ge,1
+ve k,1
+nown,1
+r ye,1
+g (L,1
+(Lat,1
+Latt,1
+attm,1
+ttma,1
+tman,1
+1959,1
+959;,1
+59; ,1
+9; H,1
+; Ho,1
+Howa,1
+d, 1,1
+67).,1
+ol r,1
+ior,,1
+ esp,1
+ue o,1
+ Nee,1
+Neef,1
+eef ,1
+ef (,1
+f (1,1
+d Ra,1
+ Rad,1
+Radu,1
+adul,1
+dule,1
+lesc,1
+escu,1
+scu ,1
+cu (,1
+u (1,1
+1962,1
+962),1
+62) ,1
+se g,1
+c fe,1
+e sm,1
+lles,1
+f sl,1
+ickn,1
+ckne,1
+y. C,1
+ Cle,1
+Clea,1
+m (B,1
+ (Be,1
+(Ben,1
+Bend,1
+ndef,1
+fy e,1
+y et,1
+7; Z,1
+be v,1
+In o,1
+m ti,1
+aid,,1
+id, ,1
+d, w,1
+e, T,1
+, Tw,1
+ Twi,1
+Twid,1
+wida,1
+idal,1
+dale,1
+ale ,1
+le (,1
+he F,1
+e Fl,1
+ Fli,1
+Flin,1
+lind,1
+d Le,1
+ Lei,1
+Leic,1
+eich,1
+ardt,1
+rdt ,1
+dt R,1
+ir g,1
+e Se,1
+ Sel,1
+Selw,1
+elwy,1
+lwyn,1
+wyn ,1
+yn U,1
+n Up,1
+ Upw,1
+Upwa,1
+rp i,1
+n no,1
+rn Q,1
+n Qu,1
+ Que,1
+Quee,1
+ueen,1
+eens,1
+ensl,1
+nsla,1
+, Au,1
+ Aus,1
+Aust,1
+alia,1
+lia;,1
+ia; ,1
+a; a,1
+er n,1
+da i,1
+teni,1
+ reb,1
+rebo,1
+ebou,1
+d (W,1
+(Wel,1
+Welc,1
+elch,1
+lch,,1
+1973,1
+973),1
+73).,1
+en S,1
+n St,1
+ St.,1
+St. ,1
+uis ,1
+d Ca,1
+ Cai,1
+Cair,1
+airo,1
+iro ,1
+isso,1
+ssou,1
+uri ,1
+ri R,1
+r (A,1
+e No,1
+th n,1
+da (,1
+a (V,1
+ (Va,1
+(Van,1
+Vani,1
+anic,1
+nice,1
+icek,1
+cek ,1
+ek a,1
+ Nag,1
+Nagy,1
+agy,,1
+Base,1
+so r,1
+if s,1
+sea-,1
+ea-l,1
+a-le,1
+red,,1
+ep p,1
+p po,1
+shel,1
+helf,1
+expo,1
+xpos,1
+ane ,1
+gued,1
+ut m,1
+ndee,1
+deed,1
+eed,,1
+d, L,1
+esto,1
+tore,1
+ts g,1
+eptu,1
+ptua,1
+corr,1
+orre,1
+rrec,1
+e if,1
+ade,,1
+l, t,1
+m mu,1
+ ree,1
+rees,1
+eest,1
+hed.,1
+ds m,1
+be g,1
+r fa,1
+lacy,1
+in L,1
+n La,1
+cal.,1
+two-,1
+wo-d,1
+o-di,1
+-dim,1
+o er,1
+rron,1
+rone,1
+oneo,1
+Sinu,1
+P) i,1
+) is,1
+(L c,1
+L c),1
+(L v,1
+L v),1
+ v),,1
+v), ,1
+(S v,1
+S v),1
+ v) ,1
+v) a,1
+(S c,1
+S c),1
+s: T,1
+: Th,1
+f 1.,1
+ 1.0,1
+1.0,,1
+ame.,1
+aril,1
+rily,1
+68),,1
+8), ,1
+ppi,,1
+pi, ,1
+i, I,1
+Indu,1
+dus,,1
+d Ni,1
+994;,1
+94; ,1
+4; J,1
+; Jo,1
+Jorg,1
+gens,1
+nsen,1
+sen ,1
+993;,1
+93; ,1
+3; S,1
+; Sc,1
+13 E,1
+3 Ef,1
+l on,1
+xt f,1
+3 il,1
+pt g,1
+eome,1
+P) 1,1
+) 1.,1
+1.5.,1
+.5. ,1
+5. T,1
+ A–C,1
+A–C ,1
+–C r,1
+C re,1
+ A–B,1
+A–B ,1
+–B r,1
+B re,1
+ Poi,1
+Poin,1
+ts B,1
+s B ,1
+ B a,1
+ C a,1
+C ar,1
+uth,,1
+ts F,1
+s F ,1
+ F a,1
+F an,1
+d G ,1
+G ar,1
+me l,1
+onge,1
+nger,1
+pe r,1
+is 1,1
+5 ti,1
+imes,1
+e (e,1
+ (eq,1
+(equ,1
+quat,1
+on 1,1
+n 1),1
+ 1).,1
+If a,1
+l fr,1
+om B,1
+m B ,1
+ B t,1
+B to,1
+o D ,1
+ D a,1
+ C t,1
+C to,1
+to E,1
+o E ,1
+ E i,1
+E is,1
+–D) ,1
+D) b,1
+2.0,,1
+o H.,1
+H. I,1
+n ce,1
+ cea,1
+ceas,1
+nt F,1
+t F ,1
+ F i,1
+F in,1
+nt G,1
+t G ,1
+ G i,1
+G in,1
+2.0 ,1
+.0 f,1
+0 fr,1
+om G,1
+m G ,1
+ G t,1
+G to,1
+o H ,1
+ H m,1
+H ma,1
+–D).,1
+D). ,1
+rd i,1
+h (s,1
+(sin,1
+ity),1
+ty) ,1
+y) b,1
+en G,1
+n G ,1
+G an,1
+d H ,1
+ H c,1
+H co,1
+ a o,1
+a on,1
+rd s,1
+om F,1
+m F ,1
+ F t,1
+F to,1
+o D.,1
+ D. ,1
+D. A,1
+t A,,1
+ A, ,1
+A, w,1
+n eq,1
+to B,1
+o B–,1
+ B–D,1
+B–D ,1
+–D w,1
+D wo,1
+ust,,1
+. Ra,1
+ Rat,1
+Rath,1
+hens,1
+ll u,1
+l un,1
+undo,1
+ndou,1
+oubt,1
+ubte,1
+n lo,1
+ondi,1
+ndit,1
+ts S,1
+s Sa,1
+ Sau,1
+Sauc,1
+auci,1
+ucie,1
+cier,1
+ier’,1
+91) ,1
+1) c,1
+at P,1
+t Pl,1
+sea ,1
+ea l,1
+a le,1
+ far,1
+far ,1
+as B,1
+s Ba,1
+ Bat,1
+Bato,1
+on R,1
+n Ro,1
+Roug,1
+ouge,1
+uge ,1
+ge (,1
+e (s,1
+(see,1
+so B,1
+o Bl,1
+lum,,1
+993 ,1
+93 a,1
+nd B,1
+d Bl,1
+lum ,1
+um a,1
+d Va,1
+Vala,1
+alas,1
+tro,,1
+ro, ,1
+o, 1,1
+babi,1
+ fas,1
+fash,1
+ashi,1
+shio,1
+hion,1
+de m,1
+n na,1
+l ta,1
+ce r,1
+y, u,1
+unli,1
+nlik,1
+wn i,1
+3 is,1
+of J,1
+f Je,1
+ Jef,1
+eff ,1
+ff W,1
+f Wa,1
+re (,1
+992 ,1
+92 o,1
+2 or,1
+ ora,1
+oral,1
+omm.,1
+mm.),1
+m.).,1
+.). ,1
+ He ,1
+He l,1
+f 12,1
+12 c,1
+2 cm,1
+ cm ,1
+cm i,1
+a to,1
+f 18,1
+ 18.,1
+18.4,1
+8.4 ,1
+.4 m,1
+4 m.,1
+ m. ,1
+ld h,1
+ dou,1
+oubl,1
+uble,1
+ly 4,1
+y 4 ,1
+ m u,1
+m up,1
+ccom,1
+mmod,1
+moda,1
+odat,1
+date,1
+1.2 ,1
+.2 t,1
+2 to,1
+to 1,1
+o 1.,1
+.5 i,1
+5 in,1
+er 4,1
+r 4 ,1
+ m i,1
+ume.,1
+ did,1
+did ,1
+id n,1
+dene,1
+sumi,1
+umin,1
+are’,1
+pe d,1
+, wa,1
+s ad,1
+abso,1
+bsor,1
+sorb,1
+orb ,1
+rb p,1
+b pa,1
+er N,1
+r Ni,1
+f su,1
+h si,1
+as v,1
+s va,1
+lana,1
+f do,1
+gh-s,1
+h-se,1
+-sed,1
+nt-t,1
+t-tr,1
+-tra,1
+g tr,1
+ry m,1
+sit ,1
+n af,1
+ad h,1
+fan,,1
+ Tri,1
+Trib,1
+in I,1
+n Is,1
+ Isr,1
+Isra,1
+srae,1
+rael,1
+ael ,1
+an V,1
+ey u,1
+undu,1
+ndul,1
+dula,1
+t ap,1
+ppro,1
+proa,1
+roac,1
+oach,1
+nvex,1
+vexi,1
+exit,1
+xiti,1
+m fl,1
+latt,1
+. 14,1
+ 140,1
+140),1
+40).,1
+aliz,1
+ze t,1
+lie ,1
+ie n,1
+ld (,1
+.3) ,1
+3) m,1
+cs d,1
+ble.,1
+ds b,1
+. Ex,1
+ Exp,1
+Expe,1
+d ob,1
+nfir,1
+rm t,1
+ogy.,1
+gy. ,1
+fer,,1
+r, d,1
+a pl,1
+ plo,1
+plot,1
+lot ,1
+.3 a,1
+aid.,1
+id. ,1
+h de,1
+ten.,1
+en. ,1
+.14 ,1
+14 R,1
+4 Re,1
+Reac,1
+ay d,1
+domi,1
+In f,1
+m se,1
+cy f,1
+am e,1
+m er,1
+ird-,1
+rd-o,1
+d-or,1
+r ef,1
+me c,1
+ss f,1
+er u,1
+m by,1
+by b,1
+ackf,1
+ckfi,1
+kfil,1
+unle,1
+nles,1
+ss e,1
+ur d,1
+m be,1
+n. H,1
+ccel,1
+cele,1
+eler,1
+am r,1
+ach,,1
+.15 ,1
+15 E,1
+5 Ef,1
+m we,1
+ wea,1
+eake,1
+aker,1
+r (W,1
+ (W),1
+(W) ,1
+W) t,1
+t (R,1
+ (R),1
+(R) ,1
+R) m,1
+h ac,1
+des.,1
+Resi,1
+um (,1
+m (c,1
+ (cl,1
+(cla,1
+ plu,1
+plug,1
+lugs,1
+ugs,,1
+rmor,1
+mor),1
+or) ,1
+r) o,1
+ck w,1
+k wi,1
+s up,1
+ownv,1
+wnva,1
+nval,1
+ir m,1
+d if,1
+if m,1
+ck i,1
+d (J,1
+ (Ji,1
+(Jin,1
+Jin ,1
+ Hen,1
+Henc,1
+barr,1
+arri,1
+rrie,1
+rier,1
+at u,1
+t up,1
+m me,1
+.15),1
+15).,1
+rn w,1
+ck a,1
+k as,1
+rp o,1
+p or,1
+r if,1
+f, a,1
+it e,1
+a po,1
+e. Y,1
+ Yer,1
+Yero,1
+erom,1
+rome,1
+menk,1
+enko,1
+nko ,1
+ko a,1
+d Iv,1
+ Iva,1
+Ivan,1
+vano,1
+anov,1
+nov ,1
+ov (,1
+v (1,1
+7) r,1
+e Ru,1
+ssia,1
+lite,1
+iter,1
+ratu,1
+ng u,1
+g up,1
+ifts,1
+fts,,1
+t nu,1
+numb,1
+ur u,1
+ts G,1
+s Ga,1
+Gard,1
+ardn,1
+rdne,1
+dner,1
+ner’,1
+75) ,1
+5) o,1
+) ob,1
+ck c,1
+k ch,1
+e Co,1
+ Col,1
+Colo,1
+olor,1
+orad,1
+rado,1
+ado ,1
+do P,1
+o Pl,1
+Plat,1
+atea,1
+teau,1
+eau.,1
+au. ,1
+u. T,1
+2.3.,1
+.3. ,1
+e. D,1
+. Di,1
+ Dis,1
+Disc,1
+ionA,1
+onAl,1
+nAll,1
+um i,1
+is u,1
+ hid,1
+hide,1
+ogy,,1
+o af,1
+mpon,1
+ndsc,1
+dsca,1
+scap,1
+cape,1
+ven,,1
+n, s,1
+, sl,1
+c te,1
+s: 1,1
+: 1.,1
+ 1.d,1
+1.de,1
+ile2,1
+le2.,1
+e2.d,1
+2.de,1
+ile3,1
+le3.,1
+e3.c,1
+3.ch,1
+n 4.,1
+ 4.c,1
+4.ch,1
+pth5,1
+th5.,1
+h5.c,1
+5.co,1
+.con,1
+rsio,1
+ace6,1
+ce6.,1
+e6.r,1
+6.re,1
+.rea,1
+ft 7,1
+t 7.,1
+ 7.e,1
+7.ef,1
+.eff,1
+he z,1
+e zo,1
+n (d,1
+ (de,1
+(deg,1
+n, f,1
+oodi,1
+odin,1
+, ba,1
+on)8,1
+n)8.,1
+)8.f,1
+8.fo,1
+.for,1
+es A,1
+s Al,1
+so a,1
+f hy,1
+iffi,1
+ficu,1
+hen,,1
+t, h,1
+, hu,1
+h di,1
+ad d,1
+hist,1
+oric,1
+c ti,1
+e bi,1
+ bit,1
+c ev,1
+and/,1
+nd/o,1
+d/or,1
+/or ,1
+veys,1
+ys t,1
+de c,1
+In m,1
+e ci,1
+l. N,1
+ Nev,1
+Neve,1
+erth,1
+thel,1
+hele,1
+eles,1
+o ar,1
+rols,1
+ols,,1
+lith,1
+thol,1
+leot,1
+onab,1
+nabl,1
+cs u,1
+il p,1
+rove,1
+herw,1
+erwi,1
+rwis,1
+wise,1
+ise.,1
+e. L,1
+n hy,1
+, du,1
+ng P,1
+g Pl,1
+he O,1
+e Oh,1
+io R,1
+o Ri,1
+d Mi,1
+er v,1
+r va,1
+eys,,1
+, nu,1
+eys.,1
+ys. ,1
+c si,1
+mali,1
+s. 7,1
+. 7 ,1
+ 7 T,1
+7 Th,1
+ersW,1
+rsWh,1
+sWhe,1
+mass,1
+ve e,1
+e ec,1
+turi,1
+ed W,1
+d Wi,1
+m H.,1
+H. W,1
+ Why,1
+Whyt,1
+hyte,1
+yte ,1
+te J,1
+e Jr,1
+ Jr’,1
+Jr’s,1
+1956,1
+956),1
+56) ,1
+6) ‘,1
+) ‘o,1
+n’ t,1
+o wa,1
+walk,1
+lk p,1
+k pe,1
+y ou,1
+oors,1
+n, m,1
+ortl,1
+artu,1
+rtur,1
+ pon,1
+onde,1
+ob f,1
+b fo,1
+te ‘,1
+e ‘r,1
+map’,1
+ap’ ,1
+p’ t,1
+tiny,1
+iny ,1
+irm’,1
+rm’s,1
+hy t,1
+tatu,1
+atus,1
+tus ,1
+us o,1
+r pl,1
+ocie,1
+ciet,1
+iety,1
+ety.,1
+s’ o,1
+’ or,1
+r, j,1
+, ju,1
+eer?,1
+er? ,1
+r? W,1
+? Wh,1
+en ‘,1
+n ‘t,1
+ ‘th,1
+‘the,1
+r’ d,1
+’ de,1
+devo,1
+l do,1
+reva,1
+evai,1
+vail,1
+ail ,1
+il a,1
+a fo,1
+f ‘c,1
+ ‘ca,1
+‘car,1
+anar,1
+narc,1
+chy’,1
+hy’ ,1
+y’ r,1
+’ re,1
+ult?,1
+lt? ,1
+t? I,1
+? Is,1
+Is t,1
+anyt,1
+nyth,1
+ythi,1
+s if,1
+if e,1
+eems,1
+g? W,1
+? We,1
+ue h,1
+e he,1
+ ans,1
+answ,1
+nswe,1
+swer,1
+phat,1
+hati,1
+ic ‘,1
+c ‘y,1
+ ‘ye,1
+‘yes,1
+yes’,1
+es’.,1
+s’. ,1
+’. T,1
+re-o,1
+e-or,1
+rdai,1
+dain,1
+ar d,1
+om ‘,1
+m ‘b,1
+ded’,1
+d’ c,1
+o ‘b,1
+s’ c,1
+ – w,1
+– wh,1
+ fle,1
+flex,1
+lexi,1
+exib,1
+xibi,1
+e da,1
+day ,1
+ay –,1
+ – i,1
+– is,1
+mon.,1
+f ec,1
+It d,1
+er ‘,1
+r ‘a,1
+ ‘a ,1
+‘a r,1
+a ra,1
+ons’,1
+ns’ ,1
+’ (A,1
+hur ,1
+ur &,1
+ & R,1
+& Ro,1
+eau,,1
+au, ,1
+u, 1,1
+. 6),1
+ 6).,1
+e my,1
+ad i,1
+a bo,1
+rk e,1
+k ex,1
+n ap,1
+ar o,1
+verw,1
+erwh,1
+rwhe,1
+whel,1
+helm,1
+elmi,1
+lmin,1
+ex w,1
+x we,1
+ web,1
+web ,1
+eb o,1
+b of,1
+ps e,1
+s em,1
+om n,1
+m nu,1
+s am,1
+als,,1
+ay m,1
+eem ,1
+em d,1
+m do,1
+ownr,1
+wnri,1
+nrig,1
+tic.,1
+ic. ,1
+c. S,1
+ so,,1
+so, ,1
+o, t,1
+ne m,1
+mpte,1
+nk t,1
+k th,1
+no a,1
+draw,1
+rawn,1
+awn ,1
+r. Y,1
+desp,1
+f pu,1
+ty g,1
+as ‘,1
+s ‘o,1
+n’ w,1
+’ wa,1
+ho p,1
+k pl,1
+ nev,1
+neve,1
+ayed,1
+yed ,1
+anyw,1
+nywa,1
+yway,1
+way.,1
+r’ i,1
+as u,1
+ual.,1
+l. I,1
+o wh,1
+bett,1
+or –,1
+r – ,1
+re –,1
+We f,1
+ foc,1
+focu,1
+ocus,1
+cus ,1
+l es,1
+ fru,1
+frui,1
+uitf,1
+itfu,1
+tful,1
+ful,,1
+ul, ,1
+. Ou,1
+f em,1
+der.,1
+ls n,1
+rema,1
+emar,1
+arka,1
+rkab,1
+kabl,1
+f ex,1
+des,,1
+lfor,1
+s. M,1
+urn,,1
+intr,1
+trod,1
+w st,1
+ure.,1
+re. ,1
+. Mi,1
+ Mic,1
+Micr,1
+s ga,1
+pe m,1
+g, r,1
+catc,1
+atch,1
+tch-,1
+ch-w,1
+h-wo,1
+-wor,1
+rd o,1
+ve n,1
+We p,1
+ptiv,1
+naly,1
+alys,1
+lysi,1
+ysis,1
+g ev,1
+n tw,1
+wo s,1
+we p,1
+evan,1
+9, 1,1
+995,,1
+95, ,1
+d 19,1
+f ‘e,1
+nt’.,1
+t’. ,1
+’. W,1
+We t,1
+We c,1
+refi,1
+otin,1
+ng k,1
+g ke,1
+ve O,1
+e Ou,1
+amed,1
+ial–,1
+al–p,1
+l–ps,1
+–psy,1
+psyc,1
+sych,1
+ycho,1
+chol,1
+k pr,1
+lens,1
+. Hi,1
+ His,1
+His ,1
+ectl,1
+ctly,1
+us (,1
+95) ,1
+5) w,1
+) wo,1
+nt v,1
+t vi,1
+t ac,1
+ispo,1
+spos,1
+unds,1
+nalo,1
+alog,1
+gy i,1
+m. P,1
+ch b,1
+h be,1
+me p,1
+our,,1
+r, l,1
+, le,1
+eadi,1
+ct n,1
+w la,1
+so o,1
+ A l,1
+A le,1
+inua,1
+y ev,1
+aws.,1
+ws. ,1
+r sy,1
+r wa,1
+h en,1
+to W,1
+o We,1
+96),,1
+), c,1
+andp,1
+ndpo,1
+dpoi,1
+int,,1
+ ‘ba,1
+‘bas,1
+c th,1
+me f,1
+nizi,1
+izin,1
+zing,1
+ipe ,1
+ing:,1
+ng: ,1
+g: ‘,1
+ ‘‘H,1
+‘‘Ho,1
+‘How,1
+ow c,1
+w ca,1
+an I,1
+n I ,1
+ I k,1
+I kn,1
+w wh,1
+nk u,1
+k un,1
+il I,1
+l I ,1
+I se,1
+ee w,1
+say?,1
+ay?’,1
+y?’’,1
+?’’ ,1
+9, p,1
+. 13,1
+ 133,1
+133),1
+33).,1
+ipe,,1
+, en,1
+’ (a,1
+ (ac,1
+(act,1
+), s,1
+‘see,1
+seei,1
+eein,1
+say’,1
+ay’ ,1
+y’ (,1
+ (pe,1
+(per,1
+rcep,1
+s ‘k,1
+ ‘kn,1
+‘kno,1
+ink’,1
+nk’ ,1
+k’ (,1
+’ (s,1
+(sen,1
+ing),1
+ng).,1
+g). ,1
+If e,1
+n es,1
+y im,1
+s ot,1
+if y,1
+u be,1
+a ce,1
+ cer,1
+up o,1
+be h,1
+en y,1
+n yo,1
+em y,1
+ct y,1
+t yo,1
+ur f,1
+ear.,1
+ar. ,1
+In r,1
+t fe,1
+a ho,1
+ner.,1
+s ho,1
+ile.,1
+o ‘e,1
+a ci,1
+lf-r,1
+f-re,1
+-rei,1
+ip r,1
+p re,1
+a se,1
+lf-f,1
+f-fu,1
+-ful,1
+fulf,1
+ulfi,1
+lfil,1
+roph,1
+ophe,1
+phec,1
+hecy,1
+ecy.,1
+An a,1
+perh,1
+erha,1
+rhap,1
+haps,1
+aps ,1
+ps m,1
+ sat,1
+atis,1
+tisf,1
+isfa,1
+sfac,1
+tory,1
+y ci,1
+ip c,1
+p co,1
+ld r,1
+f, i,1
+f fe,1
+nfid,1
+fide,1
+w do,1
+we r,1
+s? F,1
+? Fo,1
+his,,1
+ss r,1
+s ro,1
+ roo,1
+room,1
+oom ,1
+ inp,1
+inpu,1
+nput,1
+puts,1
+uts,,1
+mano,1
+anoe,1
+noeu,1
+oeuv,1
+euvr,1
+uvri,1
+vrin,1
+or ‘,1
+r ‘e,1
+’ if,1
+r sa,1
+, hi,1
+y, p,1
+lans,1
+ed j,1
+d jo,1
+ob d,1
+b de,1
+d es,1
+d ‘r,1
+aps’,1
+ps’ ,1
+s’ p,1
+’ pr,1
+rmou,1
+mour,1
+oury,1
+ury ,1
+d ru,1
+ ‘st,1
+‘str,1
+ong’,1
+’ (M,1
+8) i,1
+) in,1
+es l,1
+e sc,1
+ sco,1
+scop,1
+cope,1
+pure,1
+it g,1
+t gu,1
+ist.,1
+g cl,1
+ar g,1
+r gu,1
+idel,1
+deli,1
+y am,1
+y. ‘,1
+‘Wea,1
+Weak,1
+ntiv,1
+m (M,1
+68).,1
+ abl,1
+way,,1
+g am,1
+y op,1
+o my,1
+tria,1
+d er,1
+rror,1
+ror ,1
+onar,1
+y sy,1
+m (W,1
+le j,1
+ joi,1
+oin ,1
+n sh,1
+d im,1
+gins,1
+rm n,1
+m ne,1
+ cod,1
+code,1
+ss ‘,1
+s ‘m,1
+ ‘mi,1
+‘mic,1
+rost,1
+ostr,1
+reng,1
+apes,1
+crow,1
+owea,1
+eakn,1
+akne,1
+ses’,1
+p. 4,1
+. 44,1
+ 44),1
+44) ,1
+To i,1
+eced,1
+cedi,1
+edin,1
+g ar,1
+l ap,1
+ly W,1
+y We,1
+’s i,1
+ns p,1
+by A,1
+y An,1
+by C,1
+y Ca,1
+We r,1
+eint,1
+citl,1
+itly,1
+e-fr,1
+-fra,1
+rami,1
+in W,1
+n We,1
+’s f,1
+amew,1
+mewo,1
+ewor,1
+k (a,1
+ (an,1
+(and,1
+d we,1
+we e,1
+dese,1
+dit ,1
+ter),1
+er).,1
+r). ,1
+To s,1
+ow h,1
+w ho,1
+ow e,1
+l tr,1
+g. F,1
+ple.,1
+ Nex,1
+Next,1
+ext,,1
+xt, ,1
+ cit,1
+cite,1
+cs t,1
+g ci,1
+es ‘,1
+ak’.,1
+k’. ,1
+’. A,1
+g vo,1
+ voi,1
+void,1
+oid ,1
+id i,1
+ Fin,1
+Fina,1
+ee e,1
+t br,1
+ingi,1
+By d,1
+so w,1
+we h,1
+hope,1
+pe t,1
+nvey,1
+ve q,1
+e qu,1
+ veh,1
+vehi,1
+ehic,1
+hicl,1
+icle,1
+ey T,1
+y Th,1
+noto,1
+otor,1
+orio,1
+ nam,1
+name,1
+me ‘,1
+e ‘S,1
+ ‘Si,1
+‘Sil,1
+ey’ ,1
+y’ h,1
+syno,1
+ynon,1
+nony,1
+onym,1
+nymo,1
+ymou,1
+tre ,1
+rld’,1
+ld’s,1
+d’s ,1
+’s m,1
+ng A,1
+g Ap,1
+ App,1
+Appl,1
+pple,1
+e, H,1
+d In,1
+ Int,1
+Inte,1
+tel.,1
+ic o,1
+c op,1
+ ema,1
+m as,1
+y so,1
+ One,1
+One ,1
+’s ‘,1
+s ‘b,1
+s’ i,1
+f op,1
+dema,1
+mand,1
+n. P,1
+ Pro,1
+Prop,1
+opon,1
+s po,1
+lems,1
+n ra,1
+ncem,1
+t, k,1
+, kn,1
+d am,1
+g fi,1
+ymbi,1
+mbio,1
+biot,1
+ioti,1
+n. B,1
+ar m,1
+romi,1
+is k,1
+s kn,1
+ge –,1
+– ra,1
+tal-,1
+al-i,1
+l-in,1
+-int,1
+r wh,1
+n ec,1
+ge e,1
+cs f,1
+ms d,1
+We m,1
+may,,1
+s’ f,1
+’ fe,1
+s he,1
+erit,1
+rita,1
+itag,1
+a ‘W,1
+‘Wes,1
+t’ N,1
+’ No,1
+rn C,1
+n Ca,1
+geog,1
+eogr,1
+hica,1
+e es,1
+d ‘E,1
+ ‘Ea,1
+‘Eas,1
+East,1
+’ in,1
+reen,1
+eenf,1
+enfi,1
+nfie,1
+te h,1
+mpty,1
+pty ,1
+ty s,1
+ sla,1
+slat,1
+te a,1
+no i,1
+les.,1
+te W,1
+e Wi,1
+m He,1
+ett,,1
+tt, ,1
+emme,1
+tt ‘,1
+t ‘r,1
+ce .,1
+e . ,1
+ . ‘,1
+. ‘‘,1
+ ‘‘I,1
+‘‘If,1
+‘If ,1
+If y,1
+ccee,1
+ceed,1
+re y,1
+ou n,1
+u ne,1
+ngs:,1
+gs: ,1
+s: c,1
+: ch,1
+obs ,1
+bs o,1
+, ta,1
+d ta,1
+ke r,1
+risk,1
+isks,1
+sks ,1
+ks –,1
+ – e,1
+– ev,1
+if i,1
+t me,1
+ng’’,1
+g’’ ,1
+tt w,1
+by h,1
+is S,1
+s St,1
+Stan,1
+tanf,1
+anfo,1
+ford,1
+rd D,1
+d De,1
+ Dea,1
+Dean,1
+of E,1
+f En,1
+ Eng,1
+Engi,1
+eeri,1
+ng W,1
+g Wi,1
+am T,1
+m Te,1
+ento,1
+ntor,1
+al H,1
+l He,1
+rd b,1
+ boa,1
+boar,1
+oard,1
+r (C,1
+ (Co,1
+(Col,1
+Coll,1
+lins,1
+ns &,1
+s & ,1
+& Po,1
+Porr,1
+orra,1
+rras,1
+ras,,1
+95).,1
+y, H,1
+ett’,1
+tt’s,1
+an’s,1
+s ph,1
+ phi,1
+phil,1
+hilo,1
+ilos,1
+loso,1
+osop,1
+soph,1
+ophy,1
+phy ,1
+hy p,1
+erme,1
+rmea,1
+meat,1
+n. D,1
+er-f,1
+r-fi,1
+rm c,1
+, op,1
+on’s,1
+ucer,1
+cers,1
+o cr,1
+uct ,1
+ife ,1
+fe c,1
+ailu,1
+ilur,1
+lure,1
+id e,1
+yee ,1
+e tu,1
+in l,1
+com-,1
+om-p,1
+m-pa,1
+-pan,1
+any-,1
+ny-s,1
+y-sp,1
+-spe,1
+c so,1
+eani,1
+anin,1
+ingf,1
+ngfu,1
+gful,1
+ul i,1
+ls r,1
+gy m,1
+es q,1
+kly ,1
+ tou,1
+toug,1
+ugh.,1
+gh. ,1
+h. N,1
+w fi,1
+ alm,1
+almo,1
+lmos,1
+vern,1
+erni,1
+rnig,1
+ht -,1
+t -a,1
+ -an,1
+-and,1
+ny d,1
+ar j,1
+r ju,1
+kly.,1
+d go,1
+go l,1
+e ni,1
+ nig,1
+ht i,1
+o id,1
+fy w,1
+n, n,1
+y. M,1
+r, p,1
+’s l,1
+ry r,1
+n. ‘,1
+. ‘A,1
+ ‘As,1
+‘As ,1
+ sem,1
+semi,1
+mico,1
+ondu,1
+ucto,1
+exec,1
+xecu,1
+ecut,1
+cuti,1
+utiv,1
+ ‘‘M,1
+‘‘Ma,1
+‘Man,1
+f us,1
+ke u,1
+ up ,1
+up i,1
+morn,1
+or S,1
+r Si,1
+ey I,1
+y In,1
+Inc.,1
+nc.’,1
+c.’’,1
+.’’ ,1
+ey v,1
+ew j,1
+w jo,1
+job-,1
+ob-c,1
+b-ch,1
+-cha,1
+orm.,1
+rm. ,1
+m. A,1
+. Av,1
+ Ave,1
+Aver,1
+erag,1
+rage,1
+b te,1
+tenu,1
+enur,1
+nure,1
+f tw,1
+wo y,1
+o ye,1
+ars,,1
+ ann,1
+annu,1
+nnua,1
+l tu,1
+nd 3,1
+d 35,1
+ 35%,1
+35%,,1
+5%, ,1
+%, a,1
+r sm,1
+ms (,1
+: ‘t,1
+ ‘tw,1
+‘two,1
+wo o,1
+o or,1
+ee y,1
+e ye,1
+max ,1
+ax [,1
+x [a,1
+ [at,1
+[at ,1
+job],1
+ob] ,1
+b] f,1
+] fo,1
+ alw,1
+alwa,1
+lway,1
+ys s,1
+ethi,1
+reet,1
+eet’,1
+et’ ,1
+t’ (,1
+). K,1
+ny b,1
+y bo,1
+efie,1
+fies,1
+eddi,1
+ddin,1
+f ‘r,1
+s’ w,1
+’ wi,1
+er-c,1
+r-co,1
+-com,1
+ny e,1
+e. E,1
+Ever,1
+ne k,1
+leav,1
+rk t,1
+ure:,1
+re: ,1
+: ‘A,1
+ ‘A ,1
+‘A c,1
+ue m,1
+ht b,1
+a cu,1
+tor;,1
+or; ,1
+r; t,1
+; to,1
+ bos,1
+boss,1
+ tom,1
+morr,1
+orro,1
+row’,1
+ow’s,1
+w’s ,1
+subo,1
+ubor,1
+ate’,1
+te’ ,1
+e’ (,1
+. 29,1
+ 29),1
+29).,1
+oses,1
+s sa,1
+y, r,1
+d au,1
+orit,1
+rd a,1
+ul e,1
+urs.,1
+xt o,1
+gets,1
+uilt,1
+l. P,1
+ek t,1
+rm r,1
+undi,1
+ife-,1
+fe-b,1
+e-bl,1
+-blo,1
+bloo,1
+wn c,1
+ersh,1
+rshi,1
+ip i,1
+y. L,1
+pub ,1
+ub o,1
+b or,1
+club,1
+b. I,1
+days,1
+ays,,1
+it u,1
+t us,1
+infa,1
+nfam,1
+famo,1
+us W,1
+s Wa,1
+ Wag,1
+Wago,1
+agon,1
+gon ,1
+on W,1
+n Wh,1
+Whee,1
+heel,1
+eel ,1
+el B,1
+l Ba,1
+ Bar,1
+Bar ,1
+he H,1
+e Ho,1
+ Hom,1
+Home,1
+omeb,1
+mebr,1
+ebre,1
+brew,1
+rew ,1
+ew C,1
+w Co,1
+Comp,1
+er C,1
+r Cl,1
+Club,1
+b. N,1
+ Now,1
+Now ,1
+w it,1
+t ta,1
+ hol,1
+oles,1
+r ho,1
+ hob,1
+hobb,1
+obby,1
+bby ,1
+by g,1
+ps w,1
+gy w,1
+regu,1
+egul,1
+gula,1
+eet ,1
+r lu,1
+k. I,1
+eeti,1
+g pl,1
+ld f,1
+sip,,1
+ip, ,1
+p, a,1
+ke n,1
+ew a,1
+w ac,1
+ acq,1
+acqu,1
+cqua,1
+quai,1
+uain,1
+s’ a,1
+’ ad,1
+endl,1
+ndly,1
+chat,1
+seri,1
+us b,1
+rs n,1
+s na,1
+lly.,1
+ns u,1
+sts,,1
+curi,1
+urio,1
+rios,1
+iosi,1
+lem ,1
+em s,1
+m so,1
+ gea,1
+gear,1
+ds d,1
+ng n,1
+g ne,1
+w ma,1
+ets,,1
+r ap,1
+temi,1
+eld.,1
+ned,,1
+is q,1
+ple:,1
+le: ,1
+: ‘p,1
+ ‘pe,1
+‘peo,1
+e ru,1
+ rub,1
+rub ,1
+ub s,1
+b sh,1
+ulde,1
+lder,1
+eas’,1
+as’ ,1
+werf,1
+erfu,1
+rful,1
+ul t,1
+ny ‘,1
+y ‘l,1
+ ‘lo,1
+‘loc,1
+ cam,1
+came,1
+ee s,1
+en g,1
+n go,1
+sip ,1
+ip a,1
+p as,1
+ cru,1
+cruc,1
+ruci,1
+ucia,1
+r bu,1
+. 26,1
+ 26),1
+26) ,1
+6) A,1
+) As,1
+med:,1
+‘‘‘O,1
+‘‘Ov,1
+‘Ove,1
+Over,1
+a lu,1
+beer,1
+ny A,1
+y A ,1
+ A o,1
+A or,1
+ny B,1
+y B ,1
+ B h,1
+B ha,1
+gy y,1
+y yo,1
+nt .,1
+t . ,1
+If i,1
+ fit,1
+ts y,1
+eds,,1
+s, y,1
+ld i,1
+xt p,1
+uct’,1
+ct’’,1
+p. 3,1
+. 31,1
+ 31),1
+31).,1
+r, m,1
+f ne,1
+we b,1
+ow p,1
+w pa,1
+hy a,1
+d pl,1
+lann,1
+anni,1
+r sk,1
+lf-g,1
+f-ge,1
+-gen,1
+d gu,1
+rks,,1
+ks, ,1
+a ta,1
+t ro,1
+ roa,1
+map ,1
+ap a,1
+p ab,1
+ws w,1
+ho a,1
+ho d,1
+se n,1
+ks s,1
+nt j,1
+ob s,1
+b se,1
+kesh,1
+eshi,1
+uitm,1
+t ce,1
+‘‘‘Y,1
+‘‘Yo,1
+ou d,1
+u do,1
+don’,1
+on’t,1
+n’t ,1
+’t j,1
+t ju,1
+st h,1
+ hir,1
+hire,1
+e ou,1
+ blu,1
+blue,1
+lue.,1
+ue. ,1
+In g,1
+ral,,1
+ it’,1
+it’s,1
+r yo,1
+w so,1
+hem’,1
+em’’,1
+m’’’,1
+ Soc,1
+Soci,1
+loos,1
+oose,1
+oser,1
+ser ,1
+irm,,1
+in S,1
+n Si,1
+ey (,1
+y (S,1
+ Thu,1
+Thus,1
+hus,,1
+le S,1
+of j,1
+f jo,1
+ob m,1
+b mo,1
+new-,1
+ew-f,1
+w-fi,1
+so f,1
+f ad,1
+ spu,1
+spur,1
+n. K,1
+hniq,1
+ques,1
+ign,,1
+gn, ,1
+keti,1
+d ra,1
+pidl,1
+idly,1
+rea.,1
+ea. ,1
+xcep,1
+l ra,1
+a ‘c,1
+ ‘co,1
+‘com,1
+ex m,1
+x mi,1
+mix ,1
+ix o,1
+soli,1
+olid,1
+lida,1
+idar,1
+on’ ,1
+n’ (,1
+. 25,1
+ 25),1
+25).,1
+esil,1
+sili,1
+ilie,1
+of S,1
+f Si,1
+omy ,1
+my s,1
+ unp,1
+unpr,1
+npre,1
+edic,1
+dict,1
+icta,1
+ctab,1
+ ‘ch,1
+‘cha,1
+tic’,1
+ic’ ,1
+c’ c,1
+ps h,1
+e. ‘,1
+. ‘I,1
+ ‘Ir,1
+‘Iro,1
+Iron,1
+y, m,1
+se S,1
+ey j,1
+y jo,1
+ob h,1
+b ho,1
+hopp,1
+pper,1
+ll h,1
+ardl,1
+rdly,1
+le ‘,1
+e ‘‘,1
+ ‘‘o,1
+‘‘or,1
+men’,1
+en’’,1
+n’’ ,1
+’’ o,1
+’ of,1
+he 1,1
+950s,1
+50s ,1
+0s w,1
+ho w,1
+ansf,1
+nsfe,1
+sfer,1
+m pl,1
+o pl,1
+yer’,1
+r’ (,1
+ry L,1
+y Li,1
+, cu,1
+cutt,1
+utti,1
+g ed,1
+ edg,1
+l ec,1
+c su,1
+. Li,1
+ tel,1
+tele,1
+levi,1
+evis,1
+o cu,1
+ut f,1
+ fix,1
+fixe,1
+xed ,1
+ cos,1
+cost,1
+osts,1
+sts.,1
+sede,1
+eded,1
+rmer,1
+dio-,1
+io-b,1
+o-ba,1
+rict,1
+icti,1
+ly 1,1
+y 19,1
+1970,1
+970s,1
+70s,,1
+0s, ,1
+w mo,1
+as p,1
+g bl,1
+on h,1
+n ha,1
+rior,1
+rede,1
+edec,1
+dece,1
+ssor,1
+sor ,1
+r (J,1
+ketp,1
+etpl,1
+tpla,1
+nteg,1
+tegr,1
+ayer,1
+xces,1
+ny p,1
+ar f,1
+lm r,1
+revo,1
+ obt,1
+obta,1
+btai,1
+o st,1
+d ul,1
+ete ,1
+ny g,1
+y gi,1
+m. W,1
+ged,,1
+d, i,1
+s sp,1
+purp,1
+urpo,1
+leti,1
+g hu,1
+ary.,1
+asse,1
+ssem,1
+ny i,1
+woun,1
+wn u,1
+elea,1
+ase.,1
+ymbo,1
+mbol,1
+boli,1
+olis,1
+it h,1
+ssig,1
+ignm,1
+gnme,1
+s. U,1
+. Un,1
+ Unc,1
+Unce,1
+y ov,1
+s dy,1
+ dys,1
+dysf,1
+ysfu,1
+sfun,1
+func,1
+unct,1
+ncti,1
+nal.,1
+ Stu,1
+Stud,1
+dios,1
+ios ,1
+os c,1
+r sp,1
+c fi,1
+disb,1
+isba,1
+sban,1
+em a,1
+x, u,1
+uniq,1
+que ,1
+ue ‘,1
+e ‘p,1
+cts’,1
+s’ –,1
+’ – ,1
+ – f,1
+– fi,1
+ilms,1
+lms ,1
+ms –,1
+om r,1
+m ra,1
+re-a,1
+e-al,1
+-all,1
+. Ea,1
+ Eac,1
+Each,1
+a fi,1
+re-n,1
+e-ne,1
+-neg,1
+nego,1
+egot,1
+goti,1
+otia,1
+dy s,1
+del.,1
+ mag,1
+magn,1
+agne,1
+gnet,1
+net ,1
+r ta,1
+rs e,1
+ eag,1
+eage,1
+dy t,1
+remo,1
+emot,1
+mote,1
+ote ,1
+ mom,1
+mome,1
+nt’s,1
+th S,1
+h Si,1
+gy p,1
+, mu,1
+mica,1
+ ‘cl,1
+‘clu,1
+red’,1
+ed’,,1
+d’, ,1
+’, t,1
+chal,1
+enge,1
+r. A,1
+As J,1
+s Jo,1
+es’s,1
+s’s ,1
+h af,1
+affi,1
+ffir,1
+ ‘be,1
+‘beg,1
+ginn,1
+y vy,1
+ vyi,1
+vyin,1
+no c,1
+r ru,1
+ne g,1
+ gri,1
+grip,1
+rip/,1
+ip/e,1
+p/el,1
+/ele,1
+rici,1
+cian,1
+‘‘‘T,1
+‘‘Th,1
+‘The,1
+o tr,1
+ried,1
+ue w,1
+o ge,1
+get ,1
+arte,1
+d. Y,1
+o fi,1
+ou l,1
+u li,1
+ke w,1
+ke m,1
+ovie,1
+vies,1
+es .,1
+s . ,1
+ It’,1
+It’s,1
+’s g,1
+s ge,1
+gett,1
+b th,1
+ har,1
+rdes,1
+est’,1
+st’’,1
+. 62,1
+ 62),1
+62).,1
+insi,1
+ide,,1
+‘cra,1
+craf,1
+afti,1
+ftin,1
+t, ‘,1
+, ‘Y,1
+ ‘Yo,1
+u bu,1
+ld y,1
+d yo,1
+ry d,1
+y. Y,1
+You’,1
+ou’r,1
+u’re,1
+’re ,1
+ goo,1
+good,1
+od a,1
+as y,1
+job’,1
+ob’ ,1
+b’ (,1
+ (pp,1
+(pp.,1
+. 64,1
+ 64–,1
+64–5,1
+4–5),1
+–5).,1
+ Rep,1
+Repu,1
+matt,1
+lf-m,1
+f-ma,1
+-man,1
+aged,1
+ve ‘,1
+‘cre,1
+its’,1
+s’ t,1
+n mu,1
+rgel,1
+gely,1
+orgo,1
+rgot,1
+gott,1
+otte,1
+y fi,1
+. Ha,1
+g le,1
+ed k,1
+d ke,1
+y sk,1
+indo,1
+ndoc,1
+doct,1
+octr,1
+trin,1
+rina,1
+y cu,1
+ultu,1
+ltur,1
+a ‘n,1
+ ‘na,1
+‘nav,1
+, fu,1
+o na,1
+ nav,1
+ne p,1
+ords,1
+f on,1
+ne f,1
+lm c,1
+mmis,1
+miss,1
+oner,1
+r, ‘,1
+, ‘‘,1
+‘‘‘W,1
+‘‘We,1
+‘We ,1
+a bi,1
+ big,1
+big ,1
+ig i,1
+we t,1
+her’,1
+er’’,1
+r’’’,1
+. 65,1
+ 65),1
+65).,1
+alki,1
+lkin,1
+th h,1
+h ho,1
+ hon,1
+hone,1
+g ab,1
+ltiv,1
+te m,1
+ex s,1
+x sk,1
+lls.,1
+ntua,1
+go f,1
+ ful,1
+full,1
+ull ,1
+ircl,1
+rcle,1
+a ‘m,1
+ ‘ma,1
+‘mai,1
+nce’,1
+ce’ ,1
+e’ s,1
+ Her,1
+Here,1
+r me,1
+y id,1
+fy a,1
+w me,1
+ish ,1
+sh w,1
+rksh,1
+ksho,1
+shop,1
+hops,1
+p ta,1
+eld,,1
+ld, ,1
+o-or,1
+lm f,1
+m fe,1
+ fes,1
+fest,1
+stiv,1
+ival,1
+vals,1
+. Du,1
+ Dur,1
+Duri,1
+riod,1
+iod ,1
+od p,1
+addr,1
+ddre,1
+dres,1
+eds ,1
+ds w,1
+en n,1
+g ea,1
+ssit,1
+ly u,1
+orgi,1
+rgiv,1
+givi,1
+ivin,1
+asts,1
+ non,1
+non-,1
+on-b,1
+n-bu,1
+-bur,1
+bure,1
+urea,1
+reau,1
+eauc,1
+aucr,1
+ucra,1
+c fo,1
+y. P,1
+Part,1
+whos,1
+infr,1
+nfra,1
+fras,1
+mili,1
+ilia,1
+liar,1
+iari,1
+y. H,1
+ure-,1
+re-l,1
+e-le,1
+-les,1
+ext.,1
+xt. ,1
+t. D,1
+no e,1
+oced,1
+cedu,1
+edur,1
+dure,1
+unic,1
+t bi,1
+ bin,1
+bind,1
+ds p,1
+ Sha,1
+Shar,1
+ardi,1
+ unu,1
+unus,1
+nusu,1
+ hou,1
+hour,1
+e us,1
+ ‘id,1
+‘idl,1
+dle’,1
+le’ ,1
+e’ t,1
+’ ti,1
+teac,1
+newc,1
+ewco,1
+wcom,1
+l sk,1
+y ro,1
+ rol,1
+link,1
+g id,1
+orkp,1
+rkpl,1
+kpla,1
+f le,1
+e ro,1
+ rop,1
+rope,1
+ke k,1
+lp p,1
+p pr,1
+xt s,1
+d, p,1
+ey p,1
+lem-,1
+em-s,1
+m-so,1
+-sol,1
+t-by,1
+-by-,1
+by-p,1
+y-pr,1
+-pro,1
+sis.,1
+is. ,1
+accu,1
+ccum,1
+cumu,1
+umul,1
+mula,1
+ispe,1
+sper,1
+rses,1
+y sp,1
+ir w,1
+el e,1
+pe i,1
+y. N,1
+we o,1
+enci,1
+ee f,1
+ist,,1
+t, p,1
+t so,1
+repe,1
+epea,1
+peat,1
+ct c,1
+ry h,1
+a ‘p,1
+d’ V,1
+’ Va,1
+y. J,1
+. Ju,1
+ Jus,1
+Just,1
+ tig,1
+tigh,1
+ly k,1
+y kn,1
+ kni,1
+knit,1
+nit ,1
+lm a,1
+so e,1
+o em,1
+ls m,1
+l or,1
+g sh,1
+hapi,1
+cro ,1
+ Ref,1
+Refi,1
+inem,1
+neme,1
+t Ag,1
+ionB,1
+onBo,1
+nBot,1
+ur p,1
+d mu,1
+. Ma,1
+, af,1
+er B,1
+r Ba,1
+ Bak,1
+Baka,1
+akan,1
+kan ,1
+66),,1
+), r,1
+elem,1
+At a,1
+c le,1
+l ag,1
+ol a,1
+tic,,1
+y au,1
+auto,1
+uton,1
+tono,1
+omy,,1
+my, ,1
+e ul,1
+nsib,1
+ncy,,1
+cy, ,1
+, is,1
+cern,1
+erne,1
+ tol,1
+tole,1
+oler,1
+ust.,1
+le n,1
+rs.1,1
+s.1 ,1
+.1 I,1
+1 In,1
+h ru,1
+nses,1
+led,,1
+h ag,1
+ns b,1
+by w,1
+nty.,1
+ dri,1
+driv,1
+elps,1
+lps ,1
+g vi,1
+g-te,1
+rm g,1
+m go,1
+ goa,1
+goal,1
+oals,1
+ Lef,1
+Left,1
+s ow,1
+wn m,1
+cy m,1
+hies,1
+lost,1
+ost,,1
+on n,1
+ss b,1
+be f,1
+forf,1
+orfe,1
+rfei,1
+feit,1
+eite,1
+latf,1
+atfo,1
+tfor,1
+d vi,1
+ns m,1
+ursu,1
+rsue,1
+sued,1
+ued.,1
+r, u,1
+ unb,1
+unbr,1
+nbri,1
+brid,1
+ridl,1
+dled,1
+y ne,1
+o at,1
+ mec,1
+mech,1
+echa,1
+hani,1
+nism,1
+isms,1
+sms ,1
+h ef,1
+cy o,1
+nthu,1
+thus,1
+husi,1
+usia,1
+sias,1
+iasm,1
+asm ,1
+sm p,1
+m pe,1
+ir a,1
+r ad,1
+ys o,1
+ubst,1
+bsti,1
+tute,1
+ Tog,1
+Toge,1
+her,,1
+nt h,1
+simu,1
+imul,1
+ulta,1
+ltan,1
+tane,1
+aneo,1
+ousl,1
+usly,1
+sly ,1
+ps p,1
+udes,1
+ake-,1
+ke-u,1
+e-up,1
+-up ,1
+up a,1
+f fu,1
+ Hos,1
+Host,1
+ tan,1
+ndem,1
+dem ,1
+m (R,1
+ (Ro,1
+(Rou,1
+eau ,1
+au &,1
+u & ,1
+k fr,1
+ lam,1
+lame,1
+ured,1
+y lo,1
+ok n,1
+k no,1
+no f,1
+h mo,1
+ sto,1
+edde,1
+dded,1
+exts,1
+xts ,1
+er k,1
+r ki,1
+ kin,1
+kind,1
+ty –,1
+– st,1
+emmi,1
+mmin,1
+m sh,1
+ideo,1
+deol,1
+cal,,1
+l, f,1
+mily,1
+ily,,1
+y, e,1
+, ed,1
+ edu,1
+duca,1
+ucat,1
+nal,,1
+l, e,1
+ eth,1
+ethn,1
+thni,1
+nic,,1
+c, o,1
+r ge,1
+ttac,1
+tach,1
+achm,1
+chme,1
+hmen,1
+ts –,1
+ – c,1
+– ca,1
+endu,1
+ndur,1
+rt f,1
+deav,1
+eavo,1
+(Par,1
+er &,1
+r, 2,1
+, 20,1
+ 200,1
+2000,1
+000),1
+00).,1
+). 1,1
+. 1S,1
+ 1So,1
+1Som,1
+rche,1
+cher,1
+ly M,1
+y Ma,1
+e fe,1
+ fem,1
+nine,1
+on v,1
+n ve,1
+ersu,1
+rsus,1
+sus ,1
+masc,1
+ascu,1
+scul,1
+culi,1
+ulin,1
+We d,1
+do s,1
+so h,1
+o he,1
+gh i,1
+mpla,1
+te w,1
+e, ‘,1
+, ‘f,1
+ ‘fe,1
+‘fem,1
+inis,1
+ed’.,1
+d’. ,1
+’. R,1
+ityA,1
+tyA ,1
+yA r,1
+pt i,1
+gs t,1
+ req,1
+equi,1
+quir,1
+uire,1
+red.,1
+d. R,1
+e gi,1
+ke f,1
+ Tra,1
+Trad,1
+ls u,1
+rds.,1
+gly,,1
+ pen,1
+ghts,1
+hts,,1
+s, v,1
+, va,1
+ vac,1
+vaca,1
+acat,1
+n ti,1
+romo,1
+omot,1
+ccep,1
+epta,1
+ptan,1
+ho h,1
+ad ‘,1
+d ‘s,1
+‘ser,1
+ime’,1
+me’.,1
+e’. ,1
+’. I,1
+In c,1
+ast,,1
+ho c,1
+yer ,1
+re h,1
+ han,1
+hand,1
+icap,1
+capp,1
+priv,1
+rivi,1
+ivil,1
+vile,1
+ileg,1
+lege,1
+eges,1
+ft b,1
+g wo,1
+rlds,1
+ log,1
+gic:,1
+ic: ,1
+c: o,1
+: on,1
+ld e,1
+titl,1
+itle,1
+tlem,1
+nt-b,1
+ hin,1
+indr,1
+ndra,1
+dran,1
+estm,1
+oo f,1
+o fl,1
+uid ,1
+o as,1
+appi,1
+ppin,1
+lty-,1
+ems.,1
+a ‘s,1
+ ‘sp,1
+‘spo,1
+spot,1
+pot’,1
+ot’ ,1
+t’ c,1
+’ co,1
+ncia,1
+ pay,1
+paym,1
+k. P,1
+in h,1
+e sk,1
+y br,1
+ng –,1
+g – ,1
+– sk,1
+cts.,1
+tem,,1
+em, ,1
+f cy,1
+aken,1
+ken ,1
+do o,1
+one’,1
+ry e,1
+insp,1
+nspi,1
+spir,1
+pire,1
+ires,1
+ek n,1
+k ne,1
+ pas,1
+past,1
+astu,1
+stur,1
+ws d,1
+wn (,1
+r, I,1
+ Ink,1
+Inks,1
+nkso,1
+kson,1
+on &,1
+n & ,1
+& Pr,1
+Prin,1
+gle,,1
+rk w,1
+k wh,1
+n (‘,1
+ (‘j,1
+(‘jo,1
+‘job,1
+obs’,1
+bs’),1
+s’),,1
+’), ,1
+), l,1
+law ,1
+aw (,1
+w (c,1
+ (ca,1
+(cas,1
+ses),1
+puti,1
+g (p,1
+ (pr,1
+(pro,1
+ramm,1
+amme,1
+mmes,1
+mes),1
+), p,1
+genu,1
+enui,1
+uine,1
+y mu,1
+ual,,1
+l, p,1
+ort-,1
+rt-t,1
+t-te,1
+m em,1
+t. Y,1
+accr,1
+ccru,1
+crue,1
+ue b,1
+ect’,1
+ct’s,1
+Indi,1
+ls c,1
+hem.,1
+m. M,1
+. Me,1
+ Mea,1
+Mean,1
+eanw,1
+anwh,1
+nwhi,1
+ir i,1
+n ot,1
+ spo,1
+onso,1
+nsor,1
+sori,1
+try,,1
+oth.,1
+th. ,1
+h. U,1
+. Ul,1
+ Ult,1
+Ulti,1
+ely,,1
+rt b,1
+st p,1
+o ne,1
+ A n,1
+A ne,1
+nuit,1
+ty W,1
+y Wh,1
+sson,1
+sons,1
+m ou,1
+r tw,1
+wo e,1
+les?,1
+s? M,1
+? Ma,1
+ems,,1
+ goi,1
+goin,1
+e ei,1
+ eig,1
+eigh,1
+htee,1
+teen,1
+eent,1
+nth ,1
+h ce,1
+ntur,1
+tury,1
+ury,,1
+, do,1
+ot f,1
+ agr,1
+agre,1
+ree,,1
+ee, ,1
+we a,1
+so l,1
+a ti,1
+ir u,1
+stas,1
+tasi,1
+inco,1
+ncom,1
+mpat,1
+atib,1
+tibl,1
+ms w,1
+f ‘l,1
+ ‘la,1
+‘lab,1
+al’ ,1
+l’ r,1
+’ ra,1
+al’.,1
+l’. ,1
+’. Y,1
+Read,1
+eade,1
+st l,1
+g. I,1
+Is i,1
+oo g,1
+o gr,1
+step,1
+tep ,1
+ep t,1
+p to,1
+lief,1
+ef i,1
+rge?,1
+ge? ,1
+e? I,1
+? If,1
+arn,,1
+sust,1
+stai,1
+g? L,1
+? Le,1
+Leav,1
+w se,1
+gers,1
+s? K,1
+? Kn,1
+usti,1
+y mi,1
+ht k,1
+t kn,1
+to k,1
+g, w,1
+ves?,1
+s? H,1
+? Ha,1
+s (W,1
+ (Wi,1
+(Wil,1
+iams,1
+amso,1
+mson,1
+75),,1
+edgi,1
+dgin,1
+ust?,1
+st? ,1
+t? A,1
+? A ,1
+ue r,1
+isit,1
+e Cz,1
+epub,1
+lic,,1
+untr,1
+t ec,1
+omy.,1
+my. ,1
+ She,1
+She ,1
+ ask,1
+aske,1
+sked,1
+ a C,1
+a Cz,1
+ld d,1
+t. ‘,1
+ ‘Wo,1
+‘Wor,1
+lds,,1
+ds,’,1
+s,’ ,1
+,’ w,1
+’ we,1
+ wen,1
+went,1
+repl,1
+ply,,1
+y, ‘,1
+, ‘b,1
+ ‘bu,1
+‘but,1
+ths.,1
+hs.’,1
+s.’ ,1
+.’ I,1
+’ It,1
+It w,1
+hs w,1
+ eno,1
+enou,1
+noug,1
+unin,1
+nini,1
+o ap,1
+ppre,1
+f cu,1
+ervi,1
+rvic,1
+ad l,1
+she ,1
+hs o,1
+, wr,1
+ wri,1
+writ,1
+rit ,1
+it l,1
+erpa,1
+rpar,1
+y ‘i,1
+elli,1
+llig,1
+lige,1
+igen,1
+t’ w,1
+’ wo,1
+k (Q,1
+ (Qu,1
+(Qui,1
+Quin,1
+uinn,1
+inn,,1
+nn, ,1
+992),1
+92),,1
+s’ l,1
+’ le,1
+nd –,1
+st –,1
+t – ,1
+ ric,1
+rich,1
+h le,1
+g ep,1
+sode,1
+old.,1
+acki,1
+ckin,1
+g, t,1
+ hee,1
+heed,1
+ur C,1
+r Cz,1
+mant,1
+ign ,1
+gn a,1
+ct f,1
+r he,1
+rsel,1
+lf o,1
+f or,1
+f. I,1
+subm,1
+ubmi,1
+bmit,1
+mit,,1
+it, ,1
+We h,1
+soug,1
+ught,1
+g tw,1
+wo i,1
+flou,1
+lour,1
+uris,1
+rish,1
+ed –,1
+– re,1
+reap,1
+eapi,1
+alik,1
+ike.,1
+eori,1
+as K,1
+s Ka,1
+lp u,1
+p us,1
+d dy,1
+ inh,1
+inhe,1
+nher,1
+x, s,1
+g, s,1
+l ph,1
+mena,1
+ena.,1
+a. P,1
+wn l,1
+g ag,1
+enda,1
+ndas,1
+das.,1
+as. ,1
+y ta,1
+e-fo,1
+-for,1
+ch ‘,1
+h ‘o,1
+n’ h,1
+exti,1
+xtin,1
+nct.,1
+t. a,1
+. ac,1
+dgem,1
+ts W,1
+s We,1
+eepl,1
+ndeb,1
+debt,1
+ebte,1
+to P,1
+o Po,1
+ Pol,1
+Poll,1
+olly,1
+ly P,1
+e Un,1
+ Uni,1
+Univ,1
+nive,1
+rsit,1
+f Au,1
+ Auc,1
+Auck,1
+uckl,1
+ckla,1
+d, N,1
+, An,1
+Anne,1
+nne ,1
+ne D,1
+e Du,1
+ Dun,1
+Dunc,1
+unca,1
+ncan,1
+d Sv,1
+ Sve,1
+Sven,1
+venj,1
+enja,1
+nja ,1
+ja T,1
+a Ta,1
+ Tam,1
+Tams,1
+e Lo,1
+Lond,1
+ondo,1
+ndon,1
+don ,1
+n Bu,1
+ Bus,1
+Busi,1
+ss S,1
+s Sc,1
+Scho,1
+choo,1
+hool,1
+ool,,1
+ol, ,1
+l, a,1
+nd J,1
+d Ju,1
+ Jul,1
+Juli,1
+ulia,1
+lian,1
+an S,1
+n Sm,1
+feed,1
+eedb,1
+edba,1
+dbac,1
+draf,1
+aft ,1
+ft o,1
+ter.,1
+. Sp,1
+ Spe,1
+Spec,1
+hank,1
+anks,1
+ks g,1
+go t,1
+to A,1
+o An,1
+n, C,1
+, au,1
+in T,1
+ bul,1
+bulk,1
+ulk ,1
+lk o,1
+xt i,1

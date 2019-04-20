@@ -1,0 +1,456 @@
+{
+  "value": null,
+  "path_code": null,
+  "left": {
+    "value": null,
+    "path_code": "0",
+    "left": {
+      "value": null,
+      "path_code": "00",
+      "left": {
+        "value": "I",
+        "path_code": "000",
+        "left": null,
+        "right": null
+      },
+      "right": {
+        "value": "it",
+        "path_code": "001",
+        "left": null,
+        "right": null
+      }
+    },
+    "right": {
+      "value": null,
+      "path_code": "01",
+      "left": {
+        "value": null,
+        "path_code": "010",
+        "left": {
+          "value": "they",
+          "path_code": "0100",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "value": "we",
+          "path_code": "0101",
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "value": "you",
+        "path_code": "011",
+        "left": null,
+        "right": null
+      }
+    }
+  },
+  "right": {
+    "value": null,
+    "path_code": "1",
+    "left": {
+      "value": null,
+      "path_code": "10",
+      "left": {
+        "value": null,
+        "path_code": "100",
+        "left": {
+          "value": "she",
+          "path_code": "1000",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "value": null,
+          "path_code": "1001",
+          "left": {
+            "value": null,
+            "path_code": "10010",
+            "left": {
+              "value": "her",
+              "path_code": "100100",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": "one",
+              "path_code": "100101",
+              "left": null,
+              "right": null
+            }
+          },
+          "right": {
+            "value": "me",
+            "path_code": "10011",
+            "left": null,
+            "right": null
+          }
+        }
+      },
+      "right": {
+        "value": "he",
+        "path_code": "101",
+        "left": null,
+        "right": null
+      }
+    },
+    "right": {
+      "value": null,
+      "path_code": "11",
+      "left": {
+        "value": null,
+        "path_code": "110",
+        "left": {
+          "value": null,
+          "path_code": "1100",
+          "left": {
+            "value": null,
+            "path_code": "11000",
+            "left": {
+              "value": "us",
+              "path_code": "110000",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": null,
+              "path_code": "110001",
+              "left": {
+                "value": null,
+                "path_code": "1100010",
+                "left": {
+                  "value": null,
+                  "path_code": "11000100",
+                  "left": {
+                    "value": "everybody",
+                    "path_code": "110001000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "110001001",
+                    "left": {
+                      "value": "lots",
+                      "path_code": "1100010010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "ourselves",
+                      "path_code": "1100010011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "themselves",
+                  "path_code": "11000101",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1100011",
+                "left": {
+                  "value": null,
+                  "path_code": "11000110",
+                  "left": {
+                    "value": "yourself",
+                    "path_code": "110001100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "somebody",
+                    "path_code": "110001101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11000111",
+                  "left": {
+                    "value": "whom",
+                    "path_code": "110001110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "110001111",
+                    "left": {
+                      "value": "his",
+                      "path_code": "1100011110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1100011111",
+                      "left": {
+                        "value": "yours",
+                        "path_code": "11000111110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "hers",
+                        "path_code": "11000111111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "value": "them",
+            "path_code": "11001",
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "1101",
+          "left": {
+            "value": "him",
+            "path_code": "11010",
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "value": null,
+            "path_code": "11011",
+            "left": {
+              "value": null,
+              "path_code": "110110",
+              "left": {
+                "value": null,
+                "path_code": "1101100",
+                "left": {
+                  "value": "everyone",
+                  "path_code": "11011000",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "itself",
+                  "path_code": "11011001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1101101",
+                "left": {
+                  "value": null,
+                  "path_code": "11011010",
+                  "left": {
+                    "value": "none",
+                    "path_code": "110110100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "no",
+                    "path_code": "110110101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11011011",
+                  "left": {
+                    "value": "nobody",
+                    "path_code": "110110110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "110110111",
+                    "left": {
+                      "value": "plenty",
+                      "path_code": "1101101110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "mine",
+                      "path_code": "1101101111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": "something",
+              "path_code": "110111",
+              "left": null,
+              "right": null
+            }
+          }
+        }
+      },
+      "right": {
+        "value": null,
+        "path_code": "111",
+        "left": {
+          "value": "who",
+          "path_code": "1110",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "value": null,
+          "path_code": "1111",
+          "left": {
+            "value": null,
+            "path_code": "11110",
+            "left": {
+              "value": null,
+              "path_code": "111100",
+              "left": {
+                "value": "nothing",
+                "path_code": "1111000",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": "anything",
+                "path_code": "1111001",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "111101",
+              "left": {
+                "value": null,
+                "path_code": "1111010",
+                "left": {
+                  "value": "myself",
+                  "path_code": "11110100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "anyone",
+                  "path_code": "11110101",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1111011",
+                "left": {
+                  "value": null,
+                  "path_code": "11110110",
+                  "left": {
+                    "value": "anybody",
+                    "path_code": "111101100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "111101101",
+                    "left": {
+                      "value": "another",
+                      "path_code": "1111011010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1111011011",
+                      "left": {
+                        "value": "ours",
+                        "path_code": "11110110110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "whoever",
+                        "path_code": "11110110111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "value": "other",
+                  "path_code": "11110111",
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "11111",
+            "left": {
+              "value": null,
+              "path_code": "111110",
+              "left": {
+                "value": "himself",
+                "path_code": "1111100",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "1111101",
+                "left": {
+                  "value": "each",
+                  "path_code": "11111010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "herself",
+                  "path_code": "11111011",
+                  "left": null,
+                  "right": null
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "111111",
+              "left": {
+                "value": "everything",
+                "path_code": "1111110",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": "someone",
+                "path_code": "1111111",
+                "left": null,
+                "right": null
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

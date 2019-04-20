@@ -1,0 +1,106 @@
+{
+  "value": null,
+  "path_code": null,
+  "left": {
+    "value": "the",
+    "path_code": "0",
+    "left": null,
+    "right": null
+  },
+  "right": {
+    "value": null,
+    "path_code": "1",
+    "left": {
+      "value": "a",
+      "path_code": "10",
+      "left": null,
+      "right": null
+    },
+    "right": {
+      "value": null,
+      "path_code": "11",
+      "left": {
+        "value": null,
+        "path_code": "110",
+        "left": {
+          "value": null,
+          "path_code": "1100",
+          "left": {
+            "value": "their",
+            "path_code": "11000",
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "value": null,
+            "path_code": "11001",
+            "left": {
+              "value": "its",
+              "path_code": "110010",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": "our",
+              "path_code": "110011",
+              "left": null,
+              "right": null
+            }
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "1101",
+          "left": {
+            "value": "her",
+            "path_code": "11010",
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "value": "my",
+            "path_code": "11011",
+            "left": null,
+            "right": null
+          }
+        }
+      },
+      "right": {
+        "value": null,
+        "path_code": "111",
+        "left": {
+          "value": "his",
+          "path_code": "1110",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "value": null,
+          "path_code": "1111",
+          "left": {
+            "value": "your",
+            "path_code": "11110",
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "value": null,
+            "path_code": "11111",
+            "left": {
+              "value": "no",
+              "path_code": "111110",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": "every",
+              "path_code": "111111",
+              "left": null,
+              "right": null
+            }
+          }
+        }
+      }
+    }
+  }
+}

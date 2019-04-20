@@ -1,0 +1,126 @@
+{
+  "value": null,
+  "path_code": null,
+  "left": {
+    "value": null,
+    "path_code": "0",
+    "left": {
+      "value": null,
+      "path_code": "00",
+      "left": {
+        "value": null,
+        "path_code": "000",
+        "left": {
+          "value": null,
+          "path_code": "0000",
+          "left": {
+            "value": "hey",
+            "path_code": "00000",
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "value": null,
+            "path_code": "00001",
+            "left": {
+              "value": null,
+              "path_code": "000010",
+              "left": {
+                "value": "uh",
+                "path_code": "0000100",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": "ha",
+                "path_code": "0000101",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": "ah",
+              "path_code": "000011",
+              "left": null,
+              "right": null
+            }
+          }
+        },
+        "right": {
+          "value": "no",
+          "path_code": "0001",
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "value": null,
+        "path_code": "001",
+        "left": {
+          "value": null,
+          "path_code": "0010",
+          "left": {
+            "value": "hi",
+            "path_code": "00100",
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "value": "hello",
+            "path_code": "00101",
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "0011",
+          "left": {
+            "value": null,
+            "path_code": "00110",
+            "left": {
+              "value": "wow",
+              "path_code": "001100",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": "huh",
+              "path_code": "001101",
+              "left": null,
+              "right": null
+            }
+          },
+          "right": {
+            "value": "mm-hmm",
+            "path_code": "00111",
+            "left": null,
+            "right": null
+          }
+        }
+      }
+    },
+    "right": {
+      "value": "yes",
+      "path_code": "01",
+      "left": null,
+      "right": null
+    }
+  },
+  "right": {
+    "value": null,
+    "path_code": "1",
+    "left": {
+      "value": "oh",
+      "path_code": "10",
+      "left": null,
+      "right": null
+    },
+    "right": {
+      "value": "yeah",
+      "path_code": "11",
+      "left": null,
+      "right": null
+    }
+  }
+}
