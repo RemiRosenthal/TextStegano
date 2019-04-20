@@ -1,8 +1,9 @@
 import bisect
+import json
 import queue
 import sys
 import warnings
-from typing import Tuple, Set, Optional
+from typing import Tuple, Set, Optional, Union
 
 from bitstring import Bits
 from tabulate import tabulate
@@ -10,6 +11,8 @@ from tabulate import tabulate
 from stegano.textanalyser import DEFAULT_ANALYSIS_FILE
 from stegano.textanalyser import DEFAULT_SAMPLE_FILE
 from stegano.textanalyser import TextAnalyser
+
+DEFAULT_TREE_FILE = "..\\sample\\huffman_tree.json"
 
 Frequency = int
 Symbol = Tuple[str, Frequency]
@@ -66,6 +69,30 @@ class HuffmanTree:
             return self.value[1] < other.value[1]
         else:
             return self.value[0] < other.value[0]
+
+    def __dict__(self):
+        serial_tree = {}
+        if self.value is not None:
+            serial_tree.update({"value": self.value[0]})
+        else:
+            serial_tree.update({"value": None})
+
+        if self.path_code is not None:
+            serial_tree.update({"path_code": self.path_code.bin})
+        else:
+            serial_tree.update({"path_code": None})
+
+        if self.left is None:
+            serial_tree.update({"left": None})
+        else:
+            serial_tree.update({"left": self.left[1].__dict__()})
+
+        if self.right is None:
+            serial_tree.update({"right": None})
+        else:
+            serial_tree.update({"right": self.right[1].__dict__()})
+
+        return serial_tree
 
     def get_children(self):
         return self.left, self.right
@@ -187,6 +214,7 @@ def encode_bits_as_strings(tree: HuffmanTree, bits: Bits, string_prefix: str = "
     if tree.left is not None and tree.right is not None:  # This tree has subtrees
         left_tree = tree.left[1]
         right_tree = tree.right[1]
+
         if left_tree.path_code is None or right_tree.path_code is None:
             raise HuffmanError("When encoding bits as strings, a node was missing a path code")
         else:
@@ -367,8 +395,50 @@ def create_from_sample(sample_filename=DEFAULT_SAMPLE_FILE, analysis_filename=DE
     return create_from_analysis(sample_filename)
 
 
-def tree_depth(huffman_tree: Tuple[int, HuffmanTree]) -> int:
+def deserialise_tree(tree_dict: dict) -> Optional[Tuple[int, HuffmanTree]]:
     """
-    Find the depth of the longest branch in the tree
+    Convert a serialised tree to a tuple containing a Huffman tree object.
+    The integer paired with the tree is added only to preserve the expected structure.
+    :param tree_dict: serialised tree
+    :return: a tuple of 0 and a Huffman tree
     """
-    pass
+    if tree_dict is None:
+        return None
+    tree = HuffmanTree()
+    tree.value = tree_dict.get("value")
+    path_code = tree_dict.get("path_code")
+    if path_code is None:
+        tree.path_code = None
+    else:
+        tree.path_code = Bits(bin=path_code)
+    tree.left = deserialise_tree(tree_dict.get("left"))
+    tree.right = deserialise_tree(tree_dict.get("right"))
+    return 0, tree
+
+
+def load_tree(tree_filename=DEFAULT_TREE_FILE) -> HuffmanTree:
+    """
+    Attempt to load a JSON file as a Huffman tree object.
+    :param tree_filename: the path of the file
+    :return: the tree object, as long as the file is valid
+    """
+    try:
+        with open(tree_filename, "r", encoding="utf-8") as handle:
+            data = json.load(handle)
+            return deserialise_tree(data)
+    except IOError:
+        print("Could not read tree file " + tree_filename)
+
+
+def save_tree(tree: HuffmanTree, tree_filename=DEFAULT_TREE_FILE):
+    """
+    Save a Huffman tree object as a JSON file.
+    :param tree: a Huffman tree object
+    :param tree_filename: the desired path of the file
+    :return:
+    """
+    try:
+        with open(tree_filename, "w", encoding="utf-8") as handle:
+            json.dump(tree, handle, default=lambda o: o.__dict__())
+    except IOError:
+        print("Could not write tree file " + tree_filename)

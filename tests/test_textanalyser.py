@@ -1,6 +1,9 @@
 import unittest
 
+from bitstring import Bits
+
 from stegano.textanalyser import TextAnalyser, ANALYSIS_SEPARATOR
+from stegano.wtdict import MappingDictionary
 
 
 class TestTextAnalyser(unittest.TestCase):
@@ -69,6 +72,33 @@ class TestTextAnalyser(unittest.TestCase):
 
         with self.assertRaises(ValueError):
             TextAnalyser.read_analysis(mock_analysis_filename)
+
+    def test_read_mappings(self):
+        mock_dict = {
+            "zero": Bits(bin="00"),
+            "one": Bits(bin="01"),
+            "two": Bits(bin="10")
+        }
+
+        mock_file = "..\\mock_mappings.txt"
+        with open(mock_file, "w", encoding="utf-8") as handle:
+            handle.write("zero")
+            handle.write(ANALYSIS_SEPARATOR)
+            handle.write("00")
+            handle.write("\n")
+            handle.write("one")
+            handle.write(ANALYSIS_SEPARATOR)
+            handle.write("01")
+            handle.write("\n")
+            handle.write("two")
+            handle.write(ANALYSIS_SEPARATOR)
+            handle.write("10")
+            handle.write("\n")
+        mock_mappings_dict = TextAnalyser.read_mapping_dict(mock_file, True)
+        self.assertIsInstance(mock_mappings_dict, MappingDictionary)
+        self.assertTrue(mock_mappings_dict.encode_spaces)
+        self.assertIsInstance(mock_mappings_dict.mappings, dict)
+        self.assertDictEqual(mock_dict, mock_mappings_dict.mappings)
 
 
 if __name__ == '__main__':

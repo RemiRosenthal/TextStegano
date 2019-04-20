@@ -41,6 +41,12 @@ class TestMappingDictionary(unittest.TestCase):
         self.mapping_dict = MappingDictionary(self.mappings, False)
         self.assertEqual(False, self.mapping_dict.encode_spaces)
 
+    def test_init_empty(self):
+        self.mapping_dict = MappingDictionary(set())
+        mappings = self.mapping_dict.mappings
+        self.assertIsInstance(mappings, dict)
+        self.assertEqual(0, len(mappings))
+
 
 class TestWordTypeDictionary(unittest.TestCase):
     def setUp(self):

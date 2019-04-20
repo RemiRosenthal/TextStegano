@@ -2,7 +2,7 @@ import unittest
 
 from bitstring import Bits
 
-from stegano import extended_coder
+from stegano import extendedcoder
 from stegano.markov import MarkovChain
 from stegano.wtdict import MappingDictionary, WordTypeDictionary
 
@@ -19,26 +19,26 @@ class TestRetrieveWord(unittest.TestCase):
 
     def test_retrieve_word(self):
         bits = Bits(bin="00101011100101010")
-        word = extended_coder.retrieve_word_from_mappings(bits, self.mapping_dict, True)
+        word = extendedcoder.retrieve_word_from_mappings(bits, self.mapping_dict, True)
         self.assertEqual("tiger", word)
 
     def test_retrieve_word_padded(self):
         bits = Bits(bin="1")
-        word = extended_coder.retrieve_word_from_mappings(bits, self.mapping_dict, True)
+        word = extendedcoder.retrieve_word_from_mappings(bits, self.mapping_dict, True)
         self.assertEqual("dog", word)
 
     def test_retrieve_word_no_padding(self):
         bits = Bits(bin="1")
-        self.assertRaises(ValueError, extended_coder.retrieve_word_from_mappings, bits, self.mapping_dict, False)
+        self.assertRaises(ValueError, extendedcoder.retrieve_word_from_mappings, bits, self.mapping_dict, False)
 
     def test_retrieve_empty(self):
         bits = Bits()
-        word = extended_coder.retrieve_word_from_mappings(bits, self.mapping_dict)
+        word = extendedcoder.retrieve_word_from_mappings(bits, self.mapping_dict)
         self.assertEqual("penguin", word)
 
     def test_retrieve_nothing(self):
         bits = None
-        self.assertRaises(ValueError, extended_coder.retrieve_word_from_mappings, bits, self.mapping_dict)
+        self.assertRaises(ValueError, extendedcoder.retrieve_word_from_mappings, bits, self.mapping_dict)
 
 
 class TestEncodeBits(unittest.TestCase):
@@ -84,7 +84,7 @@ class TestEncodeBits(unittest.TestCase):
 
     def test_encode_bits_as_string(self):
         bits = Bits(bin="00101011100101010")
-        words = extended_coder.encode_bits_as_words(self.markov_chain, self.wt_dict, bits)
+        words = extendedcoder.encode_bits_as_words(self.markov_chain, self.wt_dict, bits)
         longest_bit_string = 3
         shortest_bit_string = 1
         self.assertGreaterEqual(len(words), -(-len(bits) // longest_bit_string))
@@ -92,13 +92,13 @@ class TestEncodeBits(unittest.TestCase):
 
     def test_encode_bits_as_string_padded(self):
         bits = Bits(bin="01")
-        words = extended_coder.encode_bits_as_words(self.markov_chain, self.wt_dict, bits)
+        words = extendedcoder.encode_bits_as_words(self.markov_chain, self.wt_dict, bits)
         self.assertGreaterEqual(len(words), 2)  # s0 > stationery > x > s0
         self.assertLessEqual(len(words), 3)  # s0 > animals > stationery > x > s0
 
     def test_encode_bits_as_string_no_pad(self):
         bits = Bits(bin="01")
-        words = extended_coder.encode_bits_as_words(self.markov_chain, self.wt_dict, bits, False)
+        words = extendedcoder.encode_bits_as_words(self.markov_chain, self.wt_dict, bits, False)
         self.assertEqual(1, len(words))  # 1 word from stationery or animals
 
 
@@ -134,17 +134,17 @@ class TestListToCoverText(unittest.TestCase):
         ]
 
     def test_words_to_cover_text(self):
-        cover_text = extended_coder.words_to_cover_text(self.words, True)
+        cover_text = extendedcoder.words_to_cover_text(self.words, True)
         self.assertEqual("A Lion had come to the end of his days and lay sick unto death at the mouth of his cave, "
                          "gasping for breath.", cover_text)
 
     def test_words_to_cover_text_no_capitalise(self):
-        cover_text = extended_coder.words_to_cover_text(self.words, False)
+        cover_text = extendedcoder.words_to_cover_text(self.words, False)
         self.assertEqual("a Lion had come to the end of his days and lay sick unto death at the mouth of his cave, "
                          "gasping for breath.", cover_text)
 
     def test_words_to_cover_text_empty(self):
-        cover_text = extended_coder.words_to_cover_text([])
+        cover_text = extendedcoder.words_to_cover_text([])
         self.assertEqual("", cover_text)
 
 
@@ -191,38 +191,38 @@ class TestEncodeMessage(unittest.TestCase):
         self.markov_chain.set_transitions(self.transitions)
 
     def test_get_fixed_length_header(self):
-        self.assertEqual("1100101011110000", extended_coder.get_fixed_length_header(618, 16).bin)
-        self.assertEqual("11001000", extended_coder.get_fixed_length_header(1, 8).bin)
-        self.assertEqual("00110111", extended_coder.get_fixed_length_header(256, 8).bin)
+        self.assertEqual("1100101011110000", extendedcoder.get_fixed_length_header(618, 16).bin)
+        self.assertEqual("11001000", extendedcoder.get_fixed_length_header(1, 8).bin)
+        self.assertEqual("00110111", extendedcoder.get_fixed_length_header(256, 8).bin)
 
     def test_get_fixed_length_header_inverses(self):
         # Headers generated should have a property whereby each number has an inverse number, whose inverse is the
         # original number.
         numbers_to_test = {618, 1, 65536}
         for number in numbers_to_test:
-            header = extended_coder.get_fixed_length_header(number, 16).bin
+            header = extendedcoder.get_fixed_length_header(number, 16).bin
             inverse_number = Bits(bin=header).uint + 1
-            inverse_header = extended_coder.get_fixed_length_header(inverse_number, 16).bin
+            inverse_header = extendedcoder.get_fixed_length_header(inverse_number, 16).bin
             self.assertEqual(number, Bits(bin=inverse_header).uint + 1)
 
     def test_get_fixed_length_header_exact(self):
-        self.assertEqual("01001", extended_coder.get_fixed_length_header(17, 4).bin)
+        self.assertEqual("01001", extendedcoder.get_fixed_length_header(17, 4).bin)
 
     def test_get_fixed_length_header_long_message(self):
-        self.assertRaises(ValueError, extended_coder.get_fixed_length_header, 18, 4)
+        self.assertRaises(ValueError, extendedcoder.get_fixed_length_header, 18, 4)
 
     def test_get_fixed_length_header_zero_length_message(self):
-        self.assertRaises(ValueError, extended_coder.get_fixed_length_header, 0, 4)
+        self.assertRaises(ValueError, extendedcoder.get_fixed_length_header, 0, 4)
 
     def test_get_message_length_from_header(self):
-        self.assertEqual(618, extended_coder.get_message_length_from_header(Bits(bin="1100101011110000")))
-        self.assertEqual(1, extended_coder.get_message_length_from_header(Bits(bin="11001000")))
-        self.assertEqual(256, extended_coder.get_message_length_from_header(Bits(bin="00110111")))
+        self.assertEqual(618, extendedcoder.get_message_length_from_header(Bits(bin="1100101011110000")))
+        self.assertEqual(1, extendedcoder.get_message_length_from_header(Bits(bin="11001000")))
+        self.assertEqual(256, extendedcoder.get_message_length_from_header(Bits(bin="00110111")))
 
     def test_encode_message(self):
         bits = Bits(bin="0100101110010110100101")
         header_length = 6
-        cover_text = extended_coder.encode_message(self.markov_chain, self.wt_dict, bits, header_length)
+        cover_text = extendedcoder.encode_message(self.markov_chain, self.wt_dict, bits, header_length)
         longest_bit_string = 3
         longest_word = 7
         shortest_bit_string = 1
@@ -237,13 +237,13 @@ class TestEncodeMessage(unittest.TestCase):
     def test_encode_message_zero_header(self):
         bits = Bits(bin="0100101110010110100101")
         header_length = 0
-        self.assertRaises(ValueError, extended_coder.encode_message, self.markov_chain, self.wt_dict, bits,
+        self.assertRaises(ValueError, extendedcoder.encode_message, self.markov_chain, self.wt_dict, bits,
                           header_length)
 
     def test_encode_message_empty_bits(self):
         bits = Bits()
         header_length = 6
-        self.assertRaises(ValueError, extended_coder.encode_message, self.markov_chain, self.wt_dict, bits,
+        self.assertRaises(ValueError, extendedcoder.encode_message, self.markov_chain, self.wt_dict, bits,
                           header_length)
 
 
@@ -287,52 +287,52 @@ class TestDecodeMessage(unittest.TestCase):
 
     def test_get_word_from_cover_text(self):
         cover_text = "the scary dog. every funny telephone!"
-        word = extended_coder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
+        word = extendedcoder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
         self.assertTupleEqual(("the", Bits(bin="01")), word)
 
     def test_get_word_from_cover_text_space(self):
         cover_text = " the scary dog. every funny telephone!"
-        word = extended_coder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
+        word = extendedcoder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
         self.assertEqual(("the", Bits(bin="01")), word)
 
     def test_get_word_from_cover_text_punctuation(self):
         cover_text = ". every funny telephone!"
-        word = extended_coder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
+        word = extendedcoder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
         self.assertEqual((".", Bits(bin="1")), word)
 
     def test_get_word_from_cover_text_final(self):
         cover_text = "telephone"
-        word = extended_coder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
+        word = extendedcoder.get_word_from_cover_text(self.wt_dict, cover_text, self.longest_word)
         self.assertEqual(("telephone", Bits(bin="10")), word)
 
     def test_get_longest_word_in_dictionary(self):
-        longest = extended_coder.get_longest_word_in_dictionary(self.wt_dict)
+        longest = extendedcoder.get_longest_word_in_dictionary(self.wt_dict)
         self.assertIn(longest, {"telephone", "beautiful"})
 
     def test_fixed_size_decode(self):
         cover_text = "the scary dog. every funny telephone!"
-        bits, trailing_bits, cover_text = extended_coder.fixed_size_decode(self.wt_dict, cover_text, 6)
+        bits, trailing_bits, cover_text = extendedcoder.fixed_size_decode(self.wt_dict, cover_text, 6)
         self.assertEqual(Bits(bin="011011"), bits)
         self.assertEqual(Bits(), trailing_bits)
         self.assertEqual(". every funny telephone!", cover_text)
 
     def test_fixed_size_decode_trailing(self):
         cover_text = "the scary dog. every funny telephone!"
-        bits, trailing_bits, cover_text = extended_coder.fixed_size_decode(self.wt_dict, cover_text, 5)
+        bits, trailing_bits, cover_text = extendedcoder.fixed_size_decode(self.wt_dict, cover_text, 5)
         self.assertEqual(Bits(bin="01101"), bits)
         self.assertEqual(Bits(bin="1"), trailing_bits)
         self.assertEqual(". every funny telephone!", cover_text)
 
     def test_fixed_size_decode_short_message(self):
         cover_text = "the scary dog"
-        self.assertRaises(ValueError, extended_coder.fixed_size_decode, self.wt_dict, cover_text, 7)
+        self.assertRaises(ValueError, extendedcoder.fixed_size_decode, self.wt_dict, cover_text, 7)
 
     def test_decode_cover_text(self):
         cover_text = "the scary funny roof."  # header = b011 = d6. total = b011011011
-        message = extended_coder.decode_cover_text(self.wt_dict, cover_text, 3)
+        message = extendedcoder.decode_cover_text(self.wt_dict, cover_text, 3)
         self.assertEqual(Bits(bin="011011"), message)
 
     def test_decode_cover_text_excess(self):
         cover_text = "the scary funny roof."  # header = b01 = d3. total = b011011011
-        message = extended_coder.decode_cover_text(self.wt_dict, cover_text, 2)
+        message = extendedcoder.decode_cover_text(self.wt_dict, cover_text, 2)
         self.assertEqual(Bits(bin="101"), message)

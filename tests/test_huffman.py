@@ -30,6 +30,16 @@ class TestHuffman(unittest.TestCase):
         self.assertIsInstance(test_huffman[0], int)
         self.assertIsInstance(test_huffman[1], HuffmanTree)
 
+    def test_serialise_tree(self):
+        test_huffman = huffman.create_tree(self.string_definitions)
+        serial_tree = test_huffman[1].__dict__()
+        self.assertIsInstance(serial_tree, dict)
+        self.assertEqual(4, len(serial_tree))
+        self.assertEqual(None, serial_tree.get("value"))
+        self.assertEqual(None, serial_tree.get("path_code"))
+        self.assertIsInstance(serial_tree.get("left"), dict)
+        self.assertIsInstance(serial_tree.get("right"), dict)
+
     def test_tree_has_nodes(self):
         test_huffman = huffman.create_tree(self.string_definitions)
         test_passed = test_huffman is not None
@@ -71,6 +81,56 @@ class TestHuffman(unittest.TestCase):
         path_codes = huffman.get_tree_leaf_codes(test_huffman)
         self.assertNotEqual(set(), path_codes)
         self.assertEqual(10, len(path_codes))
+
+    def test_serialise_tree_codes(self):
+        test_huffman = huffman.create_tree(self.string_definitions)
+        huffman.allocate_path_bits(test_huffman)
+        serial_tree = test_huffman[1].__dict__()
+        self.assertIsInstance(serial_tree, dict)
+        self.assertIsInstance(serial_tree.get("left"), dict)
+        path_code = serial_tree.get("left").get("path_code")
+        self.assertEqual("0", path_code)
+
+    def test_deserialise_tree_codes(self):
+        serial_tree = {
+            "value": None,
+            "path_code": None,
+            "left": {
+                "value": "hello",
+                "path_code": "0",
+                "left": None,
+                "right": None
+            },
+            "right": {
+                "value": None,
+                "path_code": None,
+                "left": {
+                    "value": "world",
+                    "path_code": "10",
+                    "left": None,
+                    "right": None
+                },
+                "right": {
+                    "value": "!",
+                    "path_code": "11",
+                    "left": None,
+                    "right": None
+                }
+            }
+        }
+        tree = huffman.deserialise_tree(serial_tree)
+
+        self.assertIsInstance(tree, HuffmanTree)
+        self.assertIsNone(tree.value)
+        self.assertIsNone(tree.path_code)
+
+        self.assertIsInstance(tree.left, HuffmanTree)
+        self.assertEqual("hello", tree.left.value)
+        self.assertEqual(Bits(bin="0"), tree.left.path_code)
+
+        self.assertIsInstance(tree.right, HuffmanTree)
+        self.assertEqual("!", tree.right.right.value)
+        self.assertEqual(Bits(bin="11"), tree.right.right.path_code)
 
     def test_get_set_average_length(self):
         test_set = set()
@@ -156,6 +216,9 @@ class TestHuffman(unittest.TestCase):
         self.assertTrue(test_passed, "Huffman tree did not have values for all leaves")
         huffman.allocate_path_bits(test_huffman)
         self.assertTrue(has_correct_bits(test_huffman, Bits()), "Huffman tree did not have correct bits for every node")
+
+    def test_load_tree(self):
+        huffman.load_tree()
 
     @unittest.skip
     def test_print_tree(self):
