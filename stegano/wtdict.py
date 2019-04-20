@@ -41,7 +41,7 @@ class WordTypeDictionary:
     """
     def __init__(self, wt_dict: WTDict):
         if wt_dict is None:
-            self.wt_dict = None
+            self.wt_dict = {}
         else:
             self.wt_dict = wt_dict
             remove_word_types = set()
@@ -52,6 +52,8 @@ class WordTypeDictionary:
 
     def __dict__(self):
         serial_dict = {}
+        if self.wt_dict is None:
+            return serial_dict
         for mapping_key in self.wt_dict.keys():
             mapping_dict = self.wt_dict.get(mapping_key)
             serial_dict.update({mapping_key: mapping_dict.__dict__()})
@@ -144,7 +146,7 @@ class WordTypeDictionary:
 
 def deserialise_dict(wt_dict: dict) -> WTDict:
     """
-    Convert a serialised dict (of strings) to a WTDict (of mapping objects)
+    Convert a serialised dict (of strings) to a WTDict (of mapping objects).
     :param wt_dict: serialised dict
     :return: a WTDict
     """
@@ -158,7 +160,7 @@ def deserialise_dict(wt_dict: dict) -> WTDict:
 
 def load_dict(dict_filename=DEFAULT_DICT_FILE) -> WordTypeDictionary:
     """
-    Attempt to load a JSON file as a word-type dictionary object
+    Attempt to load a JSON file as a word-type dictionary object.
     :param dict_filename: the path of the file
     :return: the dictionary object, as long as the file is valid
     """
@@ -173,7 +175,7 @@ def load_dict(dict_filename=DEFAULT_DICT_FILE) -> WordTypeDictionary:
 
 def save_dict(dictionary: WordTypeDictionary, dict_filename=DEFAULT_DICT_FILE):
     """
-    Save a word-type dictionary object as a JSON file
+    Save a word-type dictionary object as a JSON file.
     :param dictionary: a dictionary object
     :param dict_filename: the desired path of the file
     """

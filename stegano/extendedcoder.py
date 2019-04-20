@@ -15,8 +15,8 @@ class ExtendedCoderError(Exception):
     pass
 
 
-def encode_message(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits, header_length=DEFAULT_HEADER_LENGTH) -> \
-        str:
+def encode_message(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits, header_length=DEFAULT_HEADER_LENGTH
+                   ) -> str:
     """
     Given a header length, a secret message as bits, a Markov chain, and a word-type dictionary, encode a cover text
     including a header which contains the length of the message.

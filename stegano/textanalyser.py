@@ -3,14 +3,19 @@ import os
 import re
 from functools import reduce
 
+from bitstring import Bits
+
+from stegano.wtdict import MappingDictionary
+
 ANALYSIS_SEPARATOR = ","
 DEFAULT_SAMPLE_FILE = "..\\sample_text.txt"
 DEFAULT_ANALYSIS_FILE = "..\\analysis.txt"
+DEFAULT_MAPPINGS_FILE = "..\\mappings.txt"
 
 
 class TextAnalyser:
     @staticmethod
-    def analyse_sample(sample_filename=DEFAULT_SAMPLE_FILE, string_length=1, threshold=0) -> collections.Counter:
+    def analyse_sample(sample_filename=DEFAULT_SAMPLE_FILE, string_length=1) -> collections.Counter:
         """
         Analyse the given sample text for a statistical profile of string frequencies.
         The length of that string can be specified, otherwise is 1 by default.
@@ -108,3 +113,32 @@ class TextAnalyser:
                 normalised.add((string_def[0], int(string_def[1]) / total))
 
         return normalised
+
+    @staticmethod
+    def read_mapping_dict(mappings_filename=DEFAULT_MAPPINGS_FILE, encode_spaces=True, delimiter=",")\
+            -> MappingDictionary:
+        """
+        Attempt to read word-bit mappings from the given file and return a new MappingDictionary object of those
+        mappings.
+        :param mappings_filename: full filename of the mappings file
+        :param encode_spaces: if creating new word-type from these mappings, sets encode_spaces for that word-type
+        :param delimiter: the single character separating the word and bitstring on each line
+        :return: a MappingDictionary object
+        """
+        mappings = set()
+        try:
+            with open(mappings_filename, "r", encoding="utf-8") as file:
+                for line in file:
+                    mapping_tuple = line.rpartition(delimiter)
+                    if not mapping_tuple[0]:
+                        raise ValueError("A line in the mappings list appeared to be malformed")
+                    try:
+                        bits = Bits(bin=mapping_tuple[2])
+                    except ValueError:
+                        raise ValueError("A line in the mappings list did not contain a valid bitstring")
+                    mappings.add((mapping_tuple[0], bits))
+        except OSError:
+            raise IOError("Could not locate or read mappings file " + mappings_filename)
+        mapping_dict = MappingDictionary(mappings, encode_spaces)
+
+        return mapping_dict
