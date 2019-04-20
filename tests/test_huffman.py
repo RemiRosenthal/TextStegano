@@ -10,6 +10,8 @@ Symbol = Tuple[str, int]
 StringDefinitions = Set[Symbol]
 HuffmanTreeWithFrequencies = Tuple[int, HuffmanTree]
 
+TEST_TREE_FILE = "..\\test_data\\huffman_tree.json"
+
 
 class TestHuffman(unittest.TestCase):
     def setUp(self):
@@ -118,19 +120,19 @@ class TestHuffman(unittest.TestCase):
                 }
             }
         }
-        tree = huffman.deserialise_tree(serial_tree)
+        _, tree = huffman.deserialise_tree(serial_tree)
 
         self.assertIsInstance(tree, HuffmanTree)
         self.assertIsNone(tree.value)
         self.assertIsNone(tree.path_code)
 
-        self.assertIsInstance(tree.left, HuffmanTree)
-        self.assertEqual("hello", tree.left.value)
-        self.assertEqual(Bits(bin="0"), tree.left.path_code)
+        self.assertIsInstance(tree.left[1], HuffmanTree)
+        self.assertTupleEqual(("hello", 0), tree.left[1].value)
+        self.assertEqual(Bits(bin="0"), tree.left[1].path_code)
 
-        self.assertIsInstance(tree.right, HuffmanTree)
-        self.assertEqual("!", tree.right.right.value)
-        self.assertEqual(Bits(bin="11"), tree.right.right.path_code)
+        self.assertIsInstance(tree.right[1], HuffmanTree)
+        self.assertTupleEqual(("!", 0), tree.right[1].right[1].value)
+        self.assertEqual(Bits(bin="11"), tree.right[1].right[1].path_code)
 
     def test_get_set_average_length(self):
         test_set = set()
@@ -190,10 +192,18 @@ class TestHuffman(unittest.TestCase):
         bits = huffman.encode_string_as_bits(test_huffman[1], "stegaalysilysissis 0tegan", 5)
         self.assertEqual(bits, Bits(bin="0b0100101110111100000"))
 
-    def test_flatten_tree(self):
+    def test_has_given_symbol_length(self):
+        test_huffman = huffman.create_tree(self.string_definitions)
+        self.assertFalse(huffman.has_given_symbol_length(test_huffman, 4))
+        self.assertFalse(huffman.has_given_symbol_length(test_huffman, 6))
+        self.assertTrue(huffman.has_given_symbol_length(test_huffman, 5))
+        self.assertRaises(ValueError, huffman.has_given_symbol_length, None, 1)
+        self.assertRaises(ValueError, huffman.has_given_symbol_length, [0, None], 1)
+
+    def test_tree_to_symbols(self):
         test_huffman = huffman.create_tree(self.string_definitions)
         huffman.allocate_path_bits(test_huffman)
-        flattened_tree = huffman.flatten_tree(test_huffman)
+        flattened_tree = huffman.tree_to_symbols(test_huffman)
         self.assertIsNotNone(flattened_tree)
 
         sorted_list = list(self.string_definitions)
@@ -201,7 +211,8 @@ class TestHuffman(unittest.TestCase):
         self.assertEqual(len(flattened_tree), len(sorted_list))
         for i in range(0, len(sorted_list)):
             # We are only interested in the string and frequency from tree nodes.
-            self.assertTupleEqual(flattened_tree[i][:2], sorted_list[i])
+            this_tuple = flattened_tree[i][0], flattened_tree[i][1]
+            self.assertTupleEqual(this_tuple, sorted_list[i])
 
     def test_variable_length_tree(self):
         self.string_definitions = set()
@@ -218,7 +229,7 @@ class TestHuffman(unittest.TestCase):
         self.assertTrue(has_correct_bits(test_huffman, Bits()), "Huffman tree did not have correct bits for every node")
 
     def test_load_tree(self):
-        huffman.load_tree()
+        huffman.load_tree(TEST_TREE_FILE)
 
     @unittest.skip
     def test_print_tree(self):

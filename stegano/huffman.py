@@ -3,7 +3,7 @@ import json
 import queue
 import sys
 import warnings
-from typing import Tuple, Set, Optional, Union
+from typing import Tuple, Set, Optional, Union, List
 
 from bitstring import Bits
 from tabulate import tabulate
@@ -332,19 +332,39 @@ def print_tree(huffman_tree: Tuple[int, HuffmanTree], indent: str = "", last_nod
     sys.stdout.flush()
 
 
-def flatten_tree(huffman_tree: Tuple[int, HuffmanTree]) -> list:
+def has_given_symbol_length(huffman_tree: Tuple[int, HuffmanTree], symbol_length: int) -> bool:
     """
-    Turn a Huffman tree into a list ordered by value
+    :param huffman_tree: a Huffman tree
+    :param symbol_length: desired symbol length of values in the tree
+    :return: true if arbitrarily selected value in tree is of given symbol length
+    """
+    value = ""
+    if huffman_tree is None or huffman_tree[1] is None:
+        raise ValueError("Given Huffman tree was None.")
+    tree = huffman_tree[1]
+
+    while value.__eq__(""):
+        if tree.value is not None:
+            value = tree.value
+            break
+        tree = tree.left[1]
+    return value[0].__len__() == symbol_length
+
+
+def tree_to_symbols(huffman_tree: Tuple[int, HuffmanTree]) -> List[Tuple[str, int, Bits]]:
+    """
+    Turn a Huffman tree into a list of symbols - containing values, frequencies, and path codes - ordered lexically.
+
     :param huffman_tree: the huffman_tree to flatten
-    :return: a list containing all nodes in that tree in value order
+    :return: a list containing all nodes in that tree in ascending value order
     """
     this_tree = huffman_tree[1]
     left_tree = this_tree.left
     right_tree = this_tree.right
 
     if left_tree is not None and right_tree is not None:
-        this_list = flatten_tree(left_tree)
-        for item in flatten_tree(right_tree):
+        this_list = tree_to_symbols(left_tree)
+        for item in tree_to_symbols(right_tree):
             bisect.insort_left(this_list, item)
     else:  # Leaf node
         this_list = list()
@@ -362,7 +382,7 @@ def _format_binary(node: Tuple[str, int, Optional[Bits]]):
 
 
 def print_table(huffman_tree: Tuple[int, HuffmanTree]):
-    print(tabulate(map(_format_binary, flatten_tree(huffman_tree)), headers=["Value", "Freq", "Bits"]))
+    print(tabulate(map(_format_binary, tree_to_symbols(huffman_tree)), headers=["Value", "Freq", "Bits"]))
     print()
 
 
@@ -405,18 +425,23 @@ def deserialise_tree(tree_dict: dict) -> Optional[Tuple[int, HuffmanTree]]:
     if tree_dict is None:
         return None
     tree = HuffmanTree()
+
     tree.value = tree_dict.get("value")
+    if tree.value is not None:
+        tree.value = (tree.value, 0)
+
     path_code = tree_dict.get("path_code")
     if path_code is None:
         tree.path_code = None
     else:
         tree.path_code = Bits(bin=path_code)
+
     tree.left = deserialise_tree(tree_dict.get("left"))
     tree.right = deserialise_tree(tree_dict.get("right"))
     return 0, tree
 
 
-def load_tree(tree_filename=DEFAULT_TREE_FILE) -> HuffmanTree:
+def load_tree(tree_filename=DEFAULT_TREE_FILE) -> Optional[Tuple[int, HuffmanTree]]:
     """
     Attempt to load a JSON file as a Huffman tree object.
     :param tree_filename: the path of the file
