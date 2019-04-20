@@ -422,7 +422,7 @@ def deserialise_tree(tree_dict: dict) -> Optional[Tuple[int, HuffmanTree]]:
     :param tree_dict: serialised tree
     :return: a tuple of 0 and a Huffman tree
     """
-    if tree_dict is None:
+    if tree_dict is None or tree_dict.__eq__({}):
         return None
     tree = HuffmanTree()
 
@@ -464,6 +464,6 @@ def save_tree(tree: HuffmanTree, tree_filename=DEFAULT_TREE_FILE):
     """
     try:
         with open(tree_filename, "w", encoding="utf-8") as handle:
-            json.dump(tree, handle, default=lambda o: o.__dict__())
+            json.dump(tree, handle, indent=2, default=lambda o: o.__dict__())
     except IOError:
         print("Could not write tree file " + tree_filename)

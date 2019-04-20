@@ -41,19 +41,24 @@ class TextAnalyser:
         return string_definitions
 
     @staticmethod
-    def print_analysis(string_definitions: collections.Counter, analysis_filename=DEFAULT_ANALYSIS_FILE):
+    def print_analysis(string_definitions: collections.Counter, analysis_filename=DEFAULT_ANALYSIS_FILE,
+                       encoding="utf-8"):
         """
         Print the string definitions in the analysis file defined by the given filename
         """
         try:
-            with open(analysis_filename, "w", encoding="utf-8") as handle:
+            with open(analysis_filename, "w", encoding=encoding) as handle:
                 for string_def in string_definitions.most_common():
                     handle.write(string_def[0])
                     handle.write(ANALYSIS_SEPARATOR)
                     handle.write(str(string_def[1]))
                     handle.write("\n")
         except IOError:
-            print("Could not write analysis file " + analysis_filename)
+            raise ValueError("Could not write analysis file {}.".
+                             format(analysis_filename))
+        except LookupError:
+            raise ValueError("Could not decode analysis file {} with encoding \"{}\".".
+                             format(analysis_filename, encoding))
 
     @staticmethod
     def read_analysis(analysis_filename=DEFAULT_ANALYSIS_FILE) -> set:

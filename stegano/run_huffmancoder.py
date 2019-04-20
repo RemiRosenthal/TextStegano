@@ -3,34 +3,20 @@ import argparse
 from bitstring import Bits, CreationError
 
 from stegano import huffman
+from stegano.filehandler import prefix_filename, read_input_file, write_output_file
 
 
-def prefix_filename(subfolder: str, filename: str) -> str:
-    if subfolder is not None:
-        return "..\\" + subfolder + "\\" + filename
-    return "..\\" + filename
-
-
-def read_input_file(filename: str) -> str:
-    try:
-        with open(filename, "r", encoding="utf-8") as handle:
-            text = handle.read()
-            return text
-    except IOError:
-        print("Could not read file " + filename)
-
-
-def write_output_file(filename: str, data: str):
-    try:
-        with open(filename, "w", encoding="utf-8") as handle:
-            handle.write(data)
-    except IOError:
-        print("Could not write to file " + filename)
+def print_with_heading(message: str, heading: str):
+    header_symbol = "---------------"
+    print(header_symbol)
+    print(heading)
+    print(header_symbol)
+    print(message)
 
 
 parser = argparse.ArgumentParser(description="Commands for reverse Huffman steganographic coding")
 parser.add_argument("operation", metavar="operation", type=str,
-                    choices=["createTree", "encodeBits", "decodeCover", "exportMappings"],
+                    choices=["createTree", "encodeBits", "decodeCover", "exportMappings", "analyseTree"],
                     help="select operation")
 parser.add_argument("--subfolder", metavar="subfolder", type=str,
                     help="optional subdirectory for input and output files")
@@ -64,7 +50,7 @@ if operation.__eq__("createTree"):
     print("Huffman tree created.")
 
     huffman.save_tree(tree[1], tree_filename)
-    print("Saved to {}".format(tree_filename))
+    print("Saved to {}.".format(tree_filename))
 
 elif operation.__eq__("encodeBits"):
     """
@@ -87,9 +73,9 @@ elif operation.__eq__("encodeBits"):
     else:
         output_filename = prefix_filename(args.subfolder, output_filename)
 
-    input_cover = read_input_file(input_filename)
+    input_message = read_input_file(input_filename)
     try:
-        message_bits = Bits(bin=input_cover)
+        message_bits = Bits(bin=input_message)
     except CreationError:
         raise ValueError("Provided input was not a valid bitstring.")
     if message_bits.__eq__(Bits()):
@@ -100,7 +86,7 @@ elif operation.__eq__("encodeBits"):
 
     _, cover_text = huffman.encode_bits_as_strings(huffman_tree[1], message_bits)
     write_output_file(output_filename, cover_text)
-    print("Cover text written to {}".format(output_filename))
+    print("Cover text written to {}.".format(output_filename))
 
 elif operation.__eq__("decodeCover"):
     """
@@ -138,7 +124,7 @@ elif operation.__eq__("decodeCover"):
 
     message_bits = huffman.encode_string_as_bits(huffman_tree[1], input_cover, symbol_length)
     write_output_file(output_filename, message_bits.bin)
-    print("Secret message written to {}".format(output_filename))
+    print("Secret message written to {}.".format(output_filename))
 
 elif operation.__eq__("exportMappings"):
     """
@@ -166,4 +152,27 @@ elif operation.__eq__("exportMappings"):
     for value, bits in mappings:
         output = output + value + "," + bits.bin + "\n"
     write_output_file(output_filename, output)
-    print("Mappings written to {}".format(output_filename))
+    print("Mappings written to {}.".format(output_filename))
+
+elif operation.__eq__("analyseTree"):
+    """
+    Load a Huffman tree and print some statistics.
+    """
+    tree_filename: str = args.tree
+
+    if tree_filename is None:
+        raise ValueError("Filename for Huffman tree was not provided.")
+    else:
+        tree_filename = prefix_filename(args.subfolder, tree_filename)
+
+    huffman_tree = huffman.load_tree(tree_filename)
+    if huffman_tree is None or huffman_tree[1] is None:
+        raise ValueError("Provided Huffman tree was empty.")
+    print("Huffman tree loaded.")
+
+    path_codes = huffman.get_tree_leaf_codes(huffman_tree)
+    print_with_heading("{}".format(len(path_codes)), "Number of Symbols in Tree")
+    expected_length = huffman.get_set_expected_length(path_codes)
+    print_with_heading("{}".format(expected_length), "Expected Length of Path Codes in Tree")
+    average_length = huffman.get_set_average_length(path_codes)
+    print_with_heading("{}".format(average_length), "Average Length of Path Codes in Tree")
