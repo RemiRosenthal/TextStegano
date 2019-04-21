@@ -3,7 +3,6 @@
     "article1": "article",
     "article2": "article",
     "article3": "article",
-    "pronoun1": "pronoun",
     "pronoun2": "pronoun",
     "adj1": "adj",
     "adj2": "adj",
@@ -16,27 +15,50 @@
     "vn1": "verbalnoun",
     "vn2": "verbalnoun",
     "adverb1": "adverb",
+    "adverb2": "adverb",
     "prep1": "prep",
     "prep2": "prep",
     "prepadv1": "prepadverb",
     "prepadv2": "prepadverb",
     "mid_punc": "mid_punc",
+    "adv_punc": "mid_punc",
     "conjunction1": "conjunction",
-    "end_punc": "end_punc"
+    "interjec1": "interjec",
+    "interjec2": "interjec",
+    "end_punc": "end_punc",
+    "end_question": "end_question"
   },
   "chain": {
     "s0": {
-      "article1": 1,
-      "pronoun1": 1
-    },
-    "article1": {
-      "noun1": 5,
-      "vn1": 1
-    },
-    "pronoun1": {
+      "article1": 6,
+      "interjec1": 1,
+      "interjec2": 1,
       "verb1": 4,
       "vn2": 2,
-      "adverb1": 2
+      "adverb1": 1
+    },
+    "interjec1": {
+      "article1": 5,
+      "verb1": 6,
+      "vn2": 3,
+      "adverb1": 1,
+      "adverb2": 1
+    },
+    "adverb1": {
+      "article1": 1,
+      "adv_punc": 1,
+      "vn1": 1,
+      "verb1": 1
+    },
+    "adv_punc": {
+      "article1": 1,
+      "vn1": 1,
+      "verb1": 1
+    },
+    "article1": {
+      "adj1": 3,
+      "noun1": 5,
+      "vn1": 1
     },
     "adj1": {
       "noun1": 5,
@@ -45,27 +67,34 @@
     "noun1": {
       "verb1": 4,
       "vn2": 2,
-      "adverb1": 2
+      "adverb2": 1
+    },
+    "adverb2": {
+      "verb1": 1
     },
     "vn1": {
-      "verb1": 4,
-      "vn2": 2,
-      "adverb1": 2
-    },
-    "adverb1": {
-      "verb1": 1
+      "article2": 3,
+      "prep1": 4,
+      "prepadv1": 2,
+      "end_punc": 2,
+      "mid_punc": 1,
+      "conjunction1": 1
     },
     "verb1": {
       "article2": 3,
       "prep1": 4,
       "prepadv1": 2,
-      "end_punc": 2
+      "end_punc": 2,
+      "mid_punc": 1,
+      "conjunction1": 1
     },
     "vn2": {
       "article2": 3,
       "prep1": 4,
       "prepadv1": 2,
-      "end_punc": 2
+      "end_punc": 2,
+      "mid_punc": 1,
+      "conjunction1": 1
     },
     "prep1": {
       "article2": 1,
@@ -83,7 +112,8 @@
       "noun2": 1
     },
     "noun2": {
-      "end_punc": 1,
+      "end_punc": 3,
+      "end_question": 1,
       "mid_punc": 1,
       "conjunction1": 1
     },
@@ -122,7 +152,14 @@
       "noun3": 1
     },
     "noun3": {
-      "end_punc": 1
+      "end_punc": 3,
+      "end_question": 1
+    },
+    "end_question": {
+      "s0": 1
+    },
+    "interjec2": {
+      "s0": 1
     },
     "end_punc": {
       "s0": 1

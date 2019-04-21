@@ -220,7 +220,10 @@ def deserialise_markov_chain(markov_dict: dict) -> MarkovChain:
     markov_chain.wt_refs = wt_refs
     transitions = set()
     for state in states:
-        transitions.update({(state, x, y) for x, y in chain.get(state).items()})
+        if chain.get(state) is None:
+            print("State {} declared in word-type mappings, but not used.".format(state))
+        else:
+            transitions.update({(state, x, y) for x, y in chain.get(state).items()})
     # noinspection PyTypeChecker
     markov_chain.set_transitions(transitions)
 

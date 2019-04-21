@@ -223,3 +223,40 @@ elif operation.__eq__("encodeBits"):
 
     write_output_file(output_filename, cover_text)
     print("Cover text written to {}.".format(output_filename))
+
+elif operation.__eq__("decodeCover"):
+    """
+    Use a dictionary of word-types to decode aa cover text into the corresponding bit string.
+    """
+    dict_filename: str = args.dictionary
+    input_filename: str = args.input
+    output_filename: str = args.output
+    header_length: int = args.headerLength
+
+    if dict_filename is None:
+        raise ValueError("Filename for word-type dictionary was not provided.")
+    else:
+        dict_filename = prefix_filename(args.subfolder, dict_filename)
+    if input_filename is None:
+        raise ValueError("Filename for input was not provided.")
+    else:
+        input_filename = prefix_filename(args.subfolder, input_filename)
+    if output_filename is None:
+        raise ValueError("Filename for output was not provided.")
+    else:
+        output_filename = prefix_filename(args.subfolder, output_filename)
+    if header_length is None:
+        header_length = DEFAULT_HEADER_LENGTH
+    elif header_length < 1:
+        raise ValueError("Header length must be greater than 0.")
+
+    input_message = read_input_file(input_filename)
+
+    wt_dict = init_wt_dict(dict_filename)
+    print("Word-type dictionary loaded.")
+
+    print("Decoding cover text with header length {}.".format(header_length))
+    message_bits = extendedcoder.decode_cover_text(wt_dict, input_message, header_length)
+
+    write_output_file(output_filename, message_bits.bin)
+    print("Decoded message written to {}.".format(output_filename))

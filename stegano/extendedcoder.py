@@ -161,14 +161,16 @@ def get_word_from_cover_text(wt_dict: WordTypeDictionary, cover_text: str, word_
     if 0 < first_space_index < word_length_bound:
         word_length_bound = first_space_index
 
-    for word_length_bound in range(word_length_bound, 0, -1):
-        word = cover_text[:word_length_bound]
+    for i in range(word_length_bound, 0, -1):
+        word = cover_text[:i].lower()
         for mapping_dict in wt_dict.wt_dict.values():
             value = mapping_dict.mappings.get(word)
             if value is not None:
                 return word, value
 
-    raise ExtendedCoderError("Unable to find a word in the given cover text with the given parameters")
+    word = cover_text[:word_length_bound]
+    raise ExtendedCoderError("Unable to find a word in the given cover text (at {}...) with the given parameters".
+                             format(word))
 
 
 def words_to_cover_text(words: List[Tuple[str, bool]], capitalise_start=True) -> str:
