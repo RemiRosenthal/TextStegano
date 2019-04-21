@@ -244,7 +244,10 @@ def _encode_next_word(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bit
     if mapping_dict is None:
         raise ValueError("Unable to find mapping dictionary for word-type {}".format(word_type))
 
-    word = retrieve_word_from_mappings(bits, mapping_dict, True)
+    try:
+        word = retrieve_word_from_mappings(bits, mapping_dict, True)
+    except ValueError:
+        raise ValueError("Failed to retrieve a word for word-type {}".format(word_type))
     return word, mapping_dict.mappings.get(word), mapping_dict.encode_spaces
 
 
@@ -283,4 +286,6 @@ def retrieve_word_from_mappings(bits: Bits, mapping_dict: MappingDictionary, all
             if value is not None:
                 return value
 
-    raise ValueError("Unable to find any matches or near-matches in the mapping dictionary using the given bits.")
+    prefix = bits[:longest_bits].bin + "..."
+    raise ValueError("Unable to find any matches or near-matches in the mapping dictionary using the given bits, {}."
+                     .format(prefix))

@@ -2,6 +2,7 @@ import collections
 import os
 import re
 from functools import reduce
+from typing import Tuple, List, Set
 
 from bitstring import Bits
 
@@ -147,3 +148,32 @@ class TextAnalyser:
         mapping_dict = MappingDictionary(mappings, encode_spaces)
 
         return mapping_dict
+
+    @staticmethod
+    def combine_analyses(analysis_1: Set[Tuple[str, int]], analysis_2: Set[Tuple[str, int]]) -> \
+            Tuple[List, List, List]:
+        """
+        Combine two analyses. The third list in the output will be the union of values in both input lists.
+        The first two lists in the output will correspond to the two inputs, excluding the values in the last output
+        list.
+        :param analysis_1: the first list of word-frequency pairs
+        :param analysis_2: the second list of word-frequency pairs
+        :return: three lists as a tuple
+        """
+        dict_1 = {x: y for x, y in analysis_1}
+        list_2 = []
+
+        shared_words = []
+
+        for word_2, freq_2 in analysis_2:
+            freq_1 = dict_1.get(word_2)
+            if freq_1 is not None:
+                shared_words.append((word_2, freq_2 + freq_1))
+                del dict_1[word_2]
+            else:
+                list_2.append((word_2, freq_2))
+        list_2.sort(key=lambda x: x[1], reverse=True)
+
+        list_1 = sorted(list(dict_1.items()), key=lambda x: x[1], reverse=True)
+
+        return list_1, list_2, sorted(shared_words, key=lambda x: x[1], reverse=True)

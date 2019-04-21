@@ -186,7 +186,7 @@ elif operation.__eq__("encodeBits"):
     if chain_filename is None:
         raise ValueError("Filename for Markov chain was not provided.")
     else:
-        tree_filename = prefix_filename(args.subfolder, chain_filename)
+        chain_filename = prefix_filename(args.subfolder, chain_filename)
     if dict_filename is None:
         raise ValueError("Filename for word-type dictionary was not provided.")
     else:

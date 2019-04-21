@@ -100,6 +100,44 @@ class TestTextAnalyser(unittest.TestCase):
         self.assertIsInstance(mock_mappings_dict.mappings, dict)
         self.assertDictEqual(mock_dict, mock_mappings_dict.mappings)
 
+    def test_combine_analyses(self):
+        in_1 = {
+            ("one", 10),
+            ("two", 20),
+            ("three", 30),
+            ("four", 40),
+            ("five", 50),
+            ("six", 60),
+            ("seven", 70)
+        }
+        in_2 = {
+            ("two", 9),
+            ("four", 7),
+            ("six", 5),
+            ("eight", 4),
+            ("ten", 2)
+        }
+        out_1, out_2, out_3 = TextAnalyser.combine_analyses(in_1, in_2)
+        self.assertIsInstance(out_1, list)
+        self.assertIsInstance(out_2, list)
+        self.assertIsInstance(out_3, list)
+
+        self.assertEqual(4, len(out_1))
+        self.assertEqual(("seven", 70), out_1[0])
+        self.assertEqual(("one", 10), out_1[3])
+
+        self.assertEqual(2, len(out_2))
+        self.assertEqual(("eight", 4), out_2[0])
+        self.assertEqual(("ten", 2), out_2[1])
+
+        self.assertListEqual([
+            ("six", 65),
+            ("four", 47),
+            ("two", 29)
+        ], out_3)
+
+
+
 
 if __name__ == '__main__':
     unittest.main()

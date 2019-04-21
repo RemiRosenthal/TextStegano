@@ -238,7 +238,7 @@ def load_markov_chain(chain_filename=DEFAULT_MARKOV_FILE) -> MarkovChain:
             data = json.load(handle)
             return deserialise_markov_chain(data)
     except IOError:
-        print("Could not read dictionary file " + chain_filename)
+        raise ValueError("Could not read Markov chain file {}".format(chain_filename))
 
 
 def save_markov_chain(markov_chain: MarkovChain, chain_filename=DEFAULT_MARKOV_FILE):
@@ -251,4 +251,4 @@ def save_markov_chain(markov_chain: MarkovChain, chain_filename=DEFAULT_MARKOV_F
         with open(chain_filename, "w", encoding="utf-8") as handle:
             json.dump(markov_chain, handle, indent=2, default=lambda o: o.__dict__())
     except IOError:
-        print("Could not write dictionary file " + chain_filename)
+        raise ValueError("Could not write Markov chain file {}.".format(chain_filename))

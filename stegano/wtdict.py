@@ -77,15 +77,18 @@ class WordTypeDictionary:
             mapping_dict = self.wt_dict.get(key)
 
             duplicate_values = self.contains_any_words_from_set(set(input_dict.get(key).mappings.items()), key)
+            if duplicate_values.__len__() > 0:
+                print("Dictionary contained duplicate values:")
             for duplicate_value in duplicate_values:
-                del input_dict.get(key).mappings[duplicate_value]
+                print("{} ({})".format(duplicate_value[0], duplicate_value[1]))
+                del input_dict.get(key).mappings[duplicate_value[0]]
 
             if mapping_dict is None:
                 self.wt_dict.update({key: input_dict.get(key)})
             else:
                 mapping_dict.mappings.update(input_dict.get(key).mappings)
 
-    def contains_any_words_from_set(self, pairs: set, exclude_key=None) -> set:
+    def contains_any_words_from_set(self, pairs: set, exclude_key=None) -> Set[Tuple[str, str]]:
         """
         Look through this word type dictionary. Return the subset of the input set of pairs whose value exists in this
         dictionary under any word-type.
@@ -99,7 +102,7 @@ class WordTypeDictionary:
             if not key.__eq__(exclude_key):
                 for item in value.mappings:
                     if item in words:
-                        present_words.add(item)
+                        present_words.add((item, key))
         return present_words
 
     def remove_word_type(self, word_types: set):
