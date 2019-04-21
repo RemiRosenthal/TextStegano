@@ -1,0 +1,101 @@
+{
+  "wt_refs": {
+    "article1": "article",
+    "article2": "article",
+    "article3": "article",
+    "pronoun1": "pronoun",
+    "pronoun2": "pronoun",
+    "adj1": "adj",
+    "adj2": "adj",
+    "adj3": "adj",
+    "noun1": "noun",
+    "noun2": "noun",
+    "noun3": "noun",
+    "verb1": "verb",
+    "verb2": "verb",
+    "adverb1": "adverb",
+    "prep1": "prep",
+    "prep2": "prep",
+    "mid_punc": "mid_punc",
+    "conjunction1": "conjunction",
+    "end_punc": "end_punc"
+  },
+  "chain": {
+    "s0": {
+      "article1": 1,
+      "pronoun1": 1
+    },
+    "article1": {
+      "noun1": 1
+    },
+    "pronoun1": {
+      "verb1": 2,
+      "adverb1": 1
+    },
+    "adj1": {
+      "noun1": 1
+    },
+    "noun1": {
+      "verb1": 2,
+      "adverb1": 1
+    },
+    "adverb1": {
+      "verb1": 1
+    },
+    "verb1": {
+      "article2": 2,
+      "prep1": 3,
+      "end_punc": 1
+    },
+    "prep1": {
+      "article2": 1,
+      "adj2": 1
+    },
+    "article2": {
+      "noun2": 1,
+      "adj2": 1
+    },
+    "adj2": {
+      "noun2": 1
+    },
+    "noun2": {
+      "end_punc": 1,
+      "mid_punc": 1,
+      "conjunction1": 1
+    },
+    "mid_punc": {
+      "conjunction1": 1
+    },
+    "conjunction1": {
+      "verb2": 1
+    },
+    "verb2": {
+      "article3": 1,
+      "prep2": 2,
+      "pronoun2" : 1,
+      "end_punc": 1
+    },
+    "prep2": {
+      "article3": 1,
+      "pronoun2" : 1,
+      "adj3": 1
+    },
+    "article3": {
+      "adj3": 1,
+      "noun3": 1
+    },
+    "adj3": {
+      "noun3": 1
+    },
+    "pronoun2": {
+      "adj3": 1,
+      "noun3": 1
+    },
+    "noun3": {
+      "end_punc": 1
+    },
+    "end_punc": {
+      "s0": 1
+    }
+  }
+}

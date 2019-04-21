@@ -1,0 +1,45 @@
+{
+  "wt_refs": {
+    "state_name8": "word_type8",
+    "state_name1": "word_type1",
+    "state_name9": "word_type9",
+    "state_name4": "word_type4",
+    "state_name3": "word_type3",
+    "state_name6": "word_type6",
+    "state_name7": "word_type7",
+    "state_name5": "word_type5",
+    "state_name2": "word_type2"
+  },
+  "chain": {
+    "state_name3": {
+      "state_name4": 1
+    },
+    "state_name4": {
+      "state_name5": 1
+    },
+    "state_name6": {
+      "state_name7": 1
+    },
+    "state_name1": {
+      "state_name2": 1
+    },
+    "s0": {
+      "state_name1": 1
+    },
+    "state_name9": {
+      "s0": 1
+    },
+    "state_name8": {
+      "state_name9": 1
+    },
+    "state_name7": {
+      "state_name8": 1
+    },
+    "state_name5": {
+      "state_name6": 1
+    },
+    "state_name2": {
+      "state_name3": 1
+    }
+  }
+}

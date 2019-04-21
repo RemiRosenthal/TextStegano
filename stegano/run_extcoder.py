@@ -46,6 +46,8 @@ parser.add_argument("--chain", metavar="chain", type=str, help="filename of Mark
 parser.add_argument("--encodeSpaces", metavar="encodeSpaces", type=bool,
                     help="whether this word-type should encode spaces before each word")
 parser.add_argument("--wordType", metavar="wordType", type=str, help="name of the word-type")
+parser.add_argument("--input", metavar="input", type=str, help="filename of secret message / cover text input")
+parser.add_argument("--output", metavar="output", type=str, help="filename of output")
 parser.add_argument("--headerLength", metavar="headerLength", type=int, help="pre-shared length of cover text header")
 parser.add_argument("--noOfStates", metavar="noOfStates", type=int,
                     help="the number of placeholder states to add to the new Markov chain")
@@ -153,6 +155,7 @@ elif operation.__eq__("createChain"):
     markov_chain.set_transitions(transitions)
 
     markov.save_markov_chain(markov_chain, chain_filename)
+    print("Saved to {}.".format(chain_filename))
 
 elif operation.__eq__("resetChain"):
     """
