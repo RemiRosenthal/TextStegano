@@ -48,7 +48,6 @@ clear,68662
 recent,70685
 certain,67228
 personal,67917
-open,67218
 red,66217
 difficult,63947
 available,63187
@@ -84,7 +83,6 @@ democratic,47299
 dark,47565
 various,46777
 entire,43997
-close,43568
 legal,44820
 religious,46425
 cold,44649
@@ -153,7 +151,6 @@ quick,29108
 bright,29780
 tiny,29756
 additional,29771
-present,30645
 warm,28600
 annual,28471
 French,27590
@@ -169,7 +166,6 @@ growing,26858
 Indian,27100
 quiet,26732
 aware,25503
-complete,25699
 active,26507
 chief,26456
 cool,26279
@@ -249,7 +245,6 @@ conservative,19778
 smart,19370
 rare,18978
 separate,19064
-mean,19792
 industrial,19413
 surprised,18822
 busy,18500
@@ -280,10 +275,8 @@ secret,17305
 unusual,16997
 sharp,17403
 creative,17597
-outside,16797
 gay,17428
 proper,17024
-live,17365
 guilty,17596
 living,16823
 technical,17594
@@ -567,7 +560,6 @@ random,7818
 minimum,8011
 fiscal,8005
 uncomfortable,7667
-welcome,7798
 continuing,7845
 chronic,8036
 peaceful,7704
@@ -663,7 +655,6 @@ shallow,6512
 improved,6720
 bloody,6513
 associated,6754
-near,6296
 optimistic,6412
 symbolic,6755
 hostile,6319
@@ -723,7 +714,6 @@ shy,5806
 disabled,5952
 gross,5802
 damn,6269
-associate,5859
 innovative,5921
 vertical,5950
 instant,5765

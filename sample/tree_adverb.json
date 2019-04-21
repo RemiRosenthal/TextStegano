@@ -23,10 +23,70 @@
                 "value": null,
                 "path_code": "0000000",
                 "left": {
-                  "value": "around",
+                  "value": null,
                   "path_code": "00000000",
-                  "left": null,
-                  "right": null
+                  "left": {
+                    "value": null,
+                    "path_code": "000000000",
+                    "left": {
+                      "value": "neither",
+                      "path_code": "0000000000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0000000001",
+                      "left": {
+                        "value": null,
+                        "path_code": "00000000010",
+                        "left": {
+                          "value": "honestly",
+                          "path_code": "000000000100",
+                          "left": null,
+                          "right": null
+                        },
+                        "right": {
+                          "value": "severely",
+                          "path_code": "000000000101",
+                          "left": null,
+                          "right": null
+                        }
+                      },
+                      "right": {
+                        "value": null,
+                        "path_code": "00000000011",
+                        "left": {
+                          "value": "seldom",
+                          "path_code": "000000000110",
+                          "left": null,
+                          "right": null
+                        },
+                        "right": {
+                          "value": "sometime",
+                          "path_code": "000000000111",
+                          "left": null,
+                          "right": null
+                        }
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000000001",
+                    "left": {
+                      "value": "forth",
+                      "path_code": "0000000010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "meanwhile",
+                      "path_code": "0000000011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
                 },
                 "right": {
                   "value": null,
@@ -38,30 +98,20 @@
                       "value": null,
                       "path_code": "0000000100",
                       "left": {
-                        "value": null,
+                        "value": "successfully",
                         "path_code": "00000001000",
-                        "left": {
-                          "value": "commonly",
-                          "path_code": "000000010000",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "traditionally",
-                          "path_code": "000000010001",
-                          "left": null,
-                          "right": null
-                        }
+                        "left": null,
+                        "right": null
                       },
                       "right": {
-                        "value": "approximately",
+                        "value": "badly",
                         "path_code": "00000001001",
                         "left": null,
                         "right": null
                       }
                     },
                     "right": {
-                      "value": "inside",
+                      "value": "entirely",
                       "path_code": "0000000101",
                       "left": null,
                       "right": null
@@ -71,33 +121,13 @@
                     "value": null,
                     "path_code": "000000011",
                     "left": {
-                      "value": null,
+                      "value": "aside",
                       "path_code": "0000000110",
-                      "left": {
-                        "value": null,
-                        "path_code": "00000001100",
-                        "left": {
-                          "value": "thereby",
-                          "path_code": "000000011000",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "nearby",
-                          "path_code": "000000011001",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "previously",
-                        "path_code": "00000001101",
-                        "left": null,
-                        "right": null
-                      }
+                      "left": null,
+                      "right": null
                     },
                     "right": {
-                      "value": "tomorrow",
+                      "value": "anywhere",
                       "path_code": "0000000111",
                       "left": null,
                       "right": null
@@ -109,76 +139,56 @@
                 "value": null,
                 "path_code": "0000001",
                 "left": {
-                  "value": null,
+                  "value": "especially",
                   "path_code": "00000010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "00000011",
                   "left": {
                     "value": null,
-                    "path_code": "000000100",
+                    "path_code": "000000110",
+                    "left": {
+                      "value": "specifically",
+                      "path_code": "0000001100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "somewhat",
+                      "path_code": "0000001101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000000111",
                     "left": {
                       "value": null,
-                      "path_code": "0000001000",
+                      "path_code": "0000001110",
                       "left": {
-                        "value": null,
-                        "path_code": "00000010000",
-                        "left": {
-                          "value": "loud",
-                          "path_code": "000000100000",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "short",
-                          "path_code": "000000100001",
-                          "left": null,
-                          "right": null
-                        }
+                        "value": "differently",
+                        "path_code": "00000011100",
+                        "left": null,
+                        "right": null
                       },
                       "right": {
-                        "value": "essentially",
-                        "path_code": "00000010001",
+                        "value": "nonetheless",
+                        "path_code": "00000011101",
                         "left": null,
                         "right": null
                       }
                     },
                     "right": {
-                      "value": null,
-                      "path_code": "0000001001",
-                      "left": {
-                        "value": null,
-                        "path_code": "00000010010",
-                        "left": {
-                          "value": "softly",
-                          "path_code": "000000100100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "historically",
-                          "path_code": "000000100101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "rarely",
-                        "path_code": "00000010011",
-                        "left": null,
-                        "right": null
-                      }
+                      "value": "totally",
+                      "path_code": "0000001111",
+                      "left": null,
+                      "right": null
                     }
-                  },
-                  "right": {
-                    "value": "certainly",
-                    "path_code": "000000101",
-                    "left": null,
-                    "right": null
                   }
-                },
-                "right": {
-                  "value": "together",
-                  "path_code": "00000011",
-                  "left": null,
-                  "right": null
                 }
               }
             },
@@ -186,16 +196,76 @@
               "value": null,
               "path_code": "000001",
               "left": {
-                "value": "on",
+                "value": "far",
                 "path_code": "0000010",
                 "left": null,
                 "right": null
               },
               "right": {
-                "value": "why",
+                "value": null,
                 "path_code": "0000011",
-                "left": null,
-                "right": null
+                "left": {
+                  "value": null,
+                  "path_code": "00000110",
+                  "left": {
+                    "value": null,
+                    "path_code": "000001100",
+                    "left": {
+                      "value": "barely",
+                      "path_code": "0000011000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "necessarily",
+                      "path_code": "0000011001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "absolutely",
+                    "path_code": "000001101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "00000111",
+                  "left": {
+                    "value": null,
+                    "path_code": "000001110",
+                    "left": {
+                      "value": "seriously",
+                      "path_code": "0000011100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "typically",
+                      "path_code": "0000011101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000001111",
+                    "left": {
+                      "value": "definitely",
+                      "path_code": "0000011110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "everywhere",
+                      "path_code": "0000011111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
               }
             }
           },
@@ -203,164 +273,114 @@
             "value": null,
             "path_code": "00001",
             "left": {
-              "value": "also",
-              "path_code": "000010",
-              "left": null,
-              "right": null
-            },
-            "right": {
               "value": null,
-              "path_code": "000011",
+              "path_code": "000010",
               "left": {
                 "value": null,
-                "path_code": "0000110",
+                "path_code": "0000100",
                 "left": {
                   "value": null,
-                  "path_code": "00001100",
+                  "path_code": "00001000",
                   "left": {
                     "value": null,
-                    "path_code": "000011000",
+                    "path_code": "000010000",
                     "left": {
                       "value": null,
-                      "path_code": "0000110000",
+                      "path_code": "0000100000",
                       "left": {
-                        "value": "elsewhere",
-                        "path_code": "00001100000",
+                        "value": "repeatedly",
+                        "path_code": "00001000000",
                         "left": null,
                         "right": null
                       },
                       "right": {
-                        "value": "sure",
-                        "path_code": "00001100001",
+                        "value": "physically",
+                        "path_code": "00001000001",
                         "left": null,
                         "right": null
                       }
                     },
                     "right": {
-                      "value": "highly",
-                      "path_code": "0000110001",
+                      "value": "merely",
+                      "path_code": "0000100001",
                       "left": null,
                       "right": null
                     }
                   },
                   "right": {
-                    "value": null,
-                    "path_code": "000011001",
-                    "left": {
-                      "value": "kind",
-                      "path_code": "0000110010",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0000110011",
-                      "left": {
-                        "value": null,
-                        "path_code": "00001100110",
-                        "left": {
-                          "value": "wherever",
-                          "path_code": "000011001100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "overall",
-                          "path_code": "000011001101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "whenever",
-                        "path_code": "00001100111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "value": "already",
-                  "path_code": "00001101",
-                  "left": null,
-                  "right": null
-                }
-              },
-              "right": {
-                "value": null,
-                "path_code": "0000111",
-                "left": {
-                  "value": null,
-                  "path_code": "00001110",
-                  "left": {
-                    "value": null,
-                    "path_code": "000011100",
-                    "left": {
-                      "value": null,
-                      "path_code": "0000111000",
-                      "left": {
-                        "value": "strongly",
-                        "path_code": "00001110000",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "equally",
-                        "path_code": "00001110001",
-                        "left": null,
-                        "right": null
-                      }
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0000111001",
-                      "left": {
-                        "value": null,
-                        "path_code": "00001110010",
-                        "left": {
-                          "value": "firmly",
-                          "path_code": "000011100100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "altogether",
-                          "path_code": "000011100101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "00001110011",
-                        "left": {
-                          "value": "wrong",
-                          "path_code": "000011100110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "hopefully",
-                          "path_code": "000011100111",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": "thus",
-                    "path_code": "000011101",
+                    "value": "therefore",
+                    "path_code": "000010001",
                     "left": null,
                     "right": null
                   }
                 },
                 "right": {
                   "value": null,
+                  "path_code": "00001001",
+                  "left": {
+                    "value": "fast",
+                    "path_code": "000010010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000010011",
+                    "left": {
+                      "value": null,
+                      "path_code": "0000100110",
+                      "left": {
+                        "value": "lightly",
+                        "path_code": "00001001100",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "abroad",
+                        "path_code": "00001001101",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "unfortunately",
+                      "path_code": "0000100111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              },
+              "right": {
+                "value": "however",
+                "path_code": "0000101",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "000011",
+              "left": {
+                "value": "often",
+                "path_code": "0000110",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "0000111",
+                "left": {
+                  "value": "quite",
+                  "path_code": "00001110",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
                   "path_code": "00001111",
                   "left": {
-                    "value": "quickly",
+                    "value": "alone",
                     "path_code": "000011110",
                     "left": null,
                     "right": null
@@ -369,16 +389,26 @@
                     "value": null,
                     "path_code": "000011111",
                     "left": {
-                      "value": "mostly",
+                      "value": "virtually",
                       "path_code": "0000111110",
                       "left": null,
                       "right": null
                     },
                     "right": {
-                      "value": "anyway",
+                      "value": null,
                       "path_code": "0000111111",
-                      "left": null,
-                      "right": null
+                      "left": {
+                        "value": "dramatically",
+                        "path_code": "00001111110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "surprisingly",
+                        "path_code": "00001111111",
+                        "left": null,
+                        "right": null
+                      }
                     }
                   }
                 }
@@ -393,160 +423,10 @@
             "value": null,
             "path_code": "00010",
             "left": {
-              "value": null,
+              "value": "too",
               "path_code": "000100",
-              "left": {
-                "value": null,
-                "path_code": "0001000",
-                "left": {
-                  "value": null,
-                  "path_code": "00010000",
-                  "left": {
-                    "value": "recently",
-                    "path_code": "000100000",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "000100001",
-                    "left": {
-                      "value": null,
-                      "path_code": "0001000010",
-                      "left": {
-                        "value": "heavily",
-                        "path_code": "00010000100",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "00010000101",
-                        "left": {
-                          "value": "o'clock",
-                          "path_code": "000100001010",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "sharply",
-                          "path_code": "000100001011",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0001000011",
-                      "left": {
-                        "value": "surely",
-                        "path_code": "00010000110",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "00010000111",
-                        "left": {
-                          "value": "readily",
-                          "path_code": "000100001110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "annually",
-                          "path_code": "000100001111",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "00010001",
-                  "left": {
-                    "value": "before",
-                    "path_code": "000100010",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": "PM",
-                    "path_code": "000100011",
-                    "left": null,
-                    "right": null
-                  }
-                }
-              },
-              "right": {
-                "value": null,
-                "path_code": "0001001",
-                "left": {
-                  "value": null,
-                  "path_code": "00010010",
-                  "left": {
-                    "value": "ok",
-                    "path_code": "000100100",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "000100101",
-                    "left": {
-                      "value": null,
-                      "path_code": "0001001010",
-                      "left": {
-                        "value": null,
-                        "path_code": "00010010100",
-                        "left": {
-                          "value": "practically",
-                          "path_code": "000100101000",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "automatically",
-                          "path_code": "000100101001",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "ie",
-                        "path_code": "00010010101",
-                        "left": null,
-                        "right": null
-                      }
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0001001011",
-                      "left": {
-                        "value": "perfectly",
-                        "path_code": "00010010110",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "quietly",
-                        "path_code": "00010010111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "value": "maybe",
-                  "path_code": "00010011",
-                  "left": null,
-                  "right": null
-                }
-              }
+              "left": null,
+              "right": null
             },
             "right": {
               "value": null,
@@ -555,56 +435,16 @@
                 "value": null,
                 "path_code": "0001010",
                 "left": {
-                  "value": null,
+                  "value": "either",
                   "path_code": "00010100",
-                  "left": {
-                    "value": "no",
-                    "path_code": "000101000",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "000101001",
-                    "left": {
-                      "value": null,
-                      "path_code": "0001010010",
-                      "left": {
-                        "value": null,
-                        "path_code": "00010100100",
-                        "left": {
-                          "value": "sexually",
-                          "path_code": "000101001000",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "lately",
-                          "path_code": "000101001001",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "literally",
-                        "path_code": "00010100101",
-                        "left": null,
-                        "right": null
-                      }
-                    },
-                    "right": {
-                      "value": "slightly",
-                      "path_code": "0001010011",
-                      "left": null,
-                      "right": null
-                    }
-                  }
+                  "left": null,
+                  "right": null
                 },
                 "right": {
                   "value": null,
                   "path_code": "00010101",
                   "left": {
-                    "value": "usually",
+                    "value": "please",
                     "path_code": "000101010",
                     "left": null,
                     "right": null
@@ -613,7 +453,7 @@
                     "value": null,
                     "path_code": "000101011",
                     "left": {
-                      "value": "below",
+                      "value": "first",
                       "path_code": "0001010110",
                       "left": null,
                       "right": null
@@ -622,13 +462,13 @@
                       "value": null,
                       "path_code": "0001010111",
                       "left": {
-                        "value": "occasionally",
+                        "value": "greatly",
                         "path_code": "00010101110",
                         "left": null,
                         "right": null
                       },
                       "right": {
-                        "value": "effectively",
+                        "value": "frankly",
                         "path_code": "00010101111",
                         "left": null,
                         "right": null
@@ -641,10 +481,20 @@
                 "value": null,
                 "path_code": "0001011",
                 "left": {
-                  "value": "both",
+                  "value": null,
                   "path_code": "00010110",
-                  "left": null,
-                  "right": null
+                  "left": {
+                    "value": "eventually",
+                    "path_code": "000101100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "AM",
+                    "path_code": "000101101",
+                    "left": null,
+                    "right": null
+                  }
                 },
                 "right": {
                   "value": null,
@@ -653,193 +503,33 @@
                     "value": null,
                     "path_code": "000101110",
                     "left": {
-                      "value": null,
+                      "value": "closely",
                       "path_code": "0001011100",
-                      "left": {
-                        "value": "particular",
-                        "path_code": "00010111000",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "general",
-                        "path_code": "00010111001",
-                        "left": null,
-                        "right": null
-                      }
+                      "left": null,
+                      "right": null
                     },
                     "right": {
-                      "value": "apparently",
+                      "value": "primarily",
                       "path_code": "0001011101",
                       "left": null,
                       "right": null
                     }
                   },
                   "right": {
-                    "value": null,
+                    "value": "directly",
                     "path_code": "000101111",
-                    "left": {
-                      "value": null,
-                      "path_code": "0001011110",
-                      "left": {
-                        "value": null,
-                        "path_code": "00010111100",
-                        "left": {
-                          "value": "tightly",
-                          "path_code": "000101111000",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "way",
-                          "path_code": "000101111001",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "like",
-                        "path_code": "00010111101",
-                        "left": null,
-                        "right": null
-                      }
-                    },
-                    "right": {
-                      "value": "relatively",
-                      "path_code": "0001011111",
-                      "left": null,
-                      "right": null
-                    }
+                    "left": null,
+                    "right": null
                   }
                 }
               }
             }
           },
           "right": {
-            "value": null,
+            "value": "then",
             "path_code": "00011",
-            "left": {
-              "value": null,
-              "path_code": "000110",
-              "left": {
-                "value": null,
-                "path_code": "0001100",
-                "left": {
-                  "value": "enough",
-                  "path_code": "00011000",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "00011001",
-                  "left": {
-                    "value": null,
-                    "path_code": "000110010",
-                    "left": {
-                      "value": "twice",
-                      "path_code": "0001100100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0001100101",
-                      "left": {
-                        "value": "nevertheless",
-                        "path_code": "00011001010",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "rapidly",
-                        "path_code": "00011001011",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": "exactly",
-                    "path_code": "000110011",
-                    "left": null,
-                    "right": null
-                  }
-                }
-              },
-              "right": {
-                "value": "about",
-                "path_code": "0001101",
-                "left": null,
-                "right": null
-              }
-            },
-            "right": {
-              "value": null,
-              "path_code": "000111",
-              "left": {
-                "value": "over",
-                "path_code": "0001110",
-                "left": null,
-                "right": null
-              },
-              "right": {
-                "value": null,
-                "path_code": "0001111",
-                "left": {
-                  "value": "actually",
-                  "path_code": "00011110",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "00011111",
-                  "left": {
-                    "value": null,
-                    "path_code": "000111110",
-                    "left": {
-                      "value": "yesterday",
-                      "path_code": "0001111100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0001111101",
-                      "left": {
-                        "value": "constantly",
-                        "path_code": "00011111010",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "00011111011",
-                        "left": {
-                          "value": "instantly",
-                          "path_code": "000111110110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "consequently",
-                          "path_code": "000111110111",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": "hard",
-                    "path_code": "000111111",
-                    "left": null,
-                    "right": null
-                  }
-                }
-              }
-            }
+            "left": null,
+            "right": null
           }
         }
       },
@@ -850,39 +540,29 @@
           "value": null,
           "path_code": "0010",
           "left": {
-            "value": null,
+            "value": "how",
             "path_code": "00100",
-            "left": {
-              "value": "here",
-              "path_code": "001000",
-              "left": null,
-              "right": null
-            },
-            "right": {
-              "value": null,
-              "path_code": "001001",
-              "left": {
-                "value": "again",
-                "path_code": "0010010",
-                "left": null,
-                "right": null
-              },
-              "right": {
-                "value": "right",
-                "path_code": "0010011",
-                "left": null,
-                "right": null
-              }
-            }
+            "left": null,
+            "right": null
           },
           "right": {
             "value": null,
             "path_code": "00101",
             "left": {
-              "value": "well",
+              "value": null,
               "path_code": "001010",
-              "left": null,
-              "right": null
+              "left": {
+                "value": "ever",
+                "path_code": "0010100",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": "yet",
+                "path_code": "0010101",
+                "left": null,
+                "right": null
+              }
             },
             "right": {
               "value": null,
@@ -897,52 +577,22 @@
                     "value": null,
                     "path_code": "001011000",
                     "left": {
-                      "value": null,
+                      "value": "forever",
                       "path_code": "0010110000",
-                      "left": {
-                        "value": "precisely",
-                        "path_code": "00101100000",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "00101100001",
-                        "left": {
-                          "value": "officially",
-                          "path_code": "001011000010",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "thoroughly",
-                          "path_code": "001011000011",
-                          "left": null,
-                          "right": null
-                        }
-                      }
+                      "left": null,
+                      "right": null
                     },
                     "right": {
                       "value": null,
                       "path_code": "0010110001",
                       "left": {
-                        "value": null,
+                        "value": "hence",
                         "path_code": "00101100010",
-                        "left": {
-                          "value": "afterward",
-                          "path_code": "001011000100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "upstairs",
-                          "path_code": "001011000101",
-                          "left": null,
-                          "right": null
-                        }
+                        "left": null,
+                        "right": null
                       },
                       "right": {
-                        "value": "normally",
+                        "value": "last",
                         "path_code": "00101100011",
                         "left": null,
                         "right": null
@@ -950,73 +600,73 @@
                     }
                   },
                   "right": {
-                    "value": "pretty",
+                    "value": "slowly",
                     "path_code": "001011001",
                     "left": null,
                     "right": null
                   }
                 },
                 "right": {
-                  "value": null,
+                  "value": "simply",
                   "path_code": "00101101",
-                  "left": {
-                    "value": "particularly",
-                    "path_code": "001011010",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "001011011",
-                    "left": {
-                      "value": "fully",
-                      "path_code": "0010110110",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0010110111",
-                      "left": {
-                        "value": null,
-                        "path_code": "00101101110",
-                        "left": {
-                          "value": "actively",
-                          "path_code": "001011011100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "incredibly",
-                          "path_code": "001011011101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "personally",
-                        "path_code": "00101101111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
+                  "left": null,
+                  "right": null
                 }
               },
               "right": {
                 "value": null,
                 "path_code": "0010111",
                 "left": {
-                  "value": "probably",
+                  "value": null,
                   "path_code": "00101110",
-                  "left": null,
-                  "right": null
+                  "left": {
+                    "value": "generally",
+                    "path_code": "001011100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "immediately",
+                    "path_code": "001011101",
+                    "left": null,
+                    "right": null
+                  }
                 },
                 "right": {
-                  "value": "home",
+                  "value": null,
                   "path_code": "00101111",
-                  "left": null,
-                  "right": null
+                  "left": {
+                    "value": "completely",
+                    "path_code": "001011110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "001011111",
+                    "left": {
+                      "value": null,
+                      "path_code": "0010111110",
+                      "left": {
+                        "value": "respectively",
+                        "path_code": "00101111100",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "consistently",
+                        "path_code": "00101111101",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "moreover",
+                      "path_code": "0010111111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
                 }
               }
             }
@@ -1026,116 +676,26 @@
           "value": null,
           "path_code": "0011",
           "left": {
-            "value": "up",
-            "path_code": "00110",
-            "left": null,
-            "right": null
-          },
-          "right": {
             "value": null,
-            "path_code": "00111",
+            "path_code": "00110",
             "left": {
-              "value": "very",
-              "path_code": "001110",
+              "value": "really",
+              "path_code": "001100",
               "left": null,
               "right": null
             },
             "right": {
-              "value": null,
-              "path_code": "001111",
-              "left": {
-                "value": "where",
-                "path_code": "0011110",
-                "left": null,
-                "right": null
-              },
-              "right": {
-                "value": null,
-                "path_code": "0011111",
-                "left": {
-                  "value": null,
-                  "path_code": "00111110",
-                  "left": {
-                    "value": null,
-                    "path_code": "001111100",
-                    "left": {
-                      "value": null,
-                      "path_code": "0011111000",
-                      "left": {
-                        "value": "gently",
-                        "path_code": "00111110000",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "roughly",
-                        "path_code": "00111110001",
-                        "left": null,
-                        "right": null
-                      }
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0011111001",
-                      "left": {
-                        "value": "similarly",
-                        "path_code": "00111110010",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "00111110011",
-                        "left": {
-                          "value": "near",
-                          "path_code": "001111100110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "presumably",
-                          "path_code": "001111100111",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "001111101",
-                    "left": {
-                      "value": "okay",
-                      "path_code": "0011111010",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0011111011",
-                      "left": {
-                        "value": "though",
-                        "path_code": "00111110110",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "initially",
-                        "path_code": "00111110111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "value": "course",
-                  "path_code": "00111111",
-                  "left": null,
-                  "right": null
-                }
-              }
+              "value": "never",
+              "path_code": "001101",
+              "left": null,
+              "right": null
             }
+          },
+          "right": {
+            "value": "more",
+            "path_code": "00111",
+            "left": null,
+            "right": null
           }
         }
       }
@@ -1150,214 +710,144 @@
           "value": null,
           "path_code": "0100",
           "left": {
-            "value": "so",
+            "value": null,
             "path_code": "01000",
-            "left": null,
-            "right": null
+            "left": {
+              "value": null,
+              "path_code": "010000",
+              "left": {
+                "value": null,
+                "path_code": "0100000",
+                "left": {
+                  "value": "nearly",
+                  "path_code": "01000000",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01000001",
+                  "left": {
+                    "value": null,
+                    "path_code": "010000010",
+                    "left": {
+                      "value": "widely",
+                      "path_code": "0100000100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0100000101",
+                      "left": {
+                        "value": "seemingly",
+                        "path_code": "01000001010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "simultaneously",
+                        "path_code": "01000001011",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": "easily",
+                    "path_code": "010000011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": "almost",
+                "path_code": "0100001",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "010001",
+              "left": {
+                "value": "later",
+                "path_code": "0100010",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": "once",
+                "path_code": "0100011",
+                "left": null,
+                "right": null
+              }
+            }
           },
           "right": {
             "value": null,
             "path_code": "01001",
             "left": {
-              "value": "only",
+              "value": null,
               "path_code": "010010",
-              "left": null,
-              "right": null
+              "left": {
+                "value": "much",
+                "path_code": "0100100",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "0100101",
+                "left": {
+                  "value": "soon",
+                  "path_code": "01001010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01001011",
+                  "left": {
+                    "value": null,
+                    "path_code": "010010110",
+                    "left": {
+                      "value": "deeply",
+                      "path_code": "0100101100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "fairly",
+                      "path_code": "0100101101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "obviously",
+                    "path_code": "010010111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
             },
             "right": {
               "value": null,
               "path_code": "010011",
               "left": {
-                "value": null,
+                "value": "ago",
                 "path_code": "0100110",
-                "left": {
-                  "value": null,
-                  "path_code": "01001100",
-                  "left": {
-                    "value": "forward",
-                    "path_code": "010011000",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "010011001",
-                    "left": {
-                      "value": "above",
-                      "path_code": "0100110010",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": "otherwise",
-                      "path_code": "0100110011",
-                      "left": null,
-                      "right": null
-                    }
-                  }
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "01001101",
-                  "left": {
-                    "value": "tonight",
-                    "path_code": "010011010",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "010011011",
-                    "left": {
-                      "value": null,
-                      "path_code": "0100110110",
-                      "left": {
-                        "value": null,
-                        "path_code": "01001101100",
-                        "left": {
-                          "value": "fortunately",
-                          "path_code": "010011011000",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "safely",
-                          "path_code": "010011011001",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "01001101101",
-                        "left": {
-                          "value": "reportedly",
-                          "path_code": "010011011010",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "correctly",
-                          "path_code": "010011011011",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    },
-                    "right": {
-                      "value": "increasingly",
-                      "path_code": "0100110111",
-                      "left": null,
-                      "right": null
-                    }
-                  }
-                }
+                "left": null,
+                "right": null
               },
               "right": {
-                "value": null,
+                "value": "least",
                 "path_code": "0100111",
-                "left": {
-                  "value": null,
-                  "path_code": "01001110",
-                  "left": {
-                    "value": null,
-                    "path_code": "010011100",
-                    "left": {
-                      "value": "somewhere",
-                      "path_code": "0100111000",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0100111001",
-                      "left": {
-                        "value": null,
-                        "path_code": "01001110010",
-                        "left": {
-                          "value": "partially",
-                          "path_code": "010011100100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "exclusively",
-                          "path_code": "010011100101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "01001110011",
-                        "left": {
-                          "value": "likewise",
-                          "path_code": "010011100110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "socially",
-                          "path_code": "010011100111",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "010011101",
-                    "left": {
-                      "value": "basically",
-                      "path_code": "0100111010",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0100111011",
-                      "left": {
-                        "value": null,
-                        "path_code": "01001110110",
-                        "left": {
-                          "value": "mentally",
-                          "path_code": "010011101100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "worldwide",
-                          "path_code": "010011101101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "likely",
-                        "path_code": "01001110111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "01001111",
-                  "left": {
-                    "value": "indeed",
-                    "path_code": "010011110",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": "clearly",
-                    "path_code": "010011111",
-                    "left": null,
-                    "right": null
-                  }
-                }
+                "left": null,
+                "right": null
               }
             }
           }
@@ -1369,7 +859,7 @@
             "value": null,
             "path_code": "01010",
             "left": {
-              "value": "back",
+              "value": "most",
               "path_code": "010100",
               "left": null,
               "right": null
@@ -1378,13 +868,93 @@
               "value": null,
               "path_code": "010101",
               "left": {
-                "value": "off",
+                "value": null,
                 "path_code": "0101010",
-                "left": null,
-                "right": null
+                "left": {
+                  "value": null,
+                  "path_code": "01010100",
+                  "left": {
+                    "value": null,
+                    "path_code": "010101000",
+                    "left": {
+                      "value": null,
+                      "path_code": "0101010000",
+                      "left": {
+                        "value": "commonly",
+                        "path_code": "01010100000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "traditionally",
+                        "path_code": "01010100001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "approximately",
+                      "path_code": "0101010001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "010101001",
+                    "left": {
+                      "value": "previously",
+                      "path_code": "0101010010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0101010011",
+                      "left": {
+                        "value": "thereby",
+                        "path_code": "01010100110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "softly",
+                        "path_code": "01010100111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01010101",
+                  "left": {
+                    "value": "tomorrow",
+                    "path_code": "010101010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "010101011",
+                    "left": {
+                      "value": "essentially",
+                      "path_code": "0101010110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "rarely",
+                      "path_code": "0101010111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
               },
               "right": {
-                "value": "today",
+                "value": "together",
                 "path_code": "0101011",
                 "left": null,
                 "right": null
@@ -1395,146 +965,66 @@
             "value": null,
             "path_code": "01011",
             "left": {
-              "value": null,
+              "value": "why",
               "path_code": "010110",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": null,
+              "path_code": "010111",
               "left": {
                 "value": null,
-                "path_code": "0101100",
+                "path_code": "0101110",
                 "left": {
-                  "value": null,
-                  "path_code": "01011000",
-                  "left": {
-                    "value": null,
-                    "path_code": "010110000",
-                    "left": {
-                      "value": "straight",
-                      "path_code": "0101100000",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0101100001",
-                      "left": {
-                        "value": null,
-                        "path_code": "01011000010",
-                        "left": {
-                          "value": "someday",
-                          "path_code": "010110000100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "alike",
-                          "path_code": "010110000101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "01011000011",
-                        "left": {
-                          "value": "desperately",
-                          "path_code": "010110000110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "halfway",
-                          "path_code": "010110000111",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "010110001",
-                    "left": {
-                      "value": "carefully",
-                      "path_code": "0101100010",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0101100011",
-                      "left": {
-                        "value": "newly",
-                        "path_code": "01011000110",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "potentially",
-                        "path_code": "01011000111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
+                  "value": "certainly",
+                  "path_code": "01011100",
+                  "left": null,
+                  "right": null
                 },
                 "right": {
                   "value": null,
-                  "path_code": "01011001",
+                  "path_code": "01011101",
                   "left": {
                     "value": null,
-                    "path_code": "010110010",
+                    "path_code": "010111010",
                     "left": {
-                      "value": null,
-                      "path_code": "0101100100",
-                      "left": {
-                        "value": "mainly",
-                        "path_code": "01011001000",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "regularly",
-                        "path_code": "01011001001",
-                        "left": null,
-                        "right": null
-                      }
+                      "value": "elsewhere",
+                      "path_code": "0101110100",
+                      "left": null,
+                      "right": null
                     },
                     "right": {
                       "value": null,
-                      "path_code": "0101100101",
+                      "path_code": "0101110101",
                       "left": {
-                        "value": "politically",
-                        "path_code": "01011001010",
+                        "value": "historically",
+                        "path_code": "01011101010",
                         "left": null,
                         "right": null
                       },
                       "right": {
-                        "value": "naturally",
-                        "path_code": "01011001011",
+                        "value": "wherever",
+                        "path_code": "01011101011",
                         "left": null,
                         "right": null
                       }
                     }
                   },
                   "right": {
-                    "value": "rather",
-                    "path_code": "010110011",
+                    "value": "highly",
+                    "path_code": "010111011",
                     "left": null,
                     "right": null
                   }
                 }
               },
               "right": {
-                "value": "always",
-                "path_code": "0101101",
+                "value": "already",
+                "path_code": "0101111",
                 "left": null,
                 "right": null
               }
-            },
-            "right": {
-              "value": "even",
-              "path_code": "010111",
-              "left": null,
-              "right": null
             }
           }
         }
@@ -1546,197 +1036,163 @@
           "value": null,
           "path_code": "0110",
           "left": {
-            "value": null,
+            "value": "also",
             "path_code": "01100",
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "value": null,
+            "path_code": "01101",
             "left": {
               "value": null,
-              "path_code": "011000",
+              "path_code": "011010",
               "left": {
                 "value": null,
-                "path_code": "0110000",
+                "path_code": "0110100",
                 "left": {
-                  "value": "little",
-                  "path_code": "01100000",
+                  "value": null,
+                  "path_code": "01101000",
+                  "left": {
+                    "value": null,
+                    "path_code": "011010000",
+                    "left": {
+                      "value": "whenever",
+                      "path_code": "0110100000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "strongly",
+                      "path_code": "0110100001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "011010001",
+                    "left": {
+                      "value": "equally",
+                      "path_code": "0110100010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0110100011",
+                      "left": {
+                        "value": "firmly",
+                        "path_code": "01101000110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "altogether",
+                        "path_code": "01101000111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "value": "thus",
+                  "path_code": "01101001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0110101",
+                "left": {
+                  "value": "quickly",
+                  "path_code": "01101010",
                   "left": null,
                   "right": null
                 },
                 "right": {
                   "value": null,
-                  "path_code": "01100001",
+                  "path_code": "01101011",
                   "left": {
-                    "value": null,
-                    "path_code": "011000010",
-                    "left": {
-                      "value": "somehow",
-                      "path_code": "0110000100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0110000101",
-                      "left": {
-                        "value": "partly",
-                        "path_code": "01100001010",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "01100001011",
-                        "left": {
-                          "value": "openly",
-                          "path_code": "011000010110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "strictly",
-                          "path_code": "011000010111",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    }
+                    "value": "mostly",
+                    "path_code": "011010110",
+                    "left": null,
+                    "right": null
                   },
                   "right": {
-                    "value": null,
-                    "path_code": "011000011",
-                    "left": {
-                      "value": "largely",
-                      "path_code": "0110000110",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0110000111",
-                      "left": {
-                        "value": "regardless",
-                        "path_code": "01100001110",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "01100001111",
-                        "left": {
-                          "value": "this",
-                          "path_code": "011000011110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "legally",
-                          "path_code": "011000011111",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    }
+                    "value": "anyway",
+                    "path_code": "011010111",
+                    "left": null,
+                    "right": null
                   }
                 }
-              },
-              "right": {
-                "value": "all",
-                "path_code": "0110001",
-                "left": null,
-                "right": null
               }
             },
             "right": {
               "value": null,
-              "path_code": "011001",
+              "path_code": "011011",
               "left": {
                 "value": null,
-                "path_code": "0110010",
+                "path_code": "0110110",
                 "left": {
-                  "value": "else",
-                  "path_code": "01100100",
+                  "value": "recently",
+                  "path_code": "01101100",
                   "left": null,
                   "right": null
                 },
                 "right": {
                   "value": null,
-                  "path_code": "01100101",
+                  "path_code": "01101101",
                   "left": {
                     "value": null,
-                    "path_code": "011001010",
+                    "path_code": "011011010",
                     "left": {
-                      "value": "significantly",
-                      "path_code": "0110010100",
+                      "value": "heavily",
+                      "path_code": "0110110100",
                       "left": null,
                       "right": null
                     },
                     "right": {
                       "value": null,
-                      "path_code": "0110010101",
+                      "path_code": "0110110101",
                       "left": {
-                        "value": "originally",
-                        "path_code": "01100101010",
+                        "value": "hopefully",
+                        "path_code": "01101101010",
                         "left": null,
                         "right": null
                       },
                       "right": {
-                        "value": null,
-                        "path_code": "01100101011",
-                        "left": {
-                          "value": "downtown",
-                          "path_code": "011001010110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "considerably",
-                          "path_code": "011001010111",
-                          "left": null,
-                          "right": null
-                        }
+                        "value": "o'clock",
+                        "path_code": "01101101011",
+                        "left": null,
+                        "right": null
                       }
                     }
                   },
                   "right": {
                     "value": null,
-                    "path_code": "011001011",
+                    "path_code": "011011011",
                     "left": {
                       "value": null,
-                      "path_code": "0110010110",
+                      "path_code": "0110110110",
                       "left": {
-                        "value": null,
-                        "path_code": "01100101100",
-                        "left": {
-                          "value": "solely",
-                          "path_code": "011001011000",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "allegedly",
-                          "path_code": "011001011001",
-                          "left": null,
-                          "right": null
-                        }
+                        "value": "sharply",
+                        "path_code": "01101101100",
+                        "left": null,
+                        "right": null
                       },
                       "right": {
-                        "value": null,
-                        "path_code": "01100101101",
-                        "left": {
-                          "value": "supposedly",
-                          "path_code": "011001011010",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "inevitably",
-                          "path_code": "011001011011",
-                          "left": null,
-                          "right": null
-                        }
+                        "value": "readily",
+                        "path_code": "01101101101",
+                        "left": null,
+                        "right": null
                       }
                     },
                     "right": {
-                      "value": "anymore",
-                      "path_code": "0110010111",
+                      "value": "surely",
+                      "path_code": "0110110111",
                       "left": null,
                       "right": null
                     }
@@ -1745,47 +1201,181 @@
               },
               "right": {
                 "value": null,
-                "path_code": "0110011",
+                "path_code": "0110111",
                 "left": {
-                  "value": "perhaps",
-                  "path_code": "01100110",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
                   "value": null,
-                  "path_code": "01100111",
+                  "path_code": "01101110",
                   "left": {
-                    "value": "suddenly",
-                    "path_code": "011001110",
-                    "left": null,
-                    "right": null
+                    "value": null,
+                    "path_code": "011011100",
+                    "left": {
+                      "value": null,
+                      "path_code": "0110111000",
+                      "left": {
+                        "value": "annually",
+                        "path_code": "01101110000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "practically",
+                        "path_code": "01101110001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "ie",
+                      "path_code": "0110111001",
+                      "left": null,
+                      "right": null
+                    }
                   },
                   "right": {
-                    "value": "that",
-                    "path_code": "011001111",
-                    "left": null,
-                    "right": null
+                    "value": null,
+                    "path_code": "011011101",
+                    "left": {
+                      "value": "perfectly",
+                      "path_code": "0110111010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0110111011",
+                      "left": {
+                        "value": "automatically",
+                        "path_code": "01101110110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "sexually",
+                        "path_code": "01101110111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
                   }
+                },
+                "right": {
+                  "value": "PM",
+                  "path_code": "01101111",
+                  "left": null,
+                  "right": null
                 }
               }
             }
-          },
-          "right": {
-            "value": "out",
-            "path_code": "01101",
-            "left": null,
-            "right": null
           }
         },
         "right": {
           "value": null,
           "path_code": "0111",
           "left": {
-            "value": "just",
+            "value": null,
             "path_code": "01110",
-            "left": null,
-            "right": null
+            "left": {
+              "value": null,
+              "path_code": "011100",
+              "left": {
+                "value": null,
+                "path_code": "0111000",
+                "left": {
+                  "value": "ok",
+                  "path_code": "01110000",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01110001",
+                  "left": {
+                    "value": null,
+                    "path_code": "011100010",
+                    "left": {
+                      "value": "quietly",
+                      "path_code": "0111000100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "literally",
+                      "path_code": "0111000101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "slightly",
+                    "path_code": "011100011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": "maybe",
+                "path_code": "0111001",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "011101",
+              "left": {
+                "value": null,
+                "path_code": "0111010",
+                "left": {
+                  "value": "usually",
+                  "path_code": "01110100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01110101",
+                  "left": {
+                    "value": null,
+                    "path_code": "011101010",
+                    "left": {
+                      "value": null,
+                      "path_code": "0111010100",
+                      "left": {
+                        "value": "lately",
+                        "path_code": "01110101000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "tightly",
+                        "path_code": "01110101001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "occasionally",
+                      "path_code": "0111010101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "apparently",
+                    "path_code": "011101011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": "both",
+                "path_code": "0111011",
+                "left": null,
+                "right": null
+              }
+            }
           },
           "right": {
             "value": null,
@@ -1794,213 +1384,123 @@
               "value": null,
               "path_code": "011110",
               "left": {
-                "value": null,
+                "value": "enough",
                 "path_code": "0111100",
-                "left": {
-                  "value": null,
-                  "path_code": "01111000",
-                  "left": {
-                    "value": null,
-                    "path_code": "011110000",
-                    "left": {
-                      "value": null,
-                      "path_code": "0111100000",
-                      "left": {
-                        "value": "shortly",
-                        "path_code": "01111000000",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "easy",
-                        "path_code": "01111000001",
-                        "left": null,
-                        "right": null
-                      }
-                    },
-                    "right": {
-                      "value": "currently",
-                      "path_code": "0111100001",
-                      "left": null,
-                      "right": null
-                    }
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "011110001",
-                    "left": {
-                      "value": "outside",
-                      "path_code": "0111100010",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0111100011",
-                      "left": {
-                        "value": "properly",
-                        "path_code": "01111000110",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "01111000111",
-                        "left": {
-                          "value": "deliberately",
-                          "path_code": "011110001110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "any",
-                          "path_code": "011110001111",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "01111001",
-                  "left": {
-                    "value": null,
-                    "path_code": "011110010",
-                    "left": {
-                      "value": "under",
-                      "path_code": "0111100100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": "deep",
-                      "path_code": "0111100101",
-                      "left": null,
-                      "right": null
-                    }
-                  },
-                  "right": {
-                    "value": "close",
-                    "path_code": "011110011",
-                    "left": null,
-                    "right": null
-                  }
-                }
+                "left": null,
+                "right": null
               },
               "right": {
                 "value": null,
                 "path_code": "0111101",
                 "left": {
-                  "value": "sometimes",
+                  "value": null,
                   "path_code": "01111010",
+                  "left": {
+                    "value": "relatively",
+                    "path_code": "011110100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "011110101",
+                    "left": {
+                      "value": "effectively",
+                      "path_code": "0111101010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "nevertheless",
+                      "path_code": "0111101011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "exactly",
+                  "path_code": "01111011",
                   "left": null,
                   "right": null
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "011111",
+              "left": {
+                "value": "actually",
+                "path_code": "0111110",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "0111111",
+                "left": {
+                  "value": null,
+                  "path_code": "01111110",
+                  "left": {
+                    "value": "twice",
+                    "path_code": "011111100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "yesterday",
+                    "path_code": "011111101",
+                    "left": null,
+                    "right": null
+                  }
                 },
                 "right": {
                   "value": null,
-                  "path_code": "01111011",
+                  "path_code": "01111111",
                   "left": {
                     "value": null,
-                    "path_code": "011110110",
+                    "path_code": "011111110",
                     "left": {
-                      "value": null,
-                      "path_code": "0111101100",
-                      "left": {
-                        "value": null,
-                        "path_code": "01111011000",
-                        "left": {
-                          "value": "formerly",
-                          "path_code": "011110110000",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "substantially",
-                          "path_code": "011110110001",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "nowhere",
-                        "path_code": "01111011001",
-                        "left": null,
-                        "right": null
-                      }
+                      "value": "rapidly",
+                      "path_code": "0111111100",
+                      "left": null,
+                      "right": null
                     },
                     "right": {
-                      "value": null,
-                      "path_code": "0111101101",
-                      "left": {
-                        "value": null,
-                        "path_code": "01111011010",
-                        "left": {
-                          "value": "happily",
-                          "path_code": "011110110100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "emotionally",
-                          "path_code": "011110110101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "besides",
-                        "path_code": "01111011011",
-                        "left": null,
-                        "right": null
-                      }
+                      "value": "constantly",
+                      "path_code": "0111111101",
+                      "left": null,
+                      "right": null
                     }
                   },
                   "right": {
                     "value": null,
-                    "path_code": "011110111",
+                    "path_code": "011111111",
                     "left": {
                       "value": null,
-                      "path_code": "0111101110",
+                      "path_code": "0111111110",
                       "left": {
-                        "value": "gradually",
-                        "path_code": "01111011100",
+                        "value": "instantly",
+                        "path_code": "01111111100",
                         "left": null,
                         "right": null
                       },
                       "right": {
-                        "value": null,
-                        "path_code": "01111011101",
-                        "left": {
-                          "value": "routinely",
-                          "path_code": "011110111010",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "privately",
-                          "path_code": "011110111011",
-                          "left": null,
-                          "right": null
-                        }
+                        "value": "consequently",
+                        "path_code": "01111111101",
+                        "left": null,
+                        "right": null
                       }
                     },
                     "right": {
-                      "value": "possibly",
-                      "path_code": "0111101111",
+                      "value": "precisely",
+                      "path_code": "0111111111",
                       "left": null,
                       "right": null
                     }
                   }
                 }
               }
-            },
-            "right": {
-              "value": "there",
-              "path_code": "011111",
-              "left": null,
-              "right": null
             }
           }
         }
@@ -2020,389 +1520,19 @@
           "value": null,
           "path_code": "1000",
           "left": {
-            "value": null,
+            "value": "here",
             "path_code": "10000",
-            "left": {
-              "value": "down",
-              "path_code": "100000",
-              "left": null,
-              "right": null
-            },
-            "right": {
-              "value": null,
-              "path_code": "100001",
-              "left": {
-                "value": null,
-                "path_code": "1000010",
-                "left": {
-                  "value": "less",
-                  "path_code": "10000100",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "10000101",
-                  "left": {
-                    "value": null,
-                    "path_code": "100001010",
-                    "left": {
-                      "value": "hardly",
-                      "path_code": "1000010100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "1000010101",
-                      "left": {
-                        "value": null,
-                        "path_code": "10000101010",
-                        "left": {
-                          "value": "sudden",
-                          "path_code": "100001010100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "overnight",
-                          "path_code": "100001010101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "furthermore",
-                        "path_code": "10000101011",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "100001011",
-                    "left": {
-                      "value": null,
-                      "path_code": "1000010110",
-                      "left": {
-                        "value": "since",
-                        "path_code": "10000101100",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "10000101101",
-                        "left": {
-                          "value": "economically",
-                          "path_code": "100001011010",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "accurately",
-                          "path_code": "100001011011",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    },
-                    "right": {
-                      "value": "truly",
-                      "path_code": "1000010111",
-                      "left": null,
-                      "right": null
-                    }
-                  }
-                }
-              },
-              "right": {
-                "value": null,
-                "path_code": "1000011",
-                "left": {
-                  "value": "finally",
-                  "path_code": "10000110",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "10000111",
-                  "left": {
-                    "value": null,
-                    "path_code": "100001110",
-                    "left": {
-                      "value": "frequently",
-                      "path_code": "1000011100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "1000011101",
-                      "left": {
-                        "value": null,
-                        "path_code": "10000111010",
-                        "left": {
-                          "value": "ironically",
-                          "path_code": "100001110100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "importantly",
-                          "path_code": "100001110101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "10000111011",
-                        "left": {
-                          "value": "nationwide",
-                          "path_code": "100001110110",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "terribly",
-                          "path_code": "100001110111",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "100001111",
-                    "left": {
-                      "value": "ultimately",
-                      "path_code": "1000011110",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "1000011111",
-                      "left": {
-                        "value": null,
-                        "path_code": "10000111110",
-                        "left": {
-                          "value": "steadily",
-                          "path_code": "100001111100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "within",
-                          "path_code": "100001111101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "publicly",
-                        "path_code": "10000111111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
-                }
-              }
-            }
+            "left": null,
+            "right": null
           },
           "right": {
             "value": null,
             "path_code": "10001",
             "left": {
-              "value": null,
+              "value": "again",
               "path_code": "100010",
-              "left": {
-                "value": null,
-                "path_code": "1000100",
-                "left": {
-                  "value": null,
-                  "path_code": "10001000",
-                  "left": {
-                    "value": null,
-                    "path_code": "100010000",
-                    "left": {
-                      "value": "extremely",
-                      "path_code": "1000100000",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "1000100001",
-                      "left": {
-                        "value": null,
-                        "path_code": "10001000010",
-                        "left": {
-                          "value": "freely",
-                          "path_code": "100010000100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "honestly",
-                          "path_code": "100010000101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "briefly",
-                        "path_code": "10001000011",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "100010001",
-                    "left": {
-                      "value": null,
-                      "path_code": "1000100010",
-                      "left": {
-                        "value": "etc",
-                        "path_code": "10001000100",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": null,
-                        "path_code": "10001000101",
-                        "left": {
-                          "value": "beyond",
-                          "path_code": "100010001010",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "severely",
-                          "path_code": "100010001011",
-                          "left": null,
-                          "right": null
-                        }
-                      }
-                    },
-                    "right": {
-                      "value": "neither",
-                      "path_code": "1000100011",
-                      "left": null,
-                      "right": null
-                    }
-                  }
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "10001001",
-                  "left": {
-                    "value": "best",
-                    "path_code": "100010010",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "100010011",
-                    "left": {
-                      "value": "part",
-                      "path_code": "1000100110",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "1000100111",
-                      "left": {
-                        "value": null,
-                        "path_code": "10001001110",
-                        "left": {
-                          "value": "low",
-                          "path_code": "100010011100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "seldom",
-                          "path_code": "100010011101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "across",
-                        "path_code": "10001001111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
-                }
-              },
-              "right": {
-                "value": null,
-                "path_code": "1000101",
-                "left": {
-                  "value": null,
-                  "path_code": "10001010",
-                  "left": {
-                    "value": "ahead",
-                    "path_code": "100010100",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "100010101",
-                    "left": {
-                      "value": "late",
-                      "path_code": "1000101010",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "1000101011",
-                      "left": {
-                        "value": null,
-                        "path_code": "10001010110",
-                        "left": {
-                          "value": "sometime",
-                          "path_code": "100010101100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "public",
-                          "path_code": "100010101101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "successfully",
-                        "path_code": "10001010111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "value": "better",
-                  "path_code": "10001011",
-                  "left": null,
-                  "right": null
-                }
-              }
+              "left": null,
+              "right": null
             },
             "right": {
               "value": null,
@@ -2411,30 +1541,10 @@
                 "value": null,
                 "path_code": "1000110",
                 "left": {
-                  "value": null,
+                  "value": "particularly",
                   "path_code": "10001100",
-                  "left": {
-                    "value": "instead",
-                    "path_code": "100011000",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "100011001",
-                    "left": {
-                      "value": "forth",
-                      "path_code": "1000110010",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": "meanwhile",
-                      "path_code": "1000110011",
-                      "left": null,
-                      "right": null
-                    }
-                  }
+                  "left": null,
+                  "right": null
                 },
                 "right": {
                   "value": null,
@@ -2446,58 +1556,48 @@
                       "value": null,
                       "path_code": "1000110100",
                       "left": {
-                        "value": "badly",
+                        "value": "officially",
                         "path_code": "10001101000",
                         "left": null,
                         "right": null
                       },
                       "right": {
-                        "value": "differently",
+                        "value": "thoroughly",
                         "path_code": "10001101001",
                         "left": null,
                         "right": null
                       }
                     },
                     "right": {
-                      "value": "entirely",
+                      "value": null,
                       "path_code": "1000110101",
-                      "left": null,
-                      "right": null
+                      "left": {
+                        "value": "afterward",
+                        "path_code": "10001101010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "upstairs",
+                        "path_code": "10001101011",
+                        "left": null,
+                        "right": null
+                      }
                     }
                   },
                   "right": {
-                    "value": null,
+                    "value": "fully",
                     "path_code": "100011011",
-                    "left": {
-                      "value": "aside",
-                      "path_code": "1000110110",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": "anywhere",
-                      "path_code": "1000110111",
-                      "left": null,
-                      "right": null
-                    }
+                    "left": null,
+                    "right": null
                   }
                 }
               },
               "right": {
-                "value": null,
+                "value": "probably",
                 "path_code": "1000111",
-                "left": {
-                  "value": "especially",
-                  "path_code": "10001110",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
-                  "value": "early",
-                  "path_code": "10001111",
-                  "left": null,
-                  "right": null
-                }
+                "left": null,
+                "right": null
               }
             }
           }
@@ -2506,7 +1606,7 @@
           "value": null,
           "path_code": "1001",
           "left": {
-            "value": "now",
+            "value": "very",
             "path_code": "10010",
             "left": null,
             "right": null
@@ -2515,19 +1615,129 @@
             "value": null,
             "path_code": "10011",
             "left": {
-              "value": "still",
+              "value": null,
               "path_code": "100110",
-              "left": null,
-              "right": null
+              "left": {
+                "value": null,
+                "path_code": "1001100",
+                "left": {
+                  "value": null,
+                  "path_code": "10011000",
+                  "left": {
+                    "value": null,
+                    "path_code": "100110000",
+                    "left": {
+                      "value": "normally",
+                      "path_code": "1001100000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1001100001",
+                      "left": {
+                        "value": "actively",
+                        "path_code": "10011000010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "incredibly",
+                        "path_code": "10011000011",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "100110001",
+                    "left": {
+                      "value": "personally",
+                      "path_code": "1001100010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "gently",
+                      "path_code": "1001100011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10011001",
+                  "left": {
+                    "value": null,
+                    "path_code": "100110010",
+                    "left": {
+                      "value": "roughly",
+                      "path_code": "1001100100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "similarly",
+                      "path_code": "1001100101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "100110011",
+                    "left": {
+                      "value": "initially",
+                      "path_code": "1001100110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1001100111",
+                      "left": {
+                        "value": "presumably",
+                        "path_code": "10011001110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "fortunately",
+                        "path_code": "10011001111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                }
+              },
+              "right": {
+                "value": "course",
+                "path_code": "1001101",
+                "left": null,
+                "right": null
+              }
             },
             "right": {
               "value": null,
               "path_code": "100111",
               "left": {
-                "value": "far",
+                "value": null,
                 "path_code": "1001110",
-                "left": null,
-                "right": null
+                "left": {
+                  "value": "forward",
+                  "path_code": "10011100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "tonight",
+                  "path_code": "10011101",
+                  "left": null,
+                  "right": null
+                }
               },
               "right": {
                 "value": null,
@@ -2536,35 +1746,45 @@
                   "value": null,
                   "path_code": "10011110",
                   "left": {
-                    "value": null,
+                    "value": "otherwise",
                     "path_code": "100111100",
-                    "left": {
-                      "value": "specifically",
-                      "path_code": "1001111000",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": "somewhat",
-                      "path_code": "1001111001",
-                      "left": null,
-                      "right": null
-                    }
+                    "left": null,
+                    "right": null
                   },
                   "right": {
                     "value": null,
                     "path_code": "100111101",
                     "left": {
-                      "value": "totally",
+                      "value": null,
                       "path_code": "1001111010",
-                      "left": null,
-                      "right": null
+                      "left": {
+                        "value": "safely",
+                        "path_code": "10011110100",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "reportedly",
+                        "path_code": "10011110101",
+                        "left": null,
+                        "right": null
+                      }
                     },
                     "right": {
-                      "value": "barely",
+                      "value": null,
                       "path_code": "1001111011",
-                      "left": null,
-                      "right": null
+                      "left": {
+                        "value": "correctly",
+                        "path_code": "10011110110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "partially",
+                        "path_code": "10011110111",
+                        "left": null,
+                        "right": null
+                      }
                     }
                   }
                 },
@@ -2572,26 +1792,16 @@
                   "value": null,
                   "path_code": "10011111",
                   "left": {
-                    "value": "absolutely",
+                    "value": "increasingly",
                     "path_code": "100111110",
                     "left": null,
                     "right": null
                   },
                   "right": {
-                    "value": null,
+                    "value": "somewhere",
                     "path_code": "100111111",
-                    "left": {
-                      "value": "necessarily",
-                      "path_code": "1001111110",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": "seriously",
-                      "path_code": "1001111111",
-                      "left": null,
-                      "right": null
-                    }
+                    "left": null,
+                    "right": null
                   }
                 }
               }
@@ -2606,110 +1816,10 @@
           "value": null,
           "path_code": "1010",
           "left": {
-            "value": null,
+            "value": "only",
             "path_code": "10100",
-            "left": {
-              "value": null,
-              "path_code": "101000",
-              "left": {
-                "value": null,
-                "path_code": "1010000",
-                "left": {
-                  "value": null,
-                  "path_code": "10100000",
-                  "left": {
-                    "value": null,
-                    "path_code": "101000000",
-                    "left": {
-                      "value": "typically",
-                      "path_code": "1010000000",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "1010000001",
-                      "left": {
-                        "value": "nonetheless",
-                        "path_code": "10100000010",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "repeatedly",
-                        "path_code": "10100000011",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "101000001",
-                    "left": {
-                      "value": "definitely",
-                      "path_code": "1010000010",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": "everywhere",
-                      "path_code": "1010000011",
-                      "left": null,
-                      "right": null
-                    }
-                  }
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "10100001",
-                  "left": {
-                    "value": null,
-                    "path_code": "101000010",
-                    "left": {
-                      "value": "merely",
-                      "path_code": "1010000100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "1010000101",
-                      "left": {
-                        "value": "physically",
-                        "path_code": "10100001010",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "tight",
-                        "path_code": "10100001011",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": "therefore",
-                    "path_code": "101000011",
-                    "left": null,
-                    "right": null
-                  }
-                }
-              },
-              "right": {
-                "value": "away",
-                "path_code": "1010001",
-                "left": null,
-                "right": null
-              }
-            },
-            "right": {
-              "value": "in",
-              "path_code": "101001",
-              "left": null,
-              "right": null
-            }
+            "left": null,
+            "right": null
           },
           "right": {
             "value": null,
@@ -2718,73 +1828,123 @@
               "value": null,
               "path_code": "101010",
               "left": {
-                "value": "however",
-                "path_code": "1010100",
-                "left": null,
-                "right": null
-              },
-              "right": {
-                "value": "long",
-                "path_code": "1010101",
-                "left": null,
-                "right": null
-              }
-            },
-            "right": {
-              "value": null,
-              "path_code": "101011",
-              "left": {
                 "value": null,
-                "path_code": "1010110",
+                "path_code": "1010100",
                 "left": {
                   "value": null,
-                  "path_code": "10101100",
+                  "path_code": "10101000",
                   "left": {
                     "value": null,
-                    "path_code": "101011000",
+                    "path_code": "101010000",
                     "left": {
-                      "value": "apart",
-                      "path_code": "1010110000",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
                       "value": null,
-                      "path_code": "1010110001",
+                      "path_code": "1010100000",
                       "left": {
-                        "value": "lightly",
-                        "path_code": "10101100010",
+                        "value": "exclusively",
+                        "path_code": "10101000000",
                         "left": null,
                         "right": null
                       },
                       "right": {
-                        "value": "abroad",
-                        "path_code": "10101100011",
+                        "value": "likewise",
+                        "path_code": "10101000001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1010100001",
+                      "left": {
+                        "value": "socially",
+                        "path_code": "10101000010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "mentally",
+                        "path_code": "10101000011",
                         "left": null,
                         "right": null
                       }
                     }
                   },
                   "right": {
-                    "value": "fast",
-                    "path_code": "101011001",
+                    "value": "basically",
+                    "path_code": "101010001",
                     "left": null,
                     "right": null
                   }
                 },
                 "right": {
-                  "value": "quite",
-                  "path_code": "10101101",
+                  "value": "indeed",
+                  "path_code": "10101001",
                   "left": null,
                   "right": null
                 }
               },
               "right": {
-                "value": "often",
-                "path_code": "1010111",
-                "left": null,
-                "right": null
+                "value": null,
+                "path_code": "1010101",
+                "left": {
+                  "value": "clearly",
+                  "path_code": "10101010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10101011",
+                  "left": {
+                    "value": null,
+                    "path_code": "101010110",
+                    "left": {
+                      "value": null,
+                      "path_code": "1010101100",
+                      "left": {
+                        "value": "someday",
+                        "path_code": "10101011000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "alike",
+                        "path_code": "10101011001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1010101101",
+                      "left": {
+                        "value": "desperately",
+                        "path_code": "10101011010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "halfway",
+                        "path_code": "10101011011",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": "carefully",
+                    "path_code": "101010111",
+                    "left": null,
+                    "right": null
+                  }
+                }
               }
+            },
+            "right": {
+              "value": "today",
+              "path_code": "101011",
+              "left": null,
+              "right": null
             }
           }
         },
@@ -2792,139 +1952,19 @@
           "value": null,
           "path_code": "1011",
           "left": {
-            "value": null,
+            "value": "back",
             "path_code": "10110",
-            "left": {
-              "value": "as",
-              "path_code": "101100",
-              "left": null,
-              "right": null
-            },
-            "right": {
-              "value": "too",
-              "path_code": "101101",
-              "left": null,
-              "right": null
-            }
+            "left": null,
+            "right": null
           },
           "right": {
             "value": null,
             "path_code": "10111",
             "left": {
-              "value": null,
+              "value": "always",
               "path_code": "101110",
-              "left": {
-                "value": null,
-                "path_code": "1011100",
-                "left": {
-                  "value": null,
-                  "path_code": "10111000",
-                  "left": {
-                    "value": "alone",
-                    "path_code": "101110000",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "101110001",
-                    "left": {
-                      "value": null,
-                      "path_code": "1011100010",
-                      "left": {
-                        "value": "high",
-                        "path_code": "10111000100",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "online",
-                        "path_code": "10111000101",
-                        "left": null,
-                        "right": null
-                      }
-                    },
-                    "right": {
-                      "value": "unfortunately",
-                      "path_code": "1011100011",
-                      "left": null,
-                      "right": null
-                    }
-                  }
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "10111001",
-                  "left": {
-                    "value": null,
-                    "path_code": "101110010",
-                    "left": {
-                      "value": "virtually",
-                      "path_code": "1011100100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "1011100101",
-                      "left": {
-                        "value": "dramatically",
-                        "path_code": "10111001010",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "surprisingly",
-                        "path_code": "10111001011",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": "please",
-                    "path_code": "101110011",
-                    "left": null,
-                    "right": null
-                  }
-                }
-              },
-              "right": {
-                "value": null,
-                "path_code": "1011101",
-                "left": {
-                  "value": "either",
-                  "path_code": "10111010",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "10111011",
-                  "left": {
-                    "value": null,
-                    "path_code": "101110110",
-                    "left": {
-                      "value": "behind",
-                      "path_code": "1011101100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": "first",
-                      "path_code": "1011101101",
-                      "left": null,
-                      "right": null
-                    }
-                  },
-                  "right": {
-                    "value": "eventually",
-                    "path_code": "101110111",
-                    "left": null,
-                    "right": null
-                  }
-                }
-              }
+              "left": null,
+              "right": null
             },
             "right": {
               "value": null,
@@ -2939,67 +1979,137 @@
                     "value": null,
                     "path_code": "101111000",
                     "left": {
-                      "value": null,
+                      "value": "newly",
                       "path_code": "1011110000",
-                      "left": {
-                        "value": "greatly",
-                        "path_code": "10111100000",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "frankly",
-                        "path_code": "10111100001",
-                        "left": null,
-                        "right": null
-                      }
+                      "left": null,
+                      "right": null
                     },
                     "right": {
-                      "value": "closely",
+                      "value": "potentially",
                       "path_code": "1011110001",
                       "left": null,
                       "right": null
                     }
                   },
                   "right": {
-                    "value": "AM",
+                    "value": null,
                     "path_code": "101111001",
-                    "left": null,
-                    "right": null
+                    "left": {
+                      "value": "mainly",
+                      "path_code": "1011110010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "regularly",
+                      "path_code": "1011110011",
+                      "left": null,
+                      "right": null
+                    }
                   }
                 },
                 "right": {
                   "value": null,
                   "path_code": "10111101",
                   "left": {
-                    "value": "directly",
-                    "path_code": "101111010",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
                     "value": null,
-                    "path_code": "101111011",
+                    "path_code": "101111010",
                     "left": {
-                      "value": "primarily",
-                      "path_code": "1011110110",
+                      "value": "politically",
+                      "path_code": "1011110100",
                       "left": null,
                       "right": null
                     },
                     "right": {
-                      "value": "forever",
-                      "path_code": "1011110111",
+                      "value": "naturally",
+                      "path_code": "1011110101",
                       "left": null,
                       "right": null
                     }
+                  },
+                  "right": {
+                    "value": "somehow",
+                    "path_code": "101111011",
+                    "left": null,
+                    "right": null
                   }
                 }
               },
               "right": {
-                "value": "ever",
+                "value": null,
                 "path_code": "1011111",
-                "left": null,
-                "right": null
+                "left": {
+                  "value": null,
+                  "path_code": "10111110",
+                  "left": {
+                    "value": null,
+                    "path_code": "101111100",
+                    "left": {
+                      "value": "partly",
+                      "path_code": "1011111000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1011111001",
+                      "left": {
+                        "value": "openly",
+                        "path_code": "10111110010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "strictly",
+                        "path_code": "10111110011",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": "largely",
+                    "path_code": "101111101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10111111",
+                  "left": {
+                    "value": null,
+                    "path_code": "101111110",
+                    "left": {
+                      "value": "regardless",
+                      "path_code": "1011111100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1011111101",
+                      "left": {
+                        "value": "this",
+                        "path_code": "10111111010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "legally",
+                        "path_code": "10111111011",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": "significantly",
+                    "path_code": "101111111",
+                    "left": null,
+                    "right": null
+                  }
+                }
               }
             }
           }
@@ -3016,113 +2126,283 @@
           "value": null,
           "path_code": "1100",
           "left": {
-            "value": "then",
-            "path_code": "11000",
-            "left": null,
-            "right": null
-          },
-          "right": {
-            "value": "how",
-            "path_code": "11001",
-            "left": null,
-            "right": null
-          }
-        },
-        "right": {
-          "value": null,
-          "path_code": "1101",
-          "left": {
             "value": null,
-            "path_code": "11010",
+            "path_code": "11000",
             "left": {
+              "value": "all",
+              "path_code": "110000",
+              "left": null,
+              "right": null
+            },
+            "right": {
               "value": null,
-              "path_code": "110100",
+              "path_code": "110001",
               "left": {
-                "value": "yet",
-                "path_code": "1101000",
+                "value": "else",
+                "path_code": "1100010",
                 "left": null,
                 "right": null
               },
               "right": {
                 "value": null,
-                "path_code": "1101001",
+                "path_code": "1100011",
                 "left": {
                   "value": null,
-                  "path_code": "11010010",
+                  "path_code": "11000110",
                   "left": {
                     "value": null,
-                    "path_code": "110100100",
+                    "path_code": "110001100",
                     "left": {
-                      "value": null,
-                      "path_code": "1101001000",
-                      "left": {
-                        "value": "hence",
-                        "path_code": "11010010000",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "last",
-                        "path_code": "11010010001",
-                        "left": null,
-                        "right": null
-                      }
+                      "value": "originally",
+                      "path_code": "1100011000",
+                      "left": null,
+                      "right": null
                     },
                     "right": {
                       "value": null,
-                      "path_code": "1101001001",
+                      "path_code": "1100011001",
                       "left": {
-                        "value": "daily",
-                        "path_code": "11010010010",
+                        "value": "considerably",
+                        "path_code": "11000110010",
                         "left": null,
                         "right": null
                       },
                       "right": {
-                        "value": "respectively",
-                        "path_code": "11010010011",
+                        "value": "solely",
+                        "path_code": "11000110011",
                         "left": null,
                         "right": null
                       }
                     }
                   },
                   "right": {
-                    "value": "slowly",
-                    "path_code": "110100101",
+                    "value": "anymore",
+                    "path_code": "110001101",
                     "left": null,
                     "right": null
                   }
                 },
                 "right": {
-                  "value": "simply",
-                  "path_code": "11010011",
-                  "left": null,
-                  "right": null
+                  "value": null,
+                  "path_code": "11000111",
+                  "left": {
+                    "value": null,
+                    "path_code": "110001110",
+                    "left": {
+                      "value": null,
+                      "path_code": "1100011100",
+                      "left": {
+                        "value": "allegedly",
+                        "path_code": "11000111000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "supposedly",
+                        "path_code": "11000111001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "shortly",
+                      "path_code": "1100011101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "currently",
+                    "path_code": "110001111",
+                    "left": null,
+                    "right": null
+                  }
                 }
               }
-            },
-            "right": {
-              "value": "when",
-              "path_code": "110101",
-              "left": null,
-              "right": null
             }
           },
           "right": {
             "value": null,
-            "path_code": "11011",
+            "path_code": "11001",
             "left": {
-              "value": "really",
-              "path_code": "110110",
-              "left": null,
-              "right": null
+              "value": null,
+              "path_code": "110010",
+              "left": {
+                "value": "perhaps",
+                "path_code": "1100100",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "1100101",
+                "left": {
+                  "value": "suddenly",
+                  "path_code": "11001010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11001011",
+                  "left": {
+                    "value": null,
+                    "path_code": "110010110",
+                    "left": {
+                      "value": null,
+                      "path_code": "1100101100",
+                      "left": {
+                        "value": "inevitably",
+                        "path_code": "11001011000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "deliberately",
+                        "path_code": "11001011001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "properly",
+                      "path_code": "1100101101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "110010111",
+                    "left": {
+                      "value": null,
+                      "path_code": "1100101110",
+                      "left": {
+                        "value": "any",
+                        "path_code": "11001011100",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "formerly",
+                        "path_code": "11001011101",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1100101111",
+                      "left": {
+                        "value": "substantially",
+                        "path_code": "11001011110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "happily",
+                        "path_code": "11001011111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                }
+              }
             },
             "right": {
-              "value": "never",
-              "path_code": "110111",
-              "left": null,
-              "right": null
+              "value": null,
+              "path_code": "110011",
+              "left": {
+                "value": "sometimes",
+                "path_code": "1100110",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "1100111",
+                "left": {
+                  "value": null,
+                  "path_code": "11001110",
+                  "left": {
+                    "value": null,
+                    "path_code": "110011100",
+                    "left": {
+                      "value": "nowhere",
+                      "path_code": "1100111000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1100111001",
+                      "left": {
+                        "value": "emotionally",
+                        "path_code": "11001110010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "routinely",
+                        "path_code": "11001110011",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": "possibly",
+                    "path_code": "110011101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11001111",
+                  "left": {
+                    "value": null,
+                    "path_code": "110011110",
+                    "left": {
+                      "value": "gradually",
+                      "path_code": "1100111100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1100111101",
+                      "left": {
+                        "value": "privately",
+                        "path_code": "11001111010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "overnight",
+                        "path_code": "11001111011",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": "hardly",
+                    "path_code": "110011111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
             }
           }
+        },
+        "right": {
+          "value": "just",
+          "path_code": "1101",
+          "left": null,
+          "right": null
         }
       },
       "right": {
@@ -3132,7 +2412,7 @@
           "value": null,
           "path_code": "1110",
           "left": {
-            "value": "more",
+            "value": "there",
             "path_code": "11100",
             "left": null,
             "right": null
@@ -3144,55 +2424,55 @@
               "value": null,
               "path_code": "111010",
               "left": {
-                "value": null,
+                "value": "less",
                 "path_code": "1110100",
-                "left": {
-                  "value": null,
-                  "path_code": "11101000",
-                  "left": {
-                    "value": "generally",
-                    "path_code": "111010000",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": "immediately",
-                    "path_code": "111010001",
-                    "left": null,
-                    "right": null
-                  }
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "11101001",
-                  "left": {
-                    "value": "by",
-                    "path_code": "111010010",
-                    "left": null,
-                    "right": null
-                  },
-                  "right": {
-                    "value": "completely",
-                    "path_code": "111010011",
-                    "left": null,
-                    "right": null
-                  }
-                }
+                "left": null,
+                "right": null
               },
               "right": {
                 "value": null,
                 "path_code": "1110101",
                 "left": {
-                  "value": "nearly",
+                  "value": null,
                   "path_code": "11101010",
-                  "left": null,
-                  "right": null
+                  "left": {
+                    "value": null,
+                    "path_code": "111010100",
+                    "left": {
+                      "value": "furthermore",
+                      "path_code": "1110101000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1110101001",
+                      "left": {
+                        "value": "economically",
+                        "path_code": "11101010010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "accurately",
+                        "path_code": "11101010011",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": "truly",
+                    "path_code": "111010101",
+                    "left": null,
+                    "right": null
+                  }
                 },
                 "right": {
                   "value": null,
                   "path_code": "11101011",
                   "left": {
-                    "value": "along",
+                    "value": "frequently",
                     "path_code": "111010110",
                     "left": null,
                     "right": null
@@ -3201,22 +2481,32 @@
                     "value": null,
                     "path_code": "111010111",
                     "left": {
-                      "value": "moreover",
+                      "value": null,
                       "path_code": "1110101110",
-                      "left": null,
-                      "right": null
+                      "left": {
+                        "value": "ironically",
+                        "path_code": "11101011100",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "importantly",
+                        "path_code": "11101011101",
+                        "left": null,
+                        "right": null
+                      }
                     },
                     "right": {
                       "value": null,
                       "path_code": "1110101111",
                       "left": {
-                        "value": "consistently",
+                        "value": "nationwide",
                         "path_code": "11101011110",
                         "left": null,
                         "right": null
                       },
                       "right": {
-                        "value": "seemingly",
+                        "value": "terribly",
                         "path_code": "11101011111",
                         "left": null,
                         "right": null
@@ -3230,7 +2520,7 @@
               "value": null,
               "path_code": "111011",
               "left": {
-                "value": "almost",
+                "value": "finally",
                 "path_code": "1110110",
                 "left": null,
                 "right": null
@@ -3242,7 +2532,7 @@
                   "value": null,
                   "path_code": "11101110",
                   "left": {
-                    "value": "bit",
+                    "value": "ultimately",
                     "path_code": "111011100",
                     "left": null,
                     "right": null
@@ -3251,26 +2541,26 @@
                     "value": null,
                     "path_code": "111011101",
                     "left": {
-                      "value": "widely",
-                      "path_code": "1110111010",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
                       "value": null,
-                      "path_code": "1110111011",
+                      "path_code": "1110111010",
                       "left": {
-                        "value": "simultaneously",
-                        "path_code": "11101110110",
+                        "value": "freely",
+                        "path_code": "11101110100",
                         "left": null,
                         "right": null
                       },
                       "right": {
-                        "value": "past",
-                        "path_code": "11101110111",
+                        "value": "steadily",
+                        "path_code": "11101110101",
                         "left": null,
                         "right": null
                       }
+                    },
+                    "right": {
+                      "value": "publicly",
+                      "path_code": "1110111011",
+                      "left": null,
+                      "right": null
                     }
                   }
                 },
@@ -3278,16 +2568,26 @@
                   "value": null,
                   "path_code": "11101111",
                   "left": {
-                    "value": "through",
+                    "value": "extremely",
                     "path_code": "111011110",
                     "left": null,
                     "right": null
                   },
                   "right": {
-                    "value": "easily",
+                    "value": null,
                     "path_code": "111011111",
-                    "left": null,
-                    "right": null
+                    "left": {
+                      "value": "briefly",
+                      "path_code": "1110111110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "etc",
+                      "path_code": "1110111111",
+                      "left": null,
+                      "right": null
+                    }
                   }
                 }
               }
@@ -3295,100 +2595,10 @@
           }
         },
         "right": {
-          "value": null,
+          "value": "now",
           "path_code": "1111",
-          "left": {
-            "value": null,
-            "path_code": "11110",
-            "left": {
-              "value": null,
-              "path_code": "111100",
-              "left": {
-                "value": "later",
-                "path_code": "1111000",
-                "left": null,
-                "right": null
-              },
-              "right": {
-                "value": "once",
-                "path_code": "1111001",
-                "left": null,
-                "right": null
-              }
-            },
-            "right": {
-              "value": null,
-              "path_code": "111101",
-              "left": {
-                "value": "much",
-                "path_code": "1111010",
-                "left": null,
-                "right": null
-              },
-              "right": {
-                "value": null,
-                "path_code": "1111011",
-                "left": {
-                  "value": "soon",
-                  "path_code": "11110110",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "11110111",
-                  "left": {
-                    "value": null,
-                    "path_code": "111101110",
-                    "left": {
-                      "value": "deeply",
-                      "path_code": "1111011100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": "fairly",
-                      "path_code": "1111011101",
-                      "left": null,
-                      "right": null
-                    }
-                  },
-                  "right": {
-                    "value": "obviously",
-                    "path_code": "111101111",
-                    "left": null,
-                    "right": null
-                  }
-                }
-              }
-            }
-          },
-          "right": {
-            "value": null,
-            "path_code": "11111",
-            "left": {
-              "value": null,
-              "path_code": "111110",
-              "left": {
-                "value": "ago",
-                "path_code": "1111100",
-                "left": null,
-                "right": null
-              },
-              "right": {
-                "value": "least",
-                "path_code": "1111101",
-                "left": null,
-                "right": null
-              }
-            },
-            "right": {
-              "value": "most",
-              "path_code": "111111",
-              "left": null,
-              "right": null
-            }
-          }
+          "left": null,
+          "right": null
         }
       }
     }

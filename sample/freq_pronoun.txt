@@ -29,7 +29,6 @@ yourself,43401
 somebody,41639
 whom,37950
 none,35359
-no,35016
 nobody,34280
 anybody,28704
 lots,23750

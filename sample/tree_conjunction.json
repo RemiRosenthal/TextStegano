@@ -8,146 +8,66 @@
       "value": null,
       "path_code": "00",
       "left": {
-        "value": null,
+        "value": "that",
         "path_code": "000",
+        "left": null,
+        "right": null
+      },
+      "right": {
+        "value": null,
+        "path_code": "001",
         "left": {
+          "value": "but",
+          "path_code": "0010",
+          "left": null,
+          "right": null
+        },
+        "right": {
           "value": null,
-          "path_code": "0000",
+          "path_code": "0011",
           "left": {
             "value": null,
-            "path_code": "00000",
+            "path_code": "00110",
             "left": {
-              "value": null,
-              "path_code": "000000",
-              "left": {
-                "value": null,
-                "path_code": "0000000",
-                "left": {
-                  "value": "until",
-                  "path_code": "00000000",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "00000001",
-                  "left": {
-                    "value": null,
-                    "path_code": "000000010",
-                    "left": {
-                      "value": "like",
-                      "path_code": "0000000100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0000000101",
-                      "left": {
-                        "value": "except",
-                        "path_code": "00000001010",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "far",
-                        "path_code": "00000001011",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "000000011",
-                    "left": {
-                      "value": "once",
-                      "path_code": "0000000110",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0000000111",
-                      "left": {
-                        "value": null,
-                        "path_code": "00000001110",
-                        "left": {
-                          "value": "and/or",
-                          "path_code": "000000011100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "provided",
-                          "path_code": "000000011101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "for",
-                        "path_code": "00000001111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
-                }
-              },
-              "right": {
-                "value": "while",
-                "path_code": "0000001",
-                "left": null,
-                "right": null
-              }
+              "value": "because",
+              "path_code": "001100",
+              "left": null,
+              "right": null
             },
             "right": {
               "value": null,
-              "path_code": "000001",
+              "path_code": "001101",
               "left": {
+                "value": "so",
+                "path_code": "0011010",
+                "left": null,
+                "right": null
+              },
+              "right": {
                 "value": null,
-                "path_code": "0000010",
+                "path_code": "0011011",
                 "left": {
-                  "value": "whether",
-                  "path_code": "00000100",
+                  "value": "although",
+                  "path_code": "00110110",
                   "left": null,
                   "right": null
                 },
                 "right": {
-                  "value": "although",
-                  "path_code": "00000101",
+                  "value": "even",
+                  "path_code": "00110111",
                   "left": null,
                   "right": null
                 }
-              },
-              "right": {
-                "value": "where",
-                "path_code": "0000011",
-                "left": null,
-                "right": null
               }
             }
           },
           "right": {
-            "value": "if",
-            "path_code": "00001",
+            "value": "when",
+            "path_code": "00111",
             "left": null,
             "right": null
           }
-        },
-        "right": {
-          "value": "but",
-          "path_code": "0001",
-          "left": null,
-          "right": null
         }
-      },
-      "right": {
-        "value": "that",
-        "path_code": "001",
-        "left": null,
-        "right": null
       }
     },
     "right": {
@@ -157,123 +77,13 @@
         "value": null,
         "path_code": "010",
         "left": {
-          "value": null,
+          "value": "or",
           "path_code": "0100",
-          "left": {
-            "value": null,
-            "path_code": "01000",
-            "left": {
-              "value": "because",
-              "path_code": "010000",
-              "left": null,
-              "right": null
-            },
-            "right": {
-              "value": null,
-              "path_code": "010001",
-              "left": {
-                "value": null,
-                "path_code": "0100010",
-                "left": {
-                  "value": "before",
-                  "path_code": "01000100",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "01000101",
-                  "left": {
-                    "value": null,
-                    "path_code": "010001010",
-                    "left": {
-                      "value": "unless",
-                      "path_code": "0100010100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0100010101",
-                      "left": {
-                        "value": "rather",
-                        "path_code": "01000101010",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "soon",
-                        "path_code": "01000101011",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  },
-                  "right": {
-                    "value": null,
-                    "path_code": "010001011",
-                    "left": {
-                      "value": null,
-                      "path_code": "0100010110",
-                      "left": {
-                        "value": "whereas",
-                        "path_code": "01000101100",
-                        "left": null,
-                        "right": null
-                      },
-                      "right": {
-                        "value": "not",
-                        "path_code": "01000101101",
-                        "left": null,
-                        "right": null
-                      }
-                    },
-                    "right": {
-                      "value": null,
-                      "path_code": "0100010111",
-                      "left": {
-                        "value": null,
-                        "path_code": "01000101110",
-                        "left": {
-                          "value": "case",
-                          "path_code": "010001011100",
-                          "left": null,
-                          "right": null
-                        },
-                        "right": {
-                          "value": "till",
-                          "path_code": "010001011101",
-                          "left": null,
-                          "right": null
-                        }
-                      },
-                      "right": {
-                        "value": "in",
-                        "path_code": "01000101111",
-                        "left": null,
-                        "right": null
-                      }
-                    }
-                  }
-                }
-              },
-              "right": {
-                "value": "so",
-                "path_code": "0100011",
-                "left": null,
-                "right": null
-              }
-            }
-          },
-          "right": {
-            "value": "when",
-            "path_code": "01001",
-            "left": null,
-            "right": null
-          }
+          "left": null,
+          "right": null
         },
         "right": {
-          "value": "or",
+          "value": "as",
           "path_code": "0101",
           "left": null,
           "right": null
@@ -283,86 +93,126 @@
         "value": null,
         "path_code": "011",
         "left": {
-          "value": "as",
-          "path_code": "0110",
-          "left": null,
-          "right": null
-        },
-        "right": {
           "value": null,
-          "path_code": "0111",
+          "path_code": "0110",
           "left": {
             "value": null,
-            "path_code": "01110",
+            "path_code": "01100",
             "left": {
               "value": null,
-              "path_code": "011100",
+              "path_code": "011000",
               "left": {
-                "value": null,
-                "path_code": "0111000",
-                "left": {
-                  "value": "even",
-                  "path_code": "01110000",
-                  "left": null,
-                  "right": null
-                },
-                "right": {
-                  "value": null,
-                  "path_code": "01110001",
-                  "left": {
-                    "value": null,
-                    "path_code": "011100010",
-                    "left": {
-                      "value": "long",
-                      "path_code": "0111000100",
-                      "left": null,
-                      "right": null
-                    },
-                    "right": {
-                      "value": "now",
-                      "path_code": "0111000101",
-                      "left": null,
-                      "right": null
-                    }
-                  },
-                  "right": {
-                    "value": "nor",
-                    "path_code": "011100011",
-                    "left": null,
-                    "right": null
-                  }
-                }
+                "value": "though",
+                "path_code": "0110000",
+                "left": null,
+                "right": null
               },
               "right": {
-                "value": "though",
-                "path_code": "0111001",
+                "value": "since",
+                "path_code": "0110001",
                 "left": null,
                 "right": null
               }
             },
             "right": {
               "value": null,
-              "path_code": "011101",
+              "path_code": "011001",
               "left": {
-                "value": "after",
-                "path_code": "0111010",
-                "left": null,
-                "right": null
+                "value": null,
+                "path_code": "0110010",
+                "left": {
+                  "value": null,
+                  "path_code": "01100100",
+                  "left": {
+                    "value": "nor",
+                    "path_code": "011001000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "011001001",
+                    "left": {
+                      "value": "except",
+                      "path_code": "0110010010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0110010011",
+                      "left": {
+                        "value": "and/or",
+                        "path_code": "01100100110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "provided",
+                        "path_code": "01100100111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01100101",
+                  "left": {
+                    "value": "unless",
+                    "path_code": "011001010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "011001011",
+                    "left": {
+                      "value": "whereas",
+                      "path_code": "0110010110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "not",
+                      "path_code": "0110010111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
               },
               "right": {
-                "value": "since",
-                "path_code": "0111011",
+                "value": "whether",
+                "path_code": "0110011",
                 "left": null,
                 "right": null
               }
             }
           },
           "right": {
-            "value": "than",
-            "path_code": "01111",
-            "left": null,
-            "right": null
+            "value": null,
+            "path_code": "01101",
+            "left": {
+              "value": "while",
+              "path_code": "011010",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": "where",
+              "path_code": "011011",
+              "left": null,
+              "right": null
+            }
           }
+        },
+        "right": {
+          "value": "if",
+          "path_code": "0111",
+          "left": null,
+          "right": null
         }
       }
     }

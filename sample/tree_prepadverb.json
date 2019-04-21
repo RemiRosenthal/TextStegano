@@ -1,0 +1,246 @@
+{
+  "value": null,
+  "path_code": null,
+  "left": {
+    "value": null,
+    "path_code": "0",
+    "left": {
+      "value": null,
+      "path_code": "00",
+      "left": {
+        "value": null,
+        "path_code": "000",
+        "left": {
+          "value": "out",
+          "path_code": "0000",
+          "left": null,
+          "right": null
+        },
+        "right": {
+          "value": "up",
+          "path_code": "0001",
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "value": "by",
+        "path_code": "001",
+        "left": null,
+        "right": null
+      }
+    },
+    "right": {
+      "value": "on",
+      "path_code": "01",
+      "left": null,
+      "right": null
+    }
+  },
+  "right": {
+    "value": null,
+    "path_code": "1",
+    "left": {
+      "value": null,
+      "path_code": "10",
+      "left": {
+        "value": null,
+        "path_code": "100",
+        "left": {
+          "value": null,
+          "path_code": "1000",
+          "left": {
+            "value": null,
+            "path_code": "10000",
+            "left": {
+              "value": null,
+              "path_code": "100000",
+              "left": {
+                "value": "behind",
+                "path_code": "1000000",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "1000001",
+                "left": {
+                  "value": "beyond",
+                  "path_code": "10000010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "ahead",
+                  "path_code": "10000011",
+                  "left": null,
+                  "right": null
+                }
+              }
+            },
+            "right": {
+              "value": "away",
+              "path_code": "100001",
+              "left": null,
+              "right": null
+            }
+          },
+          "right": {
+            "value": "through",
+            "path_code": "10001",
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "1001",
+          "left": {
+            "value": "down",
+            "path_code": "10010",
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "value": null,
+            "path_code": "10011",
+            "left": {
+              "value": "under",
+              "path_code": "100110",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": null,
+              "path_code": "100111",
+              "left": {
+                "value": "rather",
+                "path_code": "1001110",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "1001111",
+                "left": {
+                  "value": "below",
+                  "path_code": "10011110",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10011111",
+                  "left": {
+                    "value": "apart",
+                    "path_code": "100111110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "besides",
+                    "path_code": "100111111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "value": "about",
+        "path_code": "101",
+        "left": null,
+        "right": null
+      }
+    },
+    "right": {
+      "value": null,
+      "path_code": "11",
+      "left": {
+        "value": null,
+        "path_code": "110",
+        "left": {
+          "value": null,
+          "path_code": "1100",
+          "left": {
+            "value": "off",
+            "path_code": "11000",
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "value": "around",
+            "path_code": "11001",
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "value": "over",
+          "path_code": "1101",
+          "left": null,
+          "right": null
+        }
+      },
+      "right": {
+        "value": null,
+        "path_code": "111",
+        "left": {
+          "value": null,
+          "path_code": "1110",
+          "left": {
+            "value": null,
+            "path_code": "11100",
+            "left": {
+              "value": null,
+              "path_code": "111000",
+              "left": {
+                "value": "instead",
+                "path_code": "1110000",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": "inside",
+                "path_code": "1110001",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": "within",
+              "path_code": "111001",
+              "left": null,
+              "right": null
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "11101",
+            "left": {
+              "value": "along",
+              "path_code": "111010",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": "across",
+              "path_code": "111011",
+              "left": null,
+              "right": null
+            }
+          }
+        },
+        "right": {
+          "value": "well",
+          "path_code": "1111",
+          "left": null,
+          "right": null
+        }
+      }
+    }
+  }
+}

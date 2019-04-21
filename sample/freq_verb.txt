@@ -179,7 +179,6 @@ settle,28827
 marry,28722
 feed,28494
 engage,28194
-fit,27875
 survive,27682
 gather,27659
 nod,27283
@@ -207,7 +206,6 @@ explore,23744
 intend,23554
 expand,23417
 disappear,23389
-direct,23298
 predict,22942
 adopt,22880
 repeat,22622
@@ -226,7 +224,6 @@ select,21617
 ought,21552
 ensure,21341
 slip,21233
-last,21219
 capture,21018
 prefer,20946
 appreciate,20806
@@ -246,18 +243,14 @@ fix,19349
 confirm,19327
 pour,19300
 assess,19220
-back,19213
 attract,19197
 complain,19102
 afford,19035
-clear,19013
 cite,19011
 emphasize,18933
 employ,18912
-clean,18766
 oppose,18484
 divide,18337
-separate,18251
 invest,18080
 accuse,17778
 reject,17656
@@ -289,7 +282,6 @@ breathe,15813
 recover,15786
 evaluate,15780
 inform,15725
-slow,15633
 analyze,15587
 preserve,15527
 enhance,15393
@@ -325,7 +317,6 @@ arise,13351
 resist,13330
 incorporate,13310
 embrace,13183
-secure,13181
 yell,13131
 bind,13109
 weigh,13051
@@ -369,13 +360,11 @@ squeeze,11280
 tap,11279
 differ,11222
 relax,11202
-double,11195
 dismiss,11160
 alter,11106
 convert,10990
 adapt,10987
 derive,10913
-free,10898
 violate,10822
 distribute,10747
 shrug,10689
@@ -404,7 +393,6 @@ sue,9797
 absorb,9762
 prompt,9741
 depict,9721
-dry,9678
 distinguish,9664
 overlook,9553
 appoint,9541
@@ -428,9 +416,7 @@ recruit,9028
 admire,9016
 persuade,8998
 modify,8997
-correct,8988
 shine,8984
-cool,8980
 chase,8980
 facilitate,8946
 resign,8867
@@ -443,7 +429,6 @@ hurry,8723
 fold,8630
 initiate,8630
 swallow,8583
-upset,8570
 beg,8542
 melt,8533
 echo,8477
@@ -465,11 +450,9 @@ reverse,8154
 plead,8140
 administer,8135
 drain,8123
-average,8106
 confuse,8045
 forgive,8003
 assemble,7996
-warm,7973
 lend,7961
 convict,7940
 boost,7863
@@ -526,11 +509,9 @@ cooperate,6763
 tackle,6644
 utilize,6607
 donate,6606
-please,6565
 specialize,6538
 sail,6525
 conceive,6486
-calm,6484
 equip,6436
 condemn,6418
 haul,6401
@@ -613,7 +594,6 @@ articulate,5350
 soar,5344
 spit,5286
 drill,5279
-round,5247
 update,5227
 authorize,5209
 prevail,5207

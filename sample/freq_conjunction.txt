@@ -15,7 +15,6 @@ whether,121921
 although,107925
 even,79087
 nor,37230
-like,35636
 unless,27908
 except,18857
 whereas,12668

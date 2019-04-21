@@ -1,0 +1,3606 @@
+{
+  "value": null,
+  "path_code": null,
+  "left": {
+    "value": null,
+    "path_code": "0",
+    "left": {
+      "value": null,
+      "path_code": "00",
+      "left": {
+        "value": null,
+        "path_code": "000",
+        "left": {
+          "value": null,
+          "path_code": "0000",
+          "left": {
+            "value": null,
+            "path_code": "00000",
+            "left": {
+              "value": null,
+              "path_code": "000000",
+              "left": {
+                "value": "show",
+                "path_code": "0000000",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "0000001",
+                "left": {
+                  "value": null,
+                  "path_code": "00000010",
+                  "left": {
+                    "value": null,
+                    "path_code": "000000100",
+                    "left": {
+                      "value": "ring",
+                      "path_code": "0000001000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "suit",
+                      "path_code": "0000001001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000000101",
+                    "left": {
+                      "value": null,
+                      "path_code": "0000001010",
+                      "left": {
+                        "value": "yield",
+                        "path_code": "00000010100",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "pitch",
+                        "path_code": "00000010101",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "shift",
+                      "path_code": "0000001011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "lead",
+                  "path_code": "00000011",
+                  "left": null,
+                  "right": null
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "000001",
+              "left": {
+                "value": null,
+                "path_code": "0000010",
+                "left": {
+                  "value": "support",
+                  "path_code": "00000100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "result",
+                  "path_code": "00000101",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0000011",
+                "left": {
+                  "value": null,
+                  "path_code": "00000110",
+                  "left": {
+                    "value": "claim",
+                    "path_code": "000001100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "measure",
+                    "path_code": "000001101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "pay",
+                  "path_code": "00000111",
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "00001",
+            "left": {
+              "value": null,
+              "path_code": "000010",
+              "left": {
+                "value": null,
+                "path_code": "0000100",
+                "left": {
+                  "value": null,
+                  "path_code": "00001000",
+                  "left": {
+                    "value": null,
+                    "path_code": "000010000",
+                    "left": {
+                      "value": null,
+                      "path_code": "0000100000",
+                      "left": {
+                        "value": "delay",
+                        "path_code": "00001000000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "bet",
+                        "path_code": "00001000001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "screen",
+                      "path_code": "0000100001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "rise",
+                    "path_code": "000010001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "00001001",
+                  "left": {
+                    "value": null,
+                    "path_code": "000010010",
+                    "left": {
+                      "value": "cross",
+                      "path_code": "0000100100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "speed",
+                      "path_code": "0000100101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000010011",
+                    "left": {
+                      "value": "crowd",
+                      "path_code": "0000100110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "tear",
+                      "path_code": "0000100111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              },
+              "right": {
+                "value": "feel",
+                "path_code": "0000101",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": "look",
+              "path_code": "000011",
+              "left": null,
+              "right": null
+            }
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "0001",
+          "left": {
+            "value": null,
+            "path_code": "00010",
+            "left": {
+              "value": null,
+              "path_code": "000100",
+              "left": {
+                "value": null,
+                "path_code": "0001000",
+                "left": {
+                  "value": null,
+                  "path_code": "00010000",
+                  "left": {
+                    "value": null,
+                    "path_code": "000100000",
+                    "left": {
+                      "value": "pound",
+                      "path_code": "0001000000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0001000001",
+                      "left": {
+                        "value": "collapse",
+                        "path_code": "00010000010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "counter",
+                        "path_code": "00010000011",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": "smile",
+                    "path_code": "000100001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "watch",
+                  "path_code": "00010001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0001001",
+                "left": {
+                  "value": null,
+                  "path_code": "00010010",
+                  "left": {
+                    "value": "risk",
+                    "path_code": "000100100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000100101",
+                    "left": {
+                      "value": "trust",
+                      "path_code": "0001001010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "jump",
+                      "path_code": "0001001011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "00010011",
+                  "left": {
+                    "value": "drop",
+                    "path_code": "000100110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000100111",
+                    "left": {
+                      "value": "cook",
+                      "path_code": "0001001110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "blow",
+                      "path_code": "0001001111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "000101",
+              "left": {
+                "value": null,
+                "path_code": "0001010",
+                "left": {
+                  "value": null,
+                  "path_code": "00010100",
+                  "left": {
+                    "value": "race",
+                    "path_code": "000101000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "charge",
+                    "path_code": "000101001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "00010101",
+                  "left": {
+                    "value": null,
+                    "path_code": "000101010",
+                    "left": {
+                      "value": "bear",
+                      "path_code": "0001010100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "respect",
+                      "path_code": "0001010101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000101011",
+                    "left": {
+                      "value": "damage",
+                      "path_code": "0001010110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "estimate",
+                      "path_code": "0001010111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              },
+              "right": {
+                "value": "talk",
+                "path_code": "0001011",
+                "left": null,
+                "right": null
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "00011",
+            "left": {
+              "value": null,
+              "path_code": "000110",
+              "left": {
+                "value": null,
+                "path_code": "0001100",
+                "left": {
+                  "value": null,
+                  "path_code": "00011000",
+                  "left": {
+                    "value": "visit",
+                    "path_code": "000110000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000110001",
+                    "left": {
+                      "value": "spread",
+                      "path_code": "0001100010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0001100011",
+                      "left": {
+                        "value": "bite",
+                        "path_code": "00011000110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "exhibit",
+                        "path_code": "00011000111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "value": "fall",
+                  "path_code": "00011001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0001101",
+                "left": {
+                  "value": "stop",
+                  "path_code": "00011010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "00011011",
+                  "left": {
+                    "value": "list",
+                    "path_code": "000110110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "000110111",
+                    "left": {
+                      "value": "balance",
+                      "path_code": "0001101110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0001101111",
+                      "left": {
+                        "value": "slice",
+                        "path_code": "00011011110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "guarantee",
+                        "path_code": "00011011111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "000111",
+              "left": {
+                "value": null,
+                "path_code": "0001110",
+                "left": {
+                  "value": null,
+                  "path_code": "00011100",
+                  "left": {
+                    "value": "store",
+                    "path_code": "000111000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "top",
+                    "path_code": "000111001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "experience",
+                  "path_code": "00011101",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0001111",
+                "left": {
+                  "value": "control",
+                  "path_code": "00011110",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "care",
+                  "path_code": "00011111",
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "value": null,
+        "path_code": "001",
+        "left": {
+          "value": null,
+          "path_code": "0010",
+          "left": {
+            "value": null,
+            "path_code": "00100",
+            "left": {
+              "value": null,
+              "path_code": "001000",
+              "left": {
+                "value": "place",
+                "path_code": "0010000",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "0010001",
+                "left": {
+                  "value": "kid",
+                  "path_code": "00100010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "00100011",
+                  "left": {
+                    "value": null,
+                    "path_code": "001000110",
+                    "left": {
+                      "value": null,
+                      "path_code": "0010001100",
+                      "left": {
+                        "value": "divorce",
+                        "path_code": "00100011000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "trace",
+                        "path_code": "00100011001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "stress",
+                      "path_code": "0010001101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "001000111",
+                    "left": {
+                      "value": null,
+                      "path_code": "0010001110",
+                      "left": {
+                        "value": "ban",
+                        "path_code": "00100011100",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "gaze",
+                        "path_code": "00100011101",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "display",
+                      "path_code": "0010001111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "001001",
+              "left": {
+                "value": "help",
+                "path_code": "0010010",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "0010011",
+                "left": {
+                  "value": "walk",
+                  "path_code": "00100110",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "00100111",
+                  "left": {
+                    "value": null,
+                    "path_code": "001001110",
+                    "left": {
+                      "value": null,
+                      "path_code": "0010011100",
+                      "left": {
+                        "value": "pile",
+                        "path_code": "00100111000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "excuse",
+                        "path_code": "00100111001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "surprise",
+                      "path_code": "0010011101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "check",
+                    "path_code": "001001111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "value": "can",
+            "path_code": "00101",
+            "left": null,
+            "right": null
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "0011",
+          "left": {
+            "value": null,
+            "path_code": "00110",
+            "left": {
+              "value": "use",
+              "path_code": "001100",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": null,
+              "path_code": "001101",
+              "left": {
+                "value": null,
+                "path_code": "0011010",
+                "left": {
+                  "value": null,
+                  "path_code": "00110100",
+                  "left": {
+                    "value": "trade",
+                    "path_code": "001101000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "fund",
+                    "path_code": "001101001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "00110101",
+                  "left": {
+                    "value": "benefit",
+                    "path_code": "001101010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "001101011",
+                    "left": {
+                      "value": "abuse",
+                      "path_code": "0011010110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "mix",
+                      "path_code": "0011010111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              },
+              "right": {
+                "value": "turn",
+                "path_code": "0011011",
+                "left": null,
+                "right": null
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "00111",
+            "left": {
+              "value": "work",
+              "path_code": "001110",
+              "left": null,
+              "right": null
+            },
+            "right": {
+              "value": null,
+              "path_code": "001111",
+              "left": {
+                "value": null,
+                "path_code": "0011110",
+                "left": {
+                  "value": null,
+                  "path_code": "00111100",
+                  "left": {
+                    "value": "concern",
+                    "path_code": "001111000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "wonder",
+                    "path_code": "001111001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "00111101",
+                  "left": {
+                    "value": "lie",
+                    "path_code": "001111010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "001111011",
+                    "left": {
+                      "value": "desire",
+                      "path_code": "0011110110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0011110111",
+                      "left": {
+                        "value": "stem",
+                        "path_code": "00111101110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "flash",
+                        "path_code": "00111101111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0011111",
+                "left": {
+                  "value": null,
+                  "path_code": "00111110",
+                  "left": {
+                    "value": "color",
+                    "path_code": "001111100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "001111101",
+                    "left": {
+                      "value": "exchange",
+                      "path_code": "0011111010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "guide",
+                      "path_code": "0011111011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "form",
+                  "path_code": "00111111",
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "right": {
+      "value": null,
+      "path_code": "01",
+      "left": {
+        "value": null,
+        "path_code": "010",
+        "left": {
+          "value": null,
+          "path_code": "0100",
+          "left": {
+            "value": null,
+            "path_code": "01000",
+            "left": {
+              "value": null,
+              "path_code": "010000",
+              "left": {
+                "value": null,
+                "path_code": "0100000",
+                "left": {
+                  "value": "offer",
+                  "path_code": "01000000",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01000001",
+                  "left": {
+                    "value": "range",
+                    "path_code": "010000010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "010000011",
+                    "left": {
+                      "value": null,
+                      "path_code": "0100000110",
+                      "left": {
+                        "value": "pump",
+                        "path_code": "01000001100",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "ease",
+                        "path_code": "01000001101",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0100000111",
+                      "left": {
+                        "value": "defeat",
+                        "path_code": "01000001110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "wound",
+                        "path_code": "01000001111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                }
+              },
+              "right": {
+                "value": "leave",
+                "path_code": "0100001",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "010001",
+              "left": {
+                "value": null,
+                "path_code": "0100010",
+                "left": {
+                  "value": "research",
+                  "path_code": "01000100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "cut",
+                  "path_code": "01000101",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": "hand",
+                "path_code": "0100011",
+                "left": null,
+                "right": null
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "01001",
+            "left": {
+              "value": null,
+              "path_code": "010010",
+              "left": {
+                "value": null,
+                "path_code": "0100100",
+                "left": {
+                  "value": null,
+                  "path_code": "01001000",
+                  "left": {
+                    "value": "challenge",
+                    "path_code": "010010000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "010010001",
+                    "left": {
+                      "value": "appeal",
+                      "path_code": "0100100010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "circle",
+                      "path_code": "0100100011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "win",
+                  "path_code": "01001001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": "point",
+                "path_code": "0100101",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "010011",
+              "left": {
+                "value": null,
+                "path_code": "0100110",
+                "left": {
+                  "value": null,
+                  "path_code": "01001100",
+                  "left": {
+                    "value": "fear",
+                    "path_code": "010011000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "010011001",
+                    "left": {
+                      "value": "trail",
+                      "path_code": "0100110010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "decline",
+                      "path_code": "0100110011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "break",
+                  "path_code": "01001101",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0100111",
+                "left": {
+                  "value": null,
+                  "path_code": "01001110",
+                  "left": {
+                    "value": "score",
+                    "path_code": "010011100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "010011101",
+                    "left": {
+                      "value": "flow",
+                      "path_code": "0100111010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "match",
+                      "path_code": "0100111011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "process",
+                  "path_code": "01001111",
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "0101",
+          "left": {
+            "value": null,
+            "path_code": "01010",
+            "left": {
+              "value": null,
+              "path_code": "010100",
+              "left": {
+                "value": "start",
+                "path_code": "0101000",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "0101001",
+                "left": {
+                  "value": null,
+                  "path_code": "01010010",
+                  "left": {
+                    "value": null,
+                    "path_code": "010100100",
+                    "left": {
+                      "value": "taste",
+                      "path_code": "0101001000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "rain",
+                      "path_code": "0101001001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "address",
+                    "path_code": "010100101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01010011",
+                  "left": {
+                    "value": null,
+                    "path_code": "010100110",
+                    "left": {
+                      "value": null,
+                      "path_code": "0101001100",
+                      "left": {
+                        "value": "tune",
+                        "path_code": "01010011000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "rent",
+                        "path_code": "01010011001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "graduate",
+                      "path_code": "0101001101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "010100111",
+                    "left": {
+                      "value": "host",
+                      "path_code": "0101001110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "witness",
+                      "path_code": "0101001111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "010101",
+              "left": {
+                "value": "change",
+                "path_code": "0101010",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "0101011",
+                "left": {
+                  "value": "base",
+                  "path_code": "01010110",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01010111",
+                  "left": {
+                    "value": "press",
+                    "path_code": "010101110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "010101111",
+                    "left": {
+                      "value": null,
+                      "path_code": "0101011110",
+                      "left": {
+                        "value": "trap",
+                        "path_code": "01010111100",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "reward",
+                        "path_code": "01010111101",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "waste",
+                      "path_code": "0101011111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "01011",
+            "left": {
+              "value": null,
+              "path_code": "010110",
+              "left": {
+                "value": "play",
+                "path_code": "0101100",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "0101101",
+                "left": {
+                  "value": null,
+                  "path_code": "01011010",
+                  "left": {
+                    "value": null,
+                    "path_code": "010110100",
+                    "left": {
+                      "value": "doubt",
+                      "path_code": "0101101000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "schedule",
+                      "path_code": "0101101001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "interview",
+                    "path_code": "010110101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "hope",
+                  "path_code": "01011011",
+                  "left": null,
+                  "right": null
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "010111",
+              "left": {
+                "value": null,
+                "path_code": "0101110",
+                "left": {
+                  "value": null,
+                  "path_code": "01011100",
+                  "left": {
+                    "value": null,
+                    "path_code": "010111000",
+                    "left": {
+                      "value": null,
+                      "path_code": "0101110000",
+                      "left": {
+                        "value": "rescue",
+                        "path_code": "01011100000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "reserve",
+                        "path_code": "01011100001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "pack",
+                      "path_code": "0101110001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "laugh",
+                    "path_code": "010111001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01011101",
+                  "left": {
+                    "value": null,
+                    "path_code": "010111010",
+                    "left": {
+                      "value": null,
+                      "path_code": "0101110100",
+                      "left": {
+                        "value": "hook",
+                        "path_code": "01011101000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "sponsor",
+                        "path_code": "01011101001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "honor",
+                      "path_code": "0101110101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "coach",
+                    "path_code": "010111011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0101111",
+                "left": {
+                  "value": "return",
+                  "path_code": "01011110",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01011111",
+                  "left": {
+                    "value": null,
+                    "path_code": "010111110",
+                    "left": {
+                      "value": "aid",
+                      "path_code": "0101111100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "grant",
+                      "path_code": "0101111101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "account",
+                    "path_code": "010111111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "value": null,
+        "path_code": "011",
+        "left": {
+          "value": null,
+          "path_code": "0110",
+          "left": {
+            "value": null,
+            "path_code": "01100",
+            "left": {
+              "value": null,
+              "path_code": "011000",
+              "left": {
+                "value": null,
+                "path_code": "0110000",
+                "left": {
+                  "value": "market",
+                  "path_code": "01100000",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01100001",
+                  "left": {
+                    "value": "judge",
+                    "path_code": "011000010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "demand",
+                    "path_code": "011000011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0110001",
+                "left": {
+                  "value": "figure",
+                  "path_code": "01100010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01100011",
+                  "left": {
+                    "value": null,
+                    "path_code": "011000110",
+                    "left": {
+                      "value": "wake",
+                      "path_code": "0110001100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "smoke",
+                      "path_code": "0110001101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "feature",
+                    "path_code": "011000111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "011001",
+              "left": {
+                "value": null,
+                "path_code": "0110010",
+                "left": {
+                  "value": "age",
+                  "path_code": "01100100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01100101",
+                  "left": {
+                    "value": null,
+                    "path_code": "011001010",
+                    "left": {
+                      "value": null,
+                      "path_code": "0110010100",
+                      "left": {
+                        "value": "repair",
+                        "path_code": "01100101000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "remark",
+                        "path_code": "01100101001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "smell",
+                      "path_code": "0110010101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "attempt",
+                    "path_code": "011001011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": "study",
+                "path_code": "0110011",
+                "left": null,
+                "right": null
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "01101",
+            "left": {
+              "value": null,
+              "path_code": "011010",
+              "left": {
+                "value": "run",
+                "path_code": "0110100",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "0110101",
+                "left": {
+                  "value": null,
+                  "path_code": "01101010",
+                  "left": {
+                    "value": null,
+                    "path_code": "011010100",
+                    "left": {
+                      "value": "stretch",
+                      "path_code": "0110101000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "tip",
+                      "path_code": "0110101001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "travel",
+                    "path_code": "011010101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "view",
+                  "path_code": "01101011",
+                  "left": null,
+                  "right": null
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "011011",
+              "left": {
+                "value": null,
+                "path_code": "0110110",
+                "left": {
+                  "value": "test",
+                  "path_code": "01101100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "cost",
+                  "path_code": "01101101",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0110111",
+                "left": {
+                  "value": null,
+                  "path_code": "01101110",
+                  "left": {
+                    "value": null,
+                    "path_code": "011011100",
+                    "left": {
+                      "value": "frame",
+                      "path_code": "0110111000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "root",
+                      "path_code": "0110111001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "011011101",
+                    "left": {
+                      "value": "photograph",
+                      "path_code": "0110111010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0110111011",
+                      "left": {
+                        "value": "flood",
+                        "path_code": "01101110110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "harm",
+                        "path_code": "01101110111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "value": "drive",
+                  "path_code": "01101111",
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "0111",
+          "left": {
+            "value": "will",
+            "path_code": "01110",
+            "left": null,
+            "right": null
+          },
+          "right": {
+            "value": null,
+            "path_code": "01111",
+            "left": {
+              "value": null,
+              "path_code": "011110",
+              "left": {
+                "value": null,
+                "path_code": "0111100",
+                "left": {
+                  "value": "deal",
+                  "path_code": "01111000",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01111001",
+                  "left": {
+                    "value": null,
+                    "path_code": "011110010",
+                    "left": {
+                      "value": "advance",
+                      "path_code": "0111100100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "transfer",
+                      "path_code": "0111100101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "011110011",
+                    "left": {
+                      "value": null,
+                      "path_code": "0111100110",
+                      "left": {
+                        "value": "broadcast",
+                        "path_code": "01111001100",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "seal",
+                        "path_code": "01111001101",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "arrest",
+                      "path_code": "0111100111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "0111101",
+                "left": {
+                  "value": null,
+                  "path_code": "01111010",
+                  "left": {
+                    "value": "sort",
+                    "path_code": "011110100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "011110101",
+                    "left": {
+                      "value": "suspect",
+                      "path_code": "0111101010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "0111101011",
+                      "left": {
+                        "value": "grin",
+                        "path_code": "01111010110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "strain",
+                        "path_code": "01111010111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "value": "sense",
+                  "path_code": "01111011",
+                  "left": null,
+                  "right": null
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "011111",
+              "left": {
+                "value": null,
+                "path_code": "0111110",
+                "left": {
+                  "value": "step",
+                  "path_code": "01111100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "01111101",
+                  "left": {
+                    "value": "sleep",
+                    "path_code": "011111010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "dream",
+                    "path_code": "011111011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": "question",
+                "path_code": "0111111",
+                "left": null,
+                "right": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "right": {
+    "value": null,
+    "path_code": "1",
+    "left": {
+      "value": null,
+      "path_code": "10",
+      "left": {
+        "value": null,
+        "path_code": "100",
+        "left": {
+          "value": null,
+          "path_code": "1000",
+          "left": {
+            "value": null,
+            "path_code": "10000",
+            "left": {
+              "value": null,
+              "path_code": "100000",
+              "left": {
+                "value": null,
+                "path_code": "1000000",
+                "left": {
+                  "value": null,
+                  "path_code": "10000000",
+                  "left": {
+                    "value": null,
+                    "path_code": "100000000",
+                    "left": {
+                      "value": "aim",
+                      "path_code": "1000000000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "purchase",
+                      "path_code": "1000000001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "100000001",
+                    "left": {
+                      "value": "rush",
+                      "path_code": "1000000010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "request",
+                      "path_code": "1000000011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "cause",
+                  "path_code": "10000001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": "end",
+                "path_code": "1000001",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "100001",
+              "left": {
+                "value": "move",
+                "path_code": "1000010",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "1000011",
+                "left": {
+                  "value": null,
+                  "path_code": "10000110",
+                  "left": {
+                    "value": "rock",
+                    "path_code": "100001100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "100001101",
+                    "left": {
+                      "value": "launch",
+                      "path_code": "1000011010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1000011011",
+                      "left": {
+                        "value": "twist",
+                        "path_code": "10000110110",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "compromise",
+                        "path_code": "10000110111",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "value": "stay",
+                  "path_code": "10000111",
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "10001",
+            "left": {
+              "value": null,
+              "path_code": "100010",
+              "left": {
+                "value": null,
+                "path_code": "1000100",
+                "left": {
+                  "value": null,
+                  "path_code": "10001000",
+                  "left": {
+                    "value": "beat",
+                    "path_code": "100010000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "fly",
+                    "path_code": "100010001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "light",
+                  "path_code": "10001001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1000101",
+                "left": {
+                  "value": "sound",
+                  "path_code": "10001010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "pass",
+                  "path_code": "10001011",
+                  "left": null,
+                  "right": null
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "100011",
+              "left": {
+                "value": null,
+                "path_code": "1000110",
+                "left": {
+                  "value": "note",
+                  "path_code": "10001100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10001101",
+                  "left": {
+                    "value": "spring",
+                    "path_code": "100011010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "finish",
+                    "path_code": "100011011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": "program",
+                "path_code": "1000111",
+                "left": null,
+                "right": null
+              }
+            }
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "1001",
+          "left": {
+            "value": null,
+            "path_code": "10010",
+            "left": {
+              "value": null,
+              "path_code": "100100",
+              "left": {
+                "value": null,
+                "path_code": "1001000",
+                "left": {
+                  "value": null,
+                  "path_code": "10010000",
+                  "left": {
+                    "value": "seat",
+                    "path_code": "100100000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "limit",
+                    "path_code": "100100001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10010001",
+                  "left": {
+                    "value": "lack",
+                    "path_code": "100100010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "drink",
+                    "path_code": "100100011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": "head",
+                "path_code": "1001001",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "100101",
+              "left": {
+                "value": null,
+                "path_code": "1001010",
+                "left": {
+                  "value": "reach",
+                  "path_code": "10010100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "mind",
+                  "path_code": "10010101",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1001011",
+                "left": {
+                  "value": null,
+                  "path_code": "10010110",
+                  "left": {
+                    "value": "release",
+                    "path_code": "100101100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "influence",
+                    "path_code": "100101101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "record",
+                  "path_code": "10010111",
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "10011",
+            "left": {
+              "value": null,
+              "path_code": "100110",
+              "left": {
+                "value": null,
+                "path_code": "1001100",
+                "left": {
+                  "value": null,
+                  "path_code": "10011000",
+                  "left": {
+                    "value": null,
+                    "path_code": "100110000",
+                    "left": {
+                      "value": "print",
+                      "path_code": "1001100000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "slide",
+                      "path_code": "1001100001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "touch",
+                    "path_code": "100110001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "answer",
+                  "path_code": "10011001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": "face",
+                "path_code": "1001101",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "100111",
+              "left": {
+                "value": null,
+                "path_code": "1001110",
+                "left": {
+                  "value": "rate",
+                  "path_code": "10011100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10011101",
+                  "left": {
+                    "value": null,
+                    "path_code": "100111010",
+                    "left": {
+                      "value": null,
+                      "path_code": "1001110100",
+                      "left": {
+                        "value": "praise",
+                        "path_code": "10011101000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "sacrifice",
+                        "path_code": "10011101001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "glance",
+                      "path_code": "1001110101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "wind",
+                    "path_code": "100111011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1001111",
+                "left": {
+                  "value": null,
+                  "path_code": "10011110",
+                  "left": {
+                    "value": "ride",
+                    "path_code": "100111100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "dress",
+                    "path_code": "100111101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10011111",
+                  "left": {
+                    "value": "search",
+                    "path_code": "100111110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "stuff",
+                    "path_code": "100111111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "value": null,
+        "path_code": "101",
+        "left": {
+          "value": null,
+          "path_code": "1010",
+          "left": {
+            "value": null,
+            "path_code": "10100",
+            "left": {
+              "value": null,
+              "path_code": "101000",
+              "left": {
+                "value": null,
+                "path_code": "1010000",
+                "left": {
+                  "value": null,
+                  "path_code": "10100000",
+                  "left": {
+                    "value": null,
+                    "path_code": "101000000",
+                    "left": {
+                      "value": "signal",
+                      "path_code": "1010000000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "peer",
+                      "path_code": "1010000001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "101000001",
+                    "left": {
+                      "value": "bomb",
+                      "path_code": "1010000010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "escape",
+                      "path_code": "1010000011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "design",
+                  "path_code": "10100001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1010001",
+                "left": {
+                  "value": "matter",
+                  "path_code": "10100010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10100011",
+                  "left": {
+                    "value": "worry",
+                    "path_code": "101000110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "heat",
+                    "path_code": "101000111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "101001",
+              "left": {
+                "value": "hold",
+                "path_code": "1010010",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "1010011",
+                "left": {
+                  "value": null,
+                  "path_code": "10100110",
+                  "left": {
+                    "value": "strike",
+                    "path_code": "101001100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "101001101",
+                    "left": {
+                      "value": "swing",
+                      "path_code": "1010011010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "kiss",
+                      "path_code": "1010011011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10100111",
+                  "left": {
+                    "value": "notice",
+                    "path_code": "101001110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "fish",
+                    "path_code": "101001111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "10101",
+            "left": {
+              "value": null,
+              "path_code": "101010",
+              "left": {
+                "value": null,
+                "path_code": "1010100",
+                "left": {
+                  "value": null,
+                  "path_code": "10101000",
+                  "left": {
+                    "value": "gain",
+                    "path_code": "101010000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "101010001",
+                    "left": {
+                      "value": "lock",
+                      "path_code": "1010100010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "copy",
+                      "path_code": "1010100011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10101001",
+                  "left": {
+                    "value": null,
+                    "path_code": "101010010",
+                    "left": {
+                      "value": "cast",
+                      "path_code": "1010100100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": null,
+                      "path_code": "1010100101",
+                      "left": {
+                        "value": "bow",
+                        "path_code": "10101001010",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "cure",
+                        "path_code": "10101001011",
+                        "left": null,
+                        "right": null
+                      }
+                    }
+                  },
+                  "right": {
+                    "value": "train",
+                    "path_code": "101010011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1010101",
+                "left": {
+                  "value": "increase",
+                  "path_code": "10101010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "cover",
+                  "path_code": "10101011",
+                  "left": null,
+                  "right": null
+                }
+              }
+            },
+            "right": {
+              "value": "call",
+              "path_code": "101011",
+              "left": null,
+              "right": null
+            }
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "1011",
+          "left": {
+            "value": null,
+            "path_code": "10110",
+            "left": {
+              "value": null,
+              "path_code": "101100",
+              "left": {
+                "value": null,
+                "path_code": "1011000",
+                "left": {
+                  "value": null,
+                  "path_code": "10110000",
+                  "left": {
+                    "value": "track",
+                    "path_code": "101100000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "wish",
+                    "path_code": "101100001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "arm",
+                  "path_code": "10110001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1011001",
+                "left": {
+                  "value": null,
+                  "path_code": "10110010",
+                  "left": {
+                    "value": "review",
+                    "path_code": "101100100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "mention",
+                    "path_code": "101100101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "value",
+                  "path_code": "10110011",
+                  "left": null,
+                  "right": null
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "101101",
+              "left": {
+                "value": null,
+                "path_code": "1011010",
+                "left": {
+                  "value": "hit",
+                  "path_code": "10110100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10110101",
+                  "left": {
+                    "value": "trouble",
+                    "path_code": "101101010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "date",
+                    "path_code": "101101011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1011011",
+                "left": {
+                  "value": "sign",
+                  "path_code": "10110110",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10110111",
+                  "left": {
+                    "value": "roll",
+                    "path_code": "101101110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "101101111",
+                    "left": {
+                      "value": "monitor",
+                      "path_code": "1011011110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "post",
+                      "path_code": "1011011111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "10111",
+            "left": {
+              "value": null,
+              "path_code": "101110",
+              "left": {
+                "value": null,
+                "path_code": "1011100",
+                "left": {
+                  "value": "model",
+                  "path_code": "10111000",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "10111001",
+                  "left": {
+                    "value": "shape",
+                    "path_code": "101110010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "101110011",
+                    "left": {
+                      "value": "regard",
+                      "path_code": "1011100110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "permit",
+                      "path_code": "1011100111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              },
+              "right": {
+                "value": "issue",
+                "path_code": "1011101",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": "need",
+              "path_code": "101111",
+              "left": null,
+              "right": null
+            }
+          }
+        }
+      }
+    },
+    "right": {
+      "value": null,
+      "path_code": "11",
+      "left": {
+        "value": null,
+        "path_code": "110",
+        "left": {
+          "value": null,
+          "path_code": "1100",
+          "left": {
+            "value": null,
+            "path_code": "11000",
+            "left": {
+              "value": null,
+              "path_code": "110000",
+              "left": {
+                "value": null,
+                "path_code": "1100000",
+                "left": {
+                  "value": null,
+                  "path_code": "11000000",
+                  "left": {
+                    "value": "debate",
+                    "path_code": "110000000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "stick",
+                    "path_code": "110000001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "land",
+                  "path_code": "11000001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": "name",
+                "path_code": "1100001",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "110001",
+              "left": {
+                "value": null,
+                "path_code": "1100010",
+                "left": {
+                  "value": null,
+                  "path_code": "11000100",
+                  "left": {
+                    "value": null,
+                    "path_code": "110001000",
+                    "left": {
+                      "value": "volunteer",
+                      "path_code": "1100010000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "quote",
+                      "path_code": "1100010001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "110001001",
+                    "left": {
+                      "value": "favor",
+                      "path_code": "1100010010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "load",
+                      "path_code": "1100010011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11000101",
+                  "left": {
+                    "value": "promise",
+                    "path_code": "110001010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "spot",
+                    "path_code": "110001011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": "set",
+                "path_code": "1100011",
+                "left": null,
+                "right": null
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "11001",
+            "left": {
+              "value": null,
+              "path_code": "110010",
+              "left": {
+                "value": "report",
+                "path_code": "1100100",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": "love",
+                "path_code": "1100101",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "110011",
+              "left": {
+                "value": null,
+                "path_code": "1100110",
+                "left": {
+                  "value": null,
+                  "path_code": "11001100",
+                  "left": {
+                    "value": "conduct",
+                    "path_code": "110011000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "110011001",
+                    "left": {
+                      "value": "pop",
+                      "path_code": "1100110010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "rank",
+                      "path_code": "1100110011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "fire",
+                  "path_code": "11001101",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1100111",
+                "left": {
+                  "value": "share",
+                  "path_code": "11001110",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11001111",
+                  "left": {
+                    "value": "block",
+                    "path_code": "110011110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "tie",
+                    "path_code": "110011111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "1101",
+          "left": {
+            "value": null,
+            "path_code": "11010",
+            "left": {
+              "value": null,
+              "path_code": "110100",
+              "left": {
+                "value": null,
+                "path_code": "1101000",
+                "left": {
+                  "value": "practice",
+                  "path_code": "11010000",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "order",
+                  "path_code": "11010001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1101001",
+                "left": {
+                  "value": "focus",
+                  "path_code": "11010010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11010011",
+                  "left": {
+                    "value": null,
+                    "path_code": "110100110",
+                    "left": {
+                      "value": "shock",
+                      "path_code": "1101001100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "joke",
+                      "path_code": "1101001101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "count",
+                    "path_code": "110100111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "110101",
+              "left": {
+                "value": null,
+                "path_code": "1101010",
+                "left": {
+                  "value": "position",
+                  "path_code": "11010100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "project",
+                  "path_code": "11010101",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1101011",
+                "left": {
+                  "value": null,
+                  "path_code": "11010110",
+                  "left": {
+                    "value": null,
+                    "path_code": "110101100",
+                    "left": {
+                      "value": null,
+                      "path_code": "1101011000",
+                      "left": {
+                        "value": "transport",
+                        "path_code": "11010110000",
+                        "left": null,
+                        "right": null
+                      },
+                      "right": {
+                        "value": "harvest",
+                        "path_code": "11010110001",
+                        "left": null,
+                        "right": null
+                      }
+                    },
+                    "right": {
+                      "value": "pause",
+                      "path_code": "1101011001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "access",
+                    "path_code": "110101101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11010111",
+                  "left": {
+                    "value": null,
+                    "path_code": "110101110",
+                    "left": {
+                      "value": "command",
+                      "path_code": "1101011100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "award",
+                      "path_code": "1101011101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "credit",
+                    "path_code": "110101111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "11011",
+            "left": {
+              "value": null,
+              "path_code": "110110",
+              "left": {
+                "value": null,
+                "path_code": "1101100",
+                "left": {
+                  "value": null,
+                  "path_code": "11011000",
+                  "left": {
+                    "value": "park",
+                    "path_code": "110110000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "object",
+                    "path_code": "110110001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11011001",
+                  "left": {
+                    "value": "target",
+                    "path_code": "110110010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "110110011",
+                    "left": {
+                      "value": "label",
+                      "path_code": "1101100110",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "crash",
+                      "path_code": "1101100111",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1101101",
+                "left": {
+                  "value": "approach",
+                  "path_code": "11011010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11011011",
+                  "left": {
+                    "value": "exercise",
+                    "path_code": "110110110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "comment",
+                    "path_code": "110110111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "110111",
+              "left": {
+                "value": null,
+                "path_code": "1101110",
+                "left": {
+                  "value": null,
+                  "path_code": "11011100",
+                  "left": {
+                    "value": "contact",
+                    "path_code": "110111000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "wave",
+                    "path_code": "110111001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11011101",
+                  "left": {
+                    "value": "struggle",
+                    "path_code": "110111010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "survey",
+                    "path_code": "110111011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": "house",
+                "path_code": "1101111",
+                "left": null,
+                "right": null
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "value": null,
+        "path_code": "111",
+        "left": {
+          "value": null,
+          "path_code": "1110",
+          "left": {
+            "value": null,
+            "path_code": "11100",
+            "left": {
+              "value": null,
+              "path_code": "111000",
+              "left": {
+                "value": null,
+                "path_code": "1110000",
+                "left": {
+                  "value": null,
+                  "path_code": "11100000",
+                  "left": {
+                    "value": "file",
+                    "path_code": "111000000",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "111000001",
+                    "left": {
+                      "value": "finance",
+                      "path_code": "1110000010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "encounter",
+                      "path_code": "1110000011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": "fight",
+                  "path_code": "11100001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1110001",
+                "left": {
+                  "value": "star",
+                  "path_code": "11100010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11100011",
+                  "left": {
+                    "value": "dance",
+                    "path_code": "111000110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "ship",
+                    "path_code": "111000111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": "state",
+              "path_code": "111001",
+              "left": null,
+              "right": null
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "11101",
+            "left": {
+              "value": null,
+              "path_code": "111010",
+              "left": {
+                "value": "stand",
+                "path_code": "1110100",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "1110101",
+                "left": {
+                  "value": "act",
+                  "path_code": "11101010",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11101011",
+                  "left": {
+                    "value": null,
+                    "path_code": "111010110",
+                    "left": {
+                      "value": "advocate",
+                      "path_code": "1110101100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "crack",
+                      "path_code": "1110101101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "document",
+                    "path_code": "111010111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "111011",
+              "left": {
+                "value": null,
+                "path_code": "1110110",
+                "left": {
+                  "value": "plant",
+                  "path_code": "11101100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11101101",
+                  "left": {
+                    "value": null,
+                    "path_code": "111011010",
+                    "left": {
+                      "value": "switch",
+                      "path_code": "1110110100",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "protest",
+                      "path_code": "1110110101",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "cry",
+                    "path_code": "111011011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": "force",
+                "path_code": "1110111",
+                "left": null,
+                "right": null
+              }
+            }
+          }
+        },
+        "right": {
+          "value": null,
+          "path_code": "1111",
+          "left": {
+            "value": null,
+            "path_code": "11110",
+            "left": {
+              "value": null,
+              "path_code": "111100",
+              "left": {
+                "value": null,
+                "path_code": "1111000",
+                "left": {
+                  "value": "rule",
+                  "path_code": "11110000",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": "picture",
+                  "path_code": "11110001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1111001",
+                "left": {
+                  "value": null,
+                  "path_code": "11110010",
+                  "left": {
+                    "value": "supply",
+                    "path_code": "111100100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "guard",
+                    "path_code": "111100101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "rest",
+                  "path_code": "11110011",
+                  "left": null,
+                  "right": null
+                }
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "111101",
+              "left": {
+                "value": "plan",
+                "path_code": "1111010",
+                "left": null,
+                "right": null
+              },
+              "right": {
+                "value": null,
+                "path_code": "1111011",
+                "left": {
+                  "value": null,
+                  "path_code": "11110110",
+                  "left": {
+                    "value": "handle",
+                    "path_code": "111101100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "function",
+                    "path_code": "111101101",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "attack",
+                  "path_code": "11110111",
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          },
+          "right": {
+            "value": null,
+            "path_code": "11111",
+            "left": {
+              "value": null,
+              "path_code": "111110",
+              "left": {
+                "value": null,
+                "path_code": "1111100",
+                "left": {
+                  "value": null,
+                  "path_code": "11111000",
+                  "left": {
+                    "value": null,
+                    "path_code": "111110000",
+                    "left": {
+                      "value": "draft",
+                      "path_code": "1111100000",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "sink",
+                      "path_code": "1111100001",
+                      "left": null,
+                      "right": null
+                    }
+                  },
+                  "right": {
+                    "value": "battle",
+                    "path_code": "111110001",
+                    "left": null,
+                    "right": null
+                  }
+                },
+                "right": {
+                  "value": "vote",
+                  "path_code": "11111001",
+                  "left": null,
+                  "right": null
+                }
+              },
+              "right": {
+                "value": "line",
+                "path_code": "1111101",
+                "left": null,
+                "right": null
+              }
+            },
+            "right": {
+              "value": null,
+              "path_code": "111111",
+              "left": {
+                "value": null,
+                "path_code": "1111110",
+                "left": {
+                  "value": "catch",
+                  "path_code": "11111100",
+                  "left": null,
+                  "right": null
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11111101",
+                  "left": {
+                    "value": "mark",
+                    "path_code": "111111010",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "shop",
+                    "path_code": "111111011",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              },
+              "right": {
+                "value": null,
+                "path_code": "1111111",
+                "left": {
+                  "value": null,
+                  "path_code": "11111110",
+                  "left": {
+                    "value": "link",
+                    "path_code": "111111100",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": null,
+                    "path_code": "111111101",
+                    "left": {
+                      "value": "brush",
+                      "path_code": "1111111010",
+                      "left": null,
+                      "right": null
+                    },
+                    "right": {
+                      "value": "strip",
+                      "path_code": "1111111011",
+                      "left": null,
+                      "right": null
+                    }
+                  }
+                },
+                "right": {
+                  "value": null,
+                  "path_code": "11111111",
+                  "left": {
+                    "value": "murder",
+                    "path_code": "111111110",
+                    "left": null,
+                    "right": null
+                  },
+                  "right": {
+                    "value": "paint",
+                    "path_code": "111111111",
+                    "left": null,
+                    "right": null
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
