@@ -1,4 +1,5 @@
 import unittest
+from collections import Counter
 
 from bitstring import Bits
 
@@ -118,25 +119,27 @@ class TestTextAnalyser(unittest.TestCase):
             ("ten", 2)
         }
         out_1, out_2, out_3 = TextAnalyser.combine_analyses(in_1, in_2)
-        self.assertIsInstance(out_1, list)
-        self.assertIsInstance(out_2, list)
-        self.assertIsInstance(out_3, list)
+        self.assertIsInstance(out_1, Counter)
+        self.assertIsInstance(out_2, Counter)
+        self.assertIsInstance(out_3, Counter)
 
-        self.assertEqual(4, len(out_1))
-        self.assertEqual(("seven", 70), out_1[0])
-        self.assertEqual(("one", 10), out_1[3])
+        self.assertDictEqual({
+            "one": 10,
+            "three": 30,
+            "five": 50,
+            "seven": 70
+        }, dict(out_1.items()))
 
-        self.assertEqual(2, len(out_2))
-        self.assertEqual(("eight", 4), out_2[0])
-        self.assertEqual(("ten", 2), out_2[1])
+        self.assertDictEqual({
+            "eight": 4,
+            "ten": 2
+        }, dict(out_2.items()))
 
-        self.assertListEqual([
-            ("six", 65),
-            ("four", 47),
-            ("two", 29)
-        ], out_3)
-
-
+        self.assertDictEqual({
+            "six": 65,
+            "four": 47,
+            "two": 29
+        }, dict(out_3.items()))
 
 
 if __name__ == '__main__':

@@ -10,7 +10,6 @@ them,677870
 me,709623
 him,677707
 one,369553
-her,397950
 us,351088
 something,254910
 nothing,126717
@@ -23,7 +22,6 @@ everyone,74534
 itself,71093
 anyone,58274
 myself,59716
-other,54372
 each,53663
 herself,52915
 everybody,51147
@@ -36,7 +34,6 @@ nobody,34280
 anybody,28704
 lots,23750
 ourselves,19926
-his,19663
 plenty,17445
 mine,15794
 another,14441

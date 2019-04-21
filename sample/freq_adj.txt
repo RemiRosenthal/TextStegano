@@ -20,9 +20,7 @@ bad,134910
 white,126760
 real,124187
 best,124850
-right,126278
 social,132899
-only,117700
 public,119825
 sure,116186
 low,108990
@@ -100,10 +98,7 @@ traditional,43681
 cultural,45673
 wide,41233
 particular,42291
-top,41484
-far,39967
 deep,40126
-individual,42325
 specific,42397
 necessary,40776
 middle,40402
@@ -138,7 +133,6 @@ involved,33428
 nuclear,34264
 British,32929
 African,34557
-very,31807
 sorry,34270
 normal,31265
 Chinese,32334
@@ -156,7 +150,6 @@ interested,29155
 wild,29473
 average,29717
 quick,29108
-light,29731
 bright,29780
 tiny,29756
 additional,29771
@@ -217,7 +210,6 @@ complex,23751
 scientific,23691
 impossible,22233
 married,22352
-alone,23106
 presidential,24057
 emotional,22773
 Supreme,23904
@@ -228,7 +220,6 @@ Iraqi,25446
 expensive,21706
 yellow,22452
 prime,22075
-like,21723
 obvious,21052
 comfortable,21101
 angry,21485
@@ -243,19 +234,16 @@ Catholic,20866
 long-term,20841
 slow,20404
 brown,21175
-standard,20917
 English,20235
 funny,20399
 correct,20613
 Jewish,20196
 crazy,20345
-just,20096
 ancient,19818
 golden,19852
 German,20096
 used,19130
 equal,19952
-official,19628
 typical,19724
 conservative,19778
 smart,19370
@@ -316,7 +304,6 @@ remaining,15992
 visual,17316
 violent,15765
 silent,16802
-later,15734
 immediate,15680
 mass,15939
 leading,15665
@@ -383,11 +370,9 @@ Palestinian,14008
 giant,12963
 substantial,13376
 conventional,13209
-fast,12738
 biological,13233
 flat,12899
 mad,12903
-alternative,13289
 armed,12966
 clinical,13593
 Muslim,13147
@@ -405,7 +390,6 @@ Italian,12384
 Canadian,12820
 universal,12590
 super,12586
-bottom,12169
 lost,11886
 unlikely,11869
 constitutional,12567
@@ -508,7 +492,6 @@ civilian,9684
 weekly,9297
 wise,9101
 gifted,10941
-firm,9036
 running,9271
 distinct,9682
 artistic,9423
@@ -558,7 +541,6 @@ suburban,8463
 retail,8600
 classical,8475
 estimated,8464
-patient,8504
 missing,8232
 reliable,8302
 Roman,8299
@@ -648,7 +630,6 @@ scary,6865
 disappointed,6724
 precious,6716
 representative,7008
-content,7113
 realistic,6786
 hidden,6787
 tender,7013
@@ -801,14 +782,12 @@ fragile,5125
 old-fashioned,5200
 crowded,5196
 fantastic,5269
-level,5367
 liquid,5265
 suitable,5291
 cruel,5128
 loyal,5066
 rubber,5190
 favorable,5324
-veteran,5312
 integrated,5455
 blond,5479
 explicit,5461

@@ -1,6 +1,6 @@
-import collections
 import os
 import re
+from collections import Counter
 from functools import reduce
 from typing import Tuple, List, Set
 
@@ -16,12 +16,12 @@ DEFAULT_MAPPINGS_FILE = "..\\mappings.txt"
 
 class TextAnalyser:
     @staticmethod
-    def analyse_sample(sample_filename=DEFAULT_SAMPLE_FILE, string_length=1) -> collections.Counter:
+    def analyse_sample(sample_filename=DEFAULT_SAMPLE_FILE, string_length=1) -> Counter:
         """
         Analyse the given sample text for a statistical profile of string frequencies.
         The length of that string can be specified, otherwise is 1 by default.
         """
-        string_definitions = collections.Counter()
+        string_definitions = Counter()
         try:
             with open(sample_filename, "r", encoding="utf-8") as handle:
                 text = handle.read()  # Read the entire file
@@ -42,8 +42,7 @@ class TextAnalyser:
         return string_definitions
 
     @staticmethod
-    def print_analysis(string_definitions: collections.Counter, analysis_filename=DEFAULT_ANALYSIS_FILE,
-                       encoding="utf-8"):
+    def print_analysis(string_definitions: Counter, analysis_filename=DEFAULT_ANALYSIS_FILE, encoding="utf-8"):
         """
         Print the string definitions in the analysis file defined by the given filename
         """
@@ -151,7 +150,7 @@ class TextAnalyser:
 
     @staticmethod
     def combine_analyses(analysis_1: Set[Tuple[str, int]], analysis_2: Set[Tuple[str, int]]) -> \
-            Tuple[List, List, List]:
+            Tuple[Counter, Counter, Counter]:
         """
         Combine two analyses. The third list in the output will be the union of values in both input lists.
         The first two lists in the output will correspond to the two inputs, excluding the values in the last output
@@ -161,19 +160,16 @@ class TextAnalyser:
         :return: three lists as a tuple
         """
         dict_1 = {x: y for x, y in analysis_1}
-        list_2 = []
+        counter_2 = Counter()
 
-        shared_words = []
+        shared_words = Counter()
 
         for word_2, freq_2 in analysis_2:
             freq_1 = dict_1.get(word_2)
             if freq_1 is not None:
-                shared_words.append((word_2, freq_2 + freq_1))
+                shared_words.update({word_2: freq_2 + freq_1})
                 del dict_1[word_2]
             else:
-                list_2.append((word_2, freq_2))
-        list_2.sort(key=lambda x: x[1], reverse=True)
+                counter_2.update({word_2: freq_2})
 
-        list_1 = sorted(list(dict_1.items()), key=lambda x: x[1], reverse=True)
-
-        return list_1, list_2, sorted(shared_words, key=lambda x: x[1], reverse=True)
+        return Counter(dict_1), counter_2, shared_words

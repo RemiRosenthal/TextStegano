@@ -61,3 +61,8 @@ elif operation.__eq__("combineFreqs"):
 
     out_1, out_2, out_3 = TextAnalyser.combine_analyses(in_1, in_2)
 
+    TextAnalyser.print_analysis(out_3, output_filename)
+    print("Combined frequency analysis written to {}".format(output_filename))
+    TextAnalyser.print_analysis(out_1, input_filename)
+    TextAnalyser.print_analysis(out_2, combine_filename)
+    print("Shared words removed from {} and {}".format(input_filename, combine_filename))
