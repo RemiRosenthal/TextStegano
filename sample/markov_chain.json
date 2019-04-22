@@ -3,7 +3,7 @@
     "article1": "article",
     "article2": "article",
     "article3": "article",
-    "pronoun2": "pronoun",
+    "pronoun1": "pronoun",
     "adj1": "adj",
     "adj2": "adj",
     "adj3": "adj",
@@ -127,24 +127,24 @@
       "article3": 2,
       "prep2": 4,
       "prepadv2": 1,
-      "pronoun2" : 2,
+      "pronoun1" : 2,
       "end_punc": 2
     },
     "prep2": {
       "article3": 1,
-      "pronoun2" : 1,
+      "pronoun1" : 1,
       "adj3": 1
     },
     "prepadv2": {
       "article3": 1,
-      "pronoun2" : 1,
+      "pronoun1" : 1,
       "adj3": 1
     },
     "article3": {
       "adj3": 1,
       "noun3": 1
     },
-    "pronoun2": {
+    "pronoun1": {
       "adj3": 1,
       "noun3": 1
     },
