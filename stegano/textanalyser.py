@@ -2,7 +2,7 @@ import os
 import re
 from collections import Counter
 from functools import reduce
-from typing import Tuple, List, Set
+from typing import Tuple, Set
 
 from bitstring import Bits
 
@@ -120,7 +120,7 @@ class TextAnalyser:
         return normalised
 
     @staticmethod
-    def read_mapping_dict(mappings_filename=DEFAULT_MAPPINGS_FILE, encode_spaces=True, delimiter=",")\
+    def read_mapping_dict(mappings_filename=DEFAULT_MAPPINGS_FILE, encode_spaces=True, delimiter=",") \
             -> MappingDictionary:
         """
         Attempt to read word-bit mappings from the given file and return a new MappingDictionary object of those

@@ -168,7 +168,7 @@ class MarkovChain:
         if error_messages.__len__() > 0:
             raise MarkovError("The given transitions were invalid: \n{}".format(error_messages))
 
-    def find_cycles(self, current_state="s0", visited=None, stack=None):
+    def find_cycles(self, current_state=START_STATE_LABEL, visited=None, stack=None):
         if stack is None:
             stack = []
         if visited is None:
@@ -178,12 +178,12 @@ class MarkovChain:
         visited.add(current_state)
         for outbound_state in transitions.keys():
             if outbound_state in stack:
-                if not outbound_state.__eq__("s0"):
+                if not outbound_state.__eq__(START_STATE_LABEL):
                     raise MarkovError("Found a loop at transition {} to {}".format(current_state, outbound_state))
             if outbound_state not in visited:
                 self.find_cycles(outbound_state, visited, stack + [current_state])
 
-    def get_outbound_transitions(self) -> (State, Probability):
+    def get_outbound_transitions(self) -> StateTransitions:
         """
         :return: the outbound transitions for the current state as a dictionary of Transition types
         """
@@ -207,6 +207,29 @@ class MarkovChain:
                 return
 
 
+def get_number_of_paths(chain: MarkovChain, from_state=START_STATE_LABEL, path_counts=None) -> int:
+    """
+    Calculate the total number of distinct paths to s0 in the chain, starting from the given state.
+    :return:
+    """
+    if path_counts is None:
+        path_counts = {}
+
+    outbound_states = set(chain.markov_chain.get(from_state).transitions.keys())
+    number_of_paths = 0
+
+    if START_STATE_LABEL in outbound_states:
+        number_of_paths += 1
+        outbound_states.remove(START_STATE_LABEL)
+
+    for state in outbound_states:
+        number_of_paths += get_number_of_paths(chain, state, path_counts)
+
+    path_counts.update({from_state: number_of_paths})
+
+    return number_of_paths
+
+
 def deserialise_markov_chain(markov_dict: dict) -> MarkovChain:
     """
     Convert a serialised dict (of strings) to a Markov chain object
@@ -215,7 +238,7 @@ def deserialise_markov_chain(markov_dict: dict) -> MarkovChain:
     """
     wt_refs = markov_dict.get("wt_refs")
     chain = markov_dict.get("chain")
-    states = set(wt_refs.keys()).union({"s0"})
+    states = set(wt_refs.keys()).union({START_STATE_LABEL})
     markov_chain = MarkovChain(states)
     markov_chain.wt_refs = wt_refs
     transitions = set()

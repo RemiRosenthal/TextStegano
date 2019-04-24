@@ -1,8 +1,7 @@
 import argparse
 
-from stegano.filehandler import prefix_filename, DEFAULT_ENCODING, read_input_file, write_output_file
+from stegano.filehandler import prefix_filename, DEFAULT_ENCODING
 from stegano.textanalyser import TextAnalyser
-
 
 parser = argparse.ArgumentParser(description="Commands for text analysis")
 parser.add_argument("operation", metavar="operation", type=str,

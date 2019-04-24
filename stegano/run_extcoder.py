@@ -33,10 +33,18 @@ def init_markov_chain(filename: str) -> MarkovChain:
         return MarkovChain(set())
 
 
+def print_with_heading(message: str, heading: str):
+    header_symbol = "---------------"
+    print(header_symbol)
+    print(heading)
+    print(header_symbol)
+    print(message)
+
+
 parser = argparse.ArgumentParser(description="Commands for extended steganographic coding")
 parser.add_argument("operation", metavar="operation", type=str,
-                    choices=["addWordMappings", "removeWordType", "resetDict", "createChain", "resetChain",
-                             "encodeBits", "decodeCover"],
+                    choices=["addWordMappings", "resetDict", "removeWordType", "createChain", "resetChain",
+                             "encodeBits", "decodeCover", "analyseChain"],
                     help="select operation")
 parser.add_argument("--subfolder", metavar="subfolder", type=str,
                     help="optional subdirectory for input and output files")
@@ -260,3 +268,20 @@ elif operation.__eq__("decodeCover"):
 
     write_output_file(output_filename, message_bits.bin)
     print("Decoded message written to {}.".format(output_filename))
+
+elif operation.__eq__("analyseChain"):
+    """
+    Load a Markov chain and print some statistics.
+    """
+    chain_filename: str = args.chain
+
+    if chain_filename is None:
+        raise ValueError("Filename for Markov chain was not provided.")
+    else:
+        chain_filename = prefix_filename(args.subfolder, chain_filename)
+
+    markov_chain = markov.load_markov_chain(chain_filename)
+    print("Markov chain loaded.")
+
+    no_of_paths = markov.get_number_of_paths(markov_chain)
+    print_with_heading("{}".format(no_of_paths), "Number of paths through chain")

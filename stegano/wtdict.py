@@ -15,6 +15,7 @@ class MappingDictionary:
     A mapping dictionary is defined uniquely by a single word-type and has a non-empty set of mappings between symbols
     and their bit strings.
     """
+
     def __init__(self, mappings: Mappings, encode_spaces=True):
         input_mappings = dict((string, bits) for string, bits in mappings)
         self.mappings = {}
@@ -39,6 +40,7 @@ class WordTypeDictionary:
     """
     A word-type dictionary consists of unique mapping dictionaries.
     """
+
     def __init__(self, wt_dict: WTDict):
         if wt_dict is None:
             self.wt_dict = {}

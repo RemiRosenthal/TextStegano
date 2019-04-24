@@ -3,7 +3,7 @@ import json
 import queue
 import sys
 import warnings
-from typing import Tuple, Set, Optional, Union, List
+from typing import Tuple, Set, Optional, List
 
 from bitstring import Bits
 from tabulate import tabulate
@@ -178,7 +178,7 @@ def get_set_average_length(input_set: set):
     """
     length_list = list(map(len, input_set))
     no_of_items = len(length_list)
-    return sum(length_list)/no_of_items
+    return sum(length_list) / no_of_items
 
 
 def get_set_expected_length(input_set: set):

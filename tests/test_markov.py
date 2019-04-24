@@ -162,6 +162,20 @@ class TestMarkovChainTransitions(unittest.TestCase):
         self.transitions.add(("s1", "s2", 1))
         self.markov_chain.set_transitions(self.transitions)
 
+    def test_get_number_of_paths(self):
+        self.markov_chain.set_transitions(self.transitions)
+        no_of_paths = markov.get_number_of_paths(self.markov_chain)
+        self.assertEqual(3, no_of_paths)
+
+        self.states.add("s5")
+        self.markov_chain = MarkovChain(self.states)
+        self.transitions.add(("s2", "s5", 1))
+        self.transitions.add(("s4", "s5", 1))
+        self.transitions.add(("s5", "s0", 1))
+        self.markov_chain.set_transitions(self.transitions)
+        no_of_paths = markov.get_number_of_paths(self.markov_chain)
+        self.assertEqual(6, no_of_paths)
+
     @unittest.skip
     def test_save(self):
         self.markov_chain.set_transitions(self.transitions)
