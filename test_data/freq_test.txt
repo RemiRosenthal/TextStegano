@@ -1,0 +1,10 @@
+stega,10
+tegan,7
+egana,5
+ganal,5
+analy,5
+nalys,3
+alysi,3
+lysis,1
+ysis ,1
+sis 0,1

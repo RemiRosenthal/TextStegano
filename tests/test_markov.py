@@ -3,6 +3,10 @@ import unittest
 from stegano import markov
 from stegano.markov import MarkovChain, MarkovError, StateTransitions
 
+TEST_CHAIN_FILE = "..\\test_data\\markov_chain.json"
+TEST_EMPTY_CHAIN_FILE = "..\\test_data\\empty_markov_chain.json"
+TEST_EMPTY_FILE = "..\\test_data\\empty_json.json"
+
 
 class TestMarkovChain(unittest.TestCase):
     def setUp(self):
@@ -229,7 +233,29 @@ class TestMarkov(unittest.TestCase):
         self.assertDictEqual(self.wt_refs, markov_chain.wt_refs)
 
     def test_load_chain(self):
-        markov.load_markov_chain()
+        markov_chain = markov.load_markov_chain(TEST_CHAIN_FILE)
+
+        self.assertIsInstance(markov_chain, MarkovChain)
+
+        self.assertIsInstance(markov_chain.states, set)
+        self.assertEqual(10, len(markov_chain.states))
+        self.assertIn("s0", markov_chain.states)
+        self.assertIn("state_name9", markov_chain.states)
+
+        self.assertIsInstance(markov_chain.markov_chain, dict)
+        self.assertEqual(10, len(markov_chain.markov_chain.items()))
+        self.assertEqual(1, len(markov_chain.markov_chain.get("s0").transitions))
+        self.assertDictEqual({"state_name1": 1}, markov_chain.markov_chain.get("s0").transitions)
+
+        self.assertIsInstance(markov_chain.wt_refs, dict)
+        self.assertEqual(9, len(markov_chain.wt_refs.items()))
+        self.assertEqual("word_type1", markov_chain.wt_refs.get("state_name1"))
+
+    def test_load_chain_empty_chain(self):
+        self.assertRaises(MarkovError, markov.load_markov_chain, TEST_EMPTY_CHAIN_FILE)
+
+    def test_load_chain_empty_file(self):
+        self.assertRaises(MarkovError, markov.load_markov_chain, TEST_EMPTY_FILE)
 
 
 if __name__ == '__main__':

@@ -82,6 +82,9 @@ elif operation.__eq__("encodeBits"):
         raise ValueError("Provided input was empty.")
 
     huffman_tree = huffman.load_tree(tree_filename)
+    if huffman_tree is None or huffman_tree[1] is None:
+        print("Given Huffman tree was empty.")
+        exit()
     print("Huffman tree loaded.")
 
     _, cover_text = huffman.encode_bits_as_strings(huffman_tree[1], message_bits)
@@ -146,7 +149,7 @@ elif operation.__eq__("exportMappings"):
     print("Huffman tree loaded.")
 
     symbol_list = huffman.tree_to_symbols(huffman_tree)
-    mappings = sorted(((x, z) for x, y, z in symbol_list),
+    mappings = sorted(((x.lower(), z) for x, y, z in symbol_list),
                       key=lambda m: (m[1].bin.__len__(), m[1].uint))
     output = ""
     for value, bits in mappings:

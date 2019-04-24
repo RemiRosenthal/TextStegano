@@ -6,6 +6,12 @@ from bitstring import Bits
 from stegano.textanalyser import TextAnalyser, ANALYSIS_SEPARATOR
 from stegano.wtdict import MappingDictionary
 
+TEST_ANALYSIS_FILE = "..\\test_data\\test_analysis.txt"
+TEST_INVALID_ANALYSIS_FILE = "..\\test_data\\invalid_analysis.txt"
+TEST_BAD_FREQ_ANALYSIS_FILE = "..\\test_data\\invalid_freq.txt"
+TEST_MAPPINGS_FILE = "..\\test_data\\test_mappings.txt"
+TEST_EMPTY_FILE = "..\\test_data\\empty.txt"
+
 
 class TestTextAnalyser(unittest.TestCase):
     def test_normalise_mock_frequencies(self):
@@ -28,8 +34,15 @@ class TestTextAnalyser(unittest.TestCase):
         mock_set.add(("one  ", 1))
         mock_set.add(("two  ", 2))
 
-        mock_analysis_filename = "..\\mock_analysis.txt"
-        with open(mock_analysis_filename, "w", encoding="utf-8") as handle:
+        mock_analysis = TextAnalyser.read_analysis(TEST_ANALYSIS_FILE)
+        self.assertSetEqual(mock_set, mock_analysis)
+
+    def test_write_analysis(self):
+        mock_set = set()
+        mock_set.add(("one  ", 1))
+        mock_set.add(("two  ", 2))
+
+        with open(TEST_ANALYSIS_FILE, "w", encoding="utf-8") as handle:
             handle.write("one  ")
             handle.write(ANALYSIS_SEPARATOR)
             handle.write("1")
@@ -38,41 +51,19 @@ class TestTextAnalyser(unittest.TestCase):
             handle.write(ANALYSIS_SEPARATOR)
             handle.write("2")
             handle.write("\n")
-        mock_analysis = TextAnalyser.read_analysis(mock_analysis_filename)
-        self.assertSetEqual(mock_set, mock_analysis)
 
     def test_read_missing_analysis(self):
-        with self.assertRaises(IOError):
-            TextAnalyser.read_analysis("..\\non_existent")
+        self.assertRaises(IOError, TextAnalyser.read_analysis, "..\\non_existent")
 
     def test_read_empty_analysis(self):
-        mock_analysis_filename = "..\\empty.txt"
-        with open(mock_analysis_filename, "w", encoding="utf-8") as handle:
-            handle.write("")
-
-        mock_analysis = TextAnalyser.read_analysis(mock_analysis_filename)
+        mock_analysis = TextAnalyser.read_analysis(TEST_EMPTY_FILE)
         self.assertSetEqual(mock_analysis, set())
 
     def test_read_analysis_invalid_frequency(self):
-        mock_analysis_filename = "..\\empty.txt"
-        with open(mock_analysis_filename, "w", encoding="utf-8") as handle:
-            handle.write("test")
-            handle.write(ANALYSIS_SEPARATOR)
-            handle.write("notanumber")
-            handle.write("\n")
-
-        with self.assertRaises(ValueError):
-            TextAnalyser.read_analysis(mock_analysis_filename)
+        self.assertRaises(ValueError, TextAnalyser.read_analysis, TEST_INVALID_ANALYSIS_FILE)
 
     def test_read_analysis_invalid_line(self):
-        mock_analysis_filename = "..\\empty.txt"
-        with open(mock_analysis_filename, "w", encoding="utf-8") as handle:
-            handle.write("test")
-            handle.write("3")
-            handle.write("\n")
-
-        with self.assertRaises(ValueError):
-            TextAnalyser.read_analysis(mock_analysis_filename)
+        self.assertRaises(ValueError, TextAnalyser.read_analysis, TEST_BAD_FREQ_ANALYSIS_FILE)
 
     def test_read_mappings(self):
         mock_dict = {
@@ -81,8 +72,14 @@ class TestTextAnalyser(unittest.TestCase):
             "two": Bits(bin="10")
         }
 
-        mock_file = "..\\mock_mappings.txt"
-        with open(mock_file, "w", encoding="utf-8") as handle:
+        mock_mappings_dict = TextAnalyser.read_mapping_dict(TEST_MAPPINGS_FILE, True)
+        self.assertIsInstance(mock_mappings_dict, MappingDictionary)
+        self.assertTrue(mock_mappings_dict.encode_spaces)
+        self.assertIsInstance(mock_mappings_dict.mappings, dict)
+        self.assertDictEqual(mock_dict, mock_mappings_dict.mappings)
+
+    def test_write_mappings(self):
+        with open(TEST_MAPPINGS_FILE, "w", encoding="utf-8") as handle:
             handle.write("zero")
             handle.write(ANALYSIS_SEPARATOR)
             handle.write("00")
@@ -95,11 +92,6 @@ class TestTextAnalyser(unittest.TestCase):
             handle.write(ANALYSIS_SEPARATOR)
             handle.write("10")
             handle.write("\n")
-        mock_mappings_dict = TextAnalyser.read_mapping_dict(mock_file, True)
-        self.assertIsInstance(mock_mappings_dict, MappingDictionary)
-        self.assertTrue(mock_mappings_dict.encode_spaces)
-        self.assertIsInstance(mock_mappings_dict.mappings, dict)
-        self.assertDictEqual(mock_dict, mock_mappings_dict.mappings)
 
     def test_combine_analyses(self):
         in_1 = {

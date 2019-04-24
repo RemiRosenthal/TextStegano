@@ -4,10 +4,10 @@ from typing import Tuple, Set, Dict
 
 from bitstring import Bits
 
-DEFAULT_DICT_FILE = "..\\word_type_dict.json"
-
 Mapping = Tuple[str, Bits]
 Mappings = Set[Mapping]
+
+DEFAULT_DICT_FILE = "..\\sample\\word_type_dict.json"
 
 
 class MappingDictionary:
@@ -143,8 +143,7 @@ class WordTypeDictionary:
         """
         From this word-type dictionary, generate a list of distinct states identified uniquely by their word-type name.
         This list does not explicitly include a start state.
-        :param states:
-        :return:
+        :return: the list of states
         """
         return list(self.wt_dict.keys())
 

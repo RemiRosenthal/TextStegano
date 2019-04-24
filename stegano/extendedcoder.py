@@ -56,7 +56,11 @@ def decode_cover_text(wt_dict: WordTypeDictionary, cover_text: str, header_lengt
     message_length = get_message_length_from_header(header_bits) - len(trailing_bits)
     message = message.__add__(trailing_bits)
 
-    message = message.__add__(fixed_size_decode(wt_dict, cover_text, message_length)[0])
+    message_bits, trailing_bits, cover_text = fixed_size_decode(wt_dict, cover_text, message_length)
+    if len(cover_text) > 0:
+        print("Warning: there were {} characters left over in the cover text. "
+              "Please verify the provided header length.".format(len(cover_text)))
+    message = message.__add__(message_bits)
 
     return message
 

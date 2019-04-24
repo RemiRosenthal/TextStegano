@@ -12,11 +12,11 @@ from stegano.textanalyser import DEFAULT_ANALYSIS_FILE
 from stegano.textanalyser import DEFAULT_SAMPLE_FILE
 from stegano.textanalyser import TextAnalyser
 
-DEFAULT_TREE_FILE = "..\\sample\\huffman_tree.json"
-
 Frequency = int
 Symbol = Tuple[str, Frequency]
 StringDefinitions = Set[Symbol]
+
+DEFAULT_TREE_FILE = "..\\sample\\tree_article.json"
 
 zero_bit = Bits(bin="0")
 one_bit = Bits(bin="1")
@@ -389,9 +389,7 @@ def print_table(huffman_tree: Tuple[int, HuffmanTree]):
 def create_from_analysis(analysis_filename=DEFAULT_ANALYSIS_FILE):
     """
     Read a frequency analysis file and construct a Huffman tree, without path bits.
-    :param sample_filename: The relative location of the sample text file. Needed in case the analysis does not exist.
     :param analysis_filename: The relative location of the analysis file.
-    :param string_length: The length of every string in the frequency analysis
     :return: A Huffman tree without bits allocated to each node
     """
     string_definitions = TextAnalyser.read_analysis(analysis_filename)
@@ -452,7 +450,7 @@ def load_tree(tree_filename=DEFAULT_TREE_FILE) -> Optional[Tuple[int, HuffmanTre
             data = json.load(handle)
             return deserialise_tree(data)
     except IOError:
-        print("Could not read tree file " + tree_filename)
+        raise ValueError("Could not read tree file {}.".format(tree_filename))
 
 
 def save_tree(tree: HuffmanTree, tree_filename=DEFAULT_TREE_FILE):
@@ -466,4 +464,4 @@ def save_tree(tree: HuffmanTree, tree_filename=DEFAULT_TREE_FILE):
         with open(tree_filename, "w", encoding="utf-8") as handle:
             json.dump(tree, handle, indent=2, default=lambda o: o.__dict__())
     except IOError:
-        print("Could not write tree file " + tree_filename)
+        raise ValueError("Could not write tree file {}.".format(tree_filename))

@@ -3,12 +3,12 @@ import random
 from itertools import accumulate
 from typing import Tuple, Set, Optional, Union
 
-DEFAULT_MARKOV_FILE = "..\\markov_chain.json"
-
 State = str
 Probability = float
 Transition = Tuple[State, State, Probability]
 Transitions = Set[Transition]
+
+DEFAULT_MARKOV_FILE = "..\\sample\\markov_chain.json"
 
 START_STATE_LABEL = "s0"
 
@@ -237,7 +237,13 @@ def deserialise_markov_chain(markov_dict: dict) -> MarkovChain:
     :return: a Markov chain
     """
     wt_refs = markov_dict.get("wt_refs")
+    if wt_refs is None:
+        raise MarkovError("Input Markov chain did not contain wt_refs attribute.")
+
     chain = markov_dict.get("chain")
+    if chain is None:
+        raise MarkovError("Input Markov chain did not contain chain attribute.")
+
     states = set(wt_refs.keys()).union({START_STATE_LABEL})
     markov_chain = MarkovChain(states)
     markov_chain.wt_refs = wt_refs

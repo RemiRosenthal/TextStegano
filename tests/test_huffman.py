@@ -11,6 +11,7 @@ StringDefinitions = Set[Symbol]
 HuffmanTreeWithFrequencies = Tuple[int, HuffmanTree]
 
 TEST_TREE_FILE = "..\\test_data\\huffman_tree.json"
+TEST_EMPTY_TREE_FILE = ".\\test_data\\empty_json.json"
 
 
 class TestHuffman(unittest.TestCase):
@@ -142,7 +143,7 @@ class TestHuffman(unittest.TestCase):
         test_set.add(Bits(bin="01"))
         test_set.add(Bits(bin="100"))
         average_length = huffman.get_set_average_length(test_set)
-        self.assertEqual(9/5, average_length)
+        self.assertEqual(9 / 5, average_length)
 
     def test_get_set_expected_length(self):
         test_set = set()
@@ -229,7 +230,21 @@ class TestHuffman(unittest.TestCase):
         self.assertTrue(has_correct_bits(test_huffman, Bits()), "Huffman tree did not have correct bits for every node")
 
     def test_load_tree(self):
-        huffman.load_tree(TEST_TREE_FILE)
+        test_huffman = huffman.load_tree(TEST_TREE_FILE)[1]
+        self.assertIsInstance(test_huffman, HuffmanTree)
+        self.assertIsNone(test_huffman.value)
+        self.assertIsNone(test_huffman.path_code)
+
+        leaf = test_huffman.right[1].right[1].right[1].left[1].left[1]
+        self.assertIsInstance(leaf, HuffmanTree)
+        self.assertIsInstance(leaf.value, tuple)
+        self.assertEqual("sis 0", leaf.value[0])
+        self.assertEqual(Bits(bin="11100"), leaf.path_code)
+        self.assertIsNone(leaf.left)
+        self.assertIsNone(leaf.right)
+
+    def test_load_tree_empty(self):
+        self.assertRaises(ValueError, huffman.load_tree, TEST_EMPTY_TREE_FILE)
 
     @unittest.skip
     def test_print_tree(self):

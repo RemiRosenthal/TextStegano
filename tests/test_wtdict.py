@@ -5,6 +5,9 @@ from bitstring import Bits
 from stegano import wtdict
 from stegano.wtdict import MappingDictionary, WordTypeDictionary
 
+TEST_DICT_FILE = "..\\test_data\\word_type_dict.json"
+TEST_EMPTY_DICT_FILE = "..\\test_data\\empty_json.json"
+
 
 class TestMappingDictionary(unittest.TestCase):
     def setUp(self):
@@ -262,7 +265,26 @@ class TestWTDict(unittest.TestCase):
         self.assertEqual(None, mappings.get("lion"))
 
     def test_load_dict(self):
-        wtdict.load_dict()
+        wt_dict = wtdict.load_dict(TEST_DICT_FILE).wt_dict
+        self.assertIsInstance(wt_dict, dict)
+        self.assertEqual(2, len(wt_dict))
+
+        mappings = wt_dict.get("stationery").mappings
+        self.assertEqual(3, len(mappings))
+        self.assertEqual(Bits(bin="11"), mappings.get("paper"))
+        self.assertEqual(None, mappings.get("ruler"))
+
+        mappings = wt_dict.get("animals").mappings
+        self.assertEqual(3, len(mappings))
+        self.assertEqual(Bits(bin="00"), mappings.get("penguin"))
+        self.assertEqual(None, mappings.get("lion"))
+
+    def test_load_dict_empty(self):
+        wt_dict = wtdict.load_dict(TEST_EMPTY_DICT_FILE)
+        self.assertIsInstance(wt_dict, WordTypeDictionary)
+        self.assertIsInstance(wt_dict.wt_dict, dict)
+        self.assertDictEqual({}, wt_dict.wt_dict)
+
 
 
 if __name__ == '__main__':

@@ -1,0 +1,13 @@
+{
+  "wt_refs": {
+    "state_name1": "word_type1"
+  },
+  "chain": {
+    "state_name1": {
+      "s0": 1
+    },
+    "s0": {
+      "state_name1": 1
+    }
+  }
+}

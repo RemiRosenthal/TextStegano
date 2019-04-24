@@ -1,0 +1,18 @@
+{
+  "stationery": {
+    "encode_spaces": false,
+    "mappings": {
+      "pen": "00",
+      "pencil": "01",
+      "paper": "11"
+    }
+  },
+  "animals": {
+    "encode_spaces": true,
+    "mappings": {
+      "penguin": "00",
+      "tiger": "01",
+      "giraffe": "11"
+    }
+  }
+}
