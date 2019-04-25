@@ -15,7 +15,8 @@ class ExtendedCoderError(Exception):
     pass
 
 
-def encode_message(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits, header_length=DEFAULT_HEADER_LENGTH
+def encode_message(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits,
+                   header_length=DEFAULT_HEADER_LENGTH
                    ) -> str:
     """
     Given a header length, a secret message as bits, a Markov chain, and a word-type dictionary, encode a cover text
@@ -37,7 +38,8 @@ def encode_message(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits, 
     return cover_text
 
 
-def decode_cover_text(wt_dict: WordTypeDictionary, cover_text: str, header_length=DEFAULT_HEADER_LENGTH) -> Bits:
+def decode_cover_text(wt_dict: WordTypeDictionary, cover_text: str,
+                      header_length=DEFAULT_HEADER_LENGTH) -> Bits:
     """
     Given a valid cover text containing a header, and the correct header length and word-type dictionary, retrieve the
     secret message.
@@ -52,20 +54,27 @@ def decode_cover_text(wt_dict: WordTypeDictionary, cover_text: str, header_lengt
     if cover_text.__len__() == 0:
         return message
 
-    header_bits, trailing_bits, cover_text = fixed_size_decode(wt_dict, cover_text, header_length)
-    message_length = get_message_length_from_header(header_bits) - len(trailing_bits)
+    header_bits, trailing_bits, cover_text = fixed_size_decode(wt_dict,
+                                                               cover_text,
+                                                               header_length)
+    message_length = get_message_length_from_header(header_bits) - len(
+        trailing_bits)
     message = message.__add__(trailing_bits)
 
-    message_bits, trailing_bits, cover_text = fixed_size_decode(wt_dict, cover_text, message_length)
+    message_bits, trailing_bits, cover_text = fixed_size_decode(wt_dict,
+                                                                cover_text,
+                                                                message_length)
     if len(cover_text) > 0:
         print("Warning: there were {} characters left over in the cover text. "
-              "Please verify the provided header length.".format(len(cover_text)))
+              "Please verify the provided header length.".format(
+            len(cover_text)))
     message = message.__add__(message_bits)
 
     return message
 
 
-def fixed_size_decode(wt_dict: WordTypeDictionary, cover_text: str, data_length: int) -> \
+def fixed_size_decode(wt_dict: WordTypeDictionary, cover_text: str,
+                      data_length: int) -> \
         Tuple[Bits, Bits, str]:
     """
     Given a valid cover text and word-type dictionary, retrieve the message of the desired length.
@@ -79,8 +88,11 @@ def fixed_size_decode(wt_dict: WordTypeDictionary, cover_text: str, data_length:
     longest_word_length = len(get_longest_word_in_dictionary(wt_dict))
     while message.len < data_length:
         if cover_text.__len__() == 0:
-            raise ValueError("Cover text was too short for expected {} bits of data".format(data_length))
-        word, bits = get_word_from_cover_text(wt_dict, cover_text, longest_word_length)
+            raise ValueError(
+                "Cover text was too short for expected {} bits of data".format(
+                    data_length))
+        word, bits = get_word_from_cover_text(wt_dict, cover_text,
+                                              longest_word_length)
         message = message.__add__(bits)
         cover_text = (cover_text[len(word):]).lstrip()
     trailing_bits = message[data_length:]
@@ -140,7 +152,8 @@ def get_longest_word_in_dictionary(wt_dict: WordTypeDictionary) -> str:
     return longest
 
 
-def get_word_from_cover_text(wt_dict: WordTypeDictionary, cover_text: str, word_length_bound: int) -> Tuple[str, Bits]:
+def get_word_from_cover_text(wt_dict: WordTypeDictionary, cover_text: str,
+                             word_length_bound: int) -> Tuple[str, Bits]:
     """
     Using a given word-type dictionary, retrieve and return the first word found in the cover text that exists in
     the dictionary. Assumes that the cover text has spaces between words, and all words not preceded by spaces (such as
@@ -173,11 +186,13 @@ def get_word_from_cover_text(wt_dict: WordTypeDictionary, cover_text: str, word_
                 return word, value
 
     word = cover_text[:word_length_bound]
-    raise ExtendedCoderError("Unable to find a word in the given cover text (at {}...) with the given parameters".
-                             format(word))
+    raise ExtendedCoderError(
+        "Unable to find a word in the given cover text (at {}...) with the given parameters".
+        format(word))
 
 
-def words_to_cover_text(words: List[Tuple[str, bool]], capitalise_start=True) -> str:
+def words_to_cover_text(words: List[Tuple[str, bool]],
+                        capitalise_start=True) -> str:
     """
     Given a list of words and their encode_spaces properties, form a cover text.
     :param words: the list of tuples containing the words and their properties
@@ -200,7 +215,8 @@ def words_to_cover_text(words: List[Tuple[str, bool]], capitalise_start=True) ->
     return cover_text
 
 
-def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits, pad_text=True) -> list:
+def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary,
+                         bits: Bits, pad_text=True) -> list:
     """
     Given a bit stream, a Markov chain, and a word-type dictionary, retrieve a corresponding list of words.
     Every state in the Markov chain, except the start state s0, must have a corresponding word-type in the given
@@ -225,7 +241,8 @@ def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: 
         if chain.current_state.__eq__(START_STATE_LABEL):
             chain.transition()
 
-        word, word_bits, encode_spaces = _encode_next_word(chain, wt_dict, prefix)
+        word, word_bits, encode_spaces = _encode_next_word(chain, wt_dict,
+                                                           prefix)
         words.append((word, encode_spaces))
         bit_length = len(word_bits)
         prefix = prefix[bit_length:]
@@ -237,33 +254,43 @@ def encode_bits_as_words(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: 
             if chain.current_state.__eq__(START_STATE_LABEL):
                 break
             longest_word = get_longest_word_in_dictionary(wt_dict)
-            pseudo_random_bits = Bits(bin="".join(random.choice(["0", "1"]) for _ in range(len(longest_word))))
-            word, word_bits, encode_spaces = _encode_next_word(chain, wt_dict, pseudo_random_bits)
+            pseudo_random_bits = Bits(bin="".join(
+                random.choice(["0", "1"]) for _ in range(len(longest_word))))
+            word, word_bits, encode_spaces = _encode_next_word(chain, wt_dict,
+                                                               pseudo_random_bits)
             words.append((word, encode_spaces))
 
     return words
 
 
-def _encode_next_word(chain: MarkovChain, wt_dict: WordTypeDictionary, bits: Bits) -> Tuple[str, Bits, bool]:
+def _encode_next_word(chain: MarkovChain, wt_dict: WordTypeDictionary,
+                      bits: Bits) -> Tuple[str, Bits, bool]:
     word_type = chain.get_current_word_type()
     mapping_dict = wt_dict.wt_dict.get(word_type)
     if mapping_dict is None:
-        raise ValueError("Unable to find mapping dictionary for word-type {}".format(word_type))
+        raise ValueError(
+            "Unable to find mapping dictionary for word-type {}".format(
+                word_type))
 
     try:
         word = retrieve_word_from_mappings(bits, mapping_dict, True)
     except ValueError:
-        raise ValueError("Failed to retrieve a word for word-type {}".format(word_type))
+        raise ValueError(
+            "Failed to retrieve a word for word-type {}".format(word_type))
     return word, mapping_dict.mappings.get(word), mapping_dict.encode_spaces
 
 
-def retrieve_word_from_mappings(bits: Bits, mapping_dict: MappingDictionary, allow_padding=True) -> str:
+def retrieve_word_from_mappings(bits: Bits, mapping_dict: MappingDictionary,
+                                allow_padding=True) -> str:
     """
-    Given a string of bits, attempt to find a word in the given mapping dictionary that corresponds to the first
+    Given a string of bits, attempt to find a word in the given mapping
+    dictionary that corresponds to the first
     n bits.
+
     :param bits: the entire message that needs to be decoded
     :param mapping_dict: the dictionary of mappings
-    :param allow_padding: if true, then 0s will be appended to bits if necessary to find a mapping
+    :param allow_padding: if true, then 0s will be appended to bits if
+    necessary to find a mapping
     :return: the retrieved word
     """
     if mapping_dict is None:
@@ -293,5 +320,7 @@ def retrieve_word_from_mappings(bits: Bits, mapping_dict: MappingDictionary, all
                 return value
 
     prefix = bits[:longest_bits].bin + "..."
-    raise ValueError("Unable to find any matches or near-matches in the mapping dictionary using the given bits, {}."
-                     .format(prefix))
+    raise ValueError(
+        "Unable to find any matches or near-matches in the mapping dictionary "
+        "using the given bits, {}."
+        .format(prefix))

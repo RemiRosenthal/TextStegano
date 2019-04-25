@@ -286,6 +286,5 @@ class TestWTDict(unittest.TestCase):
         self.assertDictEqual({}, wt_dict.wt_dict)
 
 
-
 if __name__ == '__main__':
     unittest.main()

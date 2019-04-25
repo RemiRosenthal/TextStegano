@@ -40,7 +40,6 @@ class WordTypeDictionary:
     """
     A word-type dictionary consists of unique mapping dictionaries.
     """
-
     def __init__(self, wt_dict: WTDict):
         if wt_dict is None:
             self.wt_dict = {}
@@ -94,6 +93,7 @@ class WordTypeDictionary:
         """
         Look through this word type dictionary. Return the subset of the input set of pairs whose value exists in this
         dictionary under any word-type.
+
         :param pairs: the set of key-value pairs to check
         :param exclude_key: the key to exclude from the search of the dictionary
         :return: a subset of pairs
@@ -110,8 +110,10 @@ class WordTypeDictionary:
     def remove_word_type(self, word_types: set):
         """
         Remove from this word-type dictionary every word list that is specified by a word-type name in the given set.
+
         Any invalid elements in the set are ignored.
         :param word_types: the set of word-types whose lists should be removed from the dictionary
+
         """
         if len(word_types) == 0:
             return
@@ -126,6 +128,7 @@ class WordTypeDictionary:
         Remove from this word-type dictionary every word that is specified by in the given set.
         Any invalid elements in the set are ignored.
         :param word_types: the set of words that should be removed from the dictionary
+
         """
         if len(word_types) == 0:
             return
@@ -142,7 +145,9 @@ class WordTypeDictionary:
     def generate_state_definitions(self) -> list:
         """
         From this word-type dictionary, generate a list of distinct states identified uniquely by their word-type name.
+
         This list does not explicitly include a start state.
+
         :return: the list of states
         """
         return list(self.wt_dict.keys())
@@ -151,6 +156,7 @@ class WordTypeDictionary:
 def deserialise_dict(wt_dict: dict) -> WTDict:
     """
     Convert a serialised dict (of strings) to a WTDict (of mapping objects).
+
     :param wt_dict: serialised dict
     :return: a WTDict
     """
@@ -165,6 +171,7 @@ def deserialise_dict(wt_dict: dict) -> WTDict:
 def load_dict(dict_filename=DEFAULT_DICT_FILE) -> WordTypeDictionary:
     """
     Attempt to load a JSON file as a word-type dictionary object.
+
     :param dict_filename: the path of the file
     :return: the dictionary object, as long as the file is valid
     """
@@ -180,6 +187,7 @@ def load_dict(dict_filename=DEFAULT_DICT_FILE) -> WordTypeDictionary:
 def save_dict(dictionary: WordTypeDictionary, dict_filename=DEFAULT_DICT_FILE):
     """
     Save a word-type dictionary object as a JSON file.
+
     :param dictionary: a dictionary object
     :param dict_filename: the desired path of the file
     """

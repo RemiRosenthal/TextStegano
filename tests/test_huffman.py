@@ -246,23 +246,12 @@ class TestHuffman(unittest.TestCase):
     def test_load_tree_empty(self):
         self.assertRaises(ValueError, huffman.load_tree, TEST_EMPTY_TREE_FILE)
 
-    @unittest.skip
-    def test_print_tree(self):
-        test_huffman = huffman.create_tree(self.string_definitions)
-        huffman.allocate_path_bits(test_huffman)
-        huffman.print_tree(test_huffman)
-
-    @unittest.skip
-    def test_print_table(self):
-        test_huffman = huffman.create_tree(self.string_definitions)
-        huffman.allocate_path_bits(test_huffman)
-        huffman.print_table(test_huffman)
-
 
 def is_correct_tree(huffman_tree: HuffmanTreeWithFrequencies):
     """
     Show that given tree is recursively defined by left and right,
-    where left and right can be another Huffman Tree or None
+    where left and right can be another Huffman Tree or None.
+
     :param huffman_tree: Huffman tree with priority values
     :return: true if tree matches definition
     """
@@ -276,7 +265,8 @@ def is_correct_tree(huffman_tree: HuffmanTreeWithFrequencies):
 
 def has_correct_leaves(huffman_tree: HuffmanTreeWithFrequencies):
     """
-    Show that the given tree has values for all leaf nodes, and only leaf nodes
+    Show that the given tree has values for all leaf nodes, and only leaf nodes.
+
     :param huffman_tree: Huffman tree with priority values
     :return: true if tree has correct leaves
     """
@@ -295,7 +285,8 @@ def has_correct_leaves(huffman_tree: HuffmanTreeWithFrequencies):
 
 def has_correct_bits(huffman_tree: HuffmanTreeWithFrequencies, bits: Bits):
     """
-    Show that the given tree has bits for all non-root nodes, and that they accumulate correctly
+    Show that the given tree has bits for all non-root nodes, and that they accumulate correctly.
+
     :param bits:
     :param huffman_tree:
     :return:
