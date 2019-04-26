@@ -3,6 +3,8 @@ DEFAULT_ENCODING = "utf_8"
 
 def prefix_filename(subfolder: str, filename: str) -> str:
     if subfolder is not None:
+        if len(subfolder) > 1 and subfolder[1].__eq__(":"):
+            return subfolder + "\\" + filename
         return "..\\" + subfolder + "\\" + filename
     return "..\\" + filename
 

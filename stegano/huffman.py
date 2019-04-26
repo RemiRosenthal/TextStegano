@@ -507,8 +507,8 @@ def deserialise_tree(tree_dict: dict) -> Optional[
     return 0, tree
 
 
-def load_tree(tree_filename=DEFAULT_TREE_FILE) -> Optional[
-    Tuple[int, HuffmanTree]]:
+def load_tree(tree_filename=DEFAULT_TREE_FILE) -> \
+        Optional[Tuple[int, HuffmanTree]]:
     """
     Attempt to load a JSON file as a Huffman tree object.
     :param tree_filename: the path of the file
